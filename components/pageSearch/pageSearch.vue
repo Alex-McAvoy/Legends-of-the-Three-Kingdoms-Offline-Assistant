@@ -1,16 +1,15 @@
 <template>
 	<!-- 顶部 搜索栏 -->
 	<view class="search-bar">
-		<uni-row>
-			<uni-col>
+		<u-row>
+			<u-col>
 				<u-search v-model="query" placeholder="请输入搜索内容" 
 				:clearabled="true" @clear="clear"
 				:show-action="true" action-text="搜索" 
 				:action-style="searchButton" 
-				@search="search" @custom="search" 
-				></u-search>
-			</uni-col>
-		</uni-row>
+				@search="search" @custom="search" />
+			</u-col>
+		</u-row>
 	</view>
 </template>
 
@@ -38,7 +37,7 @@
 			clear() {
 				this.query = ''
 				uni.showToast({
-					title:  "模块建设中",
+					title: "模块建设中",
 					icon: 'none'
 				})
 			}
@@ -52,17 +51,27 @@
 </script>
 
 <style lang="scss" scoped>
+	// .search-bar {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	padding: 20px 30px 20px 30px;
+	// 	background-image: url("@/static/images/common/search/bg.png");
+	// 	background-position: center center;
+	// 	background-size: cover;
+	// 	margin-left: 0px;
+	// 	margin-right: 0px;
+	// }
+
 	.search-bar {
-		display: flex;
-		flex-direction: column;
-		padding: 10px 30px 10px 30px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 999;
 		
+		padding: 20px 30px 20px 30px;
 		background-image: url("@/static/images/common/search/bg.png");
 		background-position: center center;
 		background-size: cover;
-		margin-left: -20px;
-		margin-right: -20px;
-	
-		border-bottom: #413430 groove 5px;
 	}
 </style>

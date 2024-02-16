@@ -1,15 +1,10 @@
 <template>
 	<view class="main">
-		<!-- 吸顶 -->
-		<u-sticky>
-			<!-- 导航栏 -->
-			<mine-navbar :title="navbarTitle"></mine-navbar>
-			<!-- 搜索栏 -->
-			<page-search class="page-search"></page-search>
-		</u-sticky>
-		
+		<!-- 导航栏 -->
+		<mine-navbar :title="navbarTitle"></mine-navbar>
+		<!-- 武将详情 -->
 		<military-general :item="military"></military-general>
-		
+		<!-- 底部导航栏 -->
 		<mine-tabbar :current="-1"></mine-tabbar>
 	</view>
 </template>
@@ -67,5 +62,4 @@
 </script>
 
 <style lang="scss" scoped>
-	
 </style>

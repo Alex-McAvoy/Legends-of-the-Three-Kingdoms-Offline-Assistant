@@ -1,16 +1,14 @@
 <template>
 	<view class="main">
-		<!-- 吸顶 -->
-		<u-sticky>
-			<!-- 导航栏 -->
-			<mine-navbar :title="navbarTitle"></mine-navbar>
-			<!-- 搜索栏 -->
-			<page-search class="page-search"></page-search>
-			<!-- 标签栏 -->
-			<u-tabs :list="lamps" :is-scroll="true" class="tabs" lineColor="#60544a" lineWidth="50"
-				:activeStyle="tabsActive" :inactiveStyle="tabsInactive" @click="getLampList">
-			</u-tabs>
-		</u-sticky>
+		<!-- 导航栏 -->
+		<mine-navbar :title="navbarTitle"></mine-navbar>
+
+
+		<!-- 标签栏 -->
+		<u-tabs :list="lamps" :is-scroll="true" class="tabs" lineColor="#60544a" lineWidth="50"
+			:activeStyle="tabsActive" :inactiveStyle="tabsInactive" @click="getLampList">
+		</u-tabs>
+
 
 		<!-- 图鉴 -->
 		<view class="container">
@@ -37,7 +35,7 @@
 							<view :class="item.lampClass" class="package-lamp"></view>
 						</view>
 						<!-- 扩展包武将容器 -->
-						<view class="military-container">
+						<view class="militaries-container">
 							<!-- 武将 -->
 							<view v-for="military in item.militaries" class="military">
 								<view :class="military.avatarClass" @click="getMilitary(military)"></view>
@@ -47,6 +45,7 @@
 				</view>
 			</view>
 		</view>
+		<!-- 底部导航栏 -->
 		<mine-tabbar :current="-1"></mine-tabbar>
 	</view>
 </template>
@@ -55,6 +54,7 @@
 	export default {
 		data() {
 			return {
+				topHeight: 0,
 				// 导航栏title
 				navbarTitle: '',
 				// 所有将灯数据
@@ -170,7 +170,6 @@
 			background-size: cover;
 			padding: 20px;
 			margin: 30rpx;
-			margin-top: 120rpx;
 			box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.5);
 			border-radius: 10px;
 			border-style: groove;
@@ -234,16 +233,17 @@
 					}
 
 					/* 扩展包武将容器 */
-					.military-container {
+					.militaries-container {
 						display: flex;
 						flex-direction: row;
 						flex-wrap: wrap;
-						gap: 20px;
+						// gap: 20px;
 						justify-content: center;
 						align-items: center;
 
 						/* 武将 */
 						.military {
+							margin: 5px;
 							box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.5);
 						}
 					}

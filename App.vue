@@ -35,11 +35,6 @@
 		src: url("@/static/font/fangZhengLanTing.ttf");
 	}
 	
-	/* 页面内搜索框 */
-	.page-search {
-		border-top: #413430 groove 5px;
-	}
-	
 	/* 背景 */
 	page{
 		background-image: url("@/static/images/common/bg.png");

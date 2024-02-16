@@ -1,11 +1,15 @@
 <template>
 	<view class="main">
-		<page-search></page-search>
-		<view class="images-container" v-for="item in images">
-			<view class="image-container" @click="handleBuilding(item.index)">
-				<image class="image" :src="item.imgSrc" mode="widthFix"></image>
-				<view class="cover">
-					{{item.title}}
+		<u-sticky>
+			<page-search></page-search>
+		</u-sticky>
+		<view class="container">
+			<view class="images-container" v-for="item in images">
+				<view class="image-container" @click="handleBuilding(item.index)">
+					<image class="image" :src="item.imgSrc" mode="widthFix"></image>
+					<view class="cover">
+						{{item.title}}
+					</view>
 				</view>
 			</view>
 		</view>
@@ -44,7 +48,7 @@
 						icon: "none",
 						duration: 2000
 					})
-					return 
+					return
 				}
 				uni.navigateTo({
 					url: '/pages/archive/list?index=' + index
@@ -55,40 +59,43 @@
 </script>
 
 <style lang="scss" scoped>
-	.images-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 10rpx 20rpx;
+	.container {
+		margin-top: 80px;
 
-		.image-container {
-			display: grid;
-			grid-template-columns: 100%;
-			grid-template-rows: 80% 20%;
-			width: 100%;
+		.images-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 40rpx 20rpx;
 
-			.image {
-				grid-column: 1;
-				grid-row: 1/3;
+			.image-container {
+				display: grid;
+				grid-template-columns: 100%;
+				grid-template-rows: 80% 20%;
 				width: 100%;
-				box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.5);
-			}
 
-			.cover {
-				grid-column: 1;
-				grid-row: 2;
-				z-index: 1;
-				padding: 10px;
-				background-color: rgba(0, 0, 0, 0.5);
+				.image {
+					grid-column: 1;
+					grid-row: 1/3;
+					width: 100%;
+					box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.5);
+				}
 
-				color: #ffffff;
-				font-size: 16px;
-				text-align: center;
-				justify-content: center;
+				.cover {
+					grid-column: 1;
+					grid-row: 2;
+					z-index: 1;
+					padding: 10px;
+					background-color: rgba(0, 0, 0, 0.5);
 
+					color: #ffffff;
+					font-size: 16px;
+					text-align: center;
+					justify-content: center;
+
+				}
 			}
 		}
-
 
 	}
 </style>

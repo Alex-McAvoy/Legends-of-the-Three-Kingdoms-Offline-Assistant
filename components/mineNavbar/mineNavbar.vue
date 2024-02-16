@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<u-navbar :title="title" @rightClick="rightClick" :autoBack="true" :bgColor="navbarVar.bgColor"
+		<u-navbar :title="title" height="44" :autoBack="true" :placeholder="true" :bgColor="navbarVar.bgColor"
 			:titleStyle="navbarVar.titleStyle">
 			<view class="u-nav-slot" slot="left">
 				<u-icon name="/static/images/common/narbar/arrow.png" size="20"></u-icon>
@@ -31,10 +31,10 @@
 						// "color": "#ffffff",
 						"font-family": "fangZhengLanTing",
 						"font-size": "20px",
-						"-webkit-background-clip":"text",
-						"-webkit-text-fill-color":"transparent",
+						"-webkit-background-clip": "text",
+						"-webkit-text-fill-color": "transparent",
 						"textShadow": "0px 0px 7px rgba(52, 255, 204, 0.1)",
-						"background-image":"-webkit-linear-gradient(top, #aca08d,#f3f1f4,#b9b196)",						
+						"background-image": "-webkit-linear-gradient(top, #aca08d,#f3f1f4,#b9b196)",
 					}
 				},
 			};

@@ -1,6 +1,11 @@
 <template>
-	<view class="content">
-		<h1>模块建设中</h1>
+	<view class="main">
+		<u-sticky>
+			<page-search></page-search>
+		</u-sticky>
+		<view class="container">
+			<h1>模块建设中</h1>
+		</view>
 		<mine-tabbar :current="2"></mine-tabbar>
 	</view>
 </template>
@@ -18,13 +23,8 @@
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		color: wheat;
+<style lang="scss" scoped>
+	.container {
+		margin-top: 80px;
 	}
 </style>

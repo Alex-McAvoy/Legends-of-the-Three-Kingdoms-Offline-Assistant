@@ -1,5 +1,5 @@
 <template>
-	<view class="container">
+	<view class="military-container">
 		<!-- 武将图 -->
 		<image class="image" :src="item.imgSrc" mode="widthFix" @click="preView"></image>
 		<!-- 内容容器 -->
@@ -116,10 +116,11 @@
 
 <style lang="scss" scoped>
 	/* 容器 */
-	.container {
+	.military-container {
 		display: flex;
 		flex-direction: column;
 		margin: 30rpx;
+		padding: 20px;
 		
 		background-color: blanchedalmond;
 		background-image: url("@/static/images/common/archive/list_bg.png");
@@ -127,9 +128,7 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
-		padding: 20px;
-		margin: 30rpx;
-		margin-top: 120rpx;
+		
 		box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 		border-style: groove;
