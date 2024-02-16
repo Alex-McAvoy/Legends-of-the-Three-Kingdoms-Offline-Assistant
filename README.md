@@ -11,16 +11,13 @@
 
 <p align="center">
   <h2 align="center">三国杀面杀助手</h2>
-  <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
+  <a  align="center" href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
     <img src="static//logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+  </a> 
   <p align="center">
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant">查看Demo</a>
-    ·
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/issues">报告Bug</a>
     ·
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/issues">提出新特性</a>
@@ -28,6 +25,7 @@
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases">发行说明</a>
   </p>
 </p>
+
 
 ## 目录
 
