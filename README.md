@@ -10,10 +10,11 @@
 <br />
 
 <p align="center">
+  <h2 align="center">三国杀面杀助手</h2>
+  
   <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">三国杀面杀助手</h3>
   <p align="center">
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant"><strong>探索本项目的文档 »</strong></a>
     <br />
@@ -23,6 +24,8 @@
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/issues">报告Bug</a>
     ·
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/issues">提出新特性</a>
+    ·
+    <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases">发行说明</a>
   </p>
 </p>
 
@@ -36,7 +39,6 @@
 - [框架](#框架)
 - [贡献者](#贡献者)
 - [如何参与](#如何参与)
-- [版本控制](#版本控制)
 - [鸣谢](#鸣谢)
 
 ## 说明
@@ -122,12 +124,6 @@ filetree
 3. 在本地进行修改后 Commit 更改
 4. 将这些更改 Push 到克隆的分支仓库
 5. 提交 Pull Request 至主仓库
-
-## 版本控制
-
-该项目使用 Git 进行版本管理
-
-您可以在 repository 参看当前可用版本
 
 ## 鸣谢
 
