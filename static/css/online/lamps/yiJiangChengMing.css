@@ -1,0 +1,11 @@
+/* 一将成名 */
+.jiang {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/yiJiangChengMing/0_jiang.png");
+	transform: scale(0.7);
+	animation: jiangFrameAnim steps(1, start) 1s infinite;
+	background-position: -10px -10px;
+}
+
+@keyframes jiangFrameAnim {}

@@ -1,0 +1,826 @@
+[{
+	"index": 0,
+	"name": "标准",
+	"militaries": {
+		"biao-hu-01": {
+			"index": 0,
+			"name": "关羽",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-01.png",
+			"skills": [{
+				"name": "武圣",
+				"description": "你可以将一张红色牌当【杀】使用或打出。"
+			}],
+			"dialogues": [{
+					"name": "武圣",
+					"descriptions": ["关羽在此，尔等受死！", "看尔乃插标卖首！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-01_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-01_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["什么？此地名叫麦城。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-hu-01_dead.mp3"]
+				}
+			]
+		},
+		"biao-hu-02": {
+			"index": 1,
+			"name": "张飞",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-02.png",
+			"skills": [{
+				"name": "咆哮",
+				"description": "锁定技，你使用【杀】无次数限制。"
+			}],
+			"dialogues": [{
+					"name": "咆哮",
+					"descriptions": ["燕人张飞在此！", "啊啊啊啊！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-02_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-02_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["实在是，杀不动了。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-hu-02_dead.mp3"]
+				}
+			]
+		},
+		"biao-hu-03": {
+			"index": 2,
+			"name": "赵云",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-03.png",
+			"skills": [{
+				"name": "龙胆",
+				"description": "你可以将一张【杀】当【闪】、【闪】当【杀】使用或打出。"
+			}],
+			"dialogues": [{
+					"name": "龙胆",
+					"descriptions": ["吾乃常山赵子龙也。", "能进能退乃真正法器！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-03_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-03_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["这，就是失败的，滋味吗。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-hu-03_dead.mp3"]
+				}
+			]
+		},
+		"biao-hu-04": {
+			"index": 3,
+			"name": "马超",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-04.png ",
+			"skills": [{
+					"name": "铁骑",
+					"description": "当你使用【杀】指定一名角色为目标后，你可以进行一次判定，若结果为红色，该角色不能使用【闪】响应此【杀】。"
+				},
+				{
+					"name": "马术",
+					"description": "锁定技，你计算与其他角色的距离-1。"
+				}
+			],
+			"dialogues": [{
+					"name": "铁骑",
+					"descriptions": ["（马嘶鸣）", "全军突击"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-04_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-hu-04_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["（马蹄声）"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-hu-04_dead.mp3"]
+				}
+			]
+		},
+		"biao-zhu-01": {
+			"index": 4,
+			"name": "刘备",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-01.png",
+			"skills": [{
+					"name": "仁德",
+					"description": "出牌阶段，你可以将任意张手牌交给一名其他角色；当你给出本阶段的第二张“仁德”牌时，你回复1点体力。"
+				},
+				{
+					"name": "激将",
+					"description": "主公技，当你需要使用或打出【杀】时，你可以令其他蜀势力角色选择是否打出一张【杀】（视为由你使用或打出）。"
+				}
+			],
+			"dialogues": [{
+					"name": "仁德",
+					"descriptions": ["惟贤惟德，能服于人。", "以德服人。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-01_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-01_1_2.mp3"
+					]
+				}, {
+					"name": "激将",
+					"descriptions": ["尔等敢应战否？", "蜀将何在？"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-01_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-01_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["这就是，桃园吗？"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-zhu-01_dead.mp3"]
+				}
+			]
+		},
+		"biao-zhu-02": {
+			"index": 5,
+			"name": "孙权",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-02.png",
+			"skills": [{
+					"name": "制衡",
+					"description": "出牌阶段限一次，你可以弃置任意张牌，然后摸等量的牌。"
+				},
+				{
+					"name": "救援",
+					"description": "主公技，锁定技，当其他吴势力角色对你使用【桃】时，此牌对你的回复值+1。"
+				}
+			],
+			"dialogues": [{
+					"name": "制衡",
+					"descriptions": ["且慢！", "容我三思。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-02_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-02_1_2.mp3"
+					]
+				}, {
+					"name": "救援",
+					"descriptions": ["有汝辅佐，甚好。", "好舒服啊……"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-02_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-02_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["父亲，大哥，仲谋愧矣。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-zhu-02_dead.mp3"]
+				}
+			]
+		},
+		"biao-zhu-03": {
+			"index": 6,
+			"name": "曹操",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-03.png",
+			"skills": [{
+					"name": "奸雄",
+					"description": "当你受到伤害后，你可以获得对你造成伤害的牌。"
+				},
+				{
+					"name": "护驾",
+					"description": "主公技，当你需要使用或打出【闪】时，你可以令所有其他魏势力角色依次选择是否打出一张【闪】，若有角色打出【闪】，视为你使用或打出一张【闪】。"
+				}
+			],
+			"dialogues": [{
+					"name": "奸雄",
+					"descriptions": ["吾好梦中杀人。", "宁教我负天下人，休教天下人负我！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-03_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-03_1_2.mp3"
+					]
+				},
+				{
+					"name": "护驾",
+					"descriptions": ["魏将何在？", "来人，护驾！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-03_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-03_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["霸业未成，未成啊。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-zhu-03_dead.mp3"]
+				}
+			]
+		},
+		"biao-zhu-04": {
+			"index": 7,
+			"name": "袁术",
+			"force": "qun",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-04.png",
+			"skills": [{
+					"name": "妄尊",
+					"description": "主公的准备阶段，你可以摸一张牌，令其本回合手牌上限-1。"
+				},
+				{
+					"name": "同疾",
+					"description": "锁定技，若你的手牌数大于体力值，攻击范围内含有你的其他角色使用【杀】只能指定你为目标。"
+				}
+			],
+			"dialogues": [{
+					"name": "妄尊",
+					"descriptions": ["归顺于我，封爵赏地。", "真命天子，八方拜服！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-04_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-04_1_2.mp3"
+					]
+				}, {
+					"name": "同疾",
+					"descriptions": ["弑君之罪，当诛九族！", "你、你这是反了！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-04_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-zhu-04_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["把玉玺还给我！"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-zhu-04_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-01": {
+			"index": 8,
+			"name": "甘宁",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-01.png",
+			"skills": [{
+				"name": "奇袭",
+				"description": "出牌阶段，你可以将一张黑色牌当【过河拆桥】使用。"
+			}],
+			"dialogues": [{
+					"name": "奇袭",
+					"descriptions": ["接招吧！", "你的牌太多了！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-01_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-01_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["二十年后，又是一条，好汉。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-01_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-02": {
+			"index": 9,
+			"name": "吕蒙",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-02.png",
+			"skills": [{
+				"name": "克己",
+				"description": "弃牌阶段开始前，若你未于本回合的出牌阶段内使用或打出过【杀】，你可以跳过此阶段。"
+			}],
+			"dialogues": [{
+					"name": "克己",
+					"descriptions": ["不是不报，时候未到。", "留得青山在，不怕没柴烧"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-02_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-02_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["被看穿了吗。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-02_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-03": {
+			"index": 10,
+			"name": "黄盖",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-03.png",
+			"skills": [{
+				"name": "苦肉",
+				"description": "出牌阶段，你可以失去1点体力，摸两张牌。"
+			}],
+			"dialogues": [{
+					"name": "苦肉",
+					"descriptions": ["赴汤蹈火，在所不辞！", "请鞭挞我吧，公瑾！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-03_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-03_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["失血，过多了……"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-03_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-04": {
+			"index": 11,
+			"name": "夏侯惇",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-04.png",
+			"skills": [{
+				"name": "刚烈",
+				"description": "当你受到伤害后，你可以进行一次判定，若结果不为♥️，伤害来源选择一项：1.弃置两张手牌；2.受到你对其造成的1点伤害。"
+			}],
+			"dialogues": [{
+					"name": "刚烈",
+					"descriptions": ["鼠辈，竟敢伤我！", "以彼之道，还施彼身！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-04_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-04_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["两，两边都看不见啦！"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-04_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-05": {
+			"index": 12,
+			"name": "张辽",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-05.png",
+			"skills": [{
+				"name": "突袭",
+				"description": "摸牌阶段，你可以改为获得至多两名其他角色的各一张手牌。"
+			}],
+			"dialogues": [{
+					"name": "突袭",
+					"descriptions": ["拿来吧！", "没想到吧！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-05_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-05_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["真的没想到。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-05_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-06": {
+			"index": 13,
+			"name": "许褚",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-06.png",
+			"skills": [{
+				"name": "裸衣",
+				"description": "摸牌阶段，你可以少摸一张牌，然后本回合你为伤害来源的【杀】或【决斗】造成的基础伤害值+1。"
+			}],
+			"dialogues": [{
+					"name": "裸衣",
+					"descriptions": ["谁来与我大战300回合！", "脱！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-06_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-06_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["冷，好冷啊。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-06_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-07": {
+			"index": 14,
+			"name": "吕布",
+			"force": "qun",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-07.png",
+			"skills": [{
+				"name": "无双",
+				"description": "锁定技，①当你使用【杀】指定一名角色为目标后，其需连续使用两张【闪】才能抵消；\n②当你使用【决斗】指定其他角色为目标后，或成为其他角色使用【决斗】的目标后，其每次响应需连续打出两张【杀】。"
+			}],
+			"dialogues": [{
+					"name": "无双",
+					"descriptions": ["谁能挡我！", "神挡杀神，佛挡杀佛！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-07_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-07_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["不可能。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-07_dead.mp3"]
+				}
+			]
+		},
+		"biao-yong-08": {
+			"index": 15,
+			"name": "华雄",
+			"force": "qun",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-08.png",
+			"skills": [{
+				"name": "耀武",
+				"description": "锁定技，当你受到红色【杀】造成的伤害时，伤害来源选择一项：1.回复1点体力；2.摸一张牌。"
+			}],
+			"dialogues": [{
+					"name": "耀武",
+					"descriptions": ["大人有大量，不和你计较！", "哼，先让你尝点甜头！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-08_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-yong-08_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["这…怎么可能…"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-yong-08_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-01": {
+			"index": 16,
+			"name": "诸葛亮",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-01.png",
+			"skills": [{
+					"name": "观星",
+					"description": "准备阶段，你可以观看牌堆顶的X张牌（X为存活角色数且至多为5），然后将其中的任意张牌以任意顺序置于牌堆顶，将其余的牌以任意顺序置于牌堆底。"
+				},
+				{
+					"name": "空城",
+					"description": "锁定技，若你没有手牌，你不能成为【杀】或【决斗】的目标。"
+				}
+			],
+			"dialogues": [{
+					"name": "观星",
+					"descriptions": ["知天易，逆天难。", "观今夜天象，知天下大事。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-01_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-01_1_2.mp3"
+					]
+				}, {
+					"name": "空城",
+					"descriptions": ["（琴声）", "（琴声）"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-01_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-01_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["将星陨落，天命难违。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-01_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-02": {
+			"index": 17,
+			"name": "周瑜",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-02.png",
+			"skills": [{
+					"name": "英姿",
+					"description": "摸牌阶段，你可以多摸一张牌。"
+				},
+				{
+					"name": "反间",
+					"description": "出牌阶段限一次，你可以令一名其他角色选择一种花色，然后该角色获得你的一张手牌并展示之，若此牌的花色与其所选的花色不同，你对其造成1点伤害。"
+				}
+			],
+			"dialogues": [{
+					"name": "英姿",
+					"descriptions": ["哈哈哈哈！", "汝等看好了！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-02_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-02_1_2.mp3"
+					]
+				}, {
+					"name": "反间",
+					"descriptions": ["挣扎吧！在血和暗的深渊里！", "痛苦吧！在仇与恨的地狱中！"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-02_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-02_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["既生瑜，何生……"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-02_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-03": {
+			"index": 18,
+			"name": "陆逊",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-03.png",
+			"skills": [{
+					"name": "谦逊",
+					"description": "锁定技，你不能成为【顺手牵羊】和【乐不思蜀】的目标。"
+				},
+				{
+					"name": "连营",
+					"description": "当你失去最后的手牌时，你可以摸一张牌。"
+				}
+			],
+			"dialogues": [{
+					"name": "连营",
+					"descriptions": ["旧的不去，新的不来。", "牌是万能的，但是没有牌是万万不能的。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-03_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-03_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["我还是太年轻了。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-03_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-04": {
+			"index": 19,
+			"name": "司马懿",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-04.png",
+			"skills": [{
+					"name": "反馈",
+					"description": "当你受到伤害后，你可以获得伤害来源的一张牌。"
+				},
+				{
+					"name": "鬼才",
+					"description": "当一名角色的判定牌生效前，你可以打出一张手牌代替之。"
+				}
+			],
+			"dialogues": [{
+					"name": "反馈",
+					"descriptions": ["出来混，早晚要还的。", "下次注意点"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-04_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-04_1_2.mp3"
+					]
+				}, {
+					"name": "鬼才",
+					"descriptions": ["吾乃天命之子。", "天命？哈哈哈哈……"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-04_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-04_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["难道真是，天命难违。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-04_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-05": {
+			"index": 20,
+			"name": "郭嘉",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-05.png",
+			"skills": [{
+					"name": "天妒",
+					"description": "当你的判定牌生效后，你可以获得之。"
+				},
+				{
+					"name": "遗计",
+					"description": "当你受到1点伤害后，你可以观看牌堆顶的两张牌，将其中一张交给一名角色，将另一张交给一名角色。"
+				}
+			],
+			"dialogues": [{
+					"name": "天妒",
+					"descriptions": ["罢了…", "也好…"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-05_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-05_1_2.mp3"
+					]
+				}, {
+					"name": "遗计",
+					"descriptions": ["哦？…", "就这样吧…"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-05_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-05_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["（咳嗽声）"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-05_dead.mp3"]
+				}
+			]
+		},
+		"biao-wei-06": {
+			"index": 21,
+			"name": "华佗",
+			"force": "qun",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-06.png",
+			"skills": [{
+					"name": "急救",
+					"description": "你的回合外，你可以将一张红色牌当【桃】使用。"
+				},
+				{
+					"name": "青囊",
+					"description": "出牌阶段限一次，你可以弃置一张手牌，令一名已受伤的角色回复1点体力。"
+				}
+			],
+			"dialogues": [{
+					"name": "急救",
+					"descriptions": ["救人一命，胜造七级浮屠。", "别紧张，有老夫呢。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-06_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-06_1_2.mp3"
+					]
+				}, {
+					"name": "青囊",
+					"descriptions": ["越老越要补啊。", "早睡早起，方能养生。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-06_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-wei-06_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["医者不能自医啊。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-wei-06_dead.mp3"]
+				}
+			]
+		},
+		"biao-guo-01": {
+			"index": 22,
+			"name": "黄月英",
+			"force": "shu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-01.png",
+			"skills": [{
+					"name": "集智",
+					"description": "当你使用一张非转化的普通锦囊牌时，你可以摸一张牌。"
+				},
+				{
+					"name": "奇才",
+					"description": "锁定技，你使用锦囊牌无距离限制。"
+				}
+			],
+			"dialogues": [{
+					"name": "集智",
+					"descriptions": ["哼哼……", "嗯……"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-01_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-01_1_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["亮~"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-guo-01_dead.mp3"]
+				}
+			]
+		},
+		"biao-guo-02": {
+			"index": 23,
+			"name": "大乔",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-02.png",
+			"skills": [{
+					"name": "国色",
+					"description": "出牌阶段，你可以将一张♦️牌当【乐不思蜀】使用。"
+				},
+				{
+					"name": "流离",
+					"description": "当你成为其他角色使用【杀】的目标时，你可以弃置一张牌，将此【杀】转移给你攻击范围内的另一名其他角色。"
+				}
+			],
+			"dialogues": [{
+					"name": "国色",
+					"descriptions": ["你累了……", "请休息吧……"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-02_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-02_1_2.mp3"
+					]
+				}, {
+					"name": "流离",
+					"descriptions": ["你来嘛~", "交给你了。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-02_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-02_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["伯符，我去了。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-guo-02_dead.mp3"]
+				}
+			]
+		},
+		"biao-guo-03": {
+			"index": 24,
+			"name": "甄姬",
+			"force": "wei",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-03.png",
+			"skills": [{
+					"name": "洛神",
+					"description": "准备阶段，你可以进行一次判定，若结果为黑色，你获得此牌并可以重复此流程。"
+				},
+				{
+					"name": "倾国",
+					"description": "你可以将一张黑色手牌当【闪】使用或打出。"
+				}
+			],
+			"dialogues": [{
+					"name": "洛神",
+					"descriptions": ["飘摇兮若流风之回雪。", "仿佛兮若轻云之蔽月。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-03_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-03_1_2.mp3"
+					]
+				}, {
+					"name": "倾国",
+					"descriptions": ["体迅飞凫，飘忽若神。", "凌波微步，罗袜生尘。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-03_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-03_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["悼良会之永绝兮，哀一逝而异乡。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-guo-03_dead.mp3"]
+				}
+			]
+		},
+		"biao-guo-04": {
+			"index": 25,
+			"name": "貂蝉",
+			"force": "qun",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-04.png",
+			"skills": [{
+					"name": "闭月",
+					"description": "结束阶段，你可以摸一张牌。"
+				},
+				{
+					"name": "离间",
+					"description": "出牌阶段限一次，你可以弃置一张牌，依次选择两名男性其他角色，令后者视为对前者使用一张【决斗】。"
+				}
+			],
+			"dialogues": [{
+					"name": "闭月",
+					"descriptions": ["羡慕吧。", "失礼了。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-04_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-04_1_2.mp3"
+					]
+				}, {
+					"name": "离间",
+					"descriptions": ["夫君，你要替妾身做主啊。", "呵呵……"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-04_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-04_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["父亲大人，对不起。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-guo-04_dead.mp3"]
+				}
+			]
+		},
+		"biao-guo-05": {
+			"index": 26,
+			"name": "孙尚香",
+			"force": "wu",
+			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-05.png",
+			"skills": [{
+					"name": "枭姬",
+					"description": "当你失去装备区里的一张牌后，你可以摸两张牌。"
+				},
+				{
+					"name": "结姻",
+					"description": "出牌阶段限一次，你可以弃置两张手牌，令你和一名已受伤的男性角色各回复1点体力。"
+				}
+			],
+			"dialogues": [{
+					"name": "枭姬",
+					"descriptions": ["哼……", "看我的厉害。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-05_1_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-05_1_2.mp3"
+					]
+				}, {
+					"name": "结姻",
+					"descriptions": ["他好我也好。", "夫君，身体要紧。"],
+					"srcs": [
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-05_2_1.mp3",
+						"/static/video/militaryGeneral/biaoZhun/biao-guo-05_2_2.mp3"
+					]
+				},
+				{
+					"name": "阵亡",
+					"descriptions": ["不，还不可以死。"],
+					"srcs": ["/static/video/militaryGeneral/biaoZhun/biao-guo-05_dead.mp3"]
+				}
+			]
+		}
+	}
+}, {}]

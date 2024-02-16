@@ -1,0 +1,11 @@
+/* 界限突破 */
+.jie {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/jieXianTuPo/0_jie.png");
+	transform: scale(0.7);
+	animation: jieFrameAnim steps(1, start) 1s infinite;
+	background-position: -10px -10px;
+}
+
+@keyframes jieFrameAnim {}

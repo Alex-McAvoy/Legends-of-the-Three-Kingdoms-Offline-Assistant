@@ -1,0 +1,66 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uview-ui
+			"^u-(.*)": "@/node_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 图鉴主页
+			"path": "pages/archive/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 图鉴详情页
+			"path": "pages/archive/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 武将详情页
+			"path": "pages/archive/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 我的页
+			"path": "pages/mine/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"custom": true,
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/archive/index",
+			"text": "图鉴"
+		}, {
+			"pagePath": "pages/mine/index",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

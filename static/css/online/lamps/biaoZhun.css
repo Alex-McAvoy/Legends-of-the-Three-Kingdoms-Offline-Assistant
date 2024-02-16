@@ -1,0 +1,91 @@
+/* 标准 */
+
+/******** 大将灯 ********/
+.biao {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/biaoZhun/0_biao.png");
+	transform: scale(0.7);
+	animation: biaoLampFrameAnim steps(1, start) 1s infinite;
+	background-position: -10px -10px;
+}
+
+@keyframes biaoLampFrameAnim {}
+
+/******** 小将灯标题 ********/
+.title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/lamps/biaoZhun/title.png");
+	background-size: 320px 200px;
+}
+/* 蜀汉虎将 */
+.hu-title {
+	background-position: 0 -6px;
+}
+/* 贤明君主 */
+.zhu-title {
+	background-position: 0 -43px;
+}
+/* 勇冠三军 */
+.yong-title {
+	background-position: 0 -82px;
+}
+/* 帷幄千里 */
+.wei-title {
+	background-position: 0 -123px;
+}
+/* 巾帼英雄 */
+.guo-title {
+	background-position: 0 -158px;
+}
+
+/******** 小将灯 ********/
+.lamp {
+	width: 64px;
+	height: 64px;
+}
+/* 虎 */
+.hu-lamp {
+	background-position: 0 0;
+	background-image: url("@/static/images/online/lamps/biaoZhun/1_hu.png");
+	animation: huLampFrameAnim steps(1, start) 5s infinite;
+}
+
+@keyframes huLampFrameAnim {}
+
+/* 主 */
+.zhu-lamp {
+	background-image: url("@/static/images/online/lamps/biaoZhun/2_zhu.png");
+	animation: zhuLampFrameAnim steps(1, start) 5s infinite;
+	background-position: 0 0;
+}
+
+@keyframes zhuLampFrameAnim {}
+
+/* 勇 */
+.yong-lamp {
+	background-image: url("@/static/images/online/lamps/biaoZhun/3_yong.png");
+	animation: yongLampFrameAnim steps(1, start) 5s infinite;
+	background-position: 0 0;
+}
+
+@keyframes yongLampFrameAnim {}
+
+/* 帷 */
+.wei-lamp {
+	background-image: url("@/static/images/online/lamps/biaoZhun/4_wei.png");
+	animation: weiLampFrameAnim steps(1, start) 5s infinite;
+	background-position: 0 0;
+}
+
+@keyframes weiLampFrameAnim {}
+
+/* 帼 */
+.guo-lamp {
+	background-image: url("@/static/images/online/lamps/biaoZhun/5_guo.png");
+	animation: guoLampFrameAnim steps(1, start) 5s infinite;
+	background-position: 0 0;
+}
+
+@keyframes guoLampFrameAnim {}

@@ -1,0 +1,11 @@
+/* 谋扩展包 */
+.mou {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/mouKuoZhanBao/0_mou.png");
+	transform: scale(0.7);
+	animation: mouFrameAnim steps(1, start) 1s infinite;
+	background-position: 5px 3px;
+}
+
+@keyframes mouFrameAnim {}

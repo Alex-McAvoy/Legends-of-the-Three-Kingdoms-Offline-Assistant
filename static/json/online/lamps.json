@@ -1,0 +1,262 @@
+[
+	{
+		"index": 0,
+		"name": "标准",
+		"class": "biao",
+		"nodes": [{
+			"index": 0,
+			"name": "蜀汉虎将",
+			"lampClass": "hu-lamp lamp",
+			"titleClass": "hu-title title",
+			"militaries": [{
+					"id": "biao-hu-01",
+					"avatarClass": "biao-hu-01 avatar"
+				},
+				{
+					"id": "biao-hu-02",
+					"avatarClass": "biao-hu-02 avatar"
+				},
+				{
+					"id": "biao-hu-03",
+					"avatarClass": "biao-hu-03 avatar"
+				},
+				{
+					"id": "biao-hu-04",
+					"avatarClass": "biao-hu-04 avatar"
+				}
+			]
+		}, {
+			"index": 1,
+			"name": "贤明君主",
+			"lampClass": "zhu-lamp lamp",
+			"titleClass": "zhu-title title",
+			"militaries": [{
+					"id": "biao-zhu-01",
+					"avatarClass": "biao-zhu-01 avatar"
+				},
+				{
+					"id": "biao-zhu-02",
+					"avatarClass": "biao-zhu-02 avatar"
+				},
+				{
+					"id": "biao-zhu-03",
+					"avatarClass": "biao-zhu-03 avatar"
+				},
+				{
+					"id": "biao-zhu-04",
+					"avatarClass": "biao-zhu-04 avatar"
+				}
+			]
+		}, {
+			"index": 2,
+			"name": "勇冠三军",
+			"lampClass": "yong-lamp lamp",
+			"titleClass": "yong-title title",
+			"militaries": [{
+					"id": "biao-yong-01",
+					"avatarClass": "biao-yong-01 avatar"
+				}, {
+					"id": "biao-yong-02",
+					"avatarClass": "biao-yong-02 avatar"
+				},
+				{
+					"id": "biao-yong-03",
+					"avatarClass": "biao-yong-03 avatar"
+				},
+				{
+					"id": "biao-yong-04",
+					"avatarClass": "biao-yong-04 avatar"
+				},
+				{
+					"id": "biao-yong-05",
+					"avatarClass": "biao-yong-05 avatar"
+				},
+				{
+					"id": "biao-yong-06",
+					"avatarClass": "biao-yong-06 avatar"
+				},
+				{
+					"id": "biao-yong-07",
+					"avatarClass": "biao-yong-07 avatar"
+				},
+				{
+					"id": "biao-yong-08",
+					"avatarClass": "biao-yong-08 avatar"
+				}
+			]
+		}, {
+			"index": 3,
+			"name": "帷幄千里",
+			"lampClass": "wei-lamp lamp",
+			"titleClass": "wei-title title",
+			"militaries": [{
+					"id": "biao-wei-01",
+					"avatarClass": "biao-wei-01 avatar"
+				},
+				{
+					"id": "biao-wei-02",
+					"avatarClass": "biao-wei-02 avatar"
+				},
+				{
+					"id": "biao-wei-03",
+					"avatarClass": "biao-wei-03 avatar"
+				},
+				{
+					"id": "biao-wei-04",
+					"avatarClass": "biao-wei-04 avatar"
+				},
+				{
+					"id": "biao-wei-05",
+					"avatarClass": "biao-wei-05 avatar"
+				},
+				{
+					"id": "biao-wei-06",
+					"avatarClass": "biao-wei-06 avatar"
+				}
+			]
+		}, {
+			"index": 4,
+			"name": "巾帼红颜",
+			"lampClass": "guo-lamp lamp",
+			"titleClass": "guo-title title",
+			"militaries": [{
+					"id": "biao-guo-01",
+					"avatarClass": "biao-guo-01 avatar"
+				},
+				{
+					"id": "biao-guo-02",
+					"avatarClass": "biao-guo-02 avatar"
+				},
+				{
+					"id": "biao-guo-03",
+					"avatarClass": "biao-guo-03 avatar"
+				},
+				{
+					"id": "biao-guo-04",
+					"avatarClass": "biao-guo-04 avatar"
+				},
+				{
+					"id": "biao-guo-05",
+					"avatarClass": "biao-guo-05 avatar"
+				}
+			]
+		}]
+	},
+	{
+		"index": 1,
+		"name": "神话再临",
+		"class": "shenHuaZaiLin",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}, {
+			"index": 1,
+			"class": "lin"
+		}, {
+			"index": 2,
+			"class": "huo"
+		}, {
+			"index": 3,
+			"class": "shan"
+		}]
+	},
+	{
+		"index": 2,
+		"name": "界限突破",
+		"class": "jie",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 3,
+		"name": "一将成名",
+		"class": "jiang",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 4,
+		"name": "界·一将成名",
+		"class": "jieJiang",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 5,
+		"name": "谋扩展包",
+		"class": "mou",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 6,
+		"name": "门阀士族",
+		"class": "zu",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 7,
+		"name": "文德武备",
+		"class": "wenWu",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 8,
+		"name": "璀璨星河",
+		"class": "can",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 9,
+		"name": "SP",
+		"class": "sp",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 10,
+		"name": "祈福",
+		"class": "qi",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 11,
+		"name": "限定",
+		"class": "xian",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	},
+	{
+		"index": 12,
+		"name": "国战",
+		"class": "guo",
+		"nodes": [{
+			"index": 0,
+			"class": "feng"
+		}]
+	}
+]

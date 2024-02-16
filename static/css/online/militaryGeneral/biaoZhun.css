@@ -1,0 +1,155 @@
+/* 标准 */
+
+/******** 头像 ********/
+
+.avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/militaryGeneral/biaoZhun/avatar.png");
+}
+
+/***** 蜀汉虎将 *****/
+
+/* 关羽 */
+.biao-hu-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+
+/* 张飞 */
+.biao-hu-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+
+/* 赵云 */
+.biao-hu-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+
+/* 马超 */
+.biao-hu-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+
+/***** 贤明君主 *****/
+/* 刘备	*/
+.biao-zhu-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+
+/* 孙权	*/
+.biao-zhu-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+
+/* 曹操	*/
+.biao-zhu-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+
+/* 袁术 */
+.biao-zhu-04 {
+	background-position: calc(-61px*3) calc(-61px*1);
+}
+
+
+/***** 勇冠三军 *****/
+
+/* 甘宁 */
+.biao-yong-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+
+/* 吕蒙	*/
+.biao-yong-02 {
+	background-position: calc(-61px*1) calc(-61px*2);
+}
+
+/* 黄盖 */
+.biao-yong-03 {
+	background-position: calc(-61px*2) calc(-61px*2);
+}
+
+/* 夏侯惇 */
+.biao-yong-04 {
+	background-position: calc(-61px*3) calc(-61px*2);
+}
+
+/* 张辽 */
+.biao-yong-05 {
+	background-position: calc(-61px*4) calc(-61px*2);
+}
+
+/* 许褚	*/
+.biao-yong-06 {
+	background-position: calc(-61px*5) calc(-61px*2);
+}
+
+/* 吕布 */
+.biao-yong-07 {
+	background-position: calc(-61px*6) calc(-61px*2);
+}
+
+/* 华雄	*/
+.biao-yong-08 {
+	background-position: calc(-61px*7) calc(-61px*2);
+}
+
+
+/***** 帷幄千里 *****/
+
+/* 诸葛亮 */
+.biao-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+
+/* 周瑜 */
+.biao-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+
+/* 陆逊	*/
+.biao-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+
+/* 司马懿 */
+.biao-wei-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+
+/* 郭嘉	 */
+.biao-wei-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+
+/* 华佗 */
+.biao-wei-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+
+
+/***** 巾帼英雄 *****/
+/* 黄月英 */
+.biao-guo-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
+
+/* 大乔 */
+.biao-guo-02 {
+	background-position: calc(-61px*1) calc(-61px*4);
+}
+
+/* 甄姬 */
+.biao-guo-03 {
+	background-position: calc(-61px*2) calc(-61px*4);
+}
+
+/* 貂蝉 */
+.biao-guo-04 {
+	background-position: calc(-61px*3) calc(-61px*4);
+}
+
+/* 孙尚香 */
+.biao-guo-05 {
+	background-position: calc(-61px*4) calc(-61px*4);
+}

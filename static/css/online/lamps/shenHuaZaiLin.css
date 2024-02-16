@@ -1,0 +1,109 @@
+/* 风火林山 */
+.shenHuaZaiLin {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/0_fengLinHuoShan.png");
+	transform: scale(0.7);
+	animation: fengLinHuoShanFrameAnim steps(1, start) 2s infinite;
+	background-position: 10px 5px;
+}
+
+@keyframes fengLinHuoShanFrameAnim {
+	25% {
+		background-position: 10px 5px;
+	}
+
+	50% {
+		background-position: 11px -51px;
+	}
+
+	75% {
+		background-position: 11px -107px;
+	}
+
+	100% {
+		background-position: 11px -163px;
+	}
+}
+
+/* 神话再临 */
+.shenHuaZaiLin {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/0_shen.png");
+	transform: scale(0.7);
+	animation: fengLinHuoShanFrameAnim steps(1, start) 2s infinite;
+	background-position: -5px -131px;
+}
+
+@keyframes fengLinHuoShanFrameAnim {}
+
+/* 风 */
+.feng {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/1_feng.png");
+	animation: fengFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes fengFrameAnim {}
+
+/* 林 */
+.lin {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/2_lin.png");
+	animation: linFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes linFrameAnim {}
+
+/* 火 */
+.huo {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/3_huo.png");
+	animation: huoFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes huoFrameAnim {}
+
+/* 山 */
+.shan {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/4_shan.png");
+	animation: shanFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes shanFrameAnim {}
+
+/* 阴 */
+.yin {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/5_yin.png");
+	animation: yinFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes yinFrameAnim {}
+
+/* 雷 */
+.lei {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/6_lei.png");
+	animation: leiFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes leiFrameAnim {}
+
+/* 神 */
+.shen {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/7_shen.png");
+	animation: shenFrameAnim steps(1, start) 5s infinite
+}
+
+@keyframes shenFrameAnim {}

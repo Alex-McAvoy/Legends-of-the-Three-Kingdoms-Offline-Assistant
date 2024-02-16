@@ -1,0 +1,11 @@
+/* 璀璨星河 */
+.can {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/cuiCanXingHe/0_can.png");
+	transform: scale(0.7);
+	animation: canFrameAnim steps(1, start) 1s infinite;
+	background-position: -7px -6px;
+}
+
+@keyframes canFrameAnim {}

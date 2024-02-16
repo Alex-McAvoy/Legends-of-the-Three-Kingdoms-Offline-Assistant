@@ -1,0 +1,11 @@
+/* 门阀士族 */
+.zu {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/menFaShiZu/0_zu.png");
+	transform: scale(0.7);
+	animation: zuFrameAnim steps(1, start) 1s infinite;
+	background-position: -13px -13px;
+}
+
+@keyframes zuFrameAnim {}

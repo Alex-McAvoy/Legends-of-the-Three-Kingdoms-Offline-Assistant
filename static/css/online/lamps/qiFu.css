@@ -1,0 +1,11 @@
+/* 祈福 */
+.qi {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/qiFu/0_qi.png");
+	transform: scale(0.7);
+	animation: qiFrameAnim steps(1, start) 1s infinite;
+	background-position: -8px -2px;
+}
+
+@keyframes qiFrameAnim {}
