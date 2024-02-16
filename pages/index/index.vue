@@ -8,11 +8,13 @@
 
 <script>
 	export default {
-	
 		data() {
 			return {}
 		},
-		onLoad() {},
+		onLoad() {
+			// 隐藏原生tabbar
+			uni.hideTabBar({})
+		},
 		methods: {}
 	}
 </script>

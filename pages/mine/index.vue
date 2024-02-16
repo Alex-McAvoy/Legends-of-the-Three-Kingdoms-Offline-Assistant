@@ -10,7 +10,10 @@
 		data() {
 			return {}
 		},
-		mounted() {},
+		onLoad() {
+			// 隐藏原生tabbar
+			uni.hideTabBar({})
+		},
 		methods: {}
 	}
 </script>

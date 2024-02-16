@@ -32,6 +32,10 @@
 				}]
 			}
 		},
+		onLoad() {
+			// 隐藏原生tabbar
+			uni.hideTabBar({})
+		},
 		methods: {
 			handleBuilding(index) {
 				if (index != 0) {

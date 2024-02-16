@@ -1,15 +1,14 @@
 <script>
 	export default {
 		onLaunch: function() {
-			console.log('App Launch')
+			// 隐藏原生tabbar
 			uni.hideTabBar({})
 		},
 		onShow: function() {
-			console.log('App Show')
+			// 隐藏原生tabbar
 			uni.hideTabBar({})
 		},
 		onHide: function() {
-			console.log('App Hide')
 		}
 	}
 </script>

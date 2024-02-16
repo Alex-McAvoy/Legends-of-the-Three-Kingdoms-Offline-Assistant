@@ -1,9 +1,10 @@
 <template>
 	<view class="main">
-		<!-- 导航栏 -->
-		<mine-navbar :title="navbarTitle"></mine-navbar>
 		<!-- 吸顶 -->
 		<u-sticky>
+			<!-- 导航栏 -->
+			<mine-navbar :title="navbarTitle"></mine-navbar>
+			<!-- 搜索栏 -->
 			<page-search class="page-search"></page-search>
 		</u-sticky>
 		
