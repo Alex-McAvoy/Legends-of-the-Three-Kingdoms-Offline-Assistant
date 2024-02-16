@@ -11,7 +11,9 @@
 
 <p align="center">
   <h2 align="center">三国杀面杀助手</h2>
-  <a  align="center" href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
+</p>
+<p align="center">
+  <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
     <img src="static//logo.png" alt="Logo" width="80" height="80">
   </a> 
   <p align="center">
