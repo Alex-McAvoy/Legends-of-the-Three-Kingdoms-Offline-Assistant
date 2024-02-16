@@ -57,7 +57,7 @@
 		flex-direction: column;
 		padding: 10px 30px 10px 30px;
 		
-		background-image: url("@/static/images/common/search_bg.png");
+		background-image: url("@/static/images/common/search/bg.png");
 		background-position: center center;
 		background-size: cover;
 		margin-left: -20px;
