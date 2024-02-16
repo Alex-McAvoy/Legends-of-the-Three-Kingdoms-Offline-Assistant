@@ -11,7 +11,7 @@
 
 <p align="center">
   <h2 align="center">三国杀面杀助手</h2>
-  
+
   <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -49,7 +49,7 @@
 
 由于作者俗务繁忙，因此预计该项目将长期处于 alpha 版，如有需要，请移步 [Releases](https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases) 下载
 
-另考虑服务器成本，本项目目前为静态项目
+另考虑服务器成本，本项目目前为**静态项目**
 
 ## 起源
 
@@ -82,21 +82,28 @@ npm i
 
 ```
 filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
+├── /components/
+├── /pages/
+│  ├── /archive/
+│  │  ├── detail.vue
+│  │  ├── index.vue
+│  │  └── list.vue
+│  ├── /index/
+│  │  └── index.vue
+│  └── /mine/
+│     └── index.vue
 ├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+├── /uni_modules/
+├── .gitignore
+├── App.vue
+├── README.md
+├── index.html
+├── main.js
+├── manifest.json
+├── package.json
+├── pages.json
+├── uni.promisify.adaptor.js
+└── uni.scss
 
 ```
 
@@ -111,7 +118,7 @@ filetree
 
 ## 贡献者
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
+暂无
 
 ## 如何参与
 
