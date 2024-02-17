@@ -14,7 +14,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/">
-    <img src="static//logo.png" alt="Logo" width="80" height="80">
+    <img src="static/logo.png" alt="Logo" width="80" height="80">
   </a> 
   <p align="center">
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant"><strong>探索本项目的文档 »</strong></a>
@@ -27,6 +27,7 @@
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases">发行说明</a>
   </p>
 </p>
+
 
 
 ## 目录
