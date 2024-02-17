@@ -6,6 +6,10 @@
 			"index": 0,
 			"name": "关羽",
 			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-01.png",
 			"skills": [{
 				"name": "武圣",
@@ -30,6 +34,10 @@
 			"index": 1,
 			"name": "张飞",
 			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-02.png",
 			"skills": [{
 				"name": "咆哮",
@@ -54,6 +62,10 @@
 			"index": 2,
 			"name": "赵云",
 			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-03.png",
 			"skills": [{
 				"name": "龙胆",
@@ -78,6 +90,10 @@
 			"index": 3,
 			"name": "马超",
 			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-04.png ",
 			"skills": [{
 					"name": "铁骑",
@@ -107,6 +123,10 @@
 			"index": 4,
 			"name": "刘备",
 			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-01.png",
 			"skills": [{
 					"name": "仁德",
@@ -143,6 +163,10 @@
 			"index": 5,
 			"name": "孙权",
 			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-02.png",
 			"skills": [{
 					"name": "制衡",
@@ -179,6 +203,10 @@
 			"index": 6,
 			"name": "曹操",
 			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-03.png",
 			"skills": [{
 					"name": "奸雄",
@@ -216,6 +244,10 @@
 			"index": 7,
 			"name": "袁术",
 			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-04.png",
 			"skills": [{
 					"name": "妄尊",
@@ -252,6 +284,10 @@
 			"index": 8,
 			"name": "甘宁",
 			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-01.png",
 			"skills": [{
 				"name": "奇袭",
@@ -276,6 +312,10 @@
 			"index": 9,
 			"name": "吕蒙",
 			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-02.png",
 			"skills": [{
 				"name": "克己",
@@ -300,6 +340,10 @@
 			"index": 10,
 			"name": "黄盖",
 			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-03.png",
 			"skills": [{
 				"name": "苦肉",
@@ -324,6 +368,10 @@
 			"index": 11,
 			"name": "夏侯惇",
 			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-04.png",
 			"skills": [{
 				"name": "刚烈",
@@ -348,6 +396,10 @@
 			"index": 12,
 			"name": "张辽",
 			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-05.png",
 			"skills": [{
 				"name": "突袭",
@@ -372,6 +424,10 @@
 			"index": 13,
 			"name": "许褚",
 			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-06.png",
 			"skills": [{
 				"name": "裸衣",
@@ -396,6 +452,10 @@
 			"index": 14,
 			"name": "吕布",
 			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-07.png",
 			"skills": [{
 				"name": "无双",
@@ -420,6 +480,10 @@
 			"index": 15,
 			"name": "华雄",
 			"force": "qun",
+			"magatama": {
+				"actual": 6,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-08.png",
 			"skills": [{
 				"name": "耀武",
@@ -444,6 +508,10 @@
 			"index": 16,
 			"name": "诸葛亮",
 			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-01.png",
 			"skills": [{
 					"name": "观星",
@@ -480,6 +548,10 @@
 			"index": 17,
 			"name": "周瑜",
 			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-02.png",
 			"skills": [{
 					"name": "英姿",
@@ -516,6 +588,10 @@
 			"index": 18,
 			"name": "陆逊",
 			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-03.png",
 			"skills": [{
 					"name": "谦逊",
@@ -545,6 +621,10 @@
 			"index": 19,
 			"name": "司马懿",
 			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-04.png",
 			"skills": [{
 					"name": "反馈",
@@ -581,6 +661,10 @@
 			"index": 20,
 			"name": "郭嘉",
 			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-05.png",
 			"skills": [{
 					"name": "天妒",
@@ -617,6 +701,10 @@
 			"index": 21,
 			"name": "华佗",
 			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-06.png",
 			"skills": [{
 					"name": "急救",
@@ -653,6 +741,10 @@
 			"index": 22,
 			"name": "黄月英",
 			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-01.png",
 			"skills": [{
 					"name": "集智",
@@ -682,6 +774,10 @@
 			"index": 23,
 			"name": "大乔",
 			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-02.png",
 			"skills": [{
 					"name": "国色",
@@ -718,6 +814,10 @@
 			"index": 24,
 			"name": "甄姬",
 			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-03.png",
 			"skills": [{
 					"name": "洛神",
@@ -754,6 +854,10 @@
 			"index": 25,
 			"name": "貂蝉",
 			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-04.png",
 			"skills": [{
 					"name": "闭月",
@@ -790,6 +894,10 @@
 			"index": 26,
 			"name": "孙尚香",
 			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
 			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-05.png",
 			"skills": [{
 					"name": "枭姬",

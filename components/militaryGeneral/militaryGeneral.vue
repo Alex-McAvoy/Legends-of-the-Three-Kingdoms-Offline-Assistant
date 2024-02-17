@@ -1,14 +1,39 @@
 <template>
 	<view class="military-container">
-		<!-- 武将图 -->
-		<image class="image" :src="item.imgSrc" mode="widthFix" @click="preView"></image>
+		<!-- 武将图容器 -->
+		<view class="military-image-container" @click="preView">
+			<!-- 边框盒子 -->
+			<view class="border-box">
+				<image class="border-image" :src="militaryBorder" mode="widthFix"></image>
+			</view>
+			<!-- 组件盒子 -->
+			<view class="component-box">
+				<!-- 势力盒子 -->
+				<view class="force-box">
+					<image class="force-image" :src="militaryForce" mode="widthFix"></image>
+				</view>
+				<!-- 勾玉盒子 -->
+				<view class="magatama-box">
+					<view class="magatama">
+						<image v-for="index in item.magatama.actual" class="magatama-image" :src="militaryMagatama"
+							mode="widthFix"></image>
+						<image v-for="index in item.magatama.blank" class="magatama-image" :src="militaryMagatamaBlank"
+							mode="widthFix"></image>
+					</view>
+				</view>
+			</view>
+			<!-- 武将图盒子 -->
+			<view class="military-image-box">
+				<image class="military-image" :src="item.imgSrc" mode="widthFix"></image>
+			</view>
+		</view>
 		<!-- 内容容器 -->
 		<view class="content-container">
 			<!-- 武将名 -->
 			<view class="name">
 				<text>{{item.name}}</text>
 			</view>
-			
+
 			<!-- 介绍容器 -->
 			<view class="intro-container">
 				<!-- 技能分隔 -->
@@ -84,18 +109,32 @@
 		},
 		data() {
 			return {
+				// 武将边框图
+				militaryBorder: "/static/images/common/militaryGeneral/border.png",
+				// 武将势力图
+				militaryForce: "",
 				// 武将技能背景图
 				skillBackground: "",
+				// 武将勾玉图
+				militaryMagatama: "",
+				// 武将空白勾玉图
+				militaryMagatamaBlank: "/static/images/common/militaryGeneral/magatama_blank.png",
 				// 技能分隔图
-				skillDivideImgSrc: "/static/images/common/militaryGeneral/skill_divide.png",
+				skillDivideImgSrc: "/static/images/common/militaryGeneral/divide_skill.png",
 				// 台词分隔图
-				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/dialogue_divide.png"
+				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/divide_dialogue.png"
 			};
 		},
 		mounted() {
 			// 动态加载武将技能背景图
-			this.skillBackground = require('@/static/images/common/militaryGeneral/' + this.$props.item.force +
-				'_skill.png')
+			this.skillBackground = require('@/static/images/common/militaryGeneral/skill_' + this.$props.item.force +
+				'.png')
+			// 动态加载武将势力图
+			this.militaryForce = require('@/static/images/common/militaryGeneral/force_' + this.$props.item.force +
+				'.png')
+			// 动态加载武将勾玉图
+			this.militaryMagatama = require('@/static/images/common/militaryGeneral/magatama_' + this.$props.item.force +
+				'.png')
 		},
 		computed: {
 			imgSrc() {
@@ -121,25 +160,95 @@
 		flex-direction: column;
 		margin: 30rpx;
 		padding: 20px;
-		
+
 		background-color: blanchedalmond;
 		background-image: url("@/static/images/common/archive/list_bg.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
-		
+
 		box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 		border-style: groove;
 		border-color: #413430;
 
-		/* 武将图 */
-		.image {
-			width: 70%;
-			height: auto;
-			align-self: center;
-			box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.5);
+		/* 武将图容器 */
+		.military-image-container {
+			display: grid;
+			grid-template-columns: 1fr 4fr 1fr;
+			grid-template-rows: 8fr;
+
+			/* 武将边框盒子 */
+			.border-box {
+				grid-area: 1/2/2/2;
+				z-index: 2;
+
+				/* 武将边框图 */
+				.border-image {
+					width: 100%;
+					height: auto;
+					align-self: center;
+					box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.5);
+					border-radius: 5%;
+				}
+			}
+
+			/* 组件盒子 */
+			.component-box {
+				grid-area: 1/2/2/2;
+				z-index: 3;
+				display: grid;
+				grid-template-columns: 2fr 6fr 2fr;
+				grid-template-rows: 2fr 8fr;
+
+				/* 武将势力盒子 */
+				.force-box {
+					grid-area: 1/1/1/1;
+					z-index: 3;
+
+					/* 武将势力图 */
+					.force-image {
+						width: 100%;
+						height: auto;
+						align-self: center;
+					}
+				}
+
+				/* 武将勾玉盒子 */
+				.magatama-box {
+					grid-area: 1/2/1/2;
+					z-index: 3;
+
+					.magatama {
+						display: flex;
+						flex-direction: row;
+
+						.magatama-image {
+							width: 10%;
+							height: auto;
+							margin-top: 5px;
+							align-self: center;
+						}
+					}
+				}
+
+			}
+
+
+			/* 武将盒子 */
+			.military-image-box {
+				grid-area: 1/2/2/2;
+				z-index: 0;
+
+				/* 武将图 */
+				.military-image {
+					width: 100%;
+					height: auto;
+					align-self: center;
+					border-radius: 5%;
+				}
+			}
 		}
 
 		/* 内容容器 */
@@ -165,7 +274,7 @@
 				text-align: center;
 			}
 
-			
+
 
 
 			/* 介绍容器 */
@@ -173,7 +282,7 @@
 				display: flex;
 				flex-direction: column;
 				gap: 20px;
-				
+
 				/* 技能分隔 */
 				.skill-divide {
 					justify-self: center;
@@ -213,7 +322,7 @@
 						align-self: center;
 					}
 				}
-				
+
 				/* 台词分隔 */
 				.dialogue-divide {
 					justify-self: center;
