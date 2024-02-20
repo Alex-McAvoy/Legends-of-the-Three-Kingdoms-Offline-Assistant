@@ -227,7 +227,7 @@
 
 						/* 小将灯 */
 						.package-lamp {
-							margin-left: -30px;
+							margin-left: -40px;
 							margin-top: 8px;
 						}
 					}

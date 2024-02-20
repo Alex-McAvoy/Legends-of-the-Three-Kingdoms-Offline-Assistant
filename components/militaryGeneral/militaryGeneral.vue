@@ -274,9 +274,6 @@
 				text-align: center;
 			}
 
-
-
-
 			/* 介绍容器 */
 			.intro-container {
 				display: flex;
@@ -313,6 +310,7 @@
 						font-weight: bold;
 						font-size: small;
 
+						
 						box-sizing: border-box;
 						direction: ltr;
 					}
