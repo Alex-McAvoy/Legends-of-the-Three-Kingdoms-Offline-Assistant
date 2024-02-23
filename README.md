@@ -38,6 +38,7 @@
 - [文件目录说明](#文件目录说明)
 - [部署](#部署)
 - [框架](#框架)
+- [开源协议](#开源协议)
 - [贡献者](#贡献者)
 - [如何参与](#如何参与)
 - [鸣谢](#鸣谢)
@@ -112,10 +113,14 @@ filetree
 
 暂无
 
-## 使用到的框架
+## 框架
 
 - [uniapp](https://uniapp.dcloud.net.cn/)
 - [uView 2.0.36](https://uviewui.com/components/intro.html)
+
+## 开源协议
+
+本项目开源协议为 [No License](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwigkv-KtMT0AhXFdXAKHdI4BCcQFnoECAQQAw&url=https%3A%2F%2Fchoosealicense.com%2Fno-permission%2F&usg=AOvVaw3M2Q4IbdhnpJ2K71TF7SPB)，这意味着可以随意的 fork 和使用，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系作者，望理解
 
 ## 贡献者
 
