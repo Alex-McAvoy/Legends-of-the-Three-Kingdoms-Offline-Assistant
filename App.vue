@@ -29,10 +29,11 @@
 		src: url("@/static/font/huaWenXingKai.ttf");
 	}
 	
-	/* 方正兰亭粗黑 */
+	
+	/* 黑体 */
 	@font-face {
-		font-family: fangZhengLanTing;
-		src: url("@/static/font/fangZhengLanTing.ttf");
+		font-family: heiTi;
+		src: url("@/static/font/heiTi.ttf");
 	}
 	
 	/* 背景 */

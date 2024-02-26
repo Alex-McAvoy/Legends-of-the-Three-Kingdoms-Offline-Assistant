@@ -27,10 +27,9 @@
 					bgColor: "#1e1b1b",
 					// 文字样式
 					titleStyle: {
-						// "color": "#e7ddcc",
-						// "color": "#ffffff",
-						"font-family": "fangZhengLanTing",
+						"font-family": "heiTi",
 						"font-size": "20px",
+						"font-weight": "bold",
 						"-webkit-background-clip": "text",
 						"-webkit-text-fill-color": "transparent",
 						"textShadow": "0px 0px 7px rgba(52, 255, 204, 0.1)",

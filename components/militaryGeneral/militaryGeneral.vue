@@ -275,9 +275,10 @@
 
 			/* 武将名 */
 			.name {
-				font-family: fangZhengLanTing;
-				font-size: 30px;
+				font-family: heiTi;
 				color: black;
+				font-size: 30px;
+				font-weight: bold;
 				padding: 20px 10px;
 				text-align: center;
 			}
