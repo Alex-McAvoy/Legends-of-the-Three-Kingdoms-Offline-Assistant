@@ -1,0 +1,274 @@
+/* 神话再临 */
+
+/******** 头像 ********/
+
+.shen-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/militaryGeneral/shenHuaZaiLin/avatar.png");
+}
+
+
+/***** 其疾如风 *****/
+/* 魏延 */
+.shen-feng-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+/* 夏侯渊 */
+.shen-feng-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+/* 曹仁 */
+.shen-feng-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+/* 小乔 */
+.shen-feng-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+/* 黄忠 */
+.shen-feng-05 {
+	background-position: calc(-61px*4) calc(-61px*0);
+}
+/* 周泰 */
+.shen-feng-06 {
+	background-position: calc(-61px*5) calc(-61px*0);
+}
+/* 于吉 */
+.shen-feng-07 {
+	background-position: calc(-61px*6) calc(-61px*0);
+}
+/* 张角 */
+.shen-feng-08 {
+	background-position: calc(-61px*7) calc(-61px*0);
+}
+
+/***** 侵掠如火 *****/
+/* 典韦 */
+.shen-huo-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+/* 荀彧 */
+.shen-huo-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+/* 庞统 */
+.shen-huo-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+/* 卧龙诸葛 */
+.shen-huo-04 {
+	background-position: calc(-61px*3) calc(-61px*1);
+}
+/* 太史慈 */
+.shen-huo-05 {
+	background-position: calc(-61px*4) calc(-61px*1);
+}
+/* 庞德 */
+.shen-huo-06 {
+	background-position: calc(-61px*5) calc(-61px*1);
+}
+/* 颜良文丑 */
+.shen-huo-07 {
+	background-position: calc(-61px*6) calc(-61px*1);
+}
+/* 袁绍 */
+.shen-huo-08 {
+	background-position: calc(-61px*7) calc(-61px*1);
+}
+
+/***** 其徐如林 *****/
+/* 徐晃 */
+.shen-lin-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+/* 曹丕 */
+.shen-lin-02 {
+	background-position: calc(-61px*1) calc(-61px*2);
+}
+/* 孙坚 */
+.shen-lin-03 {
+	background-position: calc(-61px*2) calc(-61px*2);
+}
+/* 董卓 */
+.shen-lin-04 {
+	background-position: calc(-61px*3) calc(-61px*2);
+}
+/* 祝融 */
+.shen-lin-05 {
+	background-position: calc(-61px*4) calc(-61px*2);
+}
+/* 孟获 */
+.shen-lin-06 {
+	background-position: calc(-61px*5) calc(-61px*2);
+}
+/* 贾诩 */
+.shen-lin-07 {
+	background-position: calc(-61px*6) calc(-61px*2);
+}
+/* 鲁肃 */
+.shen-lin-08 {
+	background-position: calc(-61px*7) calc(-61px*2);
+}
+
+/***** 不动如山 *****/
+/* 张郃 */
+.shen-shan-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+/* 邓艾 */
+.shen-shan-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+/* 姜维 */
+.shen-shan-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+/* 刘禅 */
+.shen-shan-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+/* 孙策 */
+.shen-shan-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+/* 张昭&张纮 */
+.shen-shan-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+/* 左慈 */
+.shen-shan-07 {
+	background-position: calc(-61px*6) calc(-61px*3);
+}
+/* 蔡文姬 */
+.shen-shan-08 {
+	background-position: calc(-61px*7) calc(-61px*3);
+}
+
+
+/***** 难知如阴 *****/
+/* 王基 */
+.shen-yin-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
+/* 严颜 */
+.shen-yin-02 {
+	background-position: calc(-61px*1) calc(-61px*4);
+}
+/* 王平 */
+.shen-yin-03 {
+	background-position: calc(-61px*2) calc(-61px*4);
+}
+/* 陆绩 */
+.shen-yin-04 {
+	background-position: calc(-61px*3) calc(-61px*4);
+}
+/* 孙亮 */
+.shen-yin-05 {
+	background-position: calc(-61px*4) calc(-61px*4);
+}
+/* 蒯良&蒯越 */
+.shen-yin-06 {
+	background-position: calc(-61px*5) calc(-61px*4);
+}
+/* 许攸 */
+.shen-yin-07 {
+	background-position: calc(-61px*6) calc(-61px*4);
+}
+/* 卢植 */
+.shen-yin-08 {
+	background-position: calc(-61px*7) calc(-61px*4);
+}
+
+/***** 动若雷霆 *****/
+/* 袁术 */
+.shen-lei-01 {
+	background-position: calc(-61px*0) calc(-61px*5);
+}
+/* 郝昭 */
+.shen-lei-02 {
+	background-position: calc(-61px*1) calc(-61px*5);
+}
+/* 陈到 */
+.shen-lei-03 {
+	background-position: calc(-61px*2) calc(-61px*5);
+}
+/* 诸葛瞻 */
+.shen-lei-04 {
+	background-position: calc(-61px*3) calc(-61px*5);
+}
+/* 周妃 */
+.shen-lei-05 {
+	background-position: calc(-61px*4) calc(-61px*5);
+}
+/* 毌丘俭 */
+.shen-lei-06 {
+	background-position: calc(-61px*5) calc(-61px*5);
+}
+/* 陆抗 */
+.shen-lei-07 {
+	background-position: calc(-61px*6) calc(-61px*5);
+}
+/* 张绣 */
+.shen-lei-08 {
+	background-position: calc(-61px*7) calc(-61px*5);
+}
+
+
+/***** 神 *****/
+/* 神关羽 */
+.shen-shen-01 {
+	background-position: calc(-61px*0) calc(-61px*6);
+}
+/* 神吕蒙 */
+.shen-shen-02 {
+	background-position: calc(-61px*1) calc(-61px*6);
+}
+/* 神周瑜 */
+.shen-shen-03 {
+	background-position: calc(-61px*2) calc(-61px*6);
+}
+/* 神诸葛亮 */
+.shen-shen-04 {
+	background-position: calc(-61px*3) calc(-61px*6);
+}
+/* 神曹操 */
+.shen-shen-05 {
+	background-position: calc(-61px*4) calc(-61px*6);
+}
+/* 神吕布 */
+.shen-shen-06 {
+	background-position: calc(-61px*5) calc(-61px*6);
+}
+/* 神赵云 */
+.shen-shen-07 {
+	background-position: calc(-61px*6) calc(-61px*6);
+}
+/* 神司马懿 */
+.shen-shen-08 {
+	background-position: calc(-61px*7) calc(-61px*6);
+}
+/* 神刘备 */
+.shen-shen-09 {
+	background-position: calc(-61px*8) calc(-61px*6);
+}
+/* 神陆逊 */
+.shen-shen-10 {
+	background-position: calc(-61px*9) calc(-61px*6);
+}
+/* 神甘宁 */
+.shen-shen-11 {
+	background-position: calc(-61px*10) calc(-61px*6);
+}
+/* 神张辽 */
+.shen-shen-12 {
+	background-position: calc(-61px*11) calc(-61px*6);
+}
+/* 神孙权 */
+.shen-shen-13 {
+	background-position: calc(-61px*12) calc(-61px*6);
+}
+/* 神张角 */
+.shen-shen-14 {
+	background-position: calc(-61px*13) calc(-61px*6);
+}
