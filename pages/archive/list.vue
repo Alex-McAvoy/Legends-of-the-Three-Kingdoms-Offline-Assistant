@@ -128,6 +128,8 @@
 <style>
 	/* 将灯 */
 	@import url(@/static/css/online/lamps/biaoZhun.css);
+	@import url(@/static/css/online/lamps/shenHuaZaiLin.css);
+	
 	@import url(@/static/css/online/lamps/cuiCanXingHe.css);
 	@import url(@/static/css/online/lamps/guoZhan.css);
 	@import url(@/static/css/online/lamps/jieXianTuPo.css);
@@ -135,7 +137,6 @@
 	@import url(@/static/css/online/lamps/menFaShiZu.css);
 	@import url(@/static/css/online/lamps/mouKuoZhanBao.css);
 	@import url(@/static/css/online/lamps/qiFu.css);
-	@import url(@/static/css/online/lamps/shenHuaZaiLin.css);
 	@import url(@/static/css/online/lamps/SP.css);
 	@import url(@/static/css/online/lamps/wenDeWuBei.css);
 	@import url(@/static/css/online/lamps/xianDing.css);
@@ -143,6 +144,7 @@
 
 	/* 头像 */
 	@import url(@/static/css/online/militaryGeneral/biaoZhun.css);
+	@import url(@/static/css/online/militaryGeneral/shenHuaZaiLin.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */
