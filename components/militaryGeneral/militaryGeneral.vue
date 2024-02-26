@@ -41,11 +41,11 @@
 				<!-- 技能容器 -->
 				<view class="skills-container" v-for="skill in item.skills">
 					<!-- 技能名 -->
-					<view class="skill-name" :style="{backgroundImage: 'url('+skillBackground+')'}">
+					<view class="skill-name" :style="{backgroundImage: 'url('+skillBackground+')', color: skillFontColor }">
 						{{skill.name}}
 					</view>
 					<!-- 技能描述 -->
-					<view class="skill-description">{{skill.description}}</view>
+					<view class="skill-description">{{skill.descriptions}}</view>
 				</view>
 				<!-- 台词分隔 -->
 				<image class="dialogue-divide" :src="dialogueDivideImgSrc" mode="widthFix"></image>
@@ -115,6 +115,8 @@
 				militaryForce: "",
 				// 武将技能背景图
 				skillBackground: "",
+				// 武将技能字体颜色
+				skillFontColor: "",
 				// 武将勾玉图
 				militaryMagatama: "",
 				// 武将空白勾玉图
@@ -129,6 +131,12 @@
 			// 动态加载武将技能背景图
 			this.skillBackground = require('@/static/images/common/militaryGeneral/skill_' + this.$props.item.force +
 				'.png')
+			// 动态加载武将技能字体颜色
+			if(this.$props.item.force == "shen"){
+				this.skillFontColor = "white"
+			} else {
+				this.skillFontColor = "black"
+			}
 			// 动态加载武将势力图
 			this.militaryForce = require('@/static/images/common/militaryGeneral/force_' + this.$props.item.force +
 				'.png')
@@ -303,14 +311,12 @@
 						width: 70px;
 						padding: 5px 0px;
 
-						color: black;
 						height: 33px;
 						text-align: center;
 						padding-right: 4px;
 						font-weight: bold;
 						font-size: small;
 
-						
 						box-sizing: border-box;
 						direction: ltr;
 					}
