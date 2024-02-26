@@ -2,7 +2,7 @@
 
 /******** 头像 ********/
 
-.avatar {
+.biao-avatar {
 	width: 61px;
 	height: 61px;
 	background-image: url("@/static/images/online/militaryGeneral/biaoZhun/avatar.png");

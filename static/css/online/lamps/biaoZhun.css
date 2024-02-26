@@ -1,15 +1,15 @@
 /* 标准 */
 
 /******** 大将灯 ********/
-.biao {
+.biao-da-lamp {
 	width: 64px;
 	height: 64px;
 	background-image: url("@/static/images/online/lamps/biaoZhun_lamp.png");
 	transform: scale(0.7);
-	animation: biaoLampFrameAnim1 steps(1, start) 1s infinite;
+	animation: biaoDaLampFrameAnim1 steps(1, start) 1s infinite;
 }
 
-@keyframes biaoLampFrameAnim1 {
+@keyframes biaoDaLampFrameAnim1 {
 
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
@@ -40,50 +40,50 @@
 }
 
 /******** 小将灯标题 ********/
-.title {
+.biao-title {
 	width: 320px;
 	height: 32px;
 	background-image: url("@/static/images/online/lamps/biaoZhun_title.png");
 }
 
 /* 蜀汉虎将 */
-.hu-title {
+.biao-hu-title {
 	background-position: 0 calc(-40px*0);
 }
 
 /* 贤明君主 */
-.zhu-title {
+.biao-zhu-title {
 	background-position: 0 calc(-40px*1);
 }
 
 /* 勇冠三军 */
-.yong-title {
+.biao-yong-title {
 	background-position: 0 calc(-40px*2);
 }
 
 /* 帷幄千里 */
-.wei-title {
+.biao-wei-title {
 	background-position: 0 calc(-40px*3);
 }
 
 /* 巾帼红颜 */
-.guo-title {
+.biao-guo-title {
 	background-position: 0 calc(-40px*4);
 }
 
 /******** 小将灯 ********/
-.lamp {
+.biao-xiao-lamp {
 	width: 64px;
 	height: 64px;
 	background-image: url("@/static/images/online/lamps/biaoZhun_lamp.png");
 }
 
 /* 虎 */
-.hu-lamp {
-	animation: huLampFrameAnim steps(1, start) 1s infinite;
+.biao-hu-lamp {
+	animation: biaoHuLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes huLampFrameAnim {
+@keyframes biaoHuLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*1);
 	}
@@ -111,11 +111,11 @@
 }
 
 /* 主 */
-.zhu-lamp {
-	animation: zhuLampFrameAnim steps(1, start) 1s infinite;
+.biao-zhu-lamp {
+	animation: biaoZhuLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes zhuLampFrameAnim {
+@keyframes biaoZhuLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*2);
 	}
@@ -142,11 +142,11 @@
 }
 
 /* 勇 */
-.yong-lamp {
-	animation: yongLampFrameAnim steps(1, start) 1s infinite;
+.biao-yong-lamp {
+	animation: biaoYongLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes yongLampFrameAnim {
+@keyframes biaoYongLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*3);
 	}
@@ -173,11 +173,11 @@
 }
 
 /* 帷 */
-.wei-lamp {
-	animation: weiLampFrameAnim steps(1, start) 1s infinite;
+.biao-wei-lamp {
+	animation: biaoWeiLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes weiLampFrameAnim {
+@keyframes biaoWeiLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*4);
 	}
@@ -204,11 +204,11 @@
 }
 
 /* 帼 */
-.guo-lamp {
-	animation: guoLampFrameAnim steps(1, start) 1s infinite;
+.biao-guo-lamp {
+	animation: biaoGuoLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes guoLampFrameAnim {
+@keyframes biaoGuoLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*5);
 	}
