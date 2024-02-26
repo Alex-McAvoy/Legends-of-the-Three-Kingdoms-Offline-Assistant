@@ -107,7 +107,7 @@
 			// 获取当前将灯列表
 			getLampList(item) {
 				this.lamp = item
-				if (this.lamp.index != 0) {
+				if (this.lamp.index != 0 && this.lamp.index != 1) {
 					uni.showToast({
 						title: '模块建设中~',
 						icon: "none",
