@@ -1,143 +1,142 @@
-[
-	{
+[{
 		"index": 0,
 		"name": "标准",
-		"class": "biao",
+		"class": "biao-da-lamp",
 		"nodes": [{
 			"index": 0,
 			"name": "蜀汉虎将",
-			"lampClass": "hu-lamp lamp",
-			"titleClass": "hu-title title",
+			"lampClass": "biao-xiao-lamp biao-hu-lamp",
+			"titleClass": "biao-title biao-hu-title",
 			"militaries": [{
 					"id": "biao-hu-01",
-					"avatarClass": "biao-hu-01 avatar"
+					"avatarClass": "biao-hu-01 biao-avatar"
 				},
 				{
 					"id": "biao-hu-02",
-					"avatarClass": "biao-hu-02 avatar"
+					"avatarClass": "biao-hu-02 biao-avatar"
 				},
 				{
 					"id": "biao-hu-03",
-					"avatarClass": "biao-hu-03 avatar"
+					"avatarClass": "biao-hu-03 biao-avatar"
 				},
 				{
 					"id": "biao-hu-04",
-					"avatarClass": "biao-hu-04 avatar"
+					"avatarClass": "biao-hu-04 biao-avatar"
 				}
 			]
 		}, {
 			"index": 1,
 			"name": "贤明君主",
-			"lampClass": "zhu-lamp lamp",
-			"titleClass": "zhu-title title",
+			"lampClass": "biao-xiao-lamp biao-zhu-lamp",
+			"titleClass": "biao-title biao-zhu-title",
 			"militaries": [{
 					"id": "biao-zhu-01",
-					"avatarClass": "biao-zhu-01 avatar"
+					"avatarClass": "biao-zhu-01 biao-avatar"
 				},
 				{
 					"id": "biao-zhu-02",
-					"avatarClass": "biao-zhu-02 avatar"
+					"avatarClass": "biao-zhu-02 biao-avatar"
 				},
 				{
 					"id": "biao-zhu-03",
-					"avatarClass": "biao-zhu-03 avatar"
+					"avatarClass": "biao-zhu-03 biao-avatar"
 				},
 				{
 					"id": "biao-zhu-04",
-					"avatarClass": "biao-zhu-04 avatar"
+					"avatarClass": "biao-zhu-04 biao-avatar"
 				}
 			]
 		}, {
 			"index": 2,
 			"name": "勇冠三军",
-			"lampClass": "yong-lamp lamp",
-			"titleClass": "yong-title title",
+			"lampClass": "biao-xiao-lamp biao-yong-lamp",
+			"titleClass": "biao-title biao-yong-title",
 			"militaries": [{
 					"id": "biao-yong-01",
-					"avatarClass": "biao-yong-01 avatar"
+					"avatarClass": "biao-yong-01 biao-avatar"
 				}, {
 					"id": "biao-yong-02",
-					"avatarClass": "biao-yong-02 avatar"
+					"avatarClass": "biao-yong-02 biao-avatar"
 				},
 				{
 					"id": "biao-yong-03",
-					"avatarClass": "biao-yong-03 avatar"
+					"avatarClass": "biao-yong-03 biao-avatar"
 				},
 				{
 					"id": "biao-yong-04",
-					"avatarClass": "biao-yong-04 avatar"
+					"avatarClass": "biao-yong-04 biao-avatar"
 				},
 				{
 					"id": "biao-yong-05",
-					"avatarClass": "biao-yong-05 avatar"
+					"avatarClass": "biao-yong-05 biao-avatar"
 				},
 				{
 					"id": "biao-yong-06",
-					"avatarClass": "biao-yong-06 avatar"
+					"avatarClass": "biao-yong-06 biao-avatar"
 				},
 				{
 					"id": "biao-yong-07",
-					"avatarClass": "biao-yong-07 avatar"
+					"avatarClass": "biao-yong-07 biao-avatar"
 				},
 				{
 					"id": "biao-yong-08",
-					"avatarClass": "biao-yong-08 avatar"
+					"avatarClass": "biao-yong-08 biao-avatar"
 				}
 			]
 		}, {
 			"index": 3,
 			"name": "帷幄千里",
-			"lampClass": "wei-lamp lamp",
-			"titleClass": "wei-title title",
+			"lampClass": "biao-xiao-lamp biao-wei-lamp",
+			"titleClass": "biao-title biao-wei-title",
 			"militaries": [{
 					"id": "biao-wei-01",
-					"avatarClass": "biao-wei-01 avatar"
+					"avatarClass": "biao-wei-01 biao-avatar"
 				},
 				{
 					"id": "biao-wei-02",
-					"avatarClass": "biao-wei-02 avatar"
+					"avatarClass": "biao-wei-02 biao-avatar"
 				},
 				{
 					"id": "biao-wei-03",
-					"avatarClass": "biao-wei-03 avatar"
+					"avatarClass": "biao-wei-03 biao-avatar"
 				},
 				{
 					"id": "biao-wei-04",
-					"avatarClass": "biao-wei-04 avatar"
+					"avatarClass": "biao-wei-04 biao-avatar"
 				},
 				{
 					"id": "biao-wei-05",
-					"avatarClass": "biao-wei-05 avatar"
+					"avatarClass": "biao-wei-05 biao-avatar"
 				},
 				{
 					"id": "biao-wei-06",
-					"avatarClass": "biao-wei-06 avatar"
+					"avatarClass": "biao-wei-06 biao-avatar"
 				}
 			]
 		}, {
 			"index": 4,
 			"name": "巾帼红颜",
-			"lampClass": "guo-lamp lamp",
-			"titleClass": "guo-title title",
+			"lampClass": "biao-xiao-lamp biao-guo-lamp",
+			"titleClass": "biao-title biao-guo-title",
 			"militaries": [{
 					"id": "biao-guo-01",
-					"avatarClass": "biao-guo-01 avatar"
+					"avatarClass": "biao-guo-01 biao-avatar"
 				},
 				{
 					"id": "biao-guo-02",
-					"avatarClass": "biao-guo-02 avatar"
+					"avatarClass": "biao-guo-02 biao-avatar"
 				},
 				{
 					"id": "biao-guo-03",
-					"avatarClass": "biao-guo-03 avatar"
+					"avatarClass": "biao-guo-03 biao-avatar"
 				},
 				{
 					"id": "biao-guo-04",
-					"avatarClass": "biao-guo-04 avatar"
+					"avatarClass": "biao-guo-04 biao-avatar"
 				},
 				{
 					"id": "biao-guo-05",
-					"avatarClass": "biao-guo-05 avatar"
+					"avatarClass": "biao-guo-05 biao-avatar"
 				}
 			]
 		}]
@@ -145,19 +144,297 @@
 	{
 		"index": 1,
 		"name": "神话再临",
-		"class": "shenHuaZaiLin",
+		"class": "shen-da-lamp",
 		"nodes": [{
 			"index": 0,
-			"class": "feng"
+			"name": "其疾如风",
+			"lampClass": "shen-xiao-lamp shen-feng-lamp",
+			"titleClass": "shen-title shen-feng-title",
+			"militaries": [{
+					"id": "shen-feng-01",
+					"avatarClass": "shen-feng-01 shen-avatar"
+				},
+				{
+					"id": "shen-feng-02",
+					"avatarClass": "shen-feng-02 shen-avatar"
+				},
+				{
+					"id": "shen-feng-03",
+					"avatarClass": "shen-feng-03 shen-avatar"
+				},
+				{
+					"id": "shen-feng-04",
+					"avatarClass": "shen-feng-04 shen-avatar"
+				},
+				{
+					"id": "shen-feng-05",
+					"avatarClass": "shen-feng-05 shen-avatar"
+				},
+				{
+					"id": "shen-feng-06",
+					"avatarClass": "shen-feng-06 shen-avatar"
+				},
+				{
+					"id": "shen-feng-07",
+					"avatarClass": "shen-feng-07 shen-avatar"
+				},
+				{
+					"id": "shen-feng-08",
+					"avatarClass": "shen-feng-08 shen-avatar"
+				}
+			]
 		}, {
 			"index": 1,
-			"class": "lin"
+			"name": "侵掠如火",
+			"lampClass": "shen-xiao-lamp shen-huo-lamp",
+			"titleClass": "shen-title shen-huo-title",
+			"militaries": [{
+					"id": "shen-huo-01",
+					"avatarClass": "shen-huo-01 shen-avatar"
+				},
+				{
+					"id": "shen-huo-02",
+					"avatarClass": "shen-huo-02 shen-avatar"
+				},
+				{
+					"id": "shen-huo-03",
+					"avatarClass": "shen-huo-03 shen-avatar"
+				},
+				{
+					"id": "shen-huo-04",
+					"avatarClass": "shen-huo-04 shen-avatar"
+				},
+				{
+					"id": "shen-huo-05",
+					"avatarClass": "shen-huo-05 shen-avatar"
+				},
+				{
+					"id": "shen-huo-06",
+					"avatarClass": "shen-huo-06 shen-avatar"
+				},
+				{
+					"id": "shen-huo-07",
+					"avatarClass": "shen-huo-07 shen-avatar"
+				},
+				{
+					"id": "shen-huo-08",
+					"avatarClass": "shen-huo-08 shen-avatar"
+				}
+			]
 		}, {
 			"index": 2,
-			"class": "huo"
+			"name": "其徐如林",
+			"lampClass": "shen-xiao-lamp shen-lin-lamp",
+			"titleClass": "shen-title shen-lin-title",
+			"militaries": [{
+					"id": "shen-lin-01",
+					"avatarClass": "shen-lin-01 shen-avatar"
+				},
+				{
+					"id": "shen-lin-02",
+					"avatarClass": "shen-lin-02 shen-avatar"
+				},
+				{
+					"id": "shen-lin-03",
+					"avatarClass": "shen-lin-03 shen-avatar"
+				},
+				{
+					"id": "shen-lin-04",
+					"avatarClass": "shen-lin-04 shen-avatar"
+				},
+				{
+					"id": "shen-lin-05",
+					"avatarClass": "shen-lin-05 shen-avatar"
+				},
+				{
+					"id": "shen-lin-06",
+					"avatarClass": "shen-lin-06 shen-avatar"
+				},
+				{
+					"id": "shen-lin-07",
+					"avatarClass": "shen-lin-07 shen-avatar"
+				},
+				{
+					"id": "shen-lin-08",
+					"avatarClass": "shen-lin-08 shen-avatar"
+				}
+			]
 		}, {
 			"index": 3,
-			"class": "shan"
+			"name": "不动如山",
+			"lampClass": "shen-xiao-lamp shen-shan-lamp",
+			"titleClass": "shen-title shen-shan-title",
+			"militaries": [{
+					"id": "shen-shan-01",
+					"avatarClass": "shen-shan-01 shen-avatar"
+				},
+				{
+					"id": "shen-shan-02",
+					"avatarClass": "shen-shan-02 shen-avatar"
+				},
+				{
+					"id": "shen-shan-03",
+					"avatarClass": "shen-shan-03 shen-avatar"
+				},
+				{
+					"id": "shen-shan-04",
+					"avatarClass": "shen-shan-04 shen-avatar"
+				},
+				{
+					"id": "shen-shan-05",
+					"avatarClass": "shen-shan-05 shen-avatar"
+				},
+				{
+					"id": "shen-shan-06",
+					"avatarClass": "shen-shan-06 shen-avatar"
+				},
+				{
+					"id": "shen-shan-07",
+					"avatarClass": "shen-shan-07 shen-avatar"
+				},
+				{
+					"id": "shen-shan-08",
+					"avatarClass": "shen-shan-08 shen-avatar"
+				}
+			]
+		}, {
+			"index": 4,
+			"name": "难知如阴",
+			"lampClass": "shen-xiao-lamp shen-yin-lamp",
+			"titleClass": "shen-title shen-yin-title",
+			"militaries": [{
+					"id": "shen-yin-01",
+					"avatarClass": "shen-yin-01 shen-avatar"
+				},
+				{
+					"id": "shen-yin-02",
+					"avatarClass": "shen-yin-02 shen-avatar"
+				},
+				{
+					"id": "shen-yin-03",
+					"avatarClass": "shen-yin-03 shen-avatar"
+				},
+				{
+					"id": "shen-yin-04",
+					"avatarClass": "shen-yin-04 shen-avatar"
+				},
+				{
+					"id": "shen-yin-05",
+					"avatarClass": "shen-yin-05 shen-avatar"
+				},
+				{
+					"id": "shen-yin-06",
+					"avatarClass": "shen-yin-06 shen-avatar"
+				},
+				{
+					"id": "shen-yin-07",
+					"avatarClass": "shen-yin-07 shen-avatar"
+				},
+				{
+					"id": "shen-yin-08",
+					"avatarClass": "shen-yin-08 shen-avatar"
+				}
+			]
+		}, {
+			"index": 5,
+			"name": "动如雷霆",
+			"lampClass": "shen-xiao-lamp shen-lei-lamp",
+			"titleClass": "shen-title shen-lei-title",
+			"militaries": [{
+					"id": "shen-lei-01",
+					"avatarClass": "shen-lei-01 shen-avatar"
+				},
+				{
+					"id": "shen-lei-02",
+					"avatarClass": "shen-lei-02 shen-avatar"
+				},
+				{
+					"id": "shen-lei-03",
+					"avatarClass": "shen-lei-03 shen-avatar"
+				},
+				{
+					"id": "shen-lei-04",
+					"avatarClass": "shen-lei-04 shen-avatar"
+				},
+				{
+					"id": "shen-lei-05",
+					"avatarClass": "shen-lei-05 shen-avatar"
+				},
+				{
+					"id": "shen-lei-06",
+					"avatarClass": "shen-lei-06 shen-avatar"
+				},
+				{
+					"id": "shen-lei-07",
+					"avatarClass": "shen-lei-07 shen-avatar"
+				},
+				{
+					"id": "shen-lei-08",
+					"avatarClass": "shen-lei-08 shen-avatar"
+				}
+			]
+		}, {
+			"index": 6,
+			"name": "神",
+			"lampClass": "shen-xiao-lamp shen-shen-lamp",
+			"titleClass": "shen-title shen-shen-title",
+			"militaries": [{
+					"id": "shen-shen-01",
+					"avatarClass": "shen-shen-01 shen-avatar"
+				},
+				{
+					"id": "shen-shen-02",
+					"avatarClass": "shen-shen-02 shen-avatar"
+				},
+				{
+					"id": "shen-shen-03",
+					"avatarClass": "shen-shen-03 shen-avatar"
+				},
+				{
+					"id": "shen-shen-04",
+					"avatarClass": "shen-shen-04 shen-avatar"
+				},
+				{
+					"id": "shen-shen-05",
+					"avatarClass": "shen-shen-05 shen-avatar"
+				},
+				{
+					"id": "shen-shen-06",
+					"avatarClass": "shen-shen-06 shen-avatar"
+				},
+				{
+					"id": "shen-shen-07",
+					"avatarClass": "shen-shen-07 shen-avatar"
+				},
+				{
+					"id": "shen-shen-08",
+					"avatarClass": "shen-shen-08 shen-avatar"
+				},
+				{
+					"id": "shen-shen-09",
+					"avatarClass": "shen-shen-09 shen-avatar"
+				},
+				{
+					"id": "shen-shen-10",
+					"avatarClass": "shen-shen-10 shen-avatar"
+				},
+				{
+					"id": "shen-shen-11",
+					"avatarClass": "shen-shen-11 shen-avatar"
+				},
+				{
+					"id": "shen-shen-12",
+					"avatarClass": "shen-shen-12 shen-avatar"
+				},
+				{
+					"id": "shen-shen-13",
+					"avatarClass": "shen-shen-13 shen-avatar"
+				},
+				{
+					"id": "shen-shen-14",
+					"avatarClass": "shen-shen-14 shen-avatar"
+				}
+			]
 		}]
 	},
 	{

@@ -1,109 +1,318 @@
-/* 风火林山 */
-.shenHuaZaiLin {
+/* 神话再临 */
+
+/******** 大将灯 ********/
+.shen-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/0_fengLinHuoShan.png");
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin_lamp.png");
 	transform: scale(0.7);
-	animation: fengLinHuoShanFrameAnim steps(1, start) 2s infinite;
-	background-position: 10px 5px;
+	animation: shenDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes fengLinHuoShanFrameAnim {
-	25% {
-		background-position: 10px 5px;
+@keyframes shenDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******** 小将灯标题 ********/
+.shen-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin_title.png");
+}
+
+/* 风 */
+.shen-feng-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 火 */
+.shen-huo-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 林 */
+.shen-lin-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 山 */
+.shen-shan-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 阴 */
+.shen-yin-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* 雷 */
+.shen-lei-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* 神 */
+.shen-shen-title {
+	background-position: 0 calc(-32px*6);
+}
+
+
+/******** 小将灯 ********/
+.shen-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/shenHuaZaiLin_lamp.png");
+}
+
+/* 风 */
+.shen-feng-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenFengFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenFengFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
 	}
 
-	50% {
-		background-position: 11px -51px;
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
 	}
 
-	75% {
-		background-position: 11px -107px;
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
 	}
 
 	100% {
-		background-position: 11px -163px;
+		background-position: calc(-64px*5) calc(-64px*1);
 	}
 }
 
-/* 神话再临 */
-.shenHuaZaiLin {
+/* 火 */
+.shen-huo-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/0_shen.png");
-	transform: scale(0.7);
-	animation: fengLinHuoShanFrameAnim steps(1, start) 2s infinite;
-	background-position: -5px -131px;
+	animation: shenHuoFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes fengLinHuoShanFrameAnim {}
+@keyframes shenHuoFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
 
-/* 风 */
-.feng {
-	width: 64px;
-	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/1_feng.png");
-	animation: fengFrameAnim steps(1, start) 5s infinite
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
 }
-
-@keyframes fengFrameAnim {}
 
 /* 林 */
-.lin {
+.shen-lin-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/2_lin.png");
-	animation: linFrameAnim steps(1, start) 5s infinite
+	animation: shenLinFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes linFrameAnim {}
+@keyframes shenLinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
 
-/* 火 */
-.huo {
-	width: 64px;
-	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/3_huo.png");
-	animation: huoFrameAnim steps(1, start) 5s infinite
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
 }
-
-@keyframes huoFrameAnim {}
 
 /* 山 */
-.shan {
+.shen-shan-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/4_shan.png");
-	animation: shanFrameAnim steps(1, start) 5s infinite
+	animation: shenShanFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes shanFrameAnim {}
+@keyframes shenShanFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+}
+
 
 /* 阴 */
-.yin {
+.shen-yin-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/5_yin.png");
-	animation: yinFrameAnim steps(1, start) 5s infinite
+	animation: shenYinFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes yinFrameAnim {}
+@keyframes shenYinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+}
 
 /* 雷 */
-.lei {
+.shen-lei-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/6_lei.png");
-	animation: leiFrameAnim steps(1, start) 5s infinite
+	animation: shenLeiFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes leiFrameAnim {}
+@keyframes shenLeiFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+}
 
 /* 神 */
-.shen {
+.shen-shen-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/shenHuaZaiLin/7_shen.png");
-	animation: shenFrameAnim steps(1, start) 5s infinite
+	animation: shenShenFrameAnim steps(1, start) 1s infinite
 }
 
-@keyframes shenFrameAnim {}
+@keyframes shenShenFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+	
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
+	}
+}
