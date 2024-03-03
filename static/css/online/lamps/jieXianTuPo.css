@@ -1,11 +1,384 @@
 /* 界限突破 */
-.jie {
+.jie-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/jieXianTuPo/0_jie.png");
+	background-image: url("@/static/images/online/lamps/jieXianTuPo_lamp.png");
 	transform: scale(0.7);
-	animation: jieFrameAnim steps(1, start) 1s infinite;
-	background-position: -10px -10px;
+	animation: jieDaFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieFrameAnim {}
+@keyframes jieDaFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+	
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+	
+	60% {
+		background-position:  calc(-64px*3) calc(-64px*0);
+	}
+	
+	80%{
+		background-position:  calc(-64px*4) calc(-64px*0);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******** 小将灯标题 ********/
+.jie-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/lamps/jieXianTuPo_title.png");
+}
+
+/* 界·蜀汉虎将 */
+.jie-hu-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 界·贤明君主 */
+.jie-zhu-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 界·勇冠三军 */
+.jie-yong-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 界·帷幄千里 */
+.jie-wei-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 界·巾帼红颜 */
+.jie-guo-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* 界·风 */
+.jie-feng-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* 界·火 */
+.jie-huo-title {
+	background-position: 0 calc(-32px*6);
+}
+
+/* 界·林 */
+.jie-lin-title {
+	background-position: 0 calc(-32px*7);
+}
+
+/* 界·山 */
+.jie-shan-title {
+	background-position: 0 calc(-32px*8);
+}
+
+/******** 小将灯 ********/
+.jie-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/jieXianTuPo_lamp.png");
+}
+
+/* 界·虎 */
+.jie-hu-lamp {
+	animation: jieHuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieHuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* 界·主 */
+.jie-zhu-lamp {
+	animation: jieZhuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieZhuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	 20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+}
+
+/* 界·勇 */
+.jie-yong-lamp {
+	animation: jieYongLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieYongLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+}
+
+/* 界·帷 */
+.jie-wei-lamp {
+	animation: jieWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieWeiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+    40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+}
+
+/* 界·帼 */
+.jie-guo-lamp {
+	animation: jieGuoLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieGuoLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+}
+
+
+/* 界·风 */
+.jie-feng-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieFengFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieFengFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+}
+
+/* 界·火 */
+.jie-huo-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieHuoFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieHuoFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
+	}
+}
+
+/* 界·林 */
+.jie-lin-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieLinFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieLinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*8);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*8);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*8);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*8);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*8);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*8);
+	}
+}
+
+/* 界·山 */
+.jie-shan-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieShanFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieShanFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*9);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*9);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*9);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*9);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*9);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*9);
+	}
+}
+

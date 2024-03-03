@@ -1,0 +1,288 @@
+/* 界限突破 */
+
+/******** 头像 ********/
+
+.jie-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/militaryGeneral/jieXianTuPo/avatar.png");
+}
+
+/***** 界·蜀汉虎将 *****/
+
+/* 界·关羽 */
+.jie-hu-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+
+/* 界·张飞 */
+.jie-hu-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+
+/* 界·赵云 */
+.jie-hu-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+
+/* 界·马超 */
+.jie-hu-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+
+/***** 界·贤明君主 *****/
+/* 界·刘备	*/
+.jie-zhu-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+
+/* 界·曹操	*/
+.jie-zhu-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+
+/* 界·孙权	*/
+.jie-zhu-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+
+
+/***** 界·勇冠三军 *****/
+
+/* 界·甘宁 */
+.jie-yong-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+
+/* 界·吕蒙 */
+.jie-yong-02 {
+	background-position: calc(-61px*1) calc(-61px*2);
+}
+
+/* 界·黄盖 */
+.jie-yong-03 {
+	background-position: calc(-61px*2) calc(-61px*2);
+}
+
+/* 界·夏侯惇 */
+.jie-yong-04 {
+	background-position: calc(-61px*3) calc(-61px*2);
+}
+
+/* 界·张辽 */
+.jie-yong-05 {
+	background-position: calc(-61px*4) calc(-61px*2);
+}
+
+/* 界·许褚	*/
+.jie-yong-06 {
+	background-position: calc(-61px*5) calc(-61px*2);
+}
+
+/* 界·吕布 */
+.jie-yong-07 {
+	background-position: calc(-61px*6) calc(-61px*2);
+}
+
+/* 界·华雄	*/
+.jie-yong-08 {
+	background-position: calc(-61px*7) calc(-61px*2);
+}
+
+/* 界·李典	*/
+.jie-yong-09 {
+	background-position: calc(-61px*8) calc(-61px*2);
+}
+
+/* 界·公孙瓒 */
+.jie-yong-10 {
+	background-position: calc(-61px*9) calc(-61px*2);
+}
+
+/***** 界·帷幄千里 *****/
+
+/* 界·诸葛亮 */
+.jie-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+
+/* 界·周瑜 */
+.jie-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+
+/* 界·陆逊	*/
+.jie-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+
+/* 界·司马懿 */
+.jie-wei-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+
+/* 界·郭嘉 */
+.jie-wei-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+
+/* 界·华佗 */
+.jie-wei-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+
+/* 界·徐庶 */
+.jie-wei-07 {
+	background-position: calc(-61px*6) calc(-61px*3);
+}
+
+
+/***** 界·巾帼红颜 *****/
+/* 界·黄月英 */
+.jie-guo-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
+
+/* 界·孙尚香 */
+.jie-guo-02 {
+	background-position: calc(-61px*1) calc(-61px*4);
+}
+
+/* 界·甄姬 */
+.jie-guo-03 {
+	background-position: calc(-61px*2) calc(-61px*4);
+}
+
+/* 界·貂蝉 */
+.jie-guo-04 {
+	background-position: calc(-61px*3) calc(-61px*4);
+}
+
+/* 界·大乔 */
+.jie-guo-05 {
+	background-position: calc(-61px*4) calc(-61px*4);
+}
+
+/***** 界·其疾如风 *****/
+/* 界·黄忠 */
+.jie-feng-01 {
+	background-position: calc(-61px*0) calc(-61px*5);
+}
+/* 界·张角 */
+.jie-feng-02 {
+	background-position: calc(-61px*1) calc(-61px*5);
+}
+/* 界·于吉 */
+.jie-feng-03 {
+	background-position: calc(-61px*2) calc(-61px*5);
+}
+/* 界·夏侯渊 */
+.jie-feng-04 {
+	background-position: calc(-61px*3) calc(-61px*5);
+}
+/* 界·魏延 */
+.jie-feng-05 {
+	background-position: calc(-61px*4) calc(-61px*5);
+}
+/* 界·小乔 */
+.jie-feng-06 {
+	background-position: calc(-61px*5) calc(-61px*5);
+}
+
+/***** 界·侵掠如火 *****/
+/* 界·袁绍 */
+.jie-huo-01 {
+	background-position: calc(-61px*0) calc(-61px*6);
+}
+/* 界·庞统 */
+.jie-huo-02 {
+	background-position: calc(-61px*1) calc(-61px*6);
+}
+/* 界·卧龙诸葛 */
+.jie-huo-03 {
+	background-position: calc(-61px*2) calc(-61px*6);
+}
+/* 界·庞德 */
+.jie-huo-04 {
+	background-position: calc(-61px*3) calc(-61px*6);
+}
+/* 界·太史慈 */
+.jie-huo-05 {
+	background-position: calc(-61px*4) calc(-61px*6);
+}
+/* 界·荀彧 */
+.jie-huo-06 {
+	background-position: calc(-61px*5) calc(-61px*6);
+}
+/* 界·典韦 */
+.jie-huo-07 {
+	background-position: calc(-61px*6) calc(-61px*6);
+}
+/* 界·颜良文丑 */
+.jie-huo-08 {
+	background-position: calc(-61px*7) calc(-61px*6);
+}
+
+/***** 界·其徐如林 *****/
+/* 界·董卓 */
+.jie-lin-01 {
+	background-position: calc(-61px*0) calc(-61px*7);
+}
+/* 界·孙坚 */
+.jie-lin-02 {
+	background-position: calc(-61px*1) calc(-61px*7);
+}
+/* 界·祝融 */
+.jie-lin-03 {
+	background-position: calc(-61px*2) calc(-61px*7);
+}
+/* 界·贾诩 */
+.jie-lin-04 {
+	background-position: calc(-61px*3) calc(-61px*7);
+}
+/* 界·鲁肃 */
+.jie-lin-05 {
+	background-position: calc(-61px*4) calc(-61px*7);
+}
+/* 界·孟获 */
+.jie-lin-06 {
+	background-position: calc(-61px*5) calc(-61px*7);
+}
+/* 界·徐晃 */
+.jie-lin-07 {
+	background-position: calc(-61px*6) calc(-61px*7);
+}
+
+/***** 界·不动如山 *****/
+/* 界·左慈 */
+.jie-shan-01 {
+	background-position: calc(-61px*0) calc(-61px*8);
+}
+/* 界·刘禅 */
+.jie-shan-02 {
+	background-position: calc(-61px*1) calc(-61px*8);
+}
+/* 界·孙策 */
+.jie-shan-03 {
+	background-position: calc(-61px*2) calc(-61px*8);
+}
+/* 界·邓艾 */
+.jie-shan-04 {
+	background-position: calc(-61px*3) calc(-61px*8);
+}
+/* 界·姜维 */
+.jie-shan-05 {
+	background-position: calc(-61px*4) calc(-61px*8);
+}
+/* 界·张郃 */
+.jie-shan-06 {
+	background-position: calc(-61px*5) calc(-61px*8);
+}
+/* 界·蔡文姬 */
+.jie-shan-07 {
+	background-position: calc(-61px*6) calc(-61px*8);
+}
+/* 界·张昭&张纮 */
+.jie-shan-08 {
+	background-position: calc(-61px*7) calc(-61px*8);
+}
