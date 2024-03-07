@@ -9,10 +9,9 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<center>
-  <p style="font-size: 15px;text-decoration: line-through">三国杀面杀助手</font>
-  <p style="font-size: 15px">杀批宝典</font>
-<center>
+<p align="center">
+  <h2 align="center"><strike>三国杀面杀助手</strike> 杀批宝典</h2>
+</p>
 <p align="center">
   <img src="static/logo.png" alt="Logo" width="80" height="80">
   <p align="center">
