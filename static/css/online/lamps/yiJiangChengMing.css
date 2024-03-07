@@ -1,11 +1,315 @@
-/* ‰∏ÄÂ∞ÜÊàêÂêç */
-.jiang {
+/* “ªΩ´≥…√˚ */
+
+/******** ¥ÛΩ´µ∆ ********/
+.jiang-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/lamps/yiJiangChengMing/0_jiang.png");
+	background-image: url("@/static/images/online/lamps/yiJiangChengMing_lamp.png");
 	transform: scale(0.7);
-	animation: jiangFrameAnim steps(1, start) 1s infinite;
-	background-position: -10px -10px;
+	animation: jiangDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiangDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	
+	60% {
+		background-position:  calc(-64px*3) calc(-64px*0);
+	}
+	
+	80%{
+		background-position:  calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
 }
 
 @keyframes jiangFrameAnim {}
+
+
+/******** –°Ω´µ∆±ÍÃ‚ ********/
+.jiang-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/lamps/yiJiangChengMing_title.png");
+}
+
+/* “ªΩ´≥…√˚1 */
+.jiang-1-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* “ªΩ´≥…√˚2 */
+.jiang-2-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* “ªΩ´≥…√˚3 */
+.jiang-3-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* “ªΩ´≥…√˚4 */
+.jiang-4-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* “ªΩ´≥…√˚5 */
+.jiang-5-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* “ªΩ´≥…√˚6 */
+.jiang-6-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* “ªΩ´≥…√˚7 */
+.jiang-7-title {
+	background-position: 0 calc(-32px*6);
+}
+
+
+/******** –°Ω´µ∆ ********/
+.jiang-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/lamps/yiJiangChengMing_lamp.png");
+}
+
+/* “ªΩ´≥…√˚1 */
+.jiang-1-lamp {
+	animation: jiang1LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang1LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* “ªΩ´≥…√˚2 */
+.jiang-2-lamp {
+	animation: jiang2LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang2LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	 40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* “ªΩ´≥…√˚3 */
+.jiang-3-lamp {
+	animation: jiang3LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang3LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/* “ªΩ´≥…√˚4 */
+.jiang-4-lamp {
+	animation: jiang4LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang4LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+
+}
+
+
+/* “ªΩ´≥…√˚5 */
+.jiang-5-lamp {
+	animation: jiang5LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang5LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+
+}
+
+/* “ªΩ´≥…√˚6 */
+.jiang-6-lamp {
+	animation: jiang6LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang6LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+
+}
+
+/* “ªΩ´≥…√˚7 */
+.jiang-7-lamp {
+	animation: jiang7LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jiang7LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
+	}
+
+}
