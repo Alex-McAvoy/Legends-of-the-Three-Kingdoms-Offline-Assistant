@@ -130,6 +130,7 @@
 	@import url(@/static/css/online/lamps/biaoZhun.css);
 	@import url(@/static/css/online/lamps/shenHuaZaiLin.css);
 	@import url(@/static/css/online/lamps/jieXianTuPo.css);
+	@import url(@/static/css/online/lamps/yiJiangChengMing.css);
 	
 	@import url(@/static/css/online/lamps/cuiCanXingHe.css);
 	@import url(@/static/css/online/lamps/guoZhan.css);
@@ -140,12 +141,12 @@
 	@import url(@/static/css/online/lamps/SP.css);
 	@import url(@/static/css/online/lamps/wenDeWuBei.css);
 	@import url(@/static/css/online/lamps/xianDing.css);
-	@import url(@/static/css/online/lamps/yiJiangChengMing.css);
 
 	/* 头像 */
 	@import url(@/static/css/online/avatar/biaoZhun.css);
 	@import url(@/static/css/online/avatar/shenHuaZaiLin.css);
 	@import url(@/static/css/online/avatar/jieXianTuPo.css);
+	@import url(@/static/css/online/avatar/yiJiangChengMing.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */

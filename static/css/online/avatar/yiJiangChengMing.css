@@ -1,0 +1,378 @@
+/* 神话再临 */
+
+/******** 头像 ********/
+
+.jiang-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/militaryGeneral/yiJiangChengMing/avatar.png");
+}
+
+/***** 一将成名1 *****/
+/* 曹植	*/
+.jiang-1-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/* 高顺	*/
+.jiang-1-02 {
+	background-position: calc(-61px*1) calc(-61px*0)
+}
+
+/* 陈宫	*/
+.jiang-1-03 {
+	background-position: calc(-61px*2) calc(-61px*0)
+}
+
+/* 凌统	*/
+.jiang-1-04 {
+	background-position: calc(-61px*3) calc(-61px*0)
+}
+
+/* 马谡	*/
+.jiang-1-05 {
+	background-position: calc(-61px*4) calc(-61px*0)
+}
+
+/* 吴国太*/
+.jiang-1-06 {
+	background-position: calc(-61px*5) calc(-61px*0)
+}
+
+/* 徐盛	*/
+.jiang-1-07 {
+	background-position: calc(-61px*6) calc(-61px*0)
+}
+
+/* 于禁	*/
+.jiang-1-08 {
+	background-position: calc(-61px*7) calc(-61px*0)
+}
+
+/* 张春华 */
+.jiang-1-09 {
+	background-position: calc(-61px*8) calc(-61px*0)
+}
+
+/* 法正	*/
+.jiang-1-10 {
+	background-position: calc(-61px*9) calc(-61px*0)
+}
+
+/* 徐庶	*/
+.jiang-1-11 {
+	background-position: calc(-61px*10) calc(-61px*0)
+}
+
+/***** 一将成名2 *****/
+/* 曹彰 */
+.jiang-2-01 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+/* 荀攸 */
+.jiang-2-02 {
+	background-position: calc(-61px*1) calc(-61px*1)
+}
+
+/* 廖化 */
+.jiang-2-03 {
+	background-position: calc(-61px*2) calc(-61px*1)
+}
+
+/* 马岱 */
+.jiang-2-04 {
+	background-position: calc(-61px*3) calc(-61px*1)
+}
+
+/* 步练师 */
+.jiang-2-05 {
+	background-position: calc(-61px*4) calc(-61px*1)
+}
+
+/* 程普 */
+.jiang-2-06 {
+	background-position: calc(-61px*5) calc(-61px*1)
+}
+
+/* 韩当 */
+.jiang-2-07 {
+	background-position: calc(-61px*6) calc(-61px*1)
+}
+
+/* 将·华雄 */
+.jiang-2-08 {
+	background-position: calc(-61px*7) calc(-61px*1)
+}
+
+/* 刘表 */
+.jiang-2-09 {
+	background-position: calc(-61px*8) calc(-61px*1)
+}
+
+/* 钟会 */
+.jiang-2-10 {
+	background-position: calc(-61px*9) calc(-61px*1)
+}
+
+/* 王异 */
+.jiang-2-11 {
+	background-position: calc(-61px*10) calc(-61px*1)
+}
+
+/* 关兴&张苞 */
+.jiang-2-12 {
+	background-position: calc(-61px*11) calc(-61px*1)
+}
+
+/***** 一将成名3	*****/
+/* 曹冲 */
+.jiang-3-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* 郭淮	*/
+.jiang-3-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}
+
+/* 满宠 */
+.jiang-3-03 {
+	background-position: calc(-61px*2) calc(-61px*2)
+}
+
+/* 关平 */
+.jiang-3-04 {
+	background-position: calc(-61px*3) calc(-61px*2)
+}
+
+/* 简雍 */
+.jiang-3-05 {
+	background-position: calc(-61px*4) calc(-61px*2)
+}
+
+/* 刘封 */
+.jiang-3-06 {
+	background-position: calc(-61px*5) calc(-61px*2)
+}
+
+/* 潘璋&马忠 */
+.jiang-3-07 {
+	background-position: calc(-61px*6) calc(-61px*2)
+}
+
+/* 虞翻 */
+.jiang-3-08 {
+	background-position: calc(-61px*7) calc(-61px*2)
+}
+
+/* 朱然 */
+.jiang-3-09 {
+	background-position: calc(-61px*8) calc(-61px*2)
+}
+
+/* 伏皇后 */
+.jiang-3-10 {
+	background-position: calc(-61px*9) calc(-61px*2)
+}
+
+/* 李儒 */
+.jiang-3-11 {
+	background-position: calc(-61px*10) calc(-61px*2)
+}
+
+/***** 一将成名4 *****/
+/* 曹真 */
+.jiang-4-01 {
+	background-position: calc(-61px*0) calc(-61px*3)
+}
+
+/* 韩浩&史涣 */
+.jiang-4-02 {
+	background-position: calc(-61px*1) calc(-61px*3)
+}
+
+/* 陈群 */
+.jiang-4-03 {
+	background-position: calc(-61px*2) calc(-61px*3)
+}
+
+/* 吴懿 */
+.jiang-4-04 {
+	background-position: calc(-61px*3) calc(-61px*3)
+}
+
+/* 周仓 */
+.jiang-4-05 {
+	background-position: calc(-61px*4) calc(-61px*3)
+}
+
+/* 张松 */
+.jiang-4-06 {
+	background-position: calc(-61px*5) calc(-61px*3)
+}
+
+/* 孙鲁班 */
+.jiang-4-07 {
+	background-position: calc(-61px*6) calc(-61px*3)
+}
+
+/* 朱桓 */
+.jiang-4-08 {
+	background-position: calc(-61px*7) calc(-61px*3)
+}
+
+/* 顾雍 */
+.jiang-4-09 {
+	background-position: calc(-61px*8) calc(-61px*3)
+}
+
+/* 沮授 */
+.jiang-4-10 {
+	background-position: calc(-61px*9) calc(-61px*3)
+}
+
+/* 蔡夫人 */
+.jiang-4-11 {
+	background-position: calc(-61px*10) calc(-61px*3)
+}
+
+/***** 一将成名5 *****/
+/*曹叡 */
+.jiang-5-01 {
+	background-position: calc(-61px*0) calc(-61px*4)
+}
+
+/*曹休 */
+.jiang-5-02 {
+	background-position: calc(-61px*1) calc(-61px*4)
+}
+
+/*钟繇 */
+.jiang-5-03 {
+	background-position: calc(-61px*2) calc(-61px*4)
+}
+
+/*刘谌 */
+.jiang-5-04 {
+	background-position: calc(-61px*3) calc(-61px*4)
+}
+
+/*夏侯氏 */
+.jiang-5-05 {
+	background-position: calc(-61px*4) calc(-61px*4)
+}
+
+/*张嶷 */
+.jiang-5-06 {
+	background-position: calc(-61px*5) calc(-61px*4)
+}
+
+/*孙休 */
+.jiang-5-07 {
+	background-position: calc(-61px*6) calc(-61px*4)
+}
+
+/*朱治 */
+.jiang-5-08 {
+	background-position: calc(-61px*7) calc(-61px*4)
+}
+
+/*全琮 */
+.jiang-5-09 {
+	background-position: calc(-61px*8) calc(-61px*4)
+}
+
+/*公孙渊 */
+.jiang-5-10 {
+	background-position: calc(-61px*9) calc(-61px*4)
+}
+
+/*郭图&逢纪 */
+.jiang-5-11 {
+	background-position: calc(-61px*10) calc(-61px*4)
+}
+
+/***** 一将成名6 *****/
+
+/* 郭皇后 */
+.jiang-6-01 {
+	background-position: calc(-61px*0) calc(-61px*5)
+}
+
+/* 李严 */
+.jiang-6-02 {
+	background-position: calc(-61px*1) calc(-61px*5)
+}
+
+/* 孙登 */
+.jiang-6-03 {
+	background-position: calc(-61px*2) calc(-61px*5)
+}
+
+/* 刘虞 */
+.jiang-6-04 {
+	background-position: calc(-61px*3) calc(-61px*5)
+}
+
+/* 岑昏 */
+.jiang-6-05 {
+	background-position: calc(-61px*4) calc(-61px*5)
+}
+
+/* 孙资&刘放 */
+.jiang-6-06 {
+	background-position: calc(-61px*5) calc(-61px*5)
+}
+
+/* 黄皓 */
+.jiang-6-07 {
+	background-position: calc(-61px*6) calc(-61px*5)
+}
+
+/* 张让 */
+.jiang-6-08 {
+	background-position: calc(-61px*7) calc(-61px*5)
+}
+
+/***** 一将成名7 *****/
+
+/* 辛宪英 */
+.jiang-7-01 {
+	background-position: calc(-61px*0) calc(-61px*6)
+}
+
+/* 吴苋 */
+.jiang-7-02 {
+	background-position: calc(-61px*1) calc(-61px*6)
+}
+
+/* 徐氏 */
+.jiang-7-03 {
+	background-position: calc(-61px*2) calc(-61px*6)
+}
+
+/* 曹节 */
+.jiang-7-04 {
+	background-position: calc(-61px*3) calc(-61px*6)
+}
+
+/* 嵇康 */
+.jiang-7-05 {
+	background-position: calc(-61px*4) calc(-61px*6)
+}
+
+/* 秦宓 */
+.jiang-7-06 {
+	background-position: calc(-61px*5) calc(-61px*6)
+}
+
+/* 薛综 */
+.jiang-7-07 {
+	background-position: calc(-61px*6) calc(-61px*6)
+}
+
+/* 蔡邕 */
+.jiang-7-08 {
+	background-position: calc(-61px*7) calc(-61px*6)
+}
