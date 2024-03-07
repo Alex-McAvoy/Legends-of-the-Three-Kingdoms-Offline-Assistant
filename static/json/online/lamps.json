@@ -614,7 +614,7 @@
 				{
 					"id": "jie-feng-06",
 					"avatarClass": "jie-feng-06 jie-avatar"
-				}				
+				}
 			]
 		}, {
 			"index": 6,
@@ -733,9 +733,343 @@
 		"name": "一将成名",
 		"class": "jiang",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "一将成名1",
+				"lampClass": "jiang-xiao-lamp jiang-1-lamp",
+				"titleClass": "jiang-title jiang-1-title",
+				"militaries": [{
+						"id": "jiang-1-01",
+						"avatarClass": "jiang-1-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-02",
+						"avatarClass": "jiang-1-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-03",
+						"avatarClass": "jiang-1-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-04",
+						"avatarClass": "jiang-1-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-05",
+						"avatarClass": "jiang-1-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-06",
+						"avatarClass": "jiang-1-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-07",
+						"avatarClass": "jiang-1-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-08",
+						"avatarClass": "jiang-1-08 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-09",
+						"avatarClass": "jiang-1-09 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-10",
+						"avatarClass": "jiang-1-10 jiang-avatar"
+					},
+					{
+						"id": "jiang-1-11",
+						"avatarClass": "jiang-1-11 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 1,
+				"name": "一将成名2",
+				"lampClass": "jiang-xiao-lamp jiang-2-lamp",
+				"titleClass": "jiang-title jiang-2-title",
+				"militaries": [{
+						"id": "jiang-2-01",
+						"avatarClass": "jiang-2-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-02",
+						"avatarClass": "jiang-2-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-03",
+						"avatarClass": "jiang-2-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-04",
+						"avatarClass": "jiang-2-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-05",
+						"avatarClass": "jiang-2-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-06",
+						"avatarClass": "jiang-2-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-07",
+						"avatarClass": "jiang-2-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-08",
+						"avatarClass": "jiang-2-08 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-09",
+						"avatarClass": "jiang-2-09 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-10",
+						"avatarClass": "jiang-2-10 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-11",
+						"avatarClass": "jiang-2-11 jiang-avatar"
+					},
+					{
+						"id": "jiang-2-12",
+						"avatarClass": "jiang-2-12 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 2,
+				"name": "一将成名3",
+				"lampClass": "jiang-xiao-lamp jiang-3-lamp",
+				"titleClass": "jiang-title jiang-3-title",
+				"militaries": [{
+						"id": "jiang-3-01",
+						"avatarClass": "jiang-3-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-02",
+						"avatarClass": "jiang-3-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-03",
+						"avatarClass": "jiang-3-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-04",
+						"avatarClass": "jiang-3-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-05",
+						"avatarClass": "jiang-3-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-06",
+						"avatarClass": "jiang-3-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-07",
+						"avatarClass": "jiang-3-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-08",
+						"avatarClass": "jiang-3-08 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-09",
+						"avatarClass": "jiang-3-09 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-10",
+						"avatarClass": "jiang-3-10 jiang-avatar"
+					},
+					{
+						"id": "jiang-3-11",
+						"avatarClass": "jiang-3-11 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 3,
+				"name": "一将成名4",
+				"lampClass": "jiang-xiao-lamp jiang-4-lamp",
+				"titleClass": "jiang-title jiang-4-title",
+				"militaries": [{
+						"id": "jiang-4-01",
+						"avatarClass": "jiang-4-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-02",
+						"avatarClass": "jiang-4-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-03",
+						"avatarClass": "jiang-4-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-04",
+						"avatarClass": "jiang-4-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-05",
+						"avatarClass": "jiang-4-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-06",
+						"avatarClass": "jiang-4-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-07",
+						"avatarClass": "jiang-4-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-08",
+						"avatarClass": "jiang-4-08 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-09",
+						"avatarClass": "jiang-4-09 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-10",
+						"avatarClass": "jiang-4-10 jiang-avatar"
+					},
+					{
+						"id": "jiang-4-11",
+						"avatarClass": "jiang-4-11 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 4,
+				"name": "一将成名5",
+				"lampClass": "jiang-xiao-lamp jiang-5-lamp",
+				"titleClass": "jiang-title jiang-5-title",
+				"militaries": [{
+						"id": "jiang-5-01",
+						"avatarClass": "jiang-5-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-02",
+						"avatarClass": "jiang-5-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-03",
+						"avatarClass": "jiang-5-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-04",
+						"avatarClass": "jiang-5-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-05",
+						"avatarClass": "jiang-5-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-06",
+						"avatarClass": "jiang-5-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-07",
+						"avatarClass": "jiang-5-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-08",
+						"avatarClass": "jiang-5-08 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-09",
+						"avatarClass": "jiang-5-09 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-10",
+						"avatarClass": "jiang-5-10 jiang-avatar"
+					},
+					{
+						"id": "jiang-5-11",
+						"avatarClass": "jiang-5-11 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 5,
+				"name": "一将成名6",
+				"lampClass": "jiang-xiao-lamp jiang-6-lamp",
+				"titleClass": "jiang-title jiang-6-title",
+				"militaries": [{
+						"id": "jiang-6-01",
+						"avatarClass": "jiang-6-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-02",
+						"avatarClass": "jiang-6-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-03",
+						"avatarClass": "jiang-6-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-04",
+						"avatarClass": "jiang-6-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-05",
+						"avatarClass": "jiang-6-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-06",
+						"avatarClass": "jiang-6-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-07",
+						"avatarClass": "jiang-6-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-6-08",
+						"avatarClass": "jiang-6-08 jiang-avatar"
+					}
+				]
+			},
+			{
+				"index": 6,
+				"name": "一将成名7",
+				"lampClass": "jiang-xiao-lamp jiang-7-lamp",
+				"titleClass": "jiang-title jiang-7-title",
+				"militaries": [{
+						"id": "jiang-7-01",
+						"avatarClass": "jiang-7-01 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-02",
+						"avatarClass": "jiang-7-02 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-03",
+						"avatarClass": "jiang-7-03 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-04",
+						"avatarClass": "jiang-7-04 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-05",
+						"avatarClass": "jiang-7-05 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-06",
+						"avatarClass": "jiang-7-06 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-07",
+						"avatarClass": "jiang-7-07 jiang-avatar"
+					},
+					{
+						"id": "jiang-7-08",
+						"avatarClass": "jiang-7-08 jiang-avatar"
+					}
+				]
+			}
+		]
 	},
 	{
 		"index": 4,
