@@ -6,11 +6,10 @@
 	height: 64px;
 	background-image: url("@/static/images/online/lamps/biaoZhun_lamp.png");
 	transform: scale(0.7);
-	animation: biaoDaLampFrameAnim1 steps(1, start) 1s infinite;
+	animation: biaoDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes biaoDaLampFrameAnim1 {
-
+@keyframes biaoDaLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
 	}
@@ -35,8 +34,6 @@
 	100% {
 		background-position: calc(-64px*5) calc(-64px*0);
 	}
-
-
 }
 
 /******** 小将灯标题 ********/
