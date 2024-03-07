@@ -7972,7 +7972,8 @@
 				"name": "绝响",
 				"descriptions": ["此曲不能绝矣！", "一曲琴音，为我送别。"],
 				"srcs": [
-					"/static/video/militaryGeneral/yiJiangChengMing/jiang-7-05_2_1.mp3"
+					"/static/video/militaryGeneral/yiJiangChengMing/jiang-7-05_2_1.mp3",
+					"/static/video/militaryGeneral/yiJiangChengMing/jiang-7-05_2_2.mp3"
 				]
 			}, {
 				"name": "☆ 激弦",
