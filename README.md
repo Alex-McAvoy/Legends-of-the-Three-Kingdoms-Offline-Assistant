@@ -10,7 +10,8 @@
 <br />
 
 <p align="center">
-  <h2 align="center">三国杀面杀助手</h2>
+  <h2 align="center" style="text-decoration:line-through">三国杀面杀助手</h2>
+  <h2 align="center">杀批宝典</h2>
 </p>
 <p align="center">
   <img src="static/logo.png" alt="Logo" width="80" height="80">
@@ -25,6 +26,7 @@
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases">发行说明</a>
   </p>
 </p>
+
 
 
 
@@ -137,6 +139,20 @@ Nancy-月皎：提供原画、语音、设计 UI
 3. 在本地进行修改后 Commit 更改
 4. 将这些更改 Push 到克隆的分支仓库
 5. 提交 Pull Request 至主仓库
+
+对于 Commit 摘要，按照如下格式书写：
+
+```bash
+[修改类型]: 修改内容
+```
+
+修改类型分为以下几类：
+
+- `Add`：添加新模块
+- `Fix`：修正现有模块的错误
+- `Update`：更新现有模块
+- `Refactor`：对一个页面/模块进行重构（较大规模的更改）
+- `Revert`：回退之前的更改
 
 ## 鸣谢
 
