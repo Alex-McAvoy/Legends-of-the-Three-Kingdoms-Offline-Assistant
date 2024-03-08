@@ -1,0 +1,590 @@
+/* 神话再临 */
+
+/******************************** 小将灯标题 ********************************/
+.shen-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/shenHuaZaiLin/title.png");
+}
+
+/* 风 */
+.shen-feng-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 火 */
+.shen-huo-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 林 */
+.shen-lin-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 山 */
+.shen-shan-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 阴 */
+.shen-yin-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* 雷 */
+.shen-lei-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* 神 */
+.shen-shen-title {
+	background-position: 0 calc(-32px*6);
+}
+
+/******************************** 大将灯 ********************************/
+.shen-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/shenHuaZaiLin/lamp.png");
+	transform: scale(0.7);
+	animation: shenDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes shenDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.shen-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/shenHuaZaiLin/lamp.png");
+}
+
+/* 风 */
+.shen-feng-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenFengFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenFengFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+}
+
+/* 火 */
+.shen-huo-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenHuoFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenHuoFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+}
+
+/* 林 */
+.shen-lin-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenLinFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenLinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+}
+
+/* 山 */
+.shen-shan-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenShanFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenShanFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+}
+
+
+/* 阴 */
+.shen-yin-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenYinFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenYinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+}
+
+/* 雷 */
+.shen-lei-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenLeiFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenLeiFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+}
+
+/* 神 */
+.shen-shen-lamp {
+	width: 64px;
+	height: 64px;
+	animation: shenShenFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes shenShenFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+	
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
+	}
+}
+
+/******************************** 头像 ********************************/
+
+.shen-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/shenHuaZaiLin/avatar.png");
+}
+
+
+/***** 其疾如风 *****/
+/* 魏延 */
+.shen-feng-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+/* 夏侯渊 */
+.shen-feng-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+/* 曹仁 */
+.shen-feng-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+/* 小乔 */
+.shen-feng-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+/* 黄忠 */
+.shen-feng-05 {
+	background-position: calc(-61px*4) calc(-61px*0);
+}
+/* 周泰 */
+.shen-feng-06 {
+	background-position: calc(-61px*5) calc(-61px*0);
+}
+/* 于吉 */
+.shen-feng-07 {
+	background-position: calc(-61px*6) calc(-61px*0);
+}
+/* 张角 */
+.shen-feng-08 {
+	background-position: calc(-61px*7) calc(-61px*0);
+}
+
+/***** 侵掠如火 *****/
+/* 典韦 */
+.shen-huo-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+/* 荀彧 */
+.shen-huo-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+/* 庞统 */
+.shen-huo-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+/* 卧龙诸葛 */
+.shen-huo-04 {
+	background-position: calc(-61px*3) calc(-61px*1);
+}
+/* 太史慈 */
+.shen-huo-05 {
+	background-position: calc(-61px*4) calc(-61px*1);
+}
+/* 庞德 */
+.shen-huo-06 {
+	background-position: calc(-61px*5) calc(-61px*1);
+}
+/* 颜良文丑 */
+.shen-huo-07 {
+	background-position: calc(-61px*6) calc(-61px*1);
+}
+/* 袁绍 */
+.shen-huo-08 {
+	background-position: calc(-61px*7) calc(-61px*1);
+}
+
+/***** 其徐如林 *****/
+/* 徐晃 */
+.shen-lin-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+/* 曹丕 */
+.shen-lin-02 {
+	background-position: calc(-61px*1) calc(-61px*2);
+}
+/* 孙坚 */
+.shen-lin-03 {
+	background-position: calc(-61px*2) calc(-61px*2);
+}
+/* 董卓 */
+.shen-lin-04 {
+	background-position: calc(-61px*3) calc(-61px*2);
+}
+/* 祝融 */
+.shen-lin-05 {
+	background-position: calc(-61px*4) calc(-61px*2);
+}
+/* 孟获 */
+.shen-lin-06 {
+	background-position: calc(-61px*5) calc(-61px*2);
+}
+/* 贾诩 */
+.shen-lin-07 {
+	background-position: calc(-61px*6) calc(-61px*2);
+}
+/* 鲁肃 */
+.shen-lin-08 {
+	background-position: calc(-61px*7) calc(-61px*2);
+}
+
+/***** 不动如山 *****/
+/* 张郃 */
+.shen-shan-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+/* 邓艾 */
+.shen-shan-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+/* 姜维 */
+.shen-shan-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+/* 刘禅 */
+.shen-shan-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+/* 孙策 */
+.shen-shan-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+/* 张昭&张纮 */
+.shen-shan-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+/* 左慈 */
+.shen-shan-07 {
+	background-position: calc(-61px*6) calc(-61px*3);
+}
+/* 蔡文姬 */
+.shen-shan-08 {
+	background-position: calc(-61px*7) calc(-61px*3);
+}
+
+
+/***** 难知如阴 *****/
+/* 王基 */
+.shen-yin-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
+/* 严颜 */
+.shen-yin-02 {
+	background-position: calc(-61px*1) calc(-61px*4);
+}
+/* 王平 */
+.shen-yin-03 {
+	background-position: calc(-61px*2) calc(-61px*4);
+}
+/* 陆绩 */
+.shen-yin-04 {
+	background-position: calc(-61px*3) calc(-61px*4);
+}
+/* 孙亮 */
+.shen-yin-05 {
+	background-position: calc(-61px*4) calc(-61px*4);
+}
+/* 蒯良&蒯越 */
+.shen-yin-06 {
+	background-position: calc(-61px*5) calc(-61px*4);
+}
+/* 许攸 */
+.shen-yin-07 {
+	background-position: calc(-61px*6) calc(-61px*4);
+}
+/* 卢植 */
+.shen-yin-08 {
+	background-position: calc(-61px*7) calc(-61px*4);
+}
+
+/***** 动若雷霆 *****/
+/* 袁术 */
+.shen-lei-01 {
+	background-position: calc(-61px*0) calc(-61px*5);
+}
+/* 郝昭 */
+.shen-lei-02 {
+	background-position: calc(-61px*1) calc(-61px*5);
+}
+/* 陈到 */
+.shen-lei-03 {
+	background-position: calc(-61px*2) calc(-61px*5);
+}
+/* 诸葛瞻 */
+.shen-lei-04 {
+	background-position: calc(-61px*3) calc(-61px*5);
+}
+/* 周妃 */
+.shen-lei-05 {
+	background-position: calc(-61px*4) calc(-61px*5);
+}
+/* 毌丘俭 */
+.shen-lei-06 {
+	background-position: calc(-61px*5) calc(-61px*5);
+}
+/* 陆抗 */
+.shen-lei-07 {
+	background-position: calc(-61px*6) calc(-61px*5);
+}
+/* 张绣 */
+.shen-lei-08 {
+	background-position: calc(-61px*7) calc(-61px*5);
+}
+
+
+/***** 神 *****/
+/* 神关羽 */
+.shen-shen-01 {
+	background-position: calc(-61px*0) calc(-61px*6);
+}
+/* 神吕蒙 */
+.shen-shen-02 {
+	background-position: calc(-61px*1) calc(-61px*6);
+}
+/* 神周瑜 */
+.shen-shen-03 {
+	background-position: calc(-61px*2) calc(-61px*6);
+}
+/* 神诸葛亮 */
+.shen-shen-04 {
+	background-position: calc(-61px*3) calc(-61px*6);
+}
+/* 神曹操 */
+.shen-shen-05 {
+	background-position: calc(-61px*4) calc(-61px*6);
+}
+/* 神吕布 */
+.shen-shen-06 {
+	background-position: calc(-61px*5) calc(-61px*6);
+}
+/* 神赵云 */
+.shen-shen-07 {
+	background-position: calc(-61px*6) calc(-61px*6);
+}
+/* 神司马懿 */
+.shen-shen-08 {
+	background-position: calc(-61px*7) calc(-61px*6);
+}
+/* 神刘备 */
+.shen-shen-09 {
+	background-position: calc(-61px*8) calc(-61px*6);
+}
+/* 神陆逊 */
+.shen-shen-10 {
+	background-position: calc(-61px*9) calc(-61px*6);
+}
+/* 神甘宁 */
+.shen-shen-11 {
+	background-position: calc(-61px*10) calc(-61px*6);
+}
+/* 神张辽 */
+.shen-shen-12 {
+	background-position: calc(-61px*11) calc(-61px*6);
+}
+/* 神孙权 */
+.shen-shen-13 {
+	background-position: calc(-61px*12) calc(-61px*6);
+}
+/* 神张角 */
+.shen-shen-14 {
+	background-position: calc(-61px*13) calc(-61px*6);
+}

@@ -43,20 +43,40 @@
 			};
 		},
 		onLoad(option) {
-			// 所有武将数据
-			const militariesData = require("@/static/json/online/militaryGeneral.json")
 			// 所属包id
 			const packageId = option.index
 			// 武将id
 			const militaryId = option.id
-			// 获取当前武将数据
-			this.military = militariesData[packageId].militaries[militaryId]
-
-			// 修改导航栏
-			this.navbarTitle = this.military.name
-		},
-		methods: {
-
+			
+			if (packageId == 0) {
+				// 引入标准武将包数据
+				const militariesData = require("@/static/json/online/biaoZhun.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			} else if(packageId == 1) {
+				// 引入神话再临武将包数据
+				const militariesData = require("@/static/json/online/shenHuaZaiLin.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			} else if(packageId == 2) {
+				// 引入界限突破武将包数据
+				const militariesData = require("@/static/json/online/jieXianTuPo.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			} else if(packageId == 3) {
+				// 引入一将成名武将包数据
+				const militariesData = require("@/static/json/online/yiJiangChengMing.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			}
 		}
 	}
 </script>

@@ -1,0 +1,2452 @@
+{
+	"index": 1,
+	"name": "神话再临",
+	"militaries": {
+		"shen-feng-01": {
+			"index": 0,
+			"name": "魏延",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-01.png",
+			"skills": [{
+				"name": "狂骨",
+				"descriptions": "当你对一名角色造成1点伤害后，若其扣减体力前你计算与其的距离不大于1，你可以选择一项：1.回复1点体力；2.摸一张牌。"
+			}, {
+				"name": "奇谋",
+				"descriptions": "限定技，出牌阶段，你可以失去任意点体力，然后你本阶段：计算与其他角色的距离-X，使用【杀】的次数上限+X（X为你以此法失去的体力数）。"
+			}],
+			"dialogues": [{
+				"name": "狂骨",
+				"descriptions": ["哼，也不看看我是何人？", "哈哈哈哈哈，赢你，还不容易？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-01_1_2.mp3"
+				]
+			}, {
+				"name": "奇谋",
+				"descriptions": ["成王败寇，怎可有勇无谋？", "且不要因为暂时的得失而胆怯。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-01_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["奸贼，害我……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-01_dead.mp3"]
+			}]
+		},
+		"shen-feng-02": {
+			"index": 1,
+			"name": "夏侯渊",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-02.png",
+			"skills": [{
+				"name": "神速",
+				"descriptions": "你可以选择至多三项：1.跳过判定阶段和摸牌阶段；2.跳过出牌阶段并弃置一张装备牌；3.跳过弃牌阶段并翻面。你每选择一项，便视为你使用一张无距离限制的【杀】。"
+			}],
+			"dialogues": [{
+				"name": "神速",
+				"descriptions": ["取汝首级，如探囊取物。", "吾善于千里袭人。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-02_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["竟然，比我还，快。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-02_dead.mp3"]
+			}]
+		},
+		"shen-feng-03": {
+			"index": 2,
+			"name": "曹仁",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-03.png",
+			"skills": [{
+				"name": "据守",
+				"descriptions": "结束阶段，你可以摸四张牌并翻面，然后弃置一张手牌（若此牌为装备牌，你改为使用之）。"
+			}, {
+				"name": "解围",
+				"descriptions": "①你可以将装备区里的一张牌当【无懈可击】使用；②当你的武将牌从背面翻至正面时，你可以弃置一张牌，然后移动场上的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "据守",
+				"descriptions": ["坚守此地，不退半步！", "兵精粮足，守土一方！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-03_1_2.mp3"
+				]
+			}, {
+				"name": "解围",
+				"descriptions": ["坚壁清野，以挫敌锐！", "化守为攻，出奇制胜！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-03_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["长江以南，再无王土矣！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-03_dead.mp3"]
+			}]
+		},
+		"shen-feng-04": {
+			"index": 3,
+			"name": "小乔",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-04.png",
+			"skills": [{
+				"name": "天香",
+				"descriptions": "当你受到伤害时，你可以弃置一张♥️手牌，防止此伤害并选择一名其他角色，若如此做，你选择一项：1.令其受到伤害来源对其造成的1点伤害，然后其摸X张牌（X为其已损失的体力值，且至多为5）；2.令其失去1点体力，然后其获得你弃置的牌。"
+			}, {
+				"name": "红颜",
+				"descriptions": "锁定技，你的♠️牌均视为♥️牌。"
+			}],
+			"dialogues": [{
+				"name": "天香",
+				"descriptions": ["接着哦～", "替我挡着～"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-04_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["公瑾，我先走一步。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-04_dead.mp3"]
+			}]
+		},
+		"shen-feng-05": {
+			"index": 4,
+			"name": "黄忠",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-05.png",
+			"skills": [{
+				"name": "烈弓",
+				"descriptions": "当你于出牌阶段内使用【杀】指定一名角色为目标后，若该角色的手牌数不小于你的体力值或不大于你的攻击范围，你可以令其不能使用【闪】响应此【杀】。"
+			}],
+			"dialogues": [{
+				"name": "烈弓",
+				"descriptions": ["龙骨成镞，矢破苍穹。", "凤翎为羽，箭没坚城。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["末将有负主公重托……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-05_dead.mp3"]
+			}]
+		},
+		"shen-feng-06": {
+			"index": 5,
+			"name": "周泰",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-06.png",
+			"skills": [{
+				"name": "不屈",
+				"descriptions": "锁定技，当你处于濒死状态时，将牌堆顶的一张牌置于你的武将牌上，称为“创”。若此牌点数与已有的“创”均不相同，则你将体力回复至1点，否则你将此“创”置入弃牌堆（若你的武将牌上有“创”，你的手牌上限为“创”数）。"
+			}, {
+				"name": "奋激",
+				"descriptions": "当一名角色被另一名角色弃置或获得而失去手牌后，你可以失去1点体力，令该角色摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "不屈",
+				"descriptions": ["战如熊虎，不惜躯命！", "哼，这点小伤算什么。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-06_1_2.mp3"
+				]
+			}, {
+				"name": "奋激",
+				"descriptions": ["百战之身，奋勇趋前！", "两肋插刀，愿付此躯！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["敌众我寡，无力回天。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-06_dead.mp3"]
+			}]
+		},
+		"shen-feng-07": {
+			"index": 6,
+			"name": "于吉",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-07.png",
+			"skills": [{
+				"name": "蛊惑",
+				"descriptions": "每回合限一次，你可以扣置一张手牌，将此牌当任意一张基本牌或普通锦囊牌使用或打出。此时，其他角色可以进行质疑。一旦有其他角色质疑则翻开此牌，若此牌为：假，此牌作废；真，质疑角色获得技能“缠怨”。"
+			}, {
+				"name": "☆ 缠怨",
+				"descriptions": "锁定技，①你不能质疑“蛊惑”；②当你的体力值为1时，你的所有其他技能失效。"
+			}],
+			"dialogues": [{
+				"name": "蛊惑",
+				"descriptions": ["道法玄机，变幻莫测。", "如真似幻，扑朔迷离。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-07_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 缠怨",
+				"descriptions": ["不识天数，在劫难逃。", "凡人仇怨，皆由心生。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["道法玄机，竟被参破。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-07_dead.mp3"]
+			}]
+		},
+		"shen-feng-08": {
+			"index": 7,
+			"name": "张角",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-feng-08.png",
+			"skills": [{
+				"name": "雷击",
+				"descriptions": "当你使用或打出【闪】时，你可以令一名其他角色进行一次判定，若结果为：♠️，你对其造成2点雷电伤害；♣️，你回复1点体力并对其造成1点雷电伤害。"
+			}, {
+				"name": "鬼道",
+				"descriptions": "当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。"
+			}, {
+				"name": "黄天",
+				"descriptions": "主公技，其他群势力角色的出牌阶段限一次，该角色可以交给你一张【闪】或【闪电】。"
+			}],
+			"dialogues": [{
+				"name": "雷击",
+				"descriptions": ["成为黄天之世的祭品吧。", "呼风唤雨，驱雷策电。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_1_2.mp3"
+				]
+			}, {
+				"name": "鬼道",
+				"descriptions": ["道施所向，皆由我控。", "哼哼，天意如此。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_2_2.mp3"
+				]
+			}, {
+				"name": "黄天",
+				"descriptions": ["苍天不覆，黄天交替。", "黄天立，民心顺，天下平。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["黄天既覆，苍生何存……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-feng-08_dead.mp3"]
+			}]
+		},
+		"shen-huo-01": {
+			"index": 8,
+			"name": "典韦",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-01.png",
+			"skills": [{
+				"name": "强袭",
+				"descriptions": "出牌阶段限两次，你可以失去1点体力或弃置一张武器牌，对一名其他角色造成1点伤害（每名角色每阶段限一次）。"
+			}],
+			"dialogues": [{
+				"name": "强袭",
+				"descriptions": ["看我三步之内取你小命！", "吃我一戟！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-01_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["主公，快走！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-01_dead.mp3"]
+			}]
+		},
+		"shen-huo-02": {
+			"index": 9,
+			"name": "荀彧",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-02.png",
+			"skills": [{
+				"name": "驱虎",
+				"descriptions": "出牌阶段限一次，你可以与一名体力值大于你的角色拼点，若你赢，则该角色对其攻击范围内你选择的一名角色造成1点伤害，否则其对你造成1点伤害。"
+			}, {
+				"name": "节命",
+				"descriptions": "当你受到1点伤害后，你可以令一名角色将手牌摸至体力上限（至多摸至五张）。"
+			}],
+			"dialogues": [{
+				"name": "驱虎",
+				"descriptions": ["借你之手与他一搏吧。", "此乃驱虎吞狼之计。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-02_1_2.mp3"
+				]
+			}, {
+				"name": "节命",
+				"descriptions": ["我，永不背弃！", "秉忠贞之志，守谦退之节。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-02_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["主公要臣死，臣不得不死。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-02_dead.mp3"]
+			}]
+		},
+		"shen-huo-03": {
+			"index": 10,
+			"name": "庞统",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-03.png",
+			"skills": [{
+				"name": "连环",
+				"descriptions": "出牌阶段，你可以将一张♣️手牌当【铁索连环】使用或重铸。"
+			}, {
+				"name": "涅槃",
+				"descriptions": "限定技，当你处于濒死状态时，你可以弃置你区域里所有的牌，然后复原你的武将牌并摸三张牌。若如此做，你将体力值回复至3点。"
+			}],
+			"dialogues": [{
+				"name": "连环",
+				"descriptions": ["伤一敌可连其百！", "通通连起来吧！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-03_1_2.mp3"
+				]
+			}, {
+				"name": "涅槃",
+				"descriptions": ["浴火重生！", "凤雏岂能消亡！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-03_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["看来，我命中注定，将丧命于此。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-03_dead.mp3"]
+			}]
+		},
+		"shen-huo-04": {
+			"index": 11,
+			"name": "卧龙·诸葛亮",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-04.png",
+			"skills": [{
+				"name": "八阵",
+				"descriptions": "锁定技，若你的装备区里没有防具牌，视为你装备着【八卦阵】。"
+			}, {
+				"name": "火计",
+				"descriptions": "出牌阶段，你可以将一张红色手牌当【火攻】使用。"
+			}, {
+				"name": "看破",
+				"descriptions": "你可以将一张黑色手牌当【无懈可击】使用。"
+			}],
+			"dialogues": [{
+				"name": "八阵",
+				"descriptions": ["你可识得此阵？", "太极生两仪，两仪生四象，四象生八卦。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_1_2.mp3"
+				]
+			}, {
+				"name": "火计",
+				"descriptions": ["燃烧吧！", "此火可助我军大获全胜。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_2_2.mp3"
+				]
+			}, {
+				"name": "看破",
+				"descriptions": ["雕虫小计！", "你的计谋被识破了！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我的计谋竟被……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-04_dead.mp3"]
+			}]
+		},
+		"shen-huo-05": {
+			"index": 12,
+			"name": "太史慈",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-05.png",
+			"skills": [{
+				"name": "天义",
+				"descriptions": "出牌阶段限一次，你可以与一名角色拼点，然后你本回合根据拼点结果获得对应效果：若你赢，则你使用【杀】的次数上限+1、使用【杀】无距离限制、使用【杀】的目标数上限+1，否则你不能使用【杀】。"
+			}],
+			"dialogues": [{
+				"name": "天义",
+				"descriptions": ["请助我一臂之力！", "我当要替天行道！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["大丈夫当带三尺之剑，立不世之功。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-05_dead.mp3"]
+			}]
+		},
+		"shen-huo-06": {
+			"index": 13,
+			"name": "庞德",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-06.png",
+			"skills": [{
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}, {
+				"name": "鞬出",
+				"descriptions": "当你使用【杀】指定其他角色为目标后，你可以弃置该角色的一张牌，若此牌为装备牌，则其不能使用【闪】响应此【杀】，否则其获得此【杀】。"
+			}],
+			"dialogues": [{
+				"name": "鞬出",
+				"descriptions": ["我要杀你们个片甲不留！", "你可敢挡我？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-06_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["四面都是水……我命休矣……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-06_dead.mp3"]
+			}]
+		},
+		"shen-huo-07": {
+			"index": 14,
+			"name": "颜良&文丑",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-07.png",
+			"skills": [{
+				"name": "双雄",
+				"descriptions": "摸牌阶段，你可以改为进行一次判定，然后你获得此判定牌。若如此做，本回合你可以将任意一张与判定结果颜色不同的手牌当【决斗】使用。"
+			}],
+			"dialogues": [{
+				"name": "双雄",
+				"descriptions": ["吾乃河北上将颜良（文丑）是也！", "快来与我等决一死战！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-07_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这红脸长须大将是……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-07_dead.mp3"]
+			}]
+		},
+		"shen-huo-08": {
+			"index": 15,
+			"name": "袁绍",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-08.png",
+			"skills": [{
+				"name": "乱击",
+				"descriptions": "出牌阶段，你可以将两张花色相同的手牌当一张【万箭齐发】使用。"
+			}, {
+				"name": "血裔",
+				"descriptions": "主公技，锁定技，你的手牌上限+X（X为其他群势力角色数的两倍）。"
+			}],
+			"dialogues": [{
+				"name": "乱击",
+				"descriptions": ["全都去死吧！", "弓箭手，准备放箭！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-08_1_2.mp3"
+				]
+			}, {
+				"name": "血裔",
+				"descriptions": ["衣冠华胄，宜蒙优免！", "崇王攘夷，声张尊贵！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["老天不助我袁家啊……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-huo-08_dead.mp3"]
+			}]
+		},
+		"shen-lin-01": {
+			"index": 16,
+			"name": "徐晃",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-01.png",
+			"skills": [{
+				"name": "断粮",
+				"descriptions": "①你可以将一张黑色非锦囊牌当【兵粮寸断】使用；②你对手牌数不小于你的其他角色使用【兵粮寸断】无距离限制。"
+			}, {
+				"name": "截辎",
+				"descriptions": "锁定技，当一名其他角色跳过摸牌阶段后，你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "断粮",
+				"descriptions": ["截其援，断其粮，贼可擒也。", "人是铁，饭是钢。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-01_1_2.mp3"
+				]
+			}, {
+				"name": "截辎",
+				"descriptions": ["断粮道，毁辎行。", "辎行千里，必有一失。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-01_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["一顿不吃，饿得慌。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-01_dead.mp3"]
+			}]
+		},
+		"shen-lin-02": {
+			"index": 17,
+			"name": "曹丕",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-02.png",
+			"skills": [{
+				"name": "行殇",
+				"descriptions": "当其他角色死亡时，你可以获得其所有牌。"
+			}, {
+				"name": "放逐",
+				"descriptions": "当你受到伤害后，你可以令一名其他角色翻面并摸X张牌（X为你已损失的体力值）。"
+			}, {
+				"name": "颂威",
+				"descriptions": "主公技，当其他魏势力角色的黑色判定牌生效后，该角色可以令你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "行殇",
+				"descriptions": ["来，管杀还管埋。", "我的是我的，你的还是我的。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_1_2.mp3"
+				]
+			}, {
+				"name": "放逐",
+				"descriptions": ["给我翻过来。", "死罪可免，活罪难赦。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_2_2.mp3"
+				]
+			}, {
+				"name": "颂威",
+				"descriptions": ["仙福永享，寿与天齐！", "千秋万载，一统江山！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["子建，子建……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-02_dead.mp3"]
+			}]
+		},
+		"shen-lin-03": {
+			"index": 18,
+			"name": "孙坚",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-03.png",
+			"skills": [{
+				"name": "英魂",
+				"descriptions": "准备阶段，若你已受伤，你可以选择一名其他角色并选择一项令其执行之：1.摸X张牌并弃置一张牌；2.摸一张牌并弃置X张牌（X为你已损失的体力值）。"
+			}],
+			"dialogues": [{
+				"name": "英魂",
+				"descriptions": ["不诛此贼三族，则吾死不瞑目！", "以吾魂魄，保佑吾儿之基业。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-03_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["有埋伏，呃……啊……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-03_dead.mp3"]
+			}]
+		},
+		"shen-lin-04": {
+			"index": 19,
+			"name": "董卓",
+			"force": "qun",
+			"magatama": {
+				"actual": 8,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-04.png",
+			"skills": [{
+				"name": "酒池",
+				"descriptions": "你可以将一张♠️手牌当【酒】使用。"
+			}, {
+				"name": "肉林",
+				"descriptions": "锁定技，当你使用【杀】指定女性角色为目标后，或成为女性角色使用【杀】的目标后，目标角色需连续使用两张【闪】才能抵消。"
+			}, {
+				"name": "崩坏",
+				"descriptions": "锁定技，结束阶段，若你不是全场体力值最低的角色，你选择一项：1.失去1点体力；2.减1点体力上限。"
+			}, {
+				"name": "暴虐",
+				"descriptions": "主公技，当其他群势力角色造成伤害后，其可以令你进行一次判定，若结果为♠️，你回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "酒池",
+				"descriptions": ["呃呵呵，再来，一壶！", "呃呵呵呵呵，好酒好酒！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_1_2.mp3"
+				]
+			}, {
+				"name": "肉林",
+				"descriptions": ["美人儿，来香一个！", "食色，性也！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_2_2.mp3"
+				]
+			}, {
+				"name": "崩坏",
+				"descriptions": ["呃……", "哎！我是不是该减肥了？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_3_2.mp3"
+				]
+			}, {
+				"name": "暴虐",
+				"descriptions": ["顺我者昌，逆我者亡！", "呵呵哈哈哈哈哈哈！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["汉室衰落，非我一人之罪。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-04_dead.mp3"]
+			}]
+		},
+		"shen-lin-05": {
+			"index": 20,
+			"name": "祝融",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-05.png",
+			"skills": [{
+				"name": "巨象",
+				"descriptions": "锁定技，①【南蛮入侵】对你无效；②当其他角色使用的【南蛮入侵】结算结束后置入弃牌堆时，你获得之。"
+			}, {
+				"name": "烈刃",
+				"descriptions": "当你使用【杀】对目标角色造成伤害后，你可以与其拼点，若你赢，你获得该角色的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "巨象",
+				"descriptions": ["大王，看我的。", "小小把戏。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-05_1_2.mp3"
+				]
+			}, {
+				"name": "烈刃",
+				"descriptions": ["尝尝我飞刀的厉害！", "亮兵器吧。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-05_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["大王，我，先走一步了。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-05_dead.mp3"]
+			}]
+		},
+		"shen-lin-06": {
+			"index": 21,
+			"name": "孟获",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-06.png",
+			"skills": [{
+				"name": "祸首",
+				"descriptions": "锁定技，①【南蛮入侵】对你无效；②当其他角色使用【南蛮入侵】指定目标后，你代替其成为此牌的伤害来源。"
+			}, {
+				"name": "再起",
+				"descriptions": "摸牌阶段，若你已受伤，你可以改为亮出牌堆顶的X+1张牌（X为你已损失的体力值），回复等同于其中♥️牌数的体力，然后获得其余的牌。"
+			}],
+			"dialogues": [{
+				"name": "祸首",
+				"descriptions": ["背黑锅我来，送死，你去！", "统统算我的！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-06_1_2.mp3"
+				]
+			}, {
+				"name": "再起",
+				"descriptions": ["丞相助我！", "起！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["七纵之恩，来世，再报了！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-06_dead.mp3"]
+			}]
+		},
+		"shen-lin-07": {
+			"index": 22,
+			"name": "贾诩",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-07.png",
+			"skills": [{
+				"name": "完杀",
+				"descriptions": "锁定技，你的回合内，当一名角色进入濒死状态时，你令除你和其以外的角色不能对其使用【桃】直到此次濒死结算结束。"
+			}, {
+				"name": "乱武",
+				"descriptions": "限定技，出牌阶段，你可以令所有其他角色依次选择一项：1.对其攻击范围内距离最近的另一名角色使用一张【杀】；2.失去1点体力。"
+			}, {
+				"name": "帷幕",
+				"descriptions": "锁定技，你不能成为黑色锦囊牌的目标。"
+			}],
+			"dialogues": [{
+				"name": "完杀",
+				"descriptions": ["神仙难救，神仙难救啊！", "我要你三更死，谁敢留你到五更！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_1_2.mp3"
+				]
+			}, {
+				"name": "乱武",
+				"descriptions": ["哭喊吧，哀求吧，挣扎吧，然后……死吧！", "哼哼哼哼，坐山观虎斗。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_2_2.mp3"
+				]
+			}, {
+				"name": "帷幕",
+				"descriptions": ["此计伤不到我。", "你奈我何？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我的时辰……也到了……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-07_dead.mp3"]
+			}]
+		},
+		"shen-lin-08": {
+			"index": 23,
+			"name": "鲁肃",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lin-08.png",
+			"skills": [{
+				"name": "好施",
+				"descriptions": "摸牌阶段，你可以多摸两张牌，然后若你的手牌数大于5，你将一半的手牌（向下取整）交给手牌最少的一名其他角色。"
+			}, {
+				"name": "缔盟",
+				"descriptions": "出牌阶段限一次，你可以选择两名其他角色并弃置X张牌（X为这两名角色手牌数的差），然后令这两名角色交换手牌。"
+			}],
+			"dialogues": [{
+				"name": "好施",
+				"descriptions": ["拿去拿去，莫跟哥哥客气！", "来来来，见面分一半。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-08_1_2.mp3"
+				]
+			}, {
+				"name": "缔盟",
+				"descriptions": ["以和为贵，以和为贵。", "合纵连横，方能以弱胜强。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此联盟已破，吴蜀，休矣……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lin-08_dead.mp3"]
+			}]
+		},
+		"shen-shan-01": {
+			"index": 24,
+			"name": "张郃",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-01.png",
+			"skills": [{
+				"name": "巧变",
+				"descriptions": "你的一个阶段开始前，你可以弃置一张手牌，跳过此阶段（准备阶段和结束阶段除外）。若你以此法跳过了：摸牌阶段，你可以获得至多两名角色的各一张手牌；出牌阶段，你可以移动场上的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "巧变",
+				"descriptions": ["兵无常势，水无常形。", "用兵之道，变化万千。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-01_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["呃，膝盖，中箭了。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-01_dead.mp3"]
+			}]
+		},
+		"shen-shan-02": {
+			"index": 25,
+			"name": "邓艾",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-02.png",
+			"skills": [{
+				"name": "屯田",
+				"descriptions": "当你于回合外失去牌后，你可以进行一次判定，若结果不为♥️，你将此判定牌置于你的武将牌上，称为“田”（你计算与其他角色的距离-X，X为“田”的数量）。"
+			}, {
+				"name": "凿险",
+				"descriptions": "觉醒技，准备阶段，若“田”的数量不小于3，你减1点体力上限，然后获得技能“急袭”。"
+			}, {
+				"name": "☆ 急袭",
+				"descriptions": "出牌阶段，你可以将一张“田”当【顺手牵羊】使用。"
+			}],
+			"dialogues": [{
+				"name": "屯田",
+				"descriptions": ["休养生息，备战待敌。", "锄禾日当午，汗滴禾下土。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_1_2.mp3"
+				]
+			}, {
+				"name": "凿险",
+				"descriptions": ["屯田日久，当建奇功。", "开辟险路，奇袭敌军。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 急袭",
+				"descriptions": ["攻其无备，出其不意！", "偷渡阴平，直取蜀汉！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾破蜀克敌，竟葬于奸贼之手。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-02_dead.mp3"]
+			}]
+		},
+		"shen-shan-03": {
+			"index": 26,
+			"name": "姜维",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-03.png",
+			"skills": [{
+				"name": "挑衅",
+				"descriptions": "出牌阶段限一次，你可以令一名攻击范围内含你的其他角色选择一项：1.对你使用一张【杀】；2.令你弃置其一张牌。"
+			}, {
+				"name": "志继",
+				"descriptions": "觉醒技，准备阶段，若你没有手牌，你选择一项：1.摸两张牌；2.回复1点体力。若如此做，你减1点体力上限，获得技能“观星”。"
+			}, {
+				"name": "☆ 观星",
+				"descriptions": "准备阶段，你可以观看牌堆顶的五张牌（当存活角色数小于4时改为三张），然后将其中的任意张牌以任意顺序置于牌堆顶，将其余的牌以任意顺序置于牌堆底。若你将这些牌均置于牌堆底，你可以于结束阶段再进行一次“观星”。"
+			}],
+			"dialogues": [{
+				"name": "挑衅",
+				"descriptions": ["汝等小儿，可敢杀我？", "贼将早降，可免一死。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_1_2.mp3"
+				]
+			}, {
+				"name": "志继",
+				"descriptions": ["先帝之志，丞相之托，不可忘也！", "丞相厚恩，维万死不能相报！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 观星",
+				"descriptions": ["继丞相之遗志，讨篡汉之逆贼！", "克复中原，指日可待！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我计不成，乃天命也……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-03_dead.mp3"]
+			}]
+		},
+		"shen-shan-04": {
+			"index": 27,
+			"name": "刘禅",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-04.png",
+			"skills": [{
+				"name": "享乐",
+				"descriptions": "锁定技，当你成为一名角色使用【杀】的目标后，该角色选择一项：1.弃置一张基本牌；2.令此【杀】对你无效。"
+			}, {
+				"name": "放权",
+				"descriptions": "出牌阶段开始前，你可以跳过此阶段，然后本回合结束时，你可以弃置一张手牌，令一名其他角色执行一个额外的回合。"
+			}, {
+				"name": "若愚",
+				"descriptions": "主公技，觉醒技，准备阶段，若你是体力值最小的角色，你加1点体力上限并回复1点体力，然后获得技能“激将”。"
+			}, {
+				"name": "☆ 激将",
+				"descriptions": "主公技，当你需要使用或打出【杀】时，你可以令其他蜀势力角色选择是否打出一张【杀】（视为由你使用或打出）。"
+			}],
+			"dialogues": [{
+				"name": "享乐",
+				"descriptions": ["打打杀杀，真没意思。", "我的爸爸是刘备！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_1_2.mp3"
+				]
+			}, {
+				"name": "放权",
+				"descriptions": ["这可如何是好？", "你办事儿，我放心。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_2_2.mp3"
+				]
+			}, {
+				"name": "若愚",
+				"descriptions": ["不装疯卖傻，岂能安然无恙？", "世人皆错看我，唉…"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 激将",
+				"descriptions": ["匡扶汉室！谁敢出战！", "我蜀汉岂无人乎？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["别打脸，我投降还不行吗？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-04_dead.mp3"]
+			}]
+		},
+		"shen-shan-05": {
+			"index": 28,
+			"name": "孙策",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-05.png",
+			"skills": [{
+				"name": "激昂",
+				"descriptions": "当你使用【决斗】或红色【杀】指定目标后，或成为【决斗】或红色【杀】的目标后，你可以摸一张牌。"
+			}, {
+				"name": "魂姿",
+				"descriptions": "觉醒技，准备阶段，若你的体力值为1，你减1点体力上限，获得技能“英姿”和“英魂”。"
+			}, {
+				"name": "制霸",
+				"descriptions": "主公技，其他吴势力角色的出牌阶段限一次，该角色可以与你拼点（若你已觉醒，你可以拒绝此拼点），若其没赢，你可以获得拼点的两张牌。"
+			}, {
+				"name": "☆ 英姿",
+				"descriptions": "锁定技，①摸牌阶段，你多摸一张牌；②你的手牌上限等于X（X为你的体力上限）。"
+			}, {
+				"name": "☆ 英魂",
+				"descriptions": "准备阶段，若你已受伤，你可以选择一名其他角色并选择一项令其执行之：1.摸X张牌并弃置一张牌；2.摸一张牌并弃置X张牌（X为你已损失的体力值）。"
+			}],
+			"dialogues": [{
+				"name": "激昂",
+				"descriptions": ["吾乃江东小霸王孙伯符。", "江东子弟，何惧于天下？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_1_2.mp3"
+				]
+			}, {
+				"name": "魂姿",
+				"descriptions": ["父亲在上，魂佑江东；公瑾在旁，智定天下。", "愿承父志，与公瑾共谋天下。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_2_2.mp3"
+				]
+			}, {
+				"name": "制霸",
+				"descriptions": ["我若怕你，非孙伯符也。", "是友是敌，一探便知。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 英姿",
+				"descriptions": ["公瑾，助我决一死战。", "尔等看好了。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_4_2.mp3"
+				]
+			}, {
+				"name": "☆ 英魂",
+				"descriptions": ["父亲，助我背水一战。", "孙氏英烈，庇佑江东。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_5_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_5_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["内事不决问张昭，外事不决问周瑜。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-05_dead.mp3"]
+			}]
+		},
+		"shen-shan-06": {
+			"index": 29,
+			"name": "张昭&张纮",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-06.png",
+			"skills": [{
+				"name": "直谏",
+				"descriptions": "出牌阶段，你可以将手牌中的一张装备牌置入一名其他角色的装备区（不能替换原装备），然后摸一张牌。"
+			}, {
+				"name": "固政",
+				"descriptions": "其他角色的弃牌阶段结束时，你可以将此阶段内因弃置而置入弃牌堆的一张牌交给该角色，然后你可以获得本阶段内其余因弃置而置入弃牌堆的牌。"
+			}],
+			"dialogues": [{
+				"name": "直谏",
+				"descriptions": ["请恕老臣直言。", "为臣者，当冒死以谏。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-06_1_2.mp3"
+				]
+			}, {
+				"name": "固政",
+				"descriptions": ["今当稳固内政，以御外患。", "固国安邦，须当如是！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["竭力尽智，死而无憾。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-06_dead.mp3"]
+			}]
+		},
+		"shen-shan-07": {
+			"index": 30,
+			"name": "左慈",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-07.png",
+			"skills": [{
+				"name": "化身",
+				"descriptions": "游戏开始时，你随机获得两张武将牌作为“化身”牌，然后你选择其中一张“化身”牌的一个技能并亮出之，然后你视为拥有此技能，且性别和势力视为与“化身”牌相同（回合开始或结束时，你可以重新进行一次“化身”）。"
+			}, {
+				"name": "新生",
+				"descriptions": "当你受到1点伤害后，你可以随机获得一张新的“化身”牌。"
+			}],
+			"dialogues": [{
+				"name": "化身",
+				"descriptions": ["万物苍生，幻化由心。", "哼！肉眼凡胎，岂能窥视仙人变幻。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-07_1_2.mp3"
+				]
+			}, {
+				"name": "新生",
+				"descriptions": ["幻幻无穷，生生不息。", "吐故纳新，师法天地。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["腾云跨风，飞升太虚……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-07_dead.mp3"]
+			}]
+		},
+		"shen-shan-08": {
+			"index": 31,
+			"name": "蔡文姬",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shan-08.png",
+			"skills": [{
+				"name": "悲歌",
+				"descriptions": "当一名角色受到【杀】造成的伤害后，你可以弃置一张牌，令其进行一次判定，若结果为：♥️，其回复1点体力；♦️，其摸两张牌；♣️，伤害来源弃置两张牌；♠️，伤害来源翻面。"
+			}, {
+				"name": "断肠",
+				"descriptions": "锁定技，当你死亡时，杀死你的角色失去所有武将技能。"
+			}],
+			"dialogues": [{
+				"name": "悲歌",
+				"descriptions": ["制兹八拍兮拟排忧，何知曲成兮心转愁。", "悲歌可以当泣，远望可以当归。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-08_1_2.mp3"
+				]
+			}, {
+				"name": "断肠",
+				"descriptions": ["日东月西兮徒相望，不得相随兮空断肠。", "流落异乡愁断肠。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["人生几何时，怀忧终年岁。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shan-08_dead.mp3"]
+			}]
+		},
+		"shen-yin-01": {
+			"index": 32,
+			"name": "王基",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-01.png",
+			"skills": [{
+				"name": "奇制",
+				"descriptions": "当你于回合内使用一张非装备牌指定目标后，你可以弃置不是此牌目标的一名角色的一张牌，然后该角色摸一张牌。"
+			}, {
+				"name": "进趋",
+				"descriptions": "结束阶段，你可以摸两张牌，然后若你的手牌数大于X，你将手牌弃置至X张（X为你本回合发动过“奇制”的次数）。"
+			}],
+			"dialogues": [{
+				"name": "奇制",
+				"descriptions": ["声东击西，敌寇一网成擒！", "吾意不在此地，已遣别部出发。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-01_1_2.mp3"
+				]
+			}, {
+				"name": "进趋",
+				"descriptions": ["建上昶水城，以逼夏口。", "通川聚粮，伐吴之业，当步步为营。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-01_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天下之势，必归大魏，可恨未能得见呐。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-01_dead.mp3"]
+			}]
+		},
+		"shen-yin-02": {
+			"index": 33,
+			"name": "严颜",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-02.png",
+			"skills": [{
+				"name": "拒战",
+				"descriptions": "转换技，阳：当你成为其他角色使用【杀】的目标后，你可以与其各摸一张牌，然后其本回合不能再对你使用牌；阴：当你使用【杀】指定一名角色为目标后，你可以获得其一张牌，然后你本回合不能再对其使用牌。"
+			}],
+			"dialogues": [{
+				"name": "拒战",
+				"descriptions": ["我州但有断头将军，无降将军也！", "砍头便砍头，何为怒邪！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-02_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["宁可断头死，安能屈膝降？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-02_dead.mp3"]
+			}]
+		},
+		"shen-yin-03": {
+			"index": 34,
+			"name": "王平",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-03.png",
+			"skills": [{
+				"name": "飞军",
+				"descriptions": "出牌阶段限一次，你可以弃置一张牌，然后选择一项：1.令一名手牌数大于你的角色交给你一张牌；2.令一名装备区里牌数大于你的角色弃置一张装备区里的牌。"
+			}, {
+				"name": "兵略",
+				"descriptions": "锁定技，当你对每名其他角色第一次发动“飞军”时，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "飞军",
+				"descriptions": ["无当飞军，伐叛乱，镇蛮夷！", "山地崎岖，也挡不住飞军破势！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-03_1_2.mp3"
+				]
+			}, {
+				"name": "兵略",
+				"descriptions": ["奇略兵术，敌，未能料之。", "兵略者，明战胜攻取之数，形机之势，诈谲之变。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-03_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["无当飞军，也有困于深林之时。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-03_dead.mp3"]
+			}]
+		},
+		"shen-yin-04": {
+			"index": 35,
+			"name": "陆绩",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-04.png",
+			"skills": [{
+				"name": "怀橘",
+				"descriptions": "锁定技，①游戏开始时，你获得3个“橘”标记；②有“橘”的角色：受到伤害时防止之并移去1个“橘”；摸牌阶段多摸一张牌。"
+			}, {
+				"name": "遗礼",
+				"descriptions": "出牌阶段开始时，你可以失去1点体力或移去1个“橘”，令一名其他角色获得“橘”。"
+			}, {
+				"name": "整论",
+				"descriptions": "摸牌阶段开始前，若你没有“橘”，你可以跳过摸牌阶段，获得1个“橘”。"
+			}],
+			"dialogues": [{
+				"name": "怀橘",
+				"descriptions": ["袖中怀绿桔，遗母报乳哺。", "情深舐犊，怀擢藏橘。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_1_2.mp3"
+				]
+			}, {
+				"name": "遗礼",
+				"descriptions": ["违失礼仪，则俱非议。", "行遗礼之举，于不敬王者。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_2_2.mp3"
+				]
+			}, {
+				"name": "整论",
+				"descriptions": ["整论四海未泰，修文德以平。", "今论者不务道德怀取之术，而惟尚武，窃所未安。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["恨不能见，车同轨，书同文。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-04_dead.mp3"]
+			}]
+		},
+		"shen-yin-05": {
+			"index": 36,
+			"name": "孙亮",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-05.png",
+			"skills": [{
+				"name": "溃诛",
+				"descriptions": "弃牌阶段结束时，你可以选择一项：1.令至多X名角色各摸一张牌；2.对任意名体力值之和为X的角色各造成1点伤害（X为你本阶段弃置的牌数）。"
+			}, {
+				"name": "掣政",
+				"descriptions": "锁定技，①出牌阶段，当你对对攻击范围内不包含你的其他角色造成伤害时，防止之；②出牌阶段结束时，若你本阶段使用的牌数小于这些角色数，你弃置其中一名角色的一张牌。"
+			}, {
+				"name": "立军",
+				"descriptions": "主公技，其他吴势力角色的出牌阶段限一次，当其使用【杀】结算结束后，其可以将此【杀】交给你，然后你可以令其摸一张牌，且此阶段使用【杀】的次数上限+1。"
+			}],
+			"dialogues": [{
+				"name": "溃诛",
+				"descriptions": ["子通专恣，必谋而诛之！", "孙綝久专，不可久忍，必溃诛！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_1_2.mp3"
+				]
+			}, {
+				"name": "掣政",
+				"descriptions": ["风驰电掣，政权不怠！", "廉平掣政，实为艰事。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_2_2.mp3"
+				]
+			}, {
+				"name": "立军",
+				"descriptions": ["立于朝堂，定于军心。", "君立于朝堂，军侧于四方！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05__2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["今日欲诛逆臣而不得，方知机事不密则害成…"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-05_dead.mp3"]
+			}]
+		},
+		"shen-yin-06": {
+			"index": 37,
+			"name": "蒯良&蒯越",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-06.png",
+			"skills": [{
+				"name": "荐降",
+				"descriptions": "当你成为其他角色使用牌的目标后，你可以令全场手牌数最少的一名角色摸一张牌。"
+			}, {
+				"name": "审时",
+				"descriptions": "转换技，阳：出牌阶段限一次，你可以将一张牌交给一名手牌数最多（除你以外）的角色，对其造成1点伤害，若该角色因此死亡，你可以令一名角色将手牌摸至四张；阴：当你受到其他角色造成的伤害后，你可以观看该角色的手牌，然后交给其一张牌。若如此做，当前回合结束时，若该角色未失去此牌，你将手牌摸至四张。"
+			}],
+			"dialogues": [{
+				"name": "荐降",
+				"descriptions": ["得遇曹公，吾之幸也。", "曹公得荆不喜，喜得吾二人足矣。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-06_1_2.mp3"
+				]
+			}, {
+				"name": "审时",
+				"descriptions": ["数语之言，审时度势。", "深中足智，鉴时审情。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["表不能善用，所憾也。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-06_dead.mp3"]
+			}]
+		},
+		"shen-yin-07": {
+			"index": 38,
+			"name": "许攸",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-07.png",
+			"skills": [{
+				"name": "成略",
+				"descriptions": "转换技，出牌阶段限一次，阳：你可以摸一张牌，然后弃置两张手牌；阴：你可以摸两张牌，然后弃置一张手牌。若如此做，直到回合结束，你使用与弃置牌相同花色的牌无距离和次数限制。"
+			}, {
+				"name": "恃才",
+				"descriptions": "当你使用一张牌结算结束后，若此牌与你本回合使用过的牌类型均不同，你可以将此牌置于牌堆顶，然后摸一张牌。"
+			}, {
+				"name": "寸目",
+				"descriptions": "锁定技，当你摸牌时，改为从牌堆底摸牌。"
+			}],
+			"dialogues": [{
+				"name": "成略",
+				"descriptions": ["成略在胸，良计速出。", "吾有良略在怀，必为阿瞒所需。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_1_2.mp3"
+				]
+			}, {
+				"name": "恃才",
+				"descriptions": ["吾才满腹，袁本初竟不从之！", "阿瞒有我良计，取冀州便是易如反掌。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_2_2.mp3"
+				]
+			}, {
+				"name": "寸目",
+				"descriptions": ["狭目之见，只能窥底。", "目光所及，短寸之间。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["阿瞒，没有我，你得不到冀州啊！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-07_dead.mp3"]
+			}]
+		},
+		"shen-yin-08": {
+			"index": 39,
+			"name": "卢植",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-yin-08.png",
+			"skills": [{
+				"name": "明任",
+				"descriptions": "游戏开始时，你摸两张牌，然后将一张手牌置于你的武将牌上，称为“任”（结束阶段，你可以用任意一张手牌替换“任”）。"
+			}, {
+				"name": "贞良",
+				"descriptions": "转换技，阳：出牌阶段限一次，你可以弃置一张与“任”颜色相同的牌，对你攻击范围内的一名其他角色造成1点伤害；阴：你的回合外，当你使用或打出的牌进入弃牌堆时，若此牌与“任”颜色相同，你可以令一名角色摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "明任",
+				"descriptions": ["吾之任，君之明举。", "得义真所救，吾任之必尽瘁以报。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-08_1_2.mp3"
+				]
+			}, {
+				"name": "贞良",
+				"descriptions": ["贞洁贤良，吾之本心。", "风霜以别草木之性，危乱而见贞良之节。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["泓泓眸子宿渊亭，不见蛾眉只见经。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-yin-08_dead.mp3"]
+			}]
+		},
+		"shen-lei-01": {
+			"index": 40,
+			"name": "袁术",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-01.png",
+			"skills": [{
+				"name": "庸肆",
+				"descriptions": "锁定技，①摸牌阶段，你多摸X张牌；②弃牌阶段开始时，你弃置X张牌（X为场上势力数）。"
+			}, {
+				"name": "伪帝",
+				"descriptions": "锁定技，你视为拥有主公的主公技。"
+			}],
+			"dialogues": [{
+				"name": "庸肆",
+				"descriptions": ["玉玺在手，天下我有。", "大汉天下，已半入我手。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-01_1_2.mp3"
+				]
+			}, {
+				"name": "伪帝",
+				"descriptions": ["你们都得听我的号令！", "我才是皇帝！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-01_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["可恶！就差……一步了……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-01_dead.mp3"]
+			}]
+		},
+		"shen-lei-02": {
+			"index": 41,
+			"name": "郝昭",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-02.png",
+			"skills": [{
+				"name": "镇骨",
+				"descriptions": "结束阶段，你可以选择一名其他角色，你的回合结束时和该角色的下个回合结束时，其将手牌摸至（至多摸至五张）或弃置至与你手牌数相同。"
+			}],
+			"dialogues": [{
+				"name": "镇骨",
+				"descriptions": ["镇守城池，必以骨相拼！", "孔明计虽百算，却难抵吾镇骨千拒！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-02_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["镇守陈仓，也有一失。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-02_dead.mp3"]
+			}]
+		},
+		"shen-lei-03": {
+			"index": 42,
+			"name": "陈到",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-03.png",
+			"skills": [{
+				"name": "往烈",
+				"descriptions": "①出牌阶段，你使用第一张牌无距离限制；②当你于出牌阶段使用一张牌时，你可以令此牌不能被响应，然后你本阶段不能再使用牌。"
+			}],
+			"dialogues": [{
+				"name": "往烈",
+				"descriptions": ["猛将之烈，统帅之所往。", "与子龙忠勇相往，猛烈相合。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-03_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我的白毦兵，再也不能为先帝出力了！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-03_dead.mp3"]
+			}]
+		},
+		"shen-lei-04": {
+			"index": 43,
+			"name": "诸葛瞻",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-04.png",
+			"skills": [{
+				"name": "罪论",
+				"descriptions": "结束阶段，你可以观看牌堆顶的三张牌，获得其中X张（X为你满足的选项数），然后以任意顺序放回其余的牌：1.本回合造成过伤害；2.本回合未弃置过牌；3.手牌数为全场最少。若均不满足，你与一名其他角色各失去1点体力。"
+			}, {
+				"name": "父荫",
+				"descriptions": "锁定技，当你每回合第一次成为【杀】或【决斗】的目标后，若你的手牌数不大于使用者，此牌对你无效。"
+			}],
+			"dialogues": [{
+				"name": "罪论",
+				"descriptions": ["吾有三罪，未能除黄皓、制伯约、守国土。", "数罪当论，吾愧对先帝恩惠。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-04_1_2.mp3"
+				]
+			}, {
+				"name": "父荫",
+				"descriptions": ["得父荫庇，平步青云。", "吾自幼心怀父诫，方不愧父亲荫庇。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["临难而死义，无愧先父。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-04_dead.mp3"]
+			}]
+		},
+		"shen-lei-05": {
+			"index": 44,
+			"name": "周妃",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-05.png",
+			"skills": [{
+				"name": "良姻",
+				"descriptions": "当每回合首次有牌移出/移入游戏后，你可以与一名其他角色各摸/弃置一张牌，然后你可以令其中一名手牌数为X的角色回复1点体力（X为“箜声”牌数）。"
+			}, {
+				"name": "箜声",
+				"descriptions": "①准备阶段，你可以将任意张牌置于你的武将牌上；②结束阶段，你获得“箜声”牌中的非装备牌，然后令一名角色使用其余的牌并失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "良姻",
+				"descriptions": ["结得良姻，固吴基业。", "君恩之命，妾身良姻之福。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-05_1_2.mp3"
+				]
+			}, {
+				"name": "箜声",
+				"descriptions": ["箜篌声声，琴瑟鸣鸣。", "窈窕淑女，箜篌友之。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-05_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夫君，妾身再也不能，陪你看这江南翠绿了。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-05_dead.mp3"]
+			}]
+		},
+		"shen-lei-06": {
+			"index": 45,
+			"name": "毌丘俭",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-06.png",
+			"skills": [{
+				"name": "征荣",
+				"descriptions": "当你使用伤害牌指定目标后，你可以选择其中一个手牌数大于等于你的目标角色并将一张牌置于你的武将牌上，称为“荣”。"
+			}, {
+				"name": "鸿举",
+				"descriptions": "觉醒技，准备阶段，若“荣”的数量不小于3，则你可以用任意张手牌替换等量的“荣”，然后扣减1点体力上限并获得技能“清侧”。"
+			}, {
+				"name": "☆ 清侧",
+				"descriptions": "出牌阶段，你可以获得一张“荣”并弃置一张手牌，然后弃置场上的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "征荣",
+				"descriptions": ["东征高句丽，保辽东安稳。", "跨海东征，家国俱荣。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_1_2.mp3"
+				]
+			}, {
+				"name": "鸿举",
+				"descriptions": ["一举拿下，鸿途可得。", "鸿飞荣升，举重若轻。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 清侧",
+				"descriptions": ["感明帝之恩，清君侧之贼。", "得太后手诏，清奸佞乱臣。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["峥嵘一生，然被平民所击射！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-06_dead.mp3"]
+			}]
+		},
+		"shen-lei-07": {
+			"index": 46,
+			"name": "陆抗",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-07.png",
+			"skills": [{
+				"name": "谦节",
+				"descriptions": "锁定技，①当你即将被横置时，取消之；②你不能成为延时锦囊牌或其他角色拼点的目标。"
+			}, {
+				"name": "决堰",
+				"descriptions": "出牌阶段限一次，你可以废除你装备区里的一种装备栏，然后执行对应效果：武器栏，本阶段使用【杀】的次数上限+3；防具栏，摸三张牌且本回合的手牌上限+3；坐骑栏，本回合使用牌无距离限制；宝物栏，本回合视为拥有技能“集智”。"
+			}, {
+				"name": "破势",
+				"descriptions": "觉醒技，准备阶段，若你的装备栏均被废除或体力值为1，你减1点体力上限并将手牌摸至体力上限，然后你失去技能“决堰”并获得技能“怀柔”。"
+			}, {
+				"name": "☆ 集智",
+				"descriptions": "当你使用一张非转化的锦囊牌时，你可以摸一张牌。若此牌为基本牌，你可以弃置此牌，令你本回合的手牌上限+1。"
+			}, {
+				"name": "☆ 怀柔",
+				"descriptions": "出牌阶段，你可以重铸装备牌。"
+			}],
+			"dialogues": [{
+				"name": "谦节",
+				"descriptions": ["继父之节，谦逊恭毕。", "谦谦清廉德，节节卓尔茂。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_1_2.mp3"
+				]
+			}, {
+				"name": "决堰",
+				"descriptions": ["毁堰坝之计，实为阻晋粮道。", "堰坝毁之，可令敌军自退。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_2_2.mp3"
+				]
+			}, {
+				"name": "破势",
+				"descriptions": ["破晋军分进合击之势，牵晋军主力之实！", "破羊祜之策，势在必行！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_3_1.mp3"]
+			}, {
+				"name": "☆ 集智",
+				"descriptions": ["智父安能有愚子乎？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_4_2.mp3"
+				]
+			}, {
+				"name": "☆ 怀柔",
+				"descriptions": ["各保分界，无求细利。", "胸怀千万，彰其德，包其柔。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_5_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_5_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾即亡矣，吴又能存几时？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-07_dead.mp3"]
+			}]
+		},
+		"shen-lei-08": {
+			"index": 47,
+			"name": "张绣",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-lei-08.png",
+			"skills": [{
+				"name": "雄乱",
+				"descriptions": "限定技，出牌阶段，你可以废除你的判定区和装备区并选择一名其他角色，然后本回合：你对其使用牌无距离和次数限制、其不能使用或打出手牌。"
+			}, {
+				"name": "从谏",
+				"descriptions": "当你成为目标数大于1的普通锦囊牌的目标时，你可以交给一名其他目标角色一张牌。若你给出的牌为装备牌，则你摸两张牌，否则你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "雄乱",
+				"descriptions": ["北地枭雄，乱世不败。", "雄踞宛城，虽乱世可安。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-08_1_2.mp3"
+				]
+			}, {
+				"name": "从谏",
+				"descriptions": ["从谏良计，可得自保。", "听君谏言，去危亡，保宗祀。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["若失文和，吾将何归？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-lei-08_dead.mp3"]
+			}]
+		},
+		"shen-shen-01": {
+			"index": 48,
+			"name": "神·关羽",
+			"force": "shen",
+			"magatama": {
+				"actual": 5,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-01.png",
+			"skills": [{
+				"name": "武神",
+				"descriptions": "锁定技，①你的♥️手牌视为【杀】；②你使用♥️【杀】无距离与次数限制且不能被【闪】响应。"
+			}, {
+				"name": "武魂",
+				"descriptions": "锁定技，①当你受到其他角色造成的1点伤害后，你令该角色获得1枚“梦魇”标记；②当你死亡时，你令拥有最多“梦魇”标记的一名其他角色进行判定，若结果不为【桃】或【桃园结义】，则该角色死亡。"
+			}],
+			"dialogues": [{
+				"name": "武神",
+				"descriptions": ["还不速速领死！", "取汝狗头，犹如探囊取物！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-01_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-01_1_2.mp3"
+				]
+			}, {
+				"name": "武魂",
+				"descriptions": ["拿命来！", "谁来与我同去？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-01_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夙愿已了，魂归地府。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-01_dead.mp3"]
+			}]
+		},
+		"shen-shen-02": {
+			"index": 49,
+			"name": "神·吕蒙",
+			"force": "shen",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-02.png",
+			"skills": [{
+				"name": "涉猎",
+				"descriptions": "摸牌阶段，你可以改为亮出牌堆顶的五张牌，然后获得其中每种花色的牌各一张。"
+			}, {
+				"name": "攻心",
+				"descriptions": "出牌阶段限一次，你可以观看一名其他角色的手牌，然后你可以展示其中一张♥️牌并选择一项：1.弃置此牌；2.将此牌置于牌堆顶。"
+			}],
+			"dialogues": [{
+				"name": "涉猎",
+				"descriptions": ["略懂略懂。", "什么都懂一点，生活更多彩一些。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-02_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-02_1_2.mp3"
+				]
+			}, {
+				"name": "攻心",
+				"descriptions": ["攻城为下，攻心为上。", "我替施主把把脉。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-02_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["劫数难逃，我们别无选择。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-02_dead.mp3"]
+			}]
+		},
+		"shen-shen-03": {
+			"index": 50,
+			"name": "神·周瑜",
+			"force": "shen",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-03.png",
+			"skills": [{
+				"name": "琴音",
+				"descriptions": "弃牌阶段结束时，若你于此阶段内弃置过至少两张手牌，你可以选择一项：1.令所有角色各回复1点体力；2.令所有角色各失去1点体力。"
+			}, {
+				"name": "业炎",
+				"descriptions": "限定技，出牌阶段，你可以选择至多三名角色，对这些角色造成共计3点火焰伤害（若你将对一名角色分配至少2点火焰伤害，你须先弃置四张花色各不相同的手牌并失去3点体力）。"
+			}],
+			"dialogues": [{
+				"name": "琴音",
+				"descriptions": ["（舒缓的琴声）", "（激烈的琴声）"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-03_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-03_1_2.mp3"
+				]
+			}, {
+				"name": "业炎",
+				"descriptions": ["让这熊熊业火焚尽你的罪恶！", "聆听吧，这献给你的镇魂曲！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-03_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["逝者不死，浴火重生。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-03_dead.mp3"]
+			}]
+		},
+		"shen-shen-04": {
+			"index": 51,
+			"name": "神·诸葛亮",
+			"force": "shen",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-04.png",
+			"skills": [{
+				"name": "七星",
+				"descriptions": "游戏开始时，你将牌堆顶的七张牌扣置于你的武将牌上，称为“星”，然后你可以用任意张手牌替换等量的“星”（摸牌阶段结束时，你可以用任意张手牌替换等量的“星”）。"
+			}, {
+				"name": "狂风",
+				"descriptions": "结束阶段，你可以移去一张“星”并选择一名角色，然后直到你的下回合开始，当该角色受到火焰伤害时，此伤害+1。"
+			}, {
+				"name": "大雾",
+				"descriptions": "结束阶段，你可以移去任意张“星”并选择等量名角色，然后直到你的下回合开始前，当这些角色受到非雷电伤害时，防止之。"
+			}],
+			"dialogues": [{
+				"name": "七星",
+				"descriptions": ["伏望天恩，誓讨汉贼！", "祈星辰之力佑我蜀汉！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_1_2.mp3"
+				]
+			}, {
+				"name": "狂风",
+				"descriptions": ["万事俱备，只欠业火。", "风~~起~~"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_2_2.mp3"
+				]
+			}, {
+				"name": "大雾",
+				"descriptions": ["此非万全之策，唯惧天雷。", "此计可保你一时平安。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["今当远离，临表涕零，不知所言。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-04_dead.mp3"]
+			}]
+		},
+		"shen-shen-05": {
+			"index": 52,
+			"name": "神·曹操",
+			"force": "shen",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-05.png",
+			"skills": [{
+				"name": "归心",
+				"descriptions": "当你受到1点伤害后，你可以随机获得每名其他角色区域里的一张牌，然后你翻面。"
+			}, {
+				"name": "飞影",
+				"descriptions": "锁定技，其他角色计算与你的距离+1。"
+			}],
+			"dialogues": [{
+				"name": "归心",
+				"descriptions": ["山不厌高，海不厌深。", "周公吐哺，天下归心。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-05_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["腾蛇乘雾……终为……土灰……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-05_dead.mp3"]
+			}]
+		},
+		"shen-shen-06": {
+			"index": 53,
+			"name": "神·吕布",
+			"force": "shen",
+			"magatama": {
+				"actual": 5,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-06.png",
+			"skills": [{
+				"name": "狂暴",
+				"descriptions": "锁定技，①游戏开始时，你获得2枚“暴怒”标记；②当你造成或受到1点伤害后，你获得1枚“暴怒”标记。"
+			}, {
+				"name": "无谋",
+				"descriptions": "锁定技，当你使用普通锦囊牌时，你选择一项：1.移去1枚“暴怒”标记；2.失去1点体力。"
+			}, {
+				"name": "无前",
+				"descriptions": "出牌阶段，你可以移去2枚“暴怒”标记并选择一名其他角色，然后本阶段：你视为拥有技能“无双”、该角色的防具失效。"
+			}, {
+				"name": "神愤",
+				"descriptions": "出牌阶段限一次，你可以移去6枚“暴怒”标记，对所有其他角色各造成1点伤害，然后这些角色依次弃置装备区里的所有牌并依次弃置四张手牌，若如此做，你翻面。"
+			}, {
+				"name": "☆ 无双",
+				"descriptions": "锁定技，①当你使用【杀】指定一名角色为目标后，其需连续使用两张【闪】才能抵消；②当你使用【决斗】指定其他角色为目标后，或成为其他角色使用【决斗】的目标后，其每次响应需连续打出两张【杀】。"
+			}],
+			"dialogues": [{
+				"name": "狂暴",
+				"descriptions": ["哼！", "嗯！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_1_2.mp3"
+				]
+			}, {
+				"name": "无谋",
+				"descriptions": ["不管这些了！", "哪个说我有勇无谋？！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_2_2.mp3"
+				]
+			}, {
+				"name": "无前",
+				"descriptions": ["天王老子也保不住你！", "看我神威，无坚不摧！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_3_2.mp3"
+				]
+			}, {
+				"name": "神愤",
+				"descriptions": ["这才是活生生的地狱！", "凡人们，颤抖吧，这是神之怒火！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_4_2.mp3"
+				]
+			}, {
+				"name": "☆ 无双",
+				"descriptions": ["燎原千里，凶名远扬！", "铁蹄奋进，所向披靡！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_5_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_5_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我在修罗炼狱等着你们！呵哈哈哈。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-06_dead.mp3"]
+			}]
+		},
+		"shen-shen-07": {
+			"index": 54,
+			"name": "神·赵云",
+			"force": "shen",
+			"magatama": {
+				"actual": 2,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-07.png",
+			"skills": [{
+				"name": "绝境",
+				"descriptions": "锁定技，①你的手牌上限+2；②当你进入或脱离濒死状态时，你摸一张牌。"
+			}, {
+				"name": "龙魂",
+				"descriptions": "你可以将一至两张花色相同的牌按下列规则使用或打出：♥️当【桃】；♦️当火【杀】；♣️当【闪】；♠️当【无懈可击】。若你以此法使用或打出了两张：红色牌，此牌回复值或伤害值+1；黑色牌，你弃置当前回合角色的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "绝境",
+				"descriptions": ["置于死地，方能后生！", "背水一战，无胜便死！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-07_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-07_1_2.mp3"
+				]
+			}, {
+				"name": "龙魂",
+				"descriptions": ["能屈能伸，才是大丈夫。", "常山赵子龙在此！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-07_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["龙身虽死，魂魄不灭！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-07_dead.mp3"]
+			}]
+		},
+		"shen-shen-08": {
+			"index": 55,
+			"name": "神·司马懿",
+			"force": "shen",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-08.png",
+			"skills": [{
+				"name": "忍戒",
+				"descriptions": "锁定技，当你受到1点伤害后，或当你于弃牌阶段内每弃置一张手牌后，你获得1枚“忍”标记。"
+			}, {
+				"name": "连破",
+				"descriptions": "一名角色的回合结束时，若你本回合杀死过角色，你可以执行一个额外的回合。"
+			}, {
+				"name": "拜印",
+				"descriptions": "觉醒技，准备阶段，若“忍”的数量不小于4，你减1点体力上限，然后获得技能“极略”。"
+			}, {
+				"name": "☆ 极略",
+				"descriptions": "你可以移去1枚“忍”，于对应时机发动下列一项技能：“鬼才”、“放逐”、“集智”、“制衡”或“完杀”。"
+			}, {
+				"name": "☆ 鬼才",
+				"descriptions": "当一名角色的判定牌生效前，你可以打出一张牌代替之。"
+			}, {
+				"name": "☆ 放逐",
+				"descriptions": "当你受到伤害后，你可以令一名其他角色翻面并摸X张牌（X为你已损失的体力值）。"
+			}, {
+				"name": "☆ 集智",
+				"descriptions": "当你使用一张非转化的锦囊牌时，你可以摸一张牌。若此牌为基本牌，你可以弃置此牌，令你本回合的手牌上限+1。"
+			}, {
+				"name": "☆ 制衡",
+				"descriptions": "出牌阶段限一次，你可以弃置任意张牌，然后摸等量的牌（若你以此法弃置了所有的手牌，则多摸一张牌）。"
+			}, {
+				"name": "☆ 完杀",
+				"descriptions": "锁定技，你的回合内，当一名角色进入濒死状态时，你令除你和其以外的角色不能对其使用【桃】且所有非锁定技失效直到此次濒死结算结束。"
+			}],
+			"dialogues": [{
+				"name": "忍戒",
+				"descriptions": ["忍一时风平浪静。", "退一步海阔天空。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_1_2.mp3"
+				]
+			}, {
+				"name": "连破",
+				"descriptions": ["一鼓作气，破敌制胜。", "受命于天，既寿永昌！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_2_2.mp3"
+				]
+			}, {
+				"name": "拜印",
+				"descriptions": ["老骥伏枥，志在千里！", "烈士暮年，壮心不已！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 鬼才",
+				"descriptions": ["老夫，即是天命！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_4_1.mp3"]
+			}, {
+				"name": "☆ 放逐",
+				"descriptions": ["赦你死罪，你去吧！"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_5_1.mp3"]
+			}, {
+				"name": "☆ 集智",
+				"descriptions": ["顺应天意，得道多助。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_6_1.mp3"]
+			}, {
+				"name": "☆ 制衡",
+				"descriptions": ["天之道，轮回也。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_7_1.mp3"]
+			}, {
+				"name": "☆ 完杀",
+				"descriptions": ["天要亡你，谁人能救？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_8_1.mp3"]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["鼎足三分已成梦，一切都结束了。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-08_dead.mp3"]
+			}]
+		},
+		"shen-shen-09": {
+			"index": 56,
+			"name": "神·刘备",
+			"force": "shen",
+			"magatama": {
+				"actual": 6,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-09.png",
+			"skills": [{
+				"name": "龙怒",
+				"descriptions": "转换技，锁定技，出牌阶段开始时，阳：你失去1点体力并摸一张牌，然后本回合你的红色手牌均视为火【杀】且你使用火【杀】无距离限制；阴：你减1点体力上限并摸一张牌，然后本回合你的锦囊牌均视为雷【杀】且你使用雷【杀】无次数限制。"
+			}, {
+				"name": "结营",
+				"descriptions": "锁定技，①游戏开始时，你横置自己；②当你即将重置武将牌时，取消之；③已横置的角色手牌上限+2；④结束阶段，你横置一名其他角色。"
+			}],
+			"dialogues": [{
+				"name": "龙怒",
+				"descriptions": ["损身熬心，誓报此仇！", "兄弟急难，血债血偿！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-09_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-09_1_2.mp3"
+				]
+			}, {
+				"name": "结营",
+				"descriptions": ["结草衔环，报兄弟大恩。", "桃园结义，营一世之交。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-09_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["桃园依旧，来世再结。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-09_dead.mp3"]
+			}]
+		},
+		"shen-shen-10": {
+			"index": 57,
+			"name": "神·陆逊",
+			"force": "shen",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-10.png",
+			"skills": [{
+				"name": "军略",
+				"descriptions": "锁定技，当你造成或受到1点伤害后，你获得1枚“军略”标记。"
+			}, {
+				"name": "摧克",
+				"descriptions": "出牌阶段开始时，若X为：奇数，你可以对一名角色造成1点伤害；偶数，你可以横置一名角色并弃置其区域里的一张牌。然后若X大于7，你可以移去所有“军略”标记，对所有其他角色造成1点伤害（X为“军略”标记数）。"
+			}, {
+				"name": "绽火",
+				"descriptions": "限定技，出牌阶段，你可以移去所有“军略”标记，令至多等量的已横置角色弃置所有装备区里的牌，然后对其中一名角色造成1点火焰伤害。"
+			}],
+			"dialogues": [{
+				"name": "军略",
+				"descriptions": ["军略绵腹，制敌千里。", "文韬武略兼备，方可破敌如破竹。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_1_2.mp3"
+				]
+			}, {
+				"name": "摧克",
+				"descriptions": ["克险摧难，军略当先。", "摧敌心神，克敌计谋。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_2_2.mp3"
+				]
+			}, {
+				"name": "绽火",
+				"descriptions": ["业火映东水，吴志绽敌营。", "绽东吴业火，烧敌军数千。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["东吴业火，终究熄灭。"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-10_dead.mp3"]
+			}]
+		},
+		"shen-shen-11": {
+			"index": 58,
+			"name": "神·甘宁",
+			"force": "shen",
+			"magatama": {
+				"actual": 3,
+				"blank": 3
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-11.png",
+			"skills": [{
+				"name": "魄袭",
+				"descriptions": "出牌阶段限一次，你可以观看一名其他角色的手牌，且你可以弃置你与其手牌中共计四张不同花色的牌，然后若你以此法被弃置的牌数为：0，你减1点体力上限；1，你结束出牌阶段且你本回合的手牌上限-1；3，你回复1点体力；4，你摸四张牌。"
+			}, {
+				"name": "劫营",
+				"descriptions": "①回合开始时，若没有有“营”标记的角色，你获得“营”标记；②结束阶段，你可以将“营”标记交给一名其他角色；③有“营”标记的其他角色的回合结束时，移去“营”标记，你获得其所有手牌。“营”标记效果：摸牌阶段多摸一张牌、出牌阶段使用【杀】的次数上限+1、手牌上限+1"
+			}],
+			"dialogues": [{
+				"name": "魄袭",
+				"descriptions": ["夜袭敌军，挫其锐气。", "受主知遇，袭敌不惧。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-11_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-11_1_2.mp3"
+				]
+			}, {
+				"name": "劫营",
+				"descriptions": ["裹甲衔枚，劫营如入无人之境。", "劫营速战，措手不及。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-11_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-11_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾不能奉主，谁辅主基业？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-11_dead.mp3"]
+			}]
+		},
+		"shen-shen-12": {
+			"index": 59,
+			"name": "神·张辽",
+			"force": "shen",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-12.png",
+			"skills": [{
+				"name": "夺锐",
+				"descriptions": "当你于出牌阶段内对一名其他角色造成伤害后，若其没有因此技能而失效的技能，你可以令其武将牌上的一个技能失效直到其下回合结束，然后结束此阶段。"
+			}, {
+				"name": "止啼",
+				"descriptions": "锁定技，①你的攻击范围内已受伤的角色手牌上限-1；②若场上已受伤的角色数不小于：1，你的手牌上限+1；3，摸牌阶段，你多摸一张牌；5，回合结束时，你废除一名角色一个随机的装备栏。"
+			}],
+			"dialogues": [{
+				"name": "夺锐",
+				"descriptions": ["夺敌军锐气，杀敌方士气。", "尖锐之势，吾亦可一人夺之！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-12_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-12_1_2.mp3"
+				]
+			}, {
+				"name": "止啼",
+				"descriptions": ["娃闻名止啼，孙损十万休。", "江东小儿安敢啼哭？"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-12_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-12_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我也有被孙仲谋所伤之时？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-12_dead.mp3"]
+			}]
+		},
+		"shen-shen-13": {
+			"index": 60,
+			"name": "神·孙权",
+			"force": "shen",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-13.png",
+			"skills": [{
+				"name": "驭衡",
+				"descriptions": "锁定技，①回合开始时，你弃置任意张花色不同的牌，随机获得等量吴势力角色的技能；②回合结束时，你失去以此法获得的技能，摸等量张牌。"
+			}, {
+				"name": "帝力",
+				"descriptions": "觉醒技，当你的技能数大于体力上限时，你减少1点体力上限，失去任意个其他技能并获得技能“圣质”、“权道”、“持纲”中的前等量个。"
+			}, {
+				"name": "☆ 圣质",
+				"descriptions": "锁定技，当你发动非锁定技后，你本回合使用的下一张牌无距离和次数限制。"
+			}, {
+				"name": "☆ 权道",
+				"descriptions": "锁定技，当你使用【杀】或普通锦囊牌时，你将手牌中两者数量弃至相同并摸一张牌。"
+			}, {
+				"name": "☆ 持纲",
+				"descriptions": "转换技，锁定技，你的判定阶段改为：阳：摸牌阶段；阴：出牌阶段。"
+			}],
+			"dialogues": [{
+				"name": "驭衡",
+				"descriptions": ["权术妙用，存乎一心。", "为权之道，皆在于衡。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_1_2.mp3"
+				]
+			}, {
+				"name": "帝力",
+				"descriptions": ["身处巅峰，揽天下大事。", "位居至尊，掌至高之权。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 圣质",
+				"descriptions": ["位继父兄，承弘德以继往。", "英魂犹在，履功业而开来。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 权道",
+				"descriptions": ["计策掌权，俯令吴会。", "以权驭衡，谋定天下。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_4_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_4_2.mp3"
+				]
+			}, {
+				"name": "☆ 持纲",
+				"descriptions": ["秉承伦常，扶树纲纪。", "至尊临位，则朝野自肃。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_5_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_5_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["困居江东，枉称至尊……"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-13_dead.mp3"]
+			}]
+		},
+		"shen-shen-14": {
+			"index": 61,
+			"name": "神·张角",
+			"force": "shen",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-shen-14.png",
+			"skills": [{
+				"name": "异兆",
+				"descriptions": "锁定技，当你使用或打出一张牌后，获得等同于此牌点数的“黄”标记，然后若“黄”标记数的十位数变化，你随机获得牌堆中一张点数为变化后十位数的牌。"
+			}, {
+				"name": "肆军",
+				"descriptions": "准备阶段，若“黄”标记数大于牌堆里的牌数，你可以移去所有“黄”标记，然后从牌堆中获得随机张点数之和为36的牌。"
+			}, {
+				"name": "天劫",
+				"descriptions": "一名角色的回合结束时，若本回合牌堆进行过洗牌，你可以对至多三名其他角色各造成X点雷电伤害（X为其手牌中【闪】的数量，且至少为1）。"
+			}],
+			"dialogues": [{
+				"name": "异兆",
+				"descriptions": ["苍天已死，此黄天当立之时。", "甲子尚水，显炎汉将亡之兆。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_1_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_1_2.mp3"
+				]
+			}, {
+				"name": "肆军",
+				"descriptions": ["联九州黎庶，撼一家之王庭。", "吾以此身为药，欲医天下之疾。"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_2_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_2_2.mp3"
+				]
+			}, {
+				"name": "天劫",
+				"descriptions": ["苍天已死，贫道当替天行道。", "贫道张角，请大汉赴死！"],
+				"srcs": [
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_3_1.mp3",
+					"/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["诸君唤我为贼，然我所窃何物？"],
+				"srcs": ["/static/video/militaryGeneral/shenHuaZaiLin/shen-shen-14_dead.mp3"]
+			}]
+		}
+	}
+}

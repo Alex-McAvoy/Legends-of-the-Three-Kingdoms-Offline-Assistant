@@ -1,0 +1,673 @@
+/* 界限突破 */
+
+/******************************** 小将灯标题 ********************************/
+.jie-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/jieXianTuPo/title.png");
+}
+
+/* 界·蜀汉虎将 */
+.jie-hu-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 界·贤明君主 */
+.jie-zhu-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 界·勇冠三军 */
+.jie-yong-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 界·帷幄千里 */
+.jie-wei-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 界·巾帼红颜 */
+.jie-guo-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* 界·风 */
+.jie-feng-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* 界·火 */
+.jie-huo-title {
+	background-position: 0 calc(-32px*6);
+}
+
+/* 界·林 */
+.jie-lin-title {
+	background-position: 0 calc(-32px*7);
+}
+
+/* 界·山 */
+.jie-shan-title {
+	background-position: 0 calc(-32px*8);
+}
+
+/******************************** 大将灯 ********************************/
+.jie-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieXianTuPo/lamp.png");
+	transform: scale(0.7);
+	animation: jieDaFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieDaFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+	
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+	
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+	
+	60% {
+		background-position:  calc(-64px*3) calc(-64px*0);
+	}
+	
+	80%{
+		background-position:  calc(-64px*4) calc(-64px*0);
+	}
+	
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.jie-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieXianTuPo/lamp.png");
+}
+
+/* 界·虎 */
+.jie-hu-lamp {
+	animation: jieHuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieHuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* 界·主 */
+.jie-zhu-lamp {
+	animation: jieZhuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieZhuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	 20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+}
+
+/* 界·勇 */
+.jie-yong-lamp {
+	animation: jieYongLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieYongLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+}
+
+/* 界·帷 */
+.jie-wei-lamp {
+	animation: jieWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieWeiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+    40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+	
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+}
+
+/* 界·帼 */
+.jie-guo-lamp {
+	animation: jieGuoLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieGuoLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+}
+
+
+/* 界·风 */
+.jie-feng-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieFengFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieFengFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+}
+
+/* 界·火 */
+.jie-huo-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieHuoFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieHuoFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
+	}
+}
+
+/* 界·林 */
+.jie-lin-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieLinFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieLinFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*8);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*8);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*8);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*8);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*8);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*8);
+	}
+}
+
+/* 界·山 */
+.jie-shan-lamp {
+	width: 64px;
+	height: 64px;
+	animation: jieShanFrameAnim steps(1, start) 1s infinite
+}
+
+@keyframes jieShanFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*9);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*9);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*9);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*9);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*9);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*9);
+	}
+}
+
+
+/******************************** 头像 ********************************/
+
+.jie-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/jieXianTuPo/avatar.png");
+}
+
+/***** 界·蜀汉虎将 *****/
+
+/* 界·关羽 */
+.jie-hu-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+
+/* 界·张飞 */
+.jie-hu-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+
+/* 界·赵云 */
+.jie-hu-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+
+/* 界·马超 */
+.jie-hu-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+
+/***** 界·贤明君主 *****/
+/* 界·刘备	*/
+.jie-zhu-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+
+/* 界·曹操	*/
+.jie-zhu-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+
+/* 界·孙权	*/
+.jie-zhu-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+
+
+/***** 界·勇冠三军 *****/
+
+/* 界·甘宁 */
+.jie-yong-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+
+/* 界·吕蒙 */
+.jie-yong-02 {
+	background-position: calc(-61px*1) calc(-61px*2);
+}
+
+/* 界·黄盖 */
+.jie-yong-03 {
+	background-position: calc(-61px*2) calc(-61px*2);
+}
+
+/* 界·夏侯惇 */
+.jie-yong-04 {
+	background-position: calc(-61px*3) calc(-61px*2);
+}
+
+/* 界·张辽 */
+.jie-yong-05 {
+	background-position: calc(-61px*4) calc(-61px*2);
+}
+
+/* 界·许褚	*/
+.jie-yong-06 {
+	background-position: calc(-61px*5) calc(-61px*2);
+}
+
+/* 界·吕布 */
+.jie-yong-07 {
+	background-position: calc(-61px*6) calc(-61px*2);
+}
+
+/* 界·华雄	*/
+.jie-yong-08 {
+	background-position: calc(-61px*7) calc(-61px*2);
+}
+
+/* 界·李典	*/
+.jie-yong-09 {
+	background-position: calc(-61px*8) calc(-61px*2);
+}
+
+/* 界·公孙瓒 */
+.jie-yong-10 {
+	background-position: calc(-61px*9) calc(-61px*2);
+}
+
+/***** 界·帷幄千里 *****/
+
+/* 界·诸葛亮 */
+.jie-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+
+/* 界·周瑜 */
+.jie-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+
+/* 界·陆逊	*/
+.jie-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+
+/* 界·司马懿 */
+.jie-wei-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+
+/* 界·郭嘉 */
+.jie-wei-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+
+/* 界·华佗 */
+.jie-wei-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+
+/* 界·徐庶 */
+.jie-wei-07 {
+	background-position: calc(-61px*6) calc(-61px*3);
+}
+
+
+/***** 界·巾帼红颜 *****/
+/* 界·黄月英 */
+.jie-guo-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
+
+/* 界·孙尚香 */
+.jie-guo-02 {
+	background-position: calc(-61px*1) calc(-61px*4);
+}
+
+/* 界·甄姬 */
+.jie-guo-03 {
+	background-position: calc(-61px*2) calc(-61px*4);
+}
+
+/* 界·貂蝉 */
+.jie-guo-04 {
+	background-position: calc(-61px*3) calc(-61px*4);
+}
+
+/* 界·大乔 */
+.jie-guo-05 {
+	background-position: calc(-61px*4) calc(-61px*4);
+}
+
+/***** 界·其疾如风 *****/
+/* 界·黄忠 */
+.jie-feng-01 {
+	background-position: calc(-61px*0) calc(-61px*5);
+}
+/* 界·张角 */
+.jie-feng-02 {
+	background-position: calc(-61px*1) calc(-61px*5);
+}
+/* 界·于吉 */
+.jie-feng-03 {
+	background-position: calc(-61px*2) calc(-61px*5);
+}
+/* 界·夏侯渊 */
+.jie-feng-04 {
+	background-position: calc(-61px*3) calc(-61px*5);
+}
+/* 界·魏延 */
+.jie-feng-05 {
+	background-position: calc(-61px*4) calc(-61px*5);
+}
+/* 界·小乔 */
+.jie-feng-06 {
+	background-position: calc(-61px*5) calc(-61px*5);
+}
+
+/***** 界·侵掠如火 *****/
+/* 界·袁绍 */
+.jie-huo-01 {
+	background-position: calc(-61px*0) calc(-61px*6);
+}
+/* 界·庞统 */
+.jie-huo-02 {
+	background-position: calc(-61px*1) calc(-61px*6);
+}
+/* 界·卧龙诸葛 */
+.jie-huo-03 {
+	background-position: calc(-61px*2) calc(-61px*6);
+}
+/* 界·庞德 */
+.jie-huo-04 {
+	background-position: calc(-61px*3) calc(-61px*6);
+}
+/* 界·太史慈 */
+.jie-huo-05 {
+	background-position: calc(-61px*4) calc(-61px*6);
+}
+/* 界·荀彧 */
+.jie-huo-06 {
+	background-position: calc(-61px*5) calc(-61px*6);
+}
+/* 界·典韦 */
+.jie-huo-07 {
+	background-position: calc(-61px*6) calc(-61px*6);
+}
+/* 界·颜良文丑 */
+.jie-huo-08 {
+	background-position: calc(-61px*7) calc(-61px*6);
+}
+
+/***** 界·其徐如林 *****/
+/* 界·董卓 */
+.jie-lin-01 {
+	background-position: calc(-61px*0) calc(-61px*7);
+}
+/* 界·孙坚 */
+.jie-lin-02 {
+	background-position: calc(-61px*1) calc(-61px*7);
+}
+/* 界·祝融 */
+.jie-lin-03 {
+	background-position: calc(-61px*2) calc(-61px*7);
+}
+/* 界·贾诩 */
+.jie-lin-04 {
+	background-position: calc(-61px*3) calc(-61px*7);
+}
+/* 界·鲁肃 */
+.jie-lin-05 {
+	background-position: calc(-61px*4) calc(-61px*7);
+}
+/* 界·孟获 */
+.jie-lin-06 {
+	background-position: calc(-61px*5) calc(-61px*7);
+}
+/* 界·徐晃 */
+.jie-lin-07 {
+	background-position: calc(-61px*6) calc(-61px*7);
+}
+
+/***** 界·不动如山 *****/
+/* 界·左慈 */
+.jie-shan-01 {
+	background-position: calc(-61px*0) calc(-61px*8);
+}
+/* 界·刘禅 */
+.jie-shan-02 {
+	background-position: calc(-61px*1) calc(-61px*8);
+}
+/* 界·孙策 */
+.jie-shan-03 {
+	background-position: calc(-61px*2) calc(-61px*8);
+}
+/* 界·邓艾 */
+.jie-shan-04 {
+	background-position: calc(-61px*3) calc(-61px*8);
+}
+/* 界·姜维 */
+.jie-shan-05 {
+	background-position: calc(-61px*4) calc(-61px*8);
+}
+/* 界·张郃 */
+.jie-shan-06 {
+	background-position: calc(-61px*5) calc(-61px*8);
+}
+/* 界·蔡文姬 */
+.jie-shan-07 {
+	background-position: calc(-61px*6) calc(-61px*8);
+}
+/* 界·张昭&张纮 */
+.jie-shan-08 {
+	background-position: calc(-61px*7) calc(-61px*8);
+}

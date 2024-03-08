@@ -126,27 +126,10 @@
 </script>
 
 <style>
-	/* 将灯 */
-	@import url(@/static/css/online/lamps/biaoZhun.css);
-	@import url(@/static/css/online/lamps/shenHuaZaiLin.css);
-	@import url(@/static/css/online/lamps/jieXianTuPo.css);
-	@import url(@/static/css/online/lamps/yiJiangChengMing.css);
-	
-	@import url(@/static/css/online/lamps/cuiCanXingHe.css);
-	@import url(@/static/css/online/lamps/guoZhan.css);
-	@import url(@/static/css/online/lamps/jieYiJiangChengMing.css);
-	@import url(@/static/css/online/lamps/menFaShiZu.css);
-	@import url(@/static/css/online/lamps/mouKuoZhanBao.css);
-	@import url(@/static/css/online/lamps/qiFu.css);
-	@import url(@/static/css/online/lamps/SP.css);
-	@import url(@/static/css/online/lamps/wenDeWuBei.css);
-	@import url(@/static/css/online/lamps/xianDing.css);
-
-	/* 头像 */
-	@import url(@/static/css/online/avatar/biaoZhun.css);
-	@import url(@/static/css/online/avatar/shenHuaZaiLin.css);
-	@import url(@/static/css/online/avatar/jieXianTuPo.css);
-	@import url(@/static/css/online/avatar/yiJiangChengMing.css);
+	@import url(@/static/css/online/biaoZhun.css);
+	@import url(@/static/css/online/shenHuaZaiLin.css);
+	@import url(@/static/css/online/jieXianTuPo.css);
+	@import url(@/static/css/online/yiJiangChengMing.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */
