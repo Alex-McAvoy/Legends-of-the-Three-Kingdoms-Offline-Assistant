@@ -130,6 +130,7 @@
 	@import url(@/static/css/online/shenHuaZaiLin.css);
 	@import url(@/static/css/online/jieXianTuPo.css);
 	@import url(@/static/css/online/yiJiangChengMing.css);
+	@import url(@/static/css/online/jieYiJiangChengMing.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */

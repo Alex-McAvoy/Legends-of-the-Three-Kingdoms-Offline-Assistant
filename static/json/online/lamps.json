@@ -1074,10 +1074,45 @@
 	{
 		"index": 4,
 		"name": "界·一将成名",
-		"class": "jieJiang",
+		"class": "jieJiang-da-lamp",
 		"nodes": [{
 			"index": 0,
-			"class": "feng"
+			"name": "界·一将成名1",
+			"lampClass": "jieJiang-xiao-lamp jieJiang-1-lamp",
+			"titleClass": "jieJiang-title jieJiang-1-title",
+			"militaries": [{
+				"id": "jieJiang-1-01",
+				"avatarClass": "jieJiang-1-01 jieJiang-avatar"
+			},{
+				"id": "jieJiang-1-02",
+				"avatarClass": "jieJiang-1-02 jieJiang-avatar"
+			},
+			{
+				"id": "jieJiang-1-03",
+				"avatarClass": "jieJiang-1-03 jieJiang-avatar"
+			},
+			{
+				"id": "jieJiang-1-04",
+				"avatarClass": "jieJiang-1-04 jieJiang-avatar"
+			}]
+		},{
+			"index": 1,
+			"name": "界·一将成名2",
+			"lampClass": "jieJiang-xiao-lamp jieJiang-2-lamp",
+			"titleClass": "jieJiang-title jieJiang-2-title",
+			"militaries": [{
+				"id": "jieJiang-2-01",
+				"avatarClass": "jieJiang-2-01 jieJiang-avatar"
+			}]
+		},{
+			"index": 2,
+			"name": "界·一将成名3",
+			"lampClass": "jieJiang-xiao-lamp jieJiang-3-lamp",
+			"titleClass": "jieJiang-title jieJiang-3-title",
+			"militaries": [{
+				"id": "jieJiang-3-01",
+				"avatarClass": "jieJiang-3-01 jieJiang-avatar"
+			}]
 		}]
 	},
 	{
