@@ -1,0 +1,206 @@
+/* 界·一将成名 */
+
+/******************************** 小将灯标题 ********************************/
+.jieJiang-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/yiJiangChengMing/title.png");
+}
+
+/* 一将成名1 */
+.jieJiang-1-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 一将成名2 */
+.jieJiang-2-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 一将成名3 */
+.jieJiang-3-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/******************************** 大将灯 ********************************/
+.jieJiang-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/yiJiangChengMing/lamp.png");
+	transform: scale(0.7);
+	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiangDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+	
+	60% {
+		background-position:  calc(-64px*3) calc(-64px*0);
+	}
+	
+	80%{
+		background-position:  calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.jieJiang-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/yiJiangChengMing/lamp.png");
+}
+
+/* 一将成名1 */
+.jieJiang-1-lamp {
+	animation: jieJiang1LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang1LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* 一将成名2 */
+.jieJiang-2-lamp {
+	animation: jieJiang2LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang2LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	 40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* 一将成名3 */
+.jieJiang-3-lamp {
+	animation: jieJiang3LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang3LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/******************************** 头像 ********************************/
+
+.jieJiang-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/avatar.png");
+}
+
+/***** 一将成名1 *****/
+
+/* 凌统	*/
+.jieJiang-1-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/* 徐盛	*/
+.jieJiang-1-02 {
+	background-position: calc(-61px*1) calc(-61px*0)
+}
+
+/* 高顺	*/
+.jieJiang-1-03 {
+	background-position: calc(-61px*2) calc(-61px*0)
+}
+
+/* 陈宫	*/
+.jieJiang-1-04 {
+	background-position: calc(-61px*3) calc(-61px*0)
+}
+
+
+/***** 一将成名2 *****/
+/* 曹彰 */
+.jieJiang-2-01 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+
+/***** 一将成名3	*****/
+
+/* 简雍 */
+.jieJiang-3-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
