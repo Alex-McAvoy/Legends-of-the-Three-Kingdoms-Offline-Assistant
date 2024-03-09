@@ -10,7 +10,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-01.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-hu-01.png",
 			"skills": [{
 				"name": "武圣",
 				"descriptions": "你可以将一张红色牌当【杀】使用或打出。"
@@ -38,7 +38,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-02.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-hu-02.png",
 			"skills": [{
 				"name": "咆哮",
 				"descriptions": "锁定技，你使用【杀】无次数限制。"
@@ -66,7 +66,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-03.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-hu-03.png",
 			"skills": [{
 				"name": "龙胆",
 				"descriptions": "你可以将一张【杀】当【闪】、【闪】当【杀】使用或打出。"
@@ -94,7 +94,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-hu-04.png ",
+			"imgSrc": "/static/images/online/biaoZhun/biao-hu-04.png ",
 			"skills": [{
 					"name": "铁骑",
 					"descriptions": "当你使用【杀】指定一名角色为目标后，你可以进行一次判定，若结果为红色，该角色不能使用【闪】响应此【杀】。"
@@ -127,7 +127,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-01.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-zhu-01.png",
 			"skills": [{
 					"name": "仁德",
 					"descriptions": "出牌阶段，你可以将任意张手牌交给一名其他角色；当你给出本阶段的第二张“仁德”牌时，你回复1点体力。"
@@ -167,7 +167,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-02.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-zhu-02.png",
 			"skills": [{
 					"name": "制衡",
 					"descriptions": "出牌阶段限一次，你可以弃置任意张牌，然后摸等量的牌。"
@@ -207,7 +207,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-03.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-zhu-03.png",
 			"skills": [{
 					"name": "奸雄",
 					"descriptions": "当你受到伤害后，你可以获得对你造成伤害的牌。"
@@ -248,7 +248,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-zhu-04.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-zhu-04.png",
 			"skills": [{
 					"name": "妄尊",
 					"descriptions": "主公的准备阶段，你可以摸一张牌，令其本回合手牌上限-1。"
@@ -288,7 +288,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-01.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-01.png",
 			"skills": [{
 				"name": "奇袭",
 				"descriptions": "出牌阶段，你可以将一张黑色牌当【过河拆桥】使用。"
@@ -316,7 +316,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-02.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-02.png",
 			"skills": [{
 				"name": "克己",
 				"descriptions": "弃牌阶段开始前，若你未于本回合的出牌阶段内使用或打出过【杀】，你可以跳过此阶段。"
@@ -344,7 +344,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-03.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-03.png",
 			"skills": [{
 				"name": "苦肉",
 				"descriptions": "出牌阶段，你可以失去1点体力，摸两张牌。"
@@ -372,7 +372,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-04.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-04.png",
 			"skills": [{
 				"name": "刚烈",
 				"descriptions": "当你受到伤害后，你可以进行一次判定，若结果不为♥️，伤害来源选择一项：1.弃置两张手牌；2.受到你对其造成的1点伤害。"
@@ -400,7 +400,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-05.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-05.png",
 			"skills": [{
 				"name": "突袭",
 				"descriptions": "摸牌阶段，你可以改为获得至多两名其他角色的各一张手牌。"
@@ -428,7 +428,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-06.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-06.png",
 			"skills": [{
 				"name": "裸衣",
 				"descriptions": "摸牌阶段，你可以少摸一张牌，然后本回合你为伤害来源的【杀】或【决斗】造成的基础伤害值+1。"
@@ -456,7 +456,7 @@
 				"actual": 4,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-07.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-07.png",
 			"skills": [{
 				"name": "无双",
 				"descriptions": "锁定技，①当你使用【杀】指定一名角色为目标后，其需连续使用两张【闪】才能抵消；\n②当你使用【决斗】指定其他角色为目标后，或成为其他角色使用【决斗】的目标后，其每次响应需连续打出两张【杀】。"
@@ -484,7 +484,7 @@
 				"actual": 6,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-yong-08.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-yong-08.png",
 			"skills": [{
 				"name": "耀武",
 				"descriptions": "锁定技，当你受到红色【杀】造成的伤害时，伤害来源选择一项：1.回复1点体力；2.摸一张牌。"
@@ -512,7 +512,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-01.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-01.png",
 			"skills": [{
 					"name": "观星",
 					"descriptions": "准备阶段，你可以观看牌堆顶的X张牌（X为存活角色数且至多为5），然后将其中的任意张牌以任意顺序置于牌堆顶，将其余的牌以任意顺序置于牌堆底。"
@@ -552,7 +552,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-02.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-02.png",
 			"skills": [{
 					"name": "英姿",
 					"descriptions": "摸牌阶段，你可以多摸一张牌。"
@@ -592,7 +592,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-03.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-03.png",
 			"skills": [{
 					"name": "谦逊",
 					"descriptions": "锁定技，你不能成为【顺手牵羊】和【乐不思蜀】的目标。"
@@ -625,7 +625,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-04.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-04.png",
 			"skills": [{
 					"name": "反馈",
 					"descriptions": "当你受到伤害后，你可以获得伤害来源的一张牌。"
@@ -665,7 +665,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-05.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-05.png",
 			"skills": [{
 					"name": "天妒",
 					"descriptions": "当你的判定牌生效后，你可以获得之。"
@@ -705,7 +705,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-wei-06.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-wei-06.png",
 			"skills": [{
 					"name": "急救",
 					"descriptions": "你的回合外，你可以将一张红色牌当【桃】使用。"
@@ -745,7 +745,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-01.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-guo-01.png",
 			"skills": [{
 					"name": "集智",
 					"descriptions": "当你使用一张非转化的普通锦囊牌时，你可以摸一张牌。"
@@ -778,7 +778,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-02.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-guo-02.png",
 			"skills": [{
 					"name": "国色",
 					"descriptions": "出牌阶段，你可以将一张♦️牌当【乐不思蜀】使用。"
@@ -818,7 +818,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-03.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-guo-03.png",
 			"skills": [{
 					"name": "洛神",
 					"descriptions": "准备阶段，你可以进行一次判定，若结果为黑色，你获得此牌并可以重复此流程。"
@@ -858,7 +858,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-04.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-guo-04.png",
 			"skills": [{
 					"name": "闭月",
 					"descriptions": "结束阶段，你可以摸一张牌。"
@@ -898,7 +898,7 @@
 				"actual": 3,
 				"blank": 0
 			},
-			"imgSrc": "/static/images/online/militaryGeneral/biaoZhun/biao-guo-05.png",
+			"imgSrc": "/static/images/online/biaoZhun/biao-guo-05.png",
 			"skills": [{
 					"name": "枭姬",
 					"descriptions": "当你失去装备区里的一张牌后，你可以摸两张牌。"
