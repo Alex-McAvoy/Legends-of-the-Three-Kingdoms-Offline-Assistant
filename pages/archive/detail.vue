@@ -63,15 +63,15 @@
 				// 修改导航栏
 				this.navbarTitle = this.military.name
 			} else if(packageId == 2) {
-				// 引入界限突破武将包数据
-				const militariesData = require("@/static/json/online/jieXianTuPo.json")
+				// 引入一将成名武将包数据
+				const militariesData = require("@/static/json/online/yiJiangChengMing.json")
 				// 获取当前武将数据
 				this.military = militariesData.militaries[militaryId]
 				// 修改导航栏
 				this.navbarTitle = this.military.name
 			} else if(packageId == 3) {
-				// 引入一将成名武将包数据
-				const militariesData = require("@/static/json/online/yiJiangChengMing.json")
+				// 引入界限突破武将包数据
+				const militariesData = require("@/static/json/online/jieXianTuPo.json")
 				// 获取当前武将数据
 				this.military = militariesData.militaries[militaryId]
 				// 修改导航栏
