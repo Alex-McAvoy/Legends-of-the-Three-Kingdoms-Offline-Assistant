@@ -118,11 +118,15 @@ filetree
 
 `online-video-spider.py` 三国杀 Online 语音爬取脚本
 
-参数说明：
+调用说明：
 
 ```bash
 python online-video-spider.py 游戏武将编号 实际编号 技能数 <--save_path 保存路径(可选)>
-e.g.
+```
+
+实例：
+
+```bash
 python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex/Desktop/mp3
 ```
 
