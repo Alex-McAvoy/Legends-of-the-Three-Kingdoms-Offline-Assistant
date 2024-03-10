@@ -38,6 +38,7 @@
 - [起源](#起源)
 - [开发指南](#开发指南)
 - [文件目录说明](#文件目录说明)
+- [工具](#工具)
 - [部署](#部署)
 - [框架](#框架)
 - [开源协议](#开源协议)
@@ -98,6 +99,8 @@ filetree
 │     └── index.vue
 ├── /static/
 ├── /uni_modules/
+├── /utils/
+│     └── online-video-spider.py
 ├── .gitignore
 ├── App.vue
 ├── README.md
@@ -109,6 +112,18 @@ filetree
 ├── uni.promisify.adaptor.js
 └── uni.scss
 
+```
+
+## 工具
+
+`online-video-spider.py` 三国杀 Online 语音爬取脚本
+
+参数说明：
+
+```bash
+python online-video-spider.py 游戏武将编号 实际编号 技能数 <--save_path 保存路径(可选)>
+e.g.
+python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex/Desktop/mp3
 ```
 
 ## 部署
