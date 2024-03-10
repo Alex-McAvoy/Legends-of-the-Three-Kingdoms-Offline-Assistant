@@ -1245,8 +1245,8 @@
 	},
 	{
 		"index": 6,
-		"name": "门阀士族",
-		"class": "zu",
+		"name": "璀璨星河",
+		"class": "can",
 		"nodes": [{
 			"index": 0,
 			"class": "feng"
@@ -1255,16 +1255,47 @@
 	{
 		"index": 7,
 		"name": "谋扩展包",
-		"class": "mou",
+		"class": "mou-da-lamp",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "谋",
+				"lampClass": "mou-xiao-lamp mou-mou-lamp",
+				"titleClass": "mou-title mou-mou-title",
+				"militaries": [{
+					"id": "mou-mou-01",
+					"avatarClass": "mou-mou-01 mou-avatar"
+				}]
+			},
+			{
+				"index": 1,
+				"name": "武",
+				"lampClass": "mou-xiao-lamp mou-wu-lamp",
+				"titleClass": "mou-title mou-wu-title",
+				"militaries": [{
+					"id": "mou-wu-01",
+					"avatarClass": "mou-wu-01 mou-avatar"
+				}]
+			},
+			{
+				"index": 2,
+				"name": "威",
+				"lampClass": "mou-xiao-lamp mou-wei-lamp",
+				"titleClass": "mou-title mou-wei-title",
+				"militaries": [{
+					"id": "mou-wei-01",
+					"avatarClass": "mou-wei-01 mou-avatar"
+				},
+				{
+					"id": "mou-wei-02",
+					"avatarClass": "mou-wei-02 mou-avatar"
+				}]
+			}
+		]
 	},
 	{
 		"index": 8,
-		"name": "璀璨星河",
-		"class": "can",
+		"name": "门阀士族",
+		"class": "zu",
 		"nodes": [{
 			"index": 0,
 			"class": "feng"

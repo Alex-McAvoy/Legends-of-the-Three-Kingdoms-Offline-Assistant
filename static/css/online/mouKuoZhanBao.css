@@ -1,0 +1,196 @@
+/* 谋扩展包 */
+
+/******************************** 小将灯标题 ********************************/
+.mou-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/title.png");
+}
+
+/* 谋定天下 */
+.mou-mou-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 武动乾坤 */
+.mou-wu-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 奋武扬威 */
+.mou-wei-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/******************************** 大将灯 ********************************/
+.mou-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+	transform: scale(0.7);
+	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiangDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.mou-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+}
+
+/* 谋定天下 */
+.mou-mou-lamp {
+	animation: mouMouLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouMouLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* 武动乾坤 */
+.mou-wu-lamp {
+	animation: mouWuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouWuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* 奋武扬威 */
+.mou-wei-lamp {
+	animation: mouWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouWeiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/******************************** 头像 ********************************/
+
+.mou-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/avatar.png");
+}
+
+
+/***** 谋定天下 *****/
+
+/* 谋·姜维 */
+.mou-mou-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/***** 武动乾坤 *****/
+
+/* 谋·关羽 */
+.mou-wu-01 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+/***** 奋武扬威 *****/
+
+/* 谋·太史慈 */
+.mou-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* 谋·袁绍 */
+.mou-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}

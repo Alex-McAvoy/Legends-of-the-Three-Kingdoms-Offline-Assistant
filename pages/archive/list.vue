@@ -107,7 +107,7 @@
 			// 获取当前将灯列表
 			getLampList(item) {
 				this.lamp = item
-				if (this.lamp.index >= 4) {
+				if (this.lamp.index >= 6) {
 					uni.showToast({
 						title: '模块建设中~',
 						icon: "none",
@@ -132,6 +132,7 @@
 	@import url(@/static/css/online/yiJiangChengMing.css);
 	@import url(@/static/css/online/jieYiJiangChengMing.css);
 	@import url(@/static/css/online/wenDeWuBei.css);
+	@import url(@/static/css/online/mouKuoZhanBao.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */
