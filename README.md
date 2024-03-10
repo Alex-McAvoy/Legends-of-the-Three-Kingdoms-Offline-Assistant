@@ -121,7 +121,7 @@ filetree
 调用说明：
 
 ```bash
-python online-video-spider.py 游戏武将编号 实际编号 技能数 <--save_path 保存路径(可选)>
+python online-video-spider.py 游戏武将编号 实际编号 技能数 [--save_path 保存路径(可选)]
 ```
 
 实例：
