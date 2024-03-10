@@ -1,0 +1,303 @@
+/* 文德武备 */
+
+/******************************** 小将灯标题 ********************************/
+.wenWu-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/wenDeWuBei/title.png");
+}
+
+/* 理 */
+.wenWu-li-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 备 */
+.wenWu-bei-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 果 */
+.wenWu-guo-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 戒 */
+.wenWu-jie-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 约 */	
+.wenWu-yue-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/******************************** 大将灯 ********************************/
+.wenWu-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+	transform: scale(0.7);
+	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiangDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.wenWu-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+}
+
+/* 一将成名1 */
+.wenWu-1-lamp {
+	animation: jieJiang1LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang1LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* 一将成名2 */
+.wenWu-2-lamp {
+	animation: jieJiang2LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang2LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* 一将成名3 */
+.wenWu-3-lamp {
+	animation: jieJiang3LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang3LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/******************************** 头像 ********************************/
+
+.wenWu-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/wenDeWuBei/avatar.png");
+}
+
+/****** 理 ******/
+
+/* 晋·司马懿 */
+.wenWu-li-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/* 晋·张春华 */
+.wenWu-li-02 {
+	background-position: calc(-61px*1) calc(-61px*0)
+}
+
+/* 李肃 */
+.wenWu-li-03 {
+	background-position: calc(-61px*2) calc(-61px*0)
+}
+
+/* 司马伷 */
+.wenWu-li-04 {
+	background-position: calc(-61px*3) calc(-61px*0)
+}
+
+/* 彻里吉 */
+.wenWu-li-05 {
+	background-position: calc(-61px*4) calc(-61px*0)
+}
+
+/* 华歆 */
+.wenWu-li-06 {
+	background-position: calc(-61px*5) calc(-61px*0)
+}
+
+/****** 备 ******/
+/* 司马师 */
+.wenWu-bei-01 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+/* 夏侯徽 */
+.wenWu-bei-02 {
+	background-position: calc(-61px*1) calc(-61px*1)
+}
+
+/* 张虎&乐綝 */
+.wenWu-bei-03 {
+	background-position: calc(-61px*2) calc(-61px*1)
+}
+
+/* 羊徽瑜 */
+.wenWu-bei-04 {
+	background-position: calc(-61px*3) calc(-61px*1)
+}
+
+/* 石苞 */
+.wenWu-bei-05 {
+	background-position: calc(-61px*4) calc(-61px*1)
+}
+
+/* 成济&成倅 */
+.wenWu-bei-06 {
+	background-position: calc(-61px*5) calc(-61px*1)
+}
+
+
+/****** 果 ******/
+/* 司马昭 */
+.wenWu-guo-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* 王元姬 */
+.wenWu-guo-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}
+
+/* 杜预 */
+.wenWu-guo-03 {
+	background-position: calc(-61px*2) calc(-61px*2)
+}
+
+/* 卫瓘 */
+.wenWu-guo-04 {
+	background-position: calc(-61px*3) calc(-61px*2)
+}
+
+/* 宣公主 */
+.wenWu-guo-05 {
+	background-position: calc(-61px*4) calc(-61px*2)
+}
+
+
+/****** 戒 ******/
+/* 钟琰 */
+.wenWu-jie-01 {
+	background-position: calc(-61px*0) calc(-61px*3)
+}
+
+/* 辛敞 */
+.wenWu-jie-02 {
+	background-position: calc(-61px*1) calc(-61px*3)
+}
+
+/* 贾充 */
+.wenWu-jie-03 {
+	background-position: calc(-61px*2) calc(-61px*3)
+}
+
+/* 王祥 */
+.wenWu-jie-04 {
+	background-position: calc(-61px*3) calc(-61px*3)
+}
+
+
+/****** 约 ******/
+/* 杨艳 */
+.wenWu-yue-01 {
+	background-position: calc(-61px*0) calc(-61px*4)
+}
+
+/* 杨芷 */
+.wenWu-yue-02 {
+	background-position: calc(-61px*1) calc(-61px*4)
+}

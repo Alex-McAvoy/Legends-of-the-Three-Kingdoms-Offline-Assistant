@@ -1081,21 +1081,22 @@
 			"lampClass": "jieJiang-xiao-lamp jieJiang-1-lamp",
 			"titleClass": "jieJiang-title jieJiang-1-title",
 			"militaries": [{
-				"id": "jieJiang-1-01",
-				"avatarClass": "jieJiang-1-01 jieJiang-avatar"
-			},{
-				"id": "jieJiang-1-02",
-				"avatarClass": "jieJiang-1-02 jieJiang-avatar"
-			},
-			{
-				"id": "jieJiang-1-03",
-				"avatarClass": "jieJiang-1-03 jieJiang-avatar"
-			},
-			{
-				"id": "jieJiang-1-04",
-				"avatarClass": "jieJiang-1-04 jieJiang-avatar"
-			}]
-		},{
+					"id": "jieJiang-1-01",
+					"avatarClass": "jieJiang-1-01 jieJiang-avatar"
+				}, {
+					"id": "jieJiang-1-02",
+					"avatarClass": "jieJiang-1-02 jieJiang-avatar"
+				},
+				{
+					"id": "jieJiang-1-03",
+					"avatarClass": "jieJiang-1-03 jieJiang-avatar"
+				},
+				{
+					"id": "jieJiang-1-04",
+					"avatarClass": "jieJiang-1-04 jieJiang-avatar"
+				}
+			]
+		}, {
 			"index": 1,
 			"name": "界·一将成名2",
 			"lampClass": "jieJiang-xiao-lamp jieJiang-2-lamp",
@@ -1104,7 +1105,7 @@
 				"id": "jieJiang-2-01",
 				"avatarClass": "jieJiang-2-01 jieJiang-avatar"
 			}]
-		},{
+		}, {
 			"index": 2,
 			"name": "界·一将成名3",
 			"lampClass": "jieJiang-xiao-lamp jieJiang-3-lamp",
@@ -1117,12 +1118,130 @@
 	},
 	{
 		"index": 5,
-		"name": "谋扩展包",
-		"class": "mou",
+		"name": "文德武备",
+		"class": "wenWu-da-lamp",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "理",
+				"lampClass": "wenWu-xiao-lamp wenWu-li-lamp",
+				"titleClass": "wenWu-title wenWu-li-title",
+				"militaries": [{
+						"id": "wenWu-li-01",
+						"avatarClass": "wenWu-li-01 wenWu-avatar"
+					}, {
+						"id": "wenWu-li-02",
+						"avatarClass": "wenWu-li-02 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-li-03",
+						"avatarClass": "wenWu-li-03 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-li-04",
+						"avatarClass": "wenWu-li-04 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-li-05",
+						"avatarClass": "wenWu-li-05 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-li-06",
+						"avatarClass": "wenWu-li-06 wenWu-avatar"
+					}
+				]
+			},
+			{
+				"index": 1,
+				"name": "备",
+				"lampClass": "wenWu-xiao-lamp wenWu-bei-lamp",
+				"titleClass": "wenWu-title wenWu-bei-title",
+				"militaries": [{
+						"id": "wenWu-bei-01",
+						"avatarClass": "wenWu-bei-01 wenWu-avatar"
+					}, {
+						"id": "wenWu-bei-02",
+						"avatarClass": "wenWu-bei-02 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-bei-03",
+						"avatarClass": "wenWu-bei-03 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-bei-04",
+						"avatarClass": "wenWu-bei-04 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-bei-05",
+						"avatarClass": "wenWu-bei-05 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-bei-06",
+						"avatarClass": "wenWu-bei-06 wenWu-avatar"
+					}
+				]
+			},
+			{
+				"index": 2,
+				"name": "果",
+				"lampClass": "wenWu-xiao-lamp wenWu-guo-lamp",
+				"titleClass": "wenWu-title wenWu-guo-title",
+				"militaries": [{
+						"id": "wenWu-guo-01",
+						"avatarClass": "wenWu-guo-01 wenWu-avatar"
+					}, {
+						"id": "wenWu-guo-02",
+						"avatarClass": "wenWu-guo-02 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-guo-03",
+						"avatarClass": "wenWu-guo-03 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-guo-04",
+						"avatarClass": "wenWu-guo-04 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-guo-05",
+						"avatarClass": "wenWu-guo-05 wenWu-avatar"
+					}
+				]
+			},
+			{
+				"index": 3,
+				"name": "戒",
+				"lampClass": "wenWu-xiao-lamp wenWu-jie-lamp",
+				"titleClass": "wenWu-title wenWu-jie-title",
+				"militaries": [{
+						"id": "wenWu-jie-01",
+						"avatarClass": "wenWu-jie-01 wenWu-avatar"
+					}, {
+						"id": "wenWu-jie-02",
+						"avatarClass": "wenWu-jie-02 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-jie-03",
+						"avatarClass": "wenWu-jie-03 wenWu-avatar"
+					},
+					{
+						"id": "wenWu-jie-04",
+						"avatarClass": "wenWu-jie-04 wenWu-avatar"
+					}
+				]
+			},
+			{
+				"index": 4,
+				"name": "约",
+				"lampClass": "wenWu-xiao-lamp wenWu-yue-lamp",
+				"titleClass": "wenWu-title wenWu-yue-title",
+				"militaries": [{
+					"id": "wenWu-yue-01",
+					"avatarClass": "wenWu-yue-01 wenWu-avatar"
+				}, {
+					"id": "wenWu-yue-02",
+					"avatarClass": "wenWu-yue-02 wenWu-avatar"
+				}]
+			}
+		]
 	},
 	{
 		"index": 6,
@@ -1135,8 +1254,8 @@
 	},
 	{
 		"index": 7,
-		"name": "文德武备",
-		"class": "wenWu",
+		"name": "谋扩展包",
+		"class": "mou",
 		"nodes": [{
 			"index": 0,
 			"class": "feng"

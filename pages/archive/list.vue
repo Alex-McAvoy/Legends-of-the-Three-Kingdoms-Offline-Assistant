@@ -131,6 +131,7 @@
 	@import url(@/static/css/online/jieXianTuPo.css);
 	@import url(@/static/css/online/yiJiangChengMing.css);
 	@import url(@/static/css/online/jieYiJiangChengMing.css);
+	@import url(@/static/css/online/wenDeWuBei.css);
 </style>
 <style lang="scss" scoped>
 	/* 标签栏 */
