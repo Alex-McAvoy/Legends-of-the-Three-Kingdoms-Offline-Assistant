@@ -79,7 +79,7 @@
 			}],
 			"dialogues": [{
 				"name": "慧识",
-				"descriptions": ["妾身慧眼，已看透太多。", "你的想法，我已知晓。"],
+				"descriptions": ["你的想法，我已知晓。", "妾身慧眼，已看透太多。"],
 				"srcs": [
 					"/static/video/online/wenDeWuBei/wenWu-li-02_1_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-li-02_1_2.mp3"
@@ -164,7 +164,7 @@
 					"/static/video/online/wenDeWuBei/wenWu-li-04_1_2.mp3"
 				]
 			}, {
-				"name": "",
+				"name": "纳降",
 				"descriptions": ["奉命伐吴，得胜纳降。", "进军逼江，震慑吴贼。"],
 				"srcs": [
 					"/static/video/online/wenDeWuBei/wenWu-li-04_2_1.mp3",
@@ -253,10 +253,10 @@
 			"skills": [{
 				"name": "韬隐",
 				"descriptions": "隐匿。当你于其他角色的回合内登场时，你可以令该角色本回合的手牌上限-2。"
-			},{
+			}, {
 				"name": "夷灭",
 				"descriptions": "每回合限一次，当你对其他角色造成伤害时，若X大于0，你可以失去1点体力，令此伤害+X（X为其体力值减此次伤害的伤害值）。此伤害结算结束后，该角色回复X点体力。"
-			},{
+			}, {
 				"name": "睿略",
 				"descriptions": "主公技，其他晋势力角色的出牌阶段限一次，其可以交给你一张伤害牌。"
 			}, {
@@ -277,14 +277,14 @@
 					"/static/video/online/wenDeWuBei/wenWu-bei-01_2_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-bei-01_2_2.mp3"
 				]
-			},{
+			}, {
 				"name": "睿略",
 				"descriptions": ["司马当兴，其兴在吾。", "吾承父志，故知军事通谋略。"],
 				"srcs": [
 					"/static/video/online/wenDeWuBei/wenWu-bei-01_3_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-bei-01_3_2.mp3"
 				]
-			},{
+			}, {
 				"name": "泰然",
 				"descriptions": ["撼山易，撼我司马氏难。", "云卷云舒，处之泰然。"],
 				"srcs": [
@@ -528,7 +528,7 @@
 				]
 			}, {
 				"name": "筹伐",
-				"descriptions": ["枕戈待旦，秣马征平。", "秣马厉兵，筹伐不臣！"],
+				"descriptions": ["秣马厉兵，筹伐不臣！", "枕戈待旦，秣马征平。"],
 				"srcs": [
 					"/static/video/online/wenDeWuBei/wenWu-guo-01_2_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-guo-01_2_2.mp3"
@@ -631,7 +631,7 @@
 				]
 			}, {
 				"name": "阵亡",
-				"descriptions": [""],
+				"descriptions": ["金瓯尚缺，死难瞑目……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-03_dead.mp3"]
 			}]
 		},
@@ -704,7 +704,7 @@
 					"/static/video/online/wenDeWuBei/wenWu-guo-05_2_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-guo-05_2_2.mp3"
 				]
-			},{
+			}, {
 				"name": "追姬",
 				"descriptions": ["不过是些微代价罢了。", "哼，以为这就能难倒我吗？"],
 				"srcs": [
@@ -742,7 +742,7 @@
 				]
 			}, {
 				"name": "仪法",
-				"descriptions": ["仪法明晰，则长治久安。", "仪法不明，则实不称名。"],
+				"descriptions": ["仪法不明，则实不称名。", "仪法明晰，则长治久安。"],
 				"srcs": [
 					"/static/video/online/wenDeWuBei/wenWu-jie-01_2_1.mp3",
 					"/static/video/online/wenDeWuBei/wenWu-jie-01_2_2.mp3"
