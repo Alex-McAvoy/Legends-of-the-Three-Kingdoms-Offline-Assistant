@@ -36,12 +36,12 @@
 .wenWu-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+	background-image: url("@/static/images/online/wenDeWuBei/lamp.png");
 	transform: scale(0.7);
-	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+	animation: wenWuDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieJiangDaLampFrameAnim {
+@keyframes wenWuDaLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
 	}
@@ -71,15 +71,15 @@
 .wenWu-xiao-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
+	background-image: url("@/static/images/online/wenDeWuBei/lamp.png");
 }
 
-/* 一将成名1 */
-.wenWu-1-lamp {
-	animation: jieJiang1LampFrameAnim steps(1, start) 1s infinite;
+/* 理 */
+.wenWu-li-lamp {
+	animation: wenWuLiLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieJiang1LampFrameAnim {
+@keyframes wenWuLiLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*1);
 	}
@@ -106,12 +106,12 @@
 
 }
 
-/* 一将成名2 */
-.wenWu-2-lamp {
-	animation: jieJiang2LampFrameAnim steps(1, start) 1s infinite;
+/* 备 */
+.wenWu-bei-lamp {
+	animation: wenWuBeiLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieJiang2LampFrameAnim {
+@keyframes wenWuBeiLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*2);
 	}
@@ -138,12 +138,12 @@
 
 }
 
-/* 一将成名3 */
-.wenWu-3-lamp {
-	animation: jieJiang3LampFrameAnim steps(1, start) 1s infinite;
+/* 果 */
+.wenWu-guo-lamp {
+	animation: wenWuGuoLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieJiang3LampFrameAnim {
+@keyframes wenWuGuoLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*3);
 	}
@@ -152,7 +152,7 @@
 		background-position: calc(-64px*1) calc(-64px*3);
 	}
 
-	40% {
+ 	40% {
 		background-position: calc(-64px*2) calc(-64px*3);
 	}
 
@@ -166,6 +166,70 @@
 
 	100% {
 		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/* 戒 */
+.wenWu-jie-lamp {
+	animation: wenWuJieLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes wenWuJieLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+
+}
+
+/* 约 */
+.wenWu-yue-lamp {
+	animation: wenWuYueLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes wenWuYueLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+ 
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
 	}
 
 }
