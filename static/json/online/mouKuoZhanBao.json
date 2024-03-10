@@ -1,0 +1,210 @@
+{
+	"index": 7,
+	"name": "谋扩展包",
+	"militaries": {
+		"mou-mou-01": {
+			"index": 0,
+			"name": "谋·姜维",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/mouKuoZhanBao/mou-mou-01.png",
+			"skills": [{
+				"name": "逐日",
+				"descriptions": "你的一个阶段结束时，若你的手牌数于此阶段内变化过，你可以与一名其他角色拼点。若你赢，则你可以使用其中一张拼点牌，否则你选择一项：1.失去1点体力；2.失去此技能直到回合结束。"
+			}, {
+				"name": "燃己",
+				"descriptions": "限定技，结束阶段，若你本回合使用过牌的阶段数不小于/不大于你的体力值，你可以获得技能“困奋”/“诈降”。若如此做，你将手牌或体力值调整至上限，然后你不能回复体力直到你杀死一名角色。"
+			}, {
+				"name": "☆ 困奋",
+				"descriptions": "结束阶段，你可以失去1点体力，摸两张牌。"
+			}, {
+				"name": "☆ 诈降",
+				"descriptions": "锁定技，当你失去1点体力后，你摸三张牌，然后若此时是你的出牌阶段，你本阶段：使用红色【杀】无距离限制且不能被【闪】响应、使用【杀】的次数上限+1。"
+			}],
+			"dialogues": [{
+				"name": "逐日",
+				"descriptions": ["效逐日之夸父，怀忠志而长存。", "知天命而不顺，履穷途而强为。"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_1_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_1_2.mp3"
+				]
+			}, {
+				"name": "燃己",
+				"descriptions": ["此身为薪，炬成灰亦照大汉长明。", "维之一腔骨血，可驱驰来北马否？"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_2_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 困奋",
+				"descriptions": ["虽千万人，吾往矣！"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_3_1.mp3"
+				]
+			}, {
+				"name": "☆ 诈降",
+				"descriptions": ["亡国之将姜维，请明公驱驰！"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-mou-01_4_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["姜维、姜维，又将何为？"],
+				"srcs": ["/static/video/online/mouKuoZhanBao/mou-mou-01_dead.mp3"]
+			}]
+		},
+		"mou-wu-01": {
+			"index": 1,
+			"name": "谋·关羽",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/mouKuoZhanBao/mou-wu-01.png",
+			"skills": [{
+				"name": "威临",
+				"descriptions": "每回合限一次，你可以将一张牌当任意一种【杀】或【酒】使用，然后令此牌的目标角色的所有与此牌颜色相同的手牌均视为【杀】直到回合结束。"
+			}, {
+				"name": "夺首",
+				"descriptions": "锁定技，当你每回合第一次：1.使用红色牌时，此牌无距离限制；2.使用基本牌时，此牌不计入次数限制；3.造成伤害后，你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "威临",
+				"descriptions": ["汝等鼠辈，岂敢与某相抗！", "义襄千里，威震华夏！"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wu-01_1_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wu-01_1_2.mp3"
+				]
+			}, {
+				"name": "夺首",
+				"descriptions": ["今日之敌，必死于我刀下！", "青龙所向，战无不胜！"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wu-01_2_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wu-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["玉碎不改白，竹焚不毁节。"],
+				"srcs": ["/static/video/online/mouKuoZhanBao/mou-wu-01_dead.mp3"]
+			}]
+		},
+		"mou-wei-01": {
+			"index": 2,
+			"name": "谋·太史慈",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/mouKuoZhanBao/mou-wei-01.png",
+			"skills": [{
+				"name": "笃烈",
+				"descriptions": "每回合限一次，当你成为其他角色使用基本牌或普通锦囊牌的唯一目标时，你可以令此牌效果额外执行一次，然后你摸X张牌（X为你的攻击范围且至多为5）。"
+			}, {
+				"name": "斗缠",
+				"descriptions": "锁定技，准备阶段，你从牌堆中获得一张【决斗】（若牌堆中没有【决斗】，则改为令你的攻击范围+1、出牌阶段内使用【杀】的次数上限+1，加值总数至多为游戏人数）。"
+			}],
+			"dialogues": [{
+				"name": "笃烈",
+				"descriptions": ["秉同难共患之义，莫敢辞也。", "慈赴府君之急，死又何惧尔。"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-01_1_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-01_1_2.mp3"
+				]
+			}, {
+				"name": "斗缠",
+				"descriptions": ["此时不捉孙策，更待何时！", "有胆气者，都随我来。"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-01_2_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["人生得遇知己，死又何憾。"],
+				"srcs": ["/static/video/online/mouKuoZhanBao/mou-wei-01_dead.mp3"]
+			}]
+		},
+		"mou-wei-02": {
+			"index": 3,
+			"name": "谋·袁绍",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/mouKuoZhanBao/mou-wei-02.png",
+			"skills": [{
+				"name": "合讨",
+				"descriptions": "当一名其他角色使用目标数大于1的牌指定目标后，你可以弃置一张与此牌颜色相同的牌并选择一名此牌的目标角色，令此牌效果改为对其执行两次。"
+			}, {
+				"name": "神离",
+				"descriptions": "出牌阶段限一次，当你使用【杀】指定目标后，你可以额外指定所有其他角色为目标，然后若此【杀】造成的伤害值大于你的手牌数/体力值，你摸等同于伤害值数的牌（至多摸五张）/对相同目标再次使用此【杀】。"
+			}, {
+				"name": "玉锋",
+				"descriptions": "游戏开始时，你将【思召剑】置入你的装备区。"
+			}, {
+				"name": "士首",
+				"descriptions": "主公技，当其他群势力角色失去装备区里的牌后，若你的装备区里没有武器牌，其可以将【思召剑】置入你的装备区。"
+			}],
+			"dialogues": [{
+				"name": "合讨",
+				"descriptions": ["合诸侯之群力，扶大汉之将倾。", "猛虎啸于山野，群士执戈相待。", "合兵讨贼，其利断金！", "众将一心，战无不胜。", "秣马厉兵，今乃报国之时。",
+					"齐心协力，缔三造大汉之举！"
+				],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_2.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_3.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_4.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_5.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_1_6.mp3"
+				]
+			}, {
+				"name": "神离",
+				"descriptions": ["沧海之水难覆，将倾之厦难扶。", "诸君心怀苟且，安能并力西向？", "联军离心，各逐其利。", "什么国恩大义，不过敝履而已。",
+					"本盟主的话，你听还是不听？", "尔等皆为墙头草，随风而摆。"
+				],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_2.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_3.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_4.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_5.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_2_6.mp3"
+				]
+			}, {
+				"name": "玉锋",
+				"descriptions": ["梦神人授剑，怀神兵济世。", "士者，怎可徒手而战？", "哼哼，我剑，也未尝不利！"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_3_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_3_2.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_3_3.mp3"
+				]
+			}, {
+				"name": "士首",
+				"descriptions": ["今执牛耳，当为天下之先。", "士者不徒手而战，况其首乎。", "吾居群士之首，可配剑履否？", "剑来！", "今秉七尺之躯，不负三尺之剑！",
+					"拔剑四顾，诸位识得我袁本初！"
+				],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_2.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_3.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_4.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_5.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_4_6.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["众人合而无力，徒负大义也。", "袁氏凋零，皆我一人之罪。"],
+				"srcs": [
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_dead_1.mp3",
+					"/static/video/online/mouKuoZhanBao/mou-wei-02_dead_2.mp3"
+				]
+			}]
+		}
+	}
+}
