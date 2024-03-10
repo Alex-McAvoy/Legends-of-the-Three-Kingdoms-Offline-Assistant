@@ -4,7 +4,7 @@
 .jieJiang-title {
 	width: 320px;
 	height: 32px;
-	background-image: url("@/static/images/online/yiJiangChengMing/title.png");
+	background-image: url("@/static/images/online/jieYiJiangChengMing/title.png");
 }
 
 /* 一将成名1 */
@@ -26,7 +26,7 @@
 .jieJiang-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/yiJiangChengMing/lamp.png");
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
 	transform: scale(0.7);
 	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
 }
@@ -61,7 +61,7 @@
 .jieJiang-xiao-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/yiJiangChengMing/lamp.png");
+	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
 }
 
 /* 一将成名1 */
@@ -78,14 +78,14 @@
 		background-position: calc(-64px*1) calc(-64px*1);
 	}
 
-	40% {
+    40% {
 		background-position: calc(-64px*2) calc(-64px*1);
 	}
 
 	60% {
 		background-position: calc(-64px*3) calc(-64px*1);
 	}
-
+	
 	80% {
 		background-position: calc(-64px*4) calc(-64px*1);
 	}
@@ -110,10 +110,10 @@
 		background-position: calc(-64px*1) calc(-64px*2);
 	}
 
-	 40% {
+	40% {
 		background-position: calc(-64px*2) calc(-64px*2);
 	}
-
+ 
 	60% {
 		background-position: calc(-64px*3) calc(-64px*2);
 	}
