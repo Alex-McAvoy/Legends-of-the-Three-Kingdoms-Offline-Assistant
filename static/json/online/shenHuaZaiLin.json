@@ -453,11 +453,11 @@
 			},
 			"imgSrc": "/static/images/online/militaryGeneral/shenHuaZaiLin/shen-huo-06.png",
 			"skills": [{
-				"name": "马术",
-				"descriptions": "锁定技，你计算与其他角色的距离-1。"
-			}, {
 				"name": "鞬出",
 				"descriptions": "当你使用【杀】指定其他角色为目标后，你可以弃置该角色的一张牌，若此牌为装备牌，则其不能使用【闪】响应此【杀】，否则其获得此【杀】。"
+			}, {
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
 			}],
 			"dialogues": [{
 				"name": "鞬出",

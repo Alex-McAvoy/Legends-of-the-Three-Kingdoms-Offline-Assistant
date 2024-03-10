@@ -474,19 +474,19 @@
 				"blank": 0
 			},
 			"imgSrc": "/static/images/online/militaryGeneral/yiJiangChengMing/jiang-2-04.png",
-			"skills": [{
-				"name": "马术",
-				"descriptions": "锁定技，你计算与其他角色的距离-1。"
-			}, {
+			"skills": [ {
 				"name": "潜袭",
 				"descriptions": "准备阶段，你可以摸一张牌，并弃置一张牌，然后令一名距离为1的其他角色本回合不能使用或打出与你以此法弃置的牌颜色相同的牌。"
+			},{
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
 			}],
 			"dialogues": [{
 				"name": "潜袭",
 				"descriptions": ["喊什么喊，我敢杀你！", "笑什么笑，叫你得意！"],
 				"srcs": [
-					"/static/video/militaryGeneral/yiJiangChengMing/jiang-2-04_2_1.mp3",
-					"/static/video/militaryGeneral/yiJiangChengMing/jiang-2-04_2_2.mp3"
+					"/static/video/militaryGeneral/yiJiangChengMing/jiang-2-04_1_1.mp3",
+					"/static/video/militaryGeneral/yiJiangChengMing/jiang-2-04_1_2.mp3"
 				]
 			}, {
 				"name": "阵亡",

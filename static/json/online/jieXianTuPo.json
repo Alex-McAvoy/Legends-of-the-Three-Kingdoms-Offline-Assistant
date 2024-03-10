@@ -119,19 +119,20 @@
 				"blank": 0
 			},
 			"imgSrc": "/static/images/online/militaryGeneral/jieXianTuPo/jie-hu-04.png",
-			"skills": [{
-				"name": "马术",
-				"descriptions": "锁定技，你计算与其他角色的距离-1。"
-			}, {
+			"skills": [ {
 				"name": "铁骑",
 				"descriptions": "当你使用【杀】指定一名角色为目标后，你可以令其本回合所有非锁定技失效，然后你进行一次判定，除非该角色弃置一张与判定结果花色相同的牌，否则其不能使用【闪】响应此【杀】。"
+			},
+			{
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
 			}],
 			"dialogues": [{
 				"name": "铁骑",
 				"descriptions": ["敌人阵型已乱！随我杀啊啊啊啊啊！", "目标敌阵，全军突击！"],
 				"srcs": [
-					"/static/video/militaryGeneral/jieXianTuPo/jie-hu-04_2_1.mp3",
-					"/static/video/militaryGeneral/jieXianTuPo/jie-hu-04_2_2.mp3"
+					"/static/video/militaryGeneral/jieXianTuPo/jie-hu-04_1_1.mp3",
+					"/static/video/militaryGeneral/jieXianTuPo/jie-hu-04_1_2.mp3"
 				]
 			}, {
 				"name": "阵亡",
@@ -1435,19 +1436,20 @@
 				"blank": 0
 			},
 			"imgSrc": "/static/images/online/militaryGeneral/jieXianTuPo/jie-huo-04.png",
-			"skills": [{
-				"name": "马术",
-				"descriptions": "锁定技，你计算与其他角色的距离-1。"
-			}, {
+			"skills": [ {
 				"name": "鞬出",
 				"descriptions": "当你使用【杀】指定其他角色为目标后，你可以弃置该角色的一张牌，若此牌不为基本牌，则其不能使用【闪】响应此【杀】、你本回合使用【杀】的次数上限+1，否则其获得此【杀】。"
-			}],
+			},{
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}
+			],
 			"dialogues": [{
 				"name": "鞬出",
 				"descriptions": ["你这身躯，怎么能快过我？", "这些怎么能挡住我的威力！"],
 				"srcs": [
-					"/static/video/militaryGeneral/jieXianTuPo/jie-huo-04_2_1.mp3",
-					"/static/video/militaryGeneral/jieXianTuPo/jie-huo-04_2_2.mp3"
+					"/static/video/militaryGeneral/jieXianTuPo/jie-huo-04_1_1.mp3",
+					"/static/video/militaryGeneral/jieXianTuPo/jie-huo-04_1_2.mp3"
 				]
 			}, {
 				"name": "阵亡",
