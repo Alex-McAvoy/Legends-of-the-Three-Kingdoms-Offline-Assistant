@@ -1,0 +1,927 @@
+{
+	"index": 5,
+	"name": "文德武备",
+	"militaries": {
+		"wenWu-li-01": {
+			"index": 0,
+			"name": "晋·司马懿",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-01.png",
+			"skills": [{
+				"name": "不臣",
+				"descriptions": "隐匿。当你于其他角色的回合内登场后，你可以获得该角色的一张牌。"
+			}, {
+				"name": "鹰视",
+				"descriptions": "锁定技，牌堆顶的X张牌于你的出牌阶段始终对你可见（X为你的体力上限）。"
+			}, {
+				"name": "雄志",
+				"descriptions": "限定技，出牌阶段，你可以展示牌堆顶的一张牌并使用之（以此法使用的牌计入次数），然后重复此流程直到不能使用为止。"
+			}, {
+				"name": "权变",
+				"descriptions": "①当你于出牌阶段使用或打出每种花色的第一张手牌时，你可以从牌堆顶的X张牌中获得一张与此牌花色不同的牌，并将其余牌以任意顺序置于牌堆顶。②你于出牌阶段内至多可以使用X张不为装备牌的手牌（X为你的体力上限）。"
+			}],
+			"dialogues": [{
+				"name": "不臣",
+				"descriptions": ["螟蛉之光，安敢同日月争辉？", "巍巍隐帝，岂可为臣？"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-01_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-01_1_2.mp3"
+				]
+			}, {
+				"name": "鹰视",
+				"descriptions": ["鹰扬千里，明察秋毫。", "鸢飞戾天，目入百川。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-01_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-01_2_2.mp3"
+				]
+			}, {
+				"name": "雄志",
+				"descriptions": ["烈士雄心，志存高远。", "乱世之中，唯我司马！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-01_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-01_3_2.mp3"
+				]
+			}, {
+				"name": "权变",
+				"descriptions": ["筹权谋变，步步为营。", "随机应变，谋国窃权。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-01_4_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-01_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["虎入骷冢，司马难兴。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-01_dead.mp3"]
+			}]
+		},
+		"wenWu-li-02": {
+			"index": 1,
+			"name": "晋·张春华",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-02.png",
+			"skills": [{
+				"name": "慧识",
+				"descriptions": "摸牌阶段，你可以改为观看牌堆顶的X张牌，选择并获得其中一半的牌（向下取整），然后将剩余的牌置入以任意顺序置于牌堆底（X为牌堆中牌数的个位数）。"
+			}, {
+				"name": "冷清",
+				"descriptions": "其他角色的回合结束时，若其体力值与手牌数之和不小于X（X为牌堆中牌数的个位数），你可以将一张牌当作无距离限制的冰【杀】对其使用（当你对每名角色第一次发动此技能时，你摸一张牌）。"
+			}, {
+				"name": "宣穆",
+				"descriptions": "隐匿。锁定技，当你于其他角色的回合内登场后，你本回合不能再受到伤害。"
+			}],
+			"dialogues": [{
+				"name": "慧识",
+				"descriptions": ["妾身慧眼，已看透太多。", "你的想法，我已知晓。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-02_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-02_1_2.mp3"
+				]
+			}, {
+				"name": "冷清",
+				"descriptions": ["冷冷清清，寂落沉沉。", "冷月葬情，深雪埋伤。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-02_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-02_2_2.mp3"
+				]
+			}, {
+				"name": "宣穆",
+				"descriptions": ["四门穆穆，八面莹澈。", "天色澄穆，心明清静。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-02_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["冷眸残情，孤苦为一人。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-02_dead.mp3"]
+			}]
+		},
+		"wenWu-li-03": {
+			"index": 2,
+			"name": "李肃",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-03.png",
+			"skills": [{
+				"name": "巧言",
+				"descriptions": "锁定技，当其他角色于你的回合外对你造成伤害时，若你：没有“珠”，你防止此伤害，摸一张牌，然后将一张牌置于武将牌上，称为“珠”；有“珠”，其获得“珠”。"
+			}, {
+				"name": "献珠",
+				"descriptions": "锁定技，出牌阶段开始时，你令一名角色获得“珠”。若该角色不是你，其视为对你攻击范围内你指定的一名角色使用一张【杀】。"
+			}],
+			"dialogues": [{
+				"name": "巧言",
+				"descriptions": ["此事不宜迟，在于速决。", "公若到彼，贵不可言。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-03_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-03_1_2.mp3"
+				]
+			}, {
+				"name": "献珠",
+				"descriptions": ["馈珠之恩，望将军莫忘。", "愿以珠为礼，与卿交好，而休刀兵。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-03_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["忘恩负义之徒！"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-03_dead.mp3"]
+			}]
+		},
+		"wenWu-li-04": {
+			"index": 3,
+			"name": "司马伷",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-04.png",
+			"skills": [{
+				"name": "才望",
+				"descriptions": "①当一名角色使用或打出牌响应另一名角色使用的牌后，若其中一名角色为你且这两张牌的颜色相同，你可以弃置另一方的一张牌。②你可以将你对应区域里的最后一张牌：手牌区-当【闪】使用或打出；装备区-当【无懈可击】使用；判定区-当【杀】使用或打出。"
+			}, {
+				"name": "纳降",
+				"descriptions": "锁定技，当其他角色对你造成伤害后，或受到你对其造成的伤害后，直到你的下个回合开始，你对该角色发动“才望”时，将“弃置”改为“获得”。"
+			}],
+			"dialogues": [{
+				"name": "才望",
+				"descriptions": ["才气不俗，声望四海。", "绥怀之称，监守邺城。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-04_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-04_1_2.mp3"
+				]
+			}, {
+				"name": "",
+				"descriptions": ["奉命伐吴，得胜纳降。", "进军逼江，震慑吴贼。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-04_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["恩赐重物，病身难消受……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-04_dead.mp3"]
+			}]
+		},
+		"wenWu-li-05": {
+			"index": 4,
+			"name": "彻里吉",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-05.png",
+			"skills": [{
+				"name": "车悬",
+				"descriptions": "①出牌阶段，若你的装备区里没有宝物牌，你可以弃置一张黑色牌，将一张“舆”置入你的装备区；②当你失去装备区里的宝物牌后，你可以进行一次判定，若结果为黑色，你随机将一张“舆”置入你的装备区。"
+			}, {
+				"name": "羌首",
+				"descriptions": "锁定技，若你的装备区里有宝物牌，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "车悬",
+				"descriptions": ["兵车疾动，以悬敌首！", "层层布设，以多胜强！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-05_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["元气已伤，不如归去。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-05_dead.mp3"]
+			}]
+		},
+		"wenWu-li-06": {
+			"index": 5,
+			"name": "华歆",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-li-06.png",
+			"skills": [{
+				"name": "草诏",
+				"descriptions": "出牌阶段限一次，你可展示一张手牌并声明一种未以此法声明过的基本牌或普通锦囊牌，令一名体力不大于你的角色选择一项：1.令此牌视为你声明的牌；2.失去1点体力。然后若此牌声明成功，你可将其交给一名其他角色。"
+			}, {
+				"name": "息兵",
+				"descriptions": "当你受到其他角色造成的伤害后，你可弃置你或该角色两张牌，然后你与其手牌少的角色摸两张牌并于此回合不能使用牌指定你为目标。"
+			}],
+			"dialogues": [{
+				"name": "草诏",
+				"descriptions": ["草诏所宣，密勿从事。", "惩恶扬功，四方之纲。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-06_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-06_1_2.mp3"
+				]
+			}, {
+				"name": "息兵",
+				"descriptions": ["讲信修睦，息兵不攻。", "天时未至，周武还师。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-li-06_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-li-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["死国甚无谓也。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-06_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-01": {
+			"index": 6,
+			"name": "司马师",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 1
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-01.png",
+			"skills": [{
+				"name": "韬隐",
+				"descriptions": "隐匿。当你于其他角色的回合内登场时，你可以令该角色本回合的手牌上限-2。"
+			},{
+				"name": "夷灭",
+				"descriptions": "每回合限一次，当你对其他角色造成伤害时，若X大于0，你可以失去1点体力，令此伤害+X（X为其体力值减此次伤害的伤害值）。此伤害结算结束后，该角色回复X点体力。"
+			},{
+				"name": "睿略",
+				"descriptions": "主公技，其他晋势力角色的出牌阶段限一次，其可以交给你一张伤害牌。"
+			}, {
+				"name": "泰然",
+				"descriptions": "锁定技，①回合结束时，你将体力回复至体力上限，将手牌摸至体力上限（若你因此回复了体力或获得了牌，你记录回复的数值并标记这些牌；记录数值时覆盖之前的记录）；②出牌阶段开始时，你失去记录值数的体力并移除记录，弃置标记的手牌。"
+			}],
+			"dialogues": [{
+				"name": "韬隐",
+				"descriptions": ["司马氏善谋、善忍，善置汝于绝境！", "隐忍数载，亦不坠青云之志！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_1_2.mp3"
+				]
+			}, {
+				"name": "夷灭",
+				"descriptions": ["汝大逆不道，当此无赦！", "斩草除根，灭其退路！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_2_2.mp3"
+				]
+			},{
+				"name": "睿略",
+				"descriptions": ["司马当兴，其兴在吾。", "吾承父志，故知军事通谋略。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_3_2.mp3"
+				]
+			},{
+				"name": "泰然",
+				"descriptions": ["撼山易，撼我司马氏难。", "云卷云舒，处之泰然。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_4_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-01_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["子上，这是为兄给你打下的江山……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-01_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-02": {
+			"index": 7,
+			"name": "夏侯徽",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-02.png",
+			"skills": [{
+				"name": "宝箧",
+				"descriptions": "隐匿。锁定技，当你登场后，你从牌堆或弃牌堆获得一张宝物牌，然后你可以使用之。"
+			}, {
+				"name": "宜室",
+				"descriptions": "每回合限一次，当一名其他角色于其出牌阶段弃置手牌后，你可以令其获得其中的一张牌，然后你获得其余的牌。"
+			}, {
+				"name": "识度",
+				"descriptions": "出牌阶段限一次，你可以与一名其他角色拼点，若你赢，你获得其所有手牌，然后你交给其一半手牌（向下取整）。"
+			}],
+			"dialogues": [{
+				"name": "宝箧",
+				"descriptions": ["宝箧藏玺，时局变动。", "曹亡宝箧，尽露锋芒。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_1_2.mp3"
+				]
+			}, {
+				"name": "宜室",
+				"descriptions": ["家庭和顺，夫妻和睦。", "之子于归，宜其室家。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_2_2.mp3"
+				]
+			}, {
+				"name": "识度",
+				"descriptions": ["鉴识得体，气度雅涵。", "宽容体谅，宽人益己。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夫君，你怎么对我如此狠心……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-02_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-03": {
+			"index": 8,
+			"name": "张虎&乐綝",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-03.png",
+			"skills": [{
+				"name": "袭爵",
+				"descriptions": "①游戏开始时，或回合结束时，你获得X个“爵”标记（若此时为回合结束时，则X为你本回合造成的伤害值，否则X为4）；②你可以移去1个“爵”标记，于对应时机发动一次“突袭”或“骁果”。"
+			}, {
+				"name": "☆ 突袭",
+				"descriptions": "摸牌阶段，你可以少摸任意张牌，然后获得等量名其他角色的各一张手牌。"
+			}, {
+				"name": "☆ 骁果",
+				"descriptions": "其他角色的结束阶段，你可以弃置一张基本牌，令其选择一项：1.弃置一张装备牌，并令你摸一张牌；2.受到你对其造成的1点伤害。"
+			}],
+			"dialogues": [{
+				"name": "袭爵",
+				"descriptions": ["承爵于父，安能辱之？", "虎父安有犬子乎！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 突袭",
+				"descriptions": ["动如霹雳，威震枭首！", "行略如风，摧枯拉朽！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 骁果",
+				"descriptions": ["大丈夫生于世，当沙场效忠！", "骁勇善战，刚毅果断！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-03_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["儿有辱，父亲威名……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-03_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-04": {
+			"index": 9,
+			"name": "羊徽瑜",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-04.png",
+			"skills": [{
+				"name": "慧容",
+				"descriptions": "隐匿。锁定技，当你登场时，你令一名角色将手牌摸至或弃置至体力值（至多摸至五张）。"
+			}, {
+				"name": "慈威",
+				"descriptions": "当其他角色于其回合内使用第二张牌时，若此牌为基本牌或普通锦囊牌，你可以弃置一张牌，令此牌无效。"
+			}, {
+				"name": "才媛",
+				"descriptions": "锁定技，回合结束时，若你于你的上个回合结束到此时未扣减过体力，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "慧容",
+				"descriptions": ["红尘洗练，慧容不改。", "花貌易改，福惠长存。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_1_2.mp3"
+				]
+			}, {
+				"name": "慈威",
+				"descriptions": ["乃家乃邦，是则是效。", "其慈有威，不舒不暴。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_2_2.mp3"
+				]
+			}, {
+				"name": "才媛",
+				"descriptions": ["柳絮轻舞，撷芳赋诗。", "秀媛才德，知书达理。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["韶华易老，佳容不再。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-04_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-05": {
+			"index": 10,
+			"name": "石苞",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-05.png",
+			"skills": [{
+				"name": "擢升",
+				"descriptions": "当你于出牌阶段使用本轮获得的牌时（因此技能获得的牌除外），若此牌为：基本牌，此牌无距离与次数限制；普通锦囊牌，你可以令此牌目标+1或-1；装备牌，你可以摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "擢升",
+				"descriptions": ["才经世务，干用之绩。", "器量之远，当至公辅。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-05_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["寒门出身，难以擢升。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-05_dead.mp3"]
+			}]
+		},
+		"wenWu-bei-06": {
+			"index": 11,
+			"name": "成济&成倅",
+			"force": "wei",
+			"magatama": {
+				"actual": 6,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-bei-06.png",
+			"skills": [{
+				"name": "透髓",
+				"descriptions": "你可以将任意张牌置于牌堆底，视为使用一张【杀】（目标角色需使用等量张【闪】才能抵消此【杀】）。"
+			}, {
+				"name": "畜鸣",
+				"descriptions": "锁定技，当你对其他角色造成伤害时，或受到其他角色造成的伤害时，若此伤害不为使用实体牌造成的伤害，此伤害+1，否则当前回合结束时，其将造成伤害的牌当【借刀杀人】或【过河拆桥】对你使用。"
+			}],
+			"dialogues": [{
+				"name": "透髓",
+				"descriptions": ["区区黄口孺帝，能有何作为？", "昔年沙场茹血，今欲饮帝血！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-06_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-06_1_2.mp3"
+				]
+			}, {
+				"name": "畜鸣",
+				"descriptions": ["明公为何如此待我兄弟？", "栖佳木之良禽，其鸣亦哀乎。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-bei-06_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-bei-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["今为贼子贾充所害！"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-06_dead.mp3"]
+			}]
+		},
+		"wenWu-guo-01": {
+			"index": 12,
+			"name": "司马昭",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-guo-01.png",
+			"skills": [{
+				"name": "推弑",
+				"descriptions": "隐匿。当你于其他角色的回合内登场后，你可以于此回合结束阶段令其选择一项：1.对其攻击范围内你选择的一名角色使用【杀】；2.受到1点伤害。"
+			}, {
+				"name": "筹伐",
+				"descriptions": "出牌阶段限一次，你可以展示一名其他角色的一张手牌并标记该角色的所有与此牌类型不同的手牌，令这些牌均视为【杀】直到其下个回合结束。"
+			}, {
+				"name": "昭然",
+				"descriptions": "出牌阶段开始时，你可以令你的手牌本阶段均明置，然后当你本阶段失去每种花色的最后一张手牌时（每种花色限一次），你摸一张牌或弃置一名其他角色的一张牌。"
+			}, {
+				"name": "成务",
+				"descriptions": "主公技，锁定技，其他晋势力角色攻击范围内的其他角色均视为在你的攻击范围内。"
+			}],
+			"dialogues": [{
+				"name": "推弑",
+				"descriptions": ["此僚怀异，召汝讨贼。", "推令既出，焉敢不从？"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_1_2.mp3"
+				]
+			}, {
+				"name": "筹伐",
+				"descriptions": ["枕戈待旦，秣马征平。", "秣马厉兵，筹伐不臣！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_2_2.mp3"
+				]
+			}, {
+				"name": "昭然",
+				"descriptions": ["行昭然于世，赦众贼以威。", "吾之心思，路人皆知。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_3_2.mp3"
+				]
+			}, {
+				"name": "成务",
+				"descriptions": ["令行禁止，政通无虞。", "上下一体，大业可筹。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_4_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-01_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["司马三代，一梦成空。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-01_dead.mp3"]
+			}]
+		},
+		"wenWu-guo-02": {
+			"index": 13,
+			"name": "王元姬",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-guo-02.png",
+			"skills": [{
+				"name": "识人",
+				"descriptions": "隐匿。当你于有手牌的其他角色的回合内登场后，你可以对其发动一次“宴戏”。"
+			}, {
+				"name": "宴戏",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色随机展示一张手牌，并同时展示牌堆顶的两张牌。然后你选择其中一张牌，若此牌为：该角色的牌，你获得三张展示牌；牌堆顶的牌，你获得选择的牌。（你以此法获得的牌不计入本回合的手牌上限）"
+			}],
+			"dialogues": [{
+				"name": "识人",
+				"descriptions": ["宠过必乱，不可大任。", "开卷有益，识人有法。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-02_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-02_1_2.mp3"
+				]
+			}, {
+				"name": "宴戏",
+				"descriptions": ["宴会嬉趣，其乐融融。", "宴中趣玩，得遇知己。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-02_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["祖父已逝，哀凄悲戚。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-02_dead.mp3"]
+			}]
+		},
+		"wenWu-guo-03": {
+			"index": 14,
+			"name": "杜预",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-guo-03.png",
+			"skills": [{
+				"name": "三陈",
+				"descriptions": "出牌阶段限一次，你可以令一名角色摸三张牌并弃置三张牌。若其弃置的牌类别均不同，其摸一张牌，你本阶段发动此技能的次数上限+1，且不能再选择其为目标。"
+			}, {
+				"name": "昭讨",
+				"descriptions": "觉醒技，准备阶段，若你发动过至少3次“三陈”，你减1点体力上限并获得技能“破竹”。"
+			}, {
+				"name": "☆ 破竹",
+				"descriptions": "出牌阶段，你可以将一张手牌当【出其不意】使用，然后若此牌未造成伤害，此技能本回合失效。"
+			}],
+			"dialogues": [{
+				"name": "三陈",
+				"descriptions": ["陈书弼国，当一而再再而三。", "勘除弼事，三陈而就。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_1_2.mp3"
+				]
+			}, {
+				"name": "昭讨",
+				"descriptions": ["奉诏伐吴，定鼎东南。", "三陈方得诏，一股下孙吴。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 破竹",
+				"descriptions": ["攻其不备，摧枯拉朽。", "势如破竹，铁索横江亦难挡。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-03_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": [""],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-03_dead.mp3"]
+			}]
+		},
+		"wenWu-guo-04": {
+			"index": 15,
+			"name": "卫瓘",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-guo-04.png",
+			"skills": [{
+				"name": "忠允",
+				"descriptions": "锁定技，每回合每项限一次，当你的体力值/手牌数变化后（失去体力除外），若你的体力值等于手牌数，你执行对应效果：回复1点体力或对你攻击范围内的一名角色造成1点伤害/摸一张牌或弃置一名其他角色的一张牌。"
+			}, {
+				"name": "神品",
+				"descriptions": "当一名角色的判定牌生效前，你可以打出一张与判定牌颜色不同的牌代替之。"
+			}],
+			"dialogues": [{
+				"name": "忠允",
+				"descriptions": ["秉公行事，无所亲疏。", "明晰法理，通晓人情。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-04_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-04_1_2.mp3"
+				]
+			}, {
+				"name": "神品",
+				"descriptions": ["考其遗法，肃若神明。", "气韵生动，出于天成。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-04_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["辞荣善终，不可求……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-04_dead.mp3"]
+			}]
+		},
+		"wenWu-guo-05": {
+			"index": 16,
+			"name": "宣公主",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-guo-05.png",
+			"skills": [{
+				"name": "高陵",
+				"descriptions": "隐匿。当你于其他角色的回合内登场时，你可以令一名角色回复1点体力。"
+			}, {
+				"name": "齐眉",
+				"descriptions": "准备阶段，你可以选择一名其他角色，直到你的下个回合开始（每回合每项限一次），当你或该角色〔1.手牌数；2.体力值〕变化后，若双方的此数值相等，另一方摸一张牌。"
+			}, {
+				"name": "追姬",
+				"descriptions": "出牌阶段开始时，你可以选择一项：1.回复1点体力，并于此阶段结束时弃置两张牌；2.摸两张牌，并于此阶段结束时失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "高陵",
+				"descriptions": ["天家贵胄，福泽四海。", "宣王之女，恩惠八方。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_1_2.mp3"
+				]
+			}, {
+				"name": "齐眉",
+				"descriptions": ["辅车相依，比翼双飞。", "情投意合，相濡以沫。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_2_2.mp3"
+				]
+			},{
+				"name": "追姬",
+				"descriptions": ["不过是些微代价罢了。", "哼，以为这就能难倒我吗？"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_3_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-guo-05_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["元凯，我去也……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-05_dead.mp3"]
+			}]
+		},
+		"wenWu-jie-01": {
+			"index": 17,
+			"name": "钟琰",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-jie-01.png",
+			"skills": [{
+				"name": "博览",
+				"descriptions": "出牌阶段开始时，或其他角色的出牌阶段限一次，当前回合角色可以失去1点体力（若当前回合角色为你则不用失去体力），令你从三个“出牌阶段限一次”的技能中选择一个，然后当前回合角色本阶段视为拥有此技能。"
+			}, {
+				"name": "仪法",
+				"descriptions": "锁定技，当其他角色使用【杀】或黑色普通锦囊牌指定你为目标后，其本回合的手牌上限-1。"
+			}],
+			"dialogues": [{
+				"name": "博览",
+				"descriptions": ["博览群书，融会贯通。", "博览于文，约之以礼。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-01_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-01_1_2.mp3"
+				]
+			}, {
+				"name": "仪法",
+				"descriptions": ["仪法明晰，则长治久安。", "仪法不明，则实不称名。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-01_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["嗟尔姜任，邈不我留。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-01_dead.mp3"]
+			}]
+		},
+		"wenWu-jie-02": {
+			"index": 18,
+			"name": "辛敞",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-jie-02.png",
+			"skills": [{
+				"name": "参谋",
+				"descriptions": "当一名角色使用普通锦囊牌指定目标时，若其手牌数为全场唯一最多，你可以为此牌选择一个额外目标。"
+			}, {
+				"name": "从鉴",
+				"descriptions": "当其他角色成为普通锦囊牌的唯一目标时，若其体力值为全场唯一最多，你可以也成为此牌的目标。若如此做，当此牌结算后，若此牌对你造成过伤害，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "参谋",
+				"descriptions": ["兢兢业业，竭心筹划。", "欲设此法，计谋二人。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-02_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-02_1_2.mp3"
+				]
+			}, {
+				"name": "从鉴",
+				"descriptions": ["为人臣属，安可不随？", "主公有难，吾当从之。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-02_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["宪英，救我！"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-02_dead.mp3"]
+			}]
+		},
+		"wenWu-jie-03": {
+			"index": 19,
+			"name": "贾充",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-jie-03.png",
+			"skills": [{
+				"name": "凶竖",
+				"descriptions": "其他角色的出牌阶段开始时，你可以弃置X张牌（X为本轮你此前发动过此技能的次数；不足则全弃，无牌则不弃），并展示其一张牌，然后你猜测其本阶段是否会使用与此牌牌名相同的牌（结果不公开）。若如此做，此阶段结束时，若你：猜对，你对其造成1点伤害；猜错，你获得展示的牌。"
+			}, {
+				"name": "奸回",
+				"descriptions": "锁定技，①当你造成伤害后，若受伤角色为上一次对你造成伤害的角色，你摸一张牌；②当你受到伤害后，若伤害来源为上一次对你造成伤害的角色，其弃置一张牌。"
+			}],
+			"dialogues": [{
+				"name": "凶竖",
+				"descriptions": ["怀志拥权，谁敢不服。", "天下凶凶，由我一人！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-03_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-03_1_2.mp3"
+				]
+			}, {
+				"name": "奸回",
+				"descriptions": ["此仇不报，怨恨难消！", "一箭之仇，十年不忘！"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-03_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["任元褒，吾与汝势不两立！"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-03_dead.mp3"]
+			}]
+		},
+		"wenWu-jie-04": {
+			"index": 20,
+			"name": "王祥",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-jie-04.png",
+			"skills": [{
+				"name": "冰心",
+				"descriptions": "当你需要使用基本牌时（每种基本牌每回合限一次），若你的手牌数等于体力值且你的手牌不包含两种颜色，你可以摸一张牌，视为使用此基本牌。"
+			}],
+			"dialogues": [{
+				"name": "冰心",
+				"descriptions": ["思鸟黄雀至，卧冰鱼自跃。", "夜静向寒月，卧冰求鲤鱼。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-jie-04_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-jie-04_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夫生之有死，自然之理也。"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-04_dead.mp3"]
+			}]
+		},
+		"wenWu-yue-01": {
+			"index": 21,
+			"name": "杨艳",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-yue-01.png",
+			"skills": [{
+				"name": "选备",
+				"descriptions": "出牌阶段限一次，你可以选择一名其他角色区域内的一张牌，令其将此牌当无距离限制的【杀】对你使用。然后若此【杀】未对你造成伤害，则你摸一张牌，否则你摸两张牌。"
+			}, {
+				"name": "娴婉",
+				"descriptions": "当你需要使用【杀】/【闪】时，若你横置/未横置，你可以重置/横置你的武将牌，视为使用之。"
+			}],
+			"dialogues": [{
+				"name": "选备",
+				"descriptions": ["博选良家，以充后宫。", "非良家，不可选也。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-yue-01_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-yue-01_1_2.mp3"
+				]
+			}, {
+				"name": "娴婉",
+				"descriptions": ["婉而从物，不竞不争。", "娴婉恭谨，重贤加礼。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-yue-01_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-yue-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["一旦殂陨，痛悼伤怀……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-yue-01_dead.mp3"]
+			}]
+		},
+		"wenWu-yue-02": {
+			"index": 22,
+			"name": "杨芷",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/wenDeWuBei/wenWu-yue-02.png",
+			"skills": [{
+				"name": "婉嫕",
+				"descriptions": "①当你使用【杀】或普通锦囊牌指定其他角色为唯一目标后，你可以将该角色的一张牌置于你的武将牌上（你不能使用、打出或弃置与已有的“婉嫕”牌花色相同的牌）；②结束阶段，或当你受到伤害后，你令一名角色获得一张“婉嫕”牌。"
+			}, {
+				"name": "埋祸",
+				"descriptions": "①当其他角色使用非虚拟且非转化的【杀】指定你为唯一目标后，若其武将牌上没有“祸”，你可以令此牌对你无效，并将之置于其武将牌上直到你对其造成伤害，称为“祸”；②武将牌上有“祸”的其他角色的出牌阶段开始时，其对你使用此“祸”（因此使用的牌不再受此技能的影响；若你不是此牌的合法目标，改为将此牌置入弃牌堆）。"
+			}],
+			"dialogues": [{
+				"name": "婉嫕",
+				"descriptions": ["天性婉嫕，易以道御。", "婉嫕利珍，为后攸行。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-yue-02_1_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-yue-02_1_2.mp3"
+				]
+			}, {
+				"name": "埋祸",
+				"descriptions": ["祸根未绝，转而滋蔓。", "无德之亲，终为祸根。"],
+				"srcs": [
+					"/static/video/online/wenDeWuBei/wenWu-yue-02_2_1.mp3",
+					"/static/video/online/wenDeWuBei/wenWu-yue-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["贾氏，构陷……"],
+				"srcs": ["/static/video/online/wenDeWuBei/wenWu-yue-02_dead.mp3"]
+			}]
+		}
+	}
+}

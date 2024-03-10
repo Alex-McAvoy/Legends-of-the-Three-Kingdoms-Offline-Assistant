@@ -83,6 +83,13 @@
 				this.military = militariesData.militaries[militaryId]
 				// 修改导航栏
 				this.navbarTitle = this.military.name
+			}  else if(packageId == 5) {
+				// 引入文德武备武将包数据
+				const militariesData = require("@/static/json/online/wenDeWuBei.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
 			}
 		}
 	}
