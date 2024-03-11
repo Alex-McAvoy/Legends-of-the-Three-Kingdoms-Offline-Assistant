@@ -1,0 +1,101 @@
+/* 限定 */
+
+/******************************** 小将灯标题 ********************************/
+.xian-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/xianDing/title.png");
+}
+
+/* 限定 */
+.xian-xian-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/******************************** 大将灯 ********************************/
+.xian-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	transform: scale(0.7);
+	animation: xianDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes xianDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+/******************************** 小将灯 ********************************/
+
+.xian-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+}
+
+/* 限定 */
+.xian-xian-lamp {
+	animation: xianXianLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes xianXianLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+	
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/******************************** 头像 ********************************/
+
+.xian-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/xianDing/avatar.png");
+}
+
+/* 王朗 */
+
+.xian-xian-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}

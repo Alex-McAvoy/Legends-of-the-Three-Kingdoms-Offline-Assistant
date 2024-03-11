@@ -1492,10 +1492,16 @@
 	{
 		"index": 11,
 		"name": "限定",
-		"class": "xian",
+		"class": "xian-da-lamp",
 		"nodes": [{
 			"index": 0,
-			"class": "feng"
+			"name": "限定",
+			"lampClass": "xian-xiao-lamp xian-xian-lamp",
+			"titleClass": "xian-title xian-xian-title",
+			"militaries": [{
+				"id": "xian-xian-01",
+				"avatarClass": "xian-xian-01 xian-avatar"
+			}]
 		}]
 	},
 	{
