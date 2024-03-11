@@ -1,0 +1,679 @@
+{
+	"index": 10,
+	"name": "SP",
+	"militaries": {
+		"sp-wei-01": {
+			"index": 0,
+			"name": "SP·庞德",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-01.png",
+			"skills": [{
+				"name": "决死",
+				"descriptions": "出牌阶段，你可以弃置一张【杀】，并令你攻击范围内的一名其他角色弃置一张牌，然后若其弃置的不是【杀】且你的体力值不大于该角色，视为你对其使用一张【决斗】。"
+			}, {
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "决死",
+				"descriptions": ["死都不怕，还能怕你？", "抬棺而战，不死不休！"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-01_1_1.mp3",
+					"/static/video/online/sp/sp-wei-01_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["受魏王厚恩，唯死以报之。"],
+				"srcs": ["/static/video/online/sp/sp-wei-01_dead.mp3"]
+			}]
+		},
+		"sp-wei-02": {
+			"index": 1,
+			"name": "SP·关羽",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-02.png",
+			"skills": [{
+				"name": "武圣",
+				"descriptions": "①你可以将一张红色牌当【杀】使用或打出；②你使用♦️【杀】无距离限制。"
+			}, {
+				"name": "单骑",
+				"descriptions": "觉醒技，准备阶段，若你的手牌数大于体力值且本局游戏的主公不是刘备，你减1点体力上限，然后获得技能“怒斩”和“马术”。"
+			}, {
+				"name": "☆ 怒斩",
+				"descriptions": "锁定技，你发动“武圣”使用【杀】时，若此牌转化前为：锦囊牌，此【杀】不计入次数；装备牌，此【杀】造成的基础伤害值+1。"
+			}, {
+				"name": "☆ 马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "武圣",
+				"descriptions": ["以义传魂，以武入圣！", "义击逆流，武安黎庶。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-02_1_1.mp3",
+					"/static/video/online/sp/sp-wei-02_1_2.mp3"
+				]
+			}, {
+				"name": "单骑",
+				"descriptions": ["单骑护嫂千里，只为桃园之义！", "独身远涉，赤心归国。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-02_2_1.mp3",
+					"/static/video/online/sp/sp-wei-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["樊城一去，死亦无惧。"],
+				"srcs": ["/static/video/online/sp/sp-wei-02_dead.mp3"]
+			}]
+		},
+		"sp-wei-03": {
+			"index": 2,
+			"name": "SP·贾诩",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-03.png",
+			"skills": [{
+				"name": "缜略",
+				"descriptions": "锁定技，①你使用的普通锦囊牌不能被【无懈可击】响应；②你不能成为延时锦囊牌的目标。"
+			}, {
+				"name": "间书",
+				"descriptions": "限定技，出牌阶段，你可以交给一名其他角色一张黑色手牌，令其与一名你选择的其他角色拼点：赢的角色弃置两张牌；没赢的角色失去1点体力。"
+			}, {
+				"name": "拥嫡",
+				"descriptions": "限定技，准备阶段，你可以令一名其他男性角色加1点体力上限并回复1点体力，然后若该角色的武将牌上有主公技且其身份不为主公，其视为拥有此主公技。"
+			}],
+			"dialogues": [{
+				"name": "间书",
+				"descriptions": ["来，让我看一出好戏吧。", "纵有千军万马，离心，则难成大事。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-03_2_1.mp3",
+					"/static/video/online/sp/sp-wei-03_2_2.mp3"
+				]
+			}, {
+				"name": "拥嫡",
+				"descriptions": ["臣，愿为世子肝脑涂地。", "嫡庶有别，尊卑有序。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-03_3_1.mp3",
+					"/static/video/online/sp/sp-wei-03_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["立嫡之事，真是取祸之道。"],
+				"srcs": ["/static/video/online/sp/sp-wei-03_dead.mp3"]
+			}]
+		},
+		"sp-wei-04": {
+			"index": 3,
+			"name": "SP·曹仁",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-04.png",
+			"skills": [{
+				"name": "伪溃",
+				"descriptions": "出牌阶段限一次，你可以失去1点体力，然后观看一名有手牌的其他角色的手牌，若其手牌中：有【闪】，你视为对其使用一张不计入次数限制的【杀】，且你本回合计算与其的距离视为1；没有【闪】，你弃置其中的一张牌。"
+			}, {
+				"name": "励战",
+				"descriptions": "结束阶段结束时，你可以令任意名已受伤的角色各摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "伪溃",
+				"descriptions": ["骑兵列队，准备突围。", "休整片刻，且随我杀出一条血路。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-04_1_1.mp3",
+					"/static/video/online/sp/sp-wei-04_1_2.mp3"
+				]
+			}, {
+				"name": "励战",
+				"descriptions": ["敌军围困万千重，我自岿然不动。", "行伍严整，百战不殆。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-04_2_1.mp3",
+					"/static/video/online/sp/sp-wei-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["城在人在，城破人亡。"],
+				"srcs": ["/static/video/online/sp/sp-wei-04_dead.mp3"]
+			}]
+		},
+		"sp-wei-05": {
+			"index": 4,
+			"name": "SP·蔡文姬",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-05.png",
+			"skills": [{
+				"name": "陈情",
+				"descriptions": "每轮限一次，当一名角色进入濒死状态时，你可以令另一名角色（除你以外）摸四张牌并弃置四张牌，然后若其弃置的牌花色均不相同，其视为对前者使用一张【桃】。"
+			}, {
+				"name": "默识",
+				"descriptions": "结束阶段，你可以将一张手牌当你本回合出牌阶段内使用过的第一张〔基本牌或普通锦囊牌〕使用，然后你可以将一张手牌当你本回合出牌阶段内使用过的第二张〔基本牌或普通锦囊牌〕使用。"
+			}],
+			"dialogues": [{
+				"name": "陈情",
+				"descriptions": ["陈生死离别之苦，悲乱世之跌宕。", "乱世陈情，字字血泪。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-05_1_1.mp3",
+					"/static/video/online/sp/sp-wei-05_1_2.mp3"
+				]
+			}, {
+				"name": "默识",
+				"descriptions": ["博闻强识，不辱才女之名。", "今日默书，方恨千卷诗书未能全记。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-05_2_1.mp3",
+					"/static/video/online/sp/sp-wei-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["命运…弄人…"],
+				"srcs": ["/static/video/online/sp/sp-wei-05_dead.mp3"]
+			}]
+		},
+		"sp-wei-06": {
+			"index": 5,
+			"name": "SP·姜维",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wei-06.png",
+			"skills": [{
+				"name": "困奋",
+				"descriptions": "锁定技，结束阶段，你失去1点体力，摸两张牌。"
+			}, {
+				"name": "逢亮",
+				"descriptions": "觉醒技，当你进入濒死状态时，你减1点体力上限并将体力回复至2点，然后获得技能“挑衅”，将技能“困奋”修改为：结束阶段，你可以失去1点体力，摸两张牌。"
+			}, {
+				"name": "☆ 挑衅",
+				"descriptions": "出牌阶段限一次，你可以选择一名攻击范围内含你的其他角色，除非其对你使用一张【杀】且此【杀】对你造成伤害，否则你弃置其一张牌并将本技能于本阶段内修改为“出牌阶段限两次”。"
+			}],
+			"dialogues": [{
+				"name": "困奋",
+				"descriptions": ["纵使困顿难行，亦当砥砺奋进！", "兴蜀需时，众将切勿惫怠！"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-06_1_1.mp3",
+					"/static/video/online/sp/sp-wei-06_1_2.mp3"
+				]
+			}, {
+				"name": "逢亮",
+				"descriptions": ["得遇丞相，再生之德！", "丞相大义，维岂有不从之理！"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-06_2_1.mp3",
+					"/static/video/online/sp/sp-wei-06_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 挑衅",
+				"descriptions": ["今日天公作美，怎能不战而退？", "贼将无胆，何不早降！"],
+				"srcs": [
+					"/static/video/online/sp/sp-wei-06_3_1.mp3",
+					"/static/video/online/sp/sp-wei-06_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["伯约已尽力而为，奈何大汉国运衰微……"],
+				"srcs": ["/static/video/online/sp/sp-wei-06_dead.mp3"]
+			}]
+		},
+		"sp-shu-01": {
+			"index": 6,
+			"name": "SP·孙尚香",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-shu-01.png",
+			"skills": [{
+				"name": "良助",
+				"descriptions": "当一名角色于其出牌阶段内回复体力后，你可以选择一项：1.摸一张牌；2.令其摸两张牌。"
+			}, {
+				"name": "返乡",
+				"descriptions": "觉醒技，准备阶段，若场上有已受伤且你发动过“良助”令其摸牌的角色，你加1点体力上限并回复1点体力，然后失去技能“良助”并获得技能“枭姬”。"
+			}, {
+				"name": "☆ 枭姬",
+				"descriptions": "当你失去装备区里的一张牌后，你可以摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "良助",
+				"descriptions": ["吾愿携弩征战沙场，助君一战！", "两国结盟，你我都是一家人！"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-01_1_1.mp3",
+					"/static/video/online/sp/sp-shu-01_1_2.mp3"
+				]
+			}, {
+				"name": "返乡",
+				"descriptions": ["兄命难违，从此两别。", "今昔一别，不知何日再见…"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-01_2_1.mp3",
+					"/static/video/online/sp/sp-shu-01_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 枭姬",
+				"descriptions": ["弓马何须忌红妆！", "双剑夸巧，不让须眉！"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-01_3_1.mp3",
+					"/static/video/online/sp/sp-shu-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["东途难归，初心难追。"],
+				"srcs": ["/static/video/online/sp/sp-shu-01_dead.mp3"]
+			}]
+		},
+		"sp-shu-02": {
+			"index": 7,
+			"name": "蒲元",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-shu-02.png",
+			"skills": [{
+				"name": "神工",
+				"descriptions": "①出牌阶段各限一次，你可以弃置一张武器/防具/〔坐骑或宝物牌〕，进行一次“锻造”，选择一张武器/防具/宝物牌置于一名角色的装备区（可替换原装备）。②当以此法获得的装备牌进入弃牌堆时，销毁之，然后此回合结束阶段，你摸一张牌。"
+			}, {
+				"name": "奇思",
+				"descriptions": "①游戏开始时，你获得两张不同副类别的装备牌并置入你的装备区。②摸牌阶段，你可以少摸一张牌，声明一种武器、防具、坐骑或宝物牌并从牌堆或弃牌堆中获得之。"
+			}],
+			"dialogues": [{
+				"name": "神工",
+				"descriptions": ["技艺若神，大巧不工。", "千锤百炼，始得神兵。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-02_1_1.mp3",
+					"/static/video/online/sp/sp-shu-02_1_2.mp3"
+				]
+			}, {
+				"name": "奇思",
+				"descriptions": ["匠作之道，当佐奇思。", "世无同刃，不循凡矩。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-02_2_1.mp3",
+					"/static/video/online/sp/sp-shu-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["锻兵万千，不及造屋二三……"],
+				"srcs": ["/static/video/online/sp/sp-shu-02_dead.mp3"]
+			}]
+		},
+		"sp-shu-03": {
+			"index": 8,
+			"name": "周群",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-shu-03.png",
+			"skills": [{
+				"name": "天候",
+				"descriptions": "锁定技，准备阶段，你观看牌堆顶的一张牌并可以用一张牌交换之，然后展示牌堆顶的一张牌，若此牌的花色为♥️/♦️/♠️/♣️，你令一名角色获得技能“烈暑”/“凝雾”/“骤雨”/“严霜”直到你的下个准备阶段。"
+			}, {
+				"name": "谶说",
+				"descriptions": "结束阶段，你展示一张手牌。然后你亮出牌堆顶的一张牌，若X不为0（X为这两张牌满足的条件数：类别相同、花色相同、点数相同、牌名字数相同），你重复此流程直到亮出了牌堆顶的第三张牌。然后获得所有以此法亮出的牌。"
+			}, {
+				"name": "☆ 烈暑",
+				"descriptions": "锁定技，其他角色的结束阶段，若其是全场体力值最高的角色，其失去1点体力。"
+			}, {
+				"name": "☆ 凝雾",
+				"descriptions": "锁定技，当一名其他角色使用【杀】指定不与其相邻的其他角色为唯一目标时，其进行一次判定，若结果大于此【杀】的点数，此【杀】无效。"
+			}, {
+				"name": "☆ 骤雨",
+				"descriptions": "锁定技，①当一名其他角色造成火焰伤害时，防止之；②当一名角色受到雷电伤害后，与其相邻的角色各失去1点体力。"
+			}, {
+				"name": "☆ 严霜",
+				"descriptions": "锁定技，其他角色的结束阶段，若其是全场体力值最低的角色，其失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "天候",
+				"descriptions": ["雷霆雨露，皆为君恩。", "天象之所显，世事之所为。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_1_1.mp3",
+					"/static/video/online/sp/sp-shu-03_1_2.mp3"
+				]
+			}, {
+				"name": "谶说",
+				"descriptions": ["命数玄奥，然吾可言之。", "天地神鬼之辩，在吾唇舌之间。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_2_1.mp3",
+					"/static/video/online/sp/sp-shu-03_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 烈暑",
+				"descriptions": ["七月流火，涸我山泽。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_3_1.mp3"
+				]
+			}, {
+				"name": "☆ 凝雾",
+				"descriptions": ["云雾弥野，如夜之幽。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_4_1.mp3"
+				]
+			}, {
+				"name": "☆ 骤雨",
+				"descriptions": ["月离于毕，俾滂沱矣。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_5_1.mp3"
+				]
+			}, {
+				"name": "☆ 严霜",
+				"descriptions": ["雪瀑寒霜落，霜下可折竹。"],
+				"srcs": [
+					"/static/video/online/sp/sp-shu-03_6_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["知万物而不知己命，大谬也。"],
+				"srcs": ["/static/video/online/sp/sp-shu-03_dead.mp3"]
+			}]
+		},
+		"sp-wu-01": {
+			"index": 9,
+			"name": "SP·庞统",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-wu-01.png",
+			"skills": [{
+				"name": "过论",
+				"descriptions": "出牌阶段限一次，你可以展示一名其他角色的一张手牌，然后你可以用你的一张牌交换此牌。若如此做，交换前点数小的一方摸一张牌。"
+			}, {
+				"name": "送丧",
+				"descriptions": "限定技，当其他角色死亡时，若你已受伤，则你可以回复1点体力，否则你可以加1点体力上限。若如此做，你获得技能“展骥”。"
+			}, {
+				"name": "☆ 展骥",
+				"descriptions": "锁定技，当你于出牌阶段内不因此技能摸牌时，你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "过论",
+				"descriptions": ["品过是非，讨评好坏。", "若有天下太平时，必讨四海之内才。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wu-01_1_1.mp3",
+					"/static/video/online/sp/sp-wu-01_1_2.mp3"
+				]
+			}, {
+				"name": "送丧",
+				"descriptions": ["送丧至东吴，使命已完。", "送丧虽至，吾与孝则得相交。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wu-01_2_1.mp3",
+					"/static/video/online/sp/sp-wu-01_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 展骥",
+				"descriptions": ["功曹之恩，吾必有展骥之机。", "公瑾安全至吴，心安之。"],
+				"srcs": [
+					"/static/video/online/sp/sp-wu-01_3_1.mp3",
+					"/static/video/online/sp/sp-wu-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我终究……不得东吴赏识。"],
+				"srcs": ["/static/video/online/sp/sp-wu-01_dead.mp3"]
+			}]
+		},
+		"sp-qun-01": {
+			"index": 10,
+			"name": "SP·马超",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-01.png",
+			"skills": [{
+				"name": "誓仇",
+				"descriptions": "你使用【杀】可以多选择至多X名角色为目标（X为你已损失的体力值+1）。"
+			}, {
+				"name": "追击",
+				"descriptions": "锁定技，①你计算与体力值不大于你的其他角色的距离视为1；②当你使用【杀】指定距离为1的角色为目标后，其选择一项：1.弃置一张牌；2.重铸装备区里的所有牌。"
+			}],
+			"dialogues": [{
+				"name": "誓仇",
+				"descriptions": ["灭族之恨，不共戴天！", "休想跑！"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-01_1_1.mp3",
+					"/static/video/online/sp/sp-qun-01_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["西凉.....回不去了。"],
+				"srcs": ["/static/video/online/sp/sp-qun-01_dead.mp3"]
+			}]
+		},
+		"sp-qun-02": {
+			"index": 11,
+			"name": "SP·赵云",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-02.png",
+			"skills": [{
+				"name": "龙胆",
+				"descriptions": "你可以将一张【杀】当【闪】、【闪】当【杀】使用或打出。"
+			}, {
+				"name": "冲阵",
+				"descriptions": "当你发动“龙胆”使用或打出一张手牌时，你可以获得对方的一张手牌。"
+			}],
+			"dialogues": [{
+				"name": "龙胆",
+				"descriptions": ["吾乃常山赵子龙也。", "能进能退乃真正法器！"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-02_1_1.mp3",
+					"/static/video/online/sp/sp-qun-02_1_2.mp3"
+				]
+			}, {
+				"name": "冲阵",
+				"descriptions": ["陷阵杀敌，一马当先！", "贼将休走，可敢与我一战？"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-02_2_1.mp3",
+					"/static/video/online/sp/sp-qun-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这，就是失败的，滋味吗。"],
+				"srcs": ["/static/video/online/sp/sp-qun-02_dead.mp3"]
+			}]
+		},
+		"sp-qun-03": {
+			"index": 12,
+			"name": "SP·貂蝉",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-03.png",
+			"skills": [{
+				"name": "离魂",
+				"descriptions": "出牌阶段限一次，你可以弃置一张牌并翻面，然后获得一名男性角色的所有手牌。若如此做，此阶段结束时，你交给其X张牌（X为该角色的体力值）。"
+			}, {
+				"name": "闭月",
+				"descriptions": "结束阶段，若你有手牌，则你可以摸一张牌，否则你可以摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "离魂",
+				"descriptions": ["将军，这些都赏给妾身好不好嘛～～", "这些人家不喜欢嘛，还给你吧～～"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-03_1_1.mp3",
+					"/static/video/online/sp/sp-qun-03_1_2.mp3"
+				]
+			}, {
+				"name": "闭月",
+				"descriptions": ["失礼了。","羡慕吧。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-03_2_1.mp3",
+					"/static/video/online/sp/sp-qun-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["父亲大人，对不起。"],
+				"srcs": ["/static/video/online/sp/sp-qun-03_dead.mp3"]
+			}]
+		},
+		"sp-qun-04": {
+			"index": 13,
+			"name": "SP·张郃",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-04.png",
+			"skills": [{
+				"name": "周旋",
+				"descriptions": "①弃牌阶段开始时，你可将任意张手牌置于你的武将牌上直到你的下个出牌阶段结束，称为“旋”（“旋”的数量至多为5）； ②当你使用一张牌时，你摸X张牌（若你的手牌是全场唯一最多，改为摸一张牌），然后移去一张“旋”（X为“旋”的数量）。"
+			}],
+			"dialogues": [{
+				"name": "周旋",
+				"descriptions": ["详勘细察，洞若观火！", "知敌底细，方能百战百胜。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-04_1_1.mp3",
+					"/static/video/online/sp/sp-qun-04_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我终究，是看不透这人心。"],
+				"srcs": ["/static/video/online/sp/sp-qun-04_dead.mp3"]
+			}]
+		},
+		"sp-qun-05": {
+			"index": 14,
+			"name": "SP·孟获",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-05.png",
+			"skills": [{
+				"name": "蛮王",
+				"descriptions": "出牌阶段，你可以弃置任意张牌并依次执行等量项：1.获得技能“叛侵”；2.摸一张牌；3.回复一点体力；4.摸两张牌并失去技能“叛侵”。"
+			}, {
+				"name": "☆ 叛侵",
+				"descriptions": "出牌阶段结束时，或弃牌阶段结束时，你可以将你本阶段弃置的牌当【南蛮入侵】使用，若这些牌数不大于此牌目标数，你执行并移除“蛮王”的最后一项。"
+			}],
+			"dialogues": [{
+				"name": "蛮王",
+				"descriptions": ["不服王命，纵兵凶战危，也应以血相偿。", "夷汉所服，据南中诸郡，当以蛮王为号。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-05_1_1.mp3",
+					"/static/video/online/sp/sp-qun-05_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 叛侵",
+				"descriptions": ["百兽嘶鸣筋骨振，蛮王起兮万人随！", "呼勒格诗惹之民，召南中群雄复起！"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-05_2_1.mp3",
+					"/static/video/online/sp/sp-qun-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["有材而得生，无材而得纵……"],
+				"srcs": ["/static/video/online/sp/sp-qun-05_dead.mp3"]
+			}]
+		},
+		"sp-qun-06": {
+			"index": 15,
+			"name": "SP·张辽",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-06.png",
+			"skills": [{
+				"name": "募兵",
+				"descriptions": "出牌阶段开始时，你可以亮出牌堆顶的三张牌，然后你可以弃置任意张手牌，获得任意张亮出的牌。（你弃置的牌的点数和须不小于你获得的牌的点数和）"
+			}, {
+				"name": "资取",
+				"descriptions": "当你对其他角色造成伤害时（每名角色每局游戏限一次），你可以防止此伤害并令其交给你一张点数最大的牌。"
+			}, {
+				"name": "调令",
+				"descriptions": "觉醒技，准备阶段，若你因“募兵”获得过至少六张伤害牌或武器牌，你选择一项：1.回复1点体力；2.摸两张牌。若如此做，你将技能“募兵”修改为：出牌阶段开始时，你可以亮出牌堆顶的四张牌，然后你可以弃置任意张手牌，获得任意张亮出的牌，然后你可以将以此法获得的牌交给其他角色。（你弃置的牌的点数和须不小于你获得的牌的点数和）"
+			}],
+			"dialogues": [{
+				"name": "募兵",
+				"descriptions": ["兵者，不唯在精，亦在广。","男儿当从军，功名马上取。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-06_1_1.mp3",
+					"/static/video/online/sp/sp-qun-06_1_2.mp3"
+				]
+			}, {
+				"name": "资取",
+				"descriptions": ["兵马已动，尔等速将粮草缴来。","留财不留命，留命不留财。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-06_2_1.mp3",
+					"/static/video/online/sp/sp-qun-06_2_2.mp3"
+				]
+			}, {
+				"name": "调令",
+				"descriptions": ["兵甲已足，当汇集三军。","临军告急，当遣将急援。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-06_3_1.mp3",
+					"/static/video/online/sp/sp-qun-06_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["孤军难鸣，进退维谷……"],
+				"srcs": ["/static/video/online/sp/sp-qun-06_dead.mp3"]
+			}]
+		},
+		"sp-qun-07": {
+			"index": 16,
+			"name": "SP·黄月英",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/sp/sp-qun-07.png",
+			"skills": [{
+				"name": "机巧",
+				"descriptions": "出牌阶段开始时，你可以弃置任意张装备牌，然后你亮出牌堆顶两倍数量的牌，获得其中的非装备牌。"
+			}, {
+				"name": "玲珑",
+				"descriptions": "若你的装备区里没有：武器牌，你使用【杀】的次数+1；防具牌，你视为装备着【八卦阵】；坐骑牌，你的手牌上限+1；宝物牌，你视为拥有技能“奇才”。"
+			}],
+			"dialogues": [{
+				"name": "机巧",
+				"descriptions": ["驭巧器，以取先机。", "颖悟之人，不以拙力取胜。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-07_1_1.mp3",
+					"/static/video/online/sp/sp-qun-07_1_2.mp3"
+				]
+			}, {
+				"name": "玲珑",
+				"descriptions": ["哼，书中自有玲珑心。", "哼，自然是多多益善咯。"],
+				"srcs": [
+					"/static/video/online/sp/sp-qun-07_2_1.mp3",
+					"/static/video/online/sp/sp-qun-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["只恨不能再助夫君了。"],
+				"srcs": ["/static/video/online/sp/sp-qun-07_dead.mp3"]
+			}]
+		}
+	}
+}
