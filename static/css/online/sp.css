@@ -32,37 +32,9 @@
 .sp-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/qiFu/lamp.png");
+	background-image: url("@/static/images/online/sp/lamp.png");
 	transform: scale(0.7);
-	animation: spDaLampFrameAnim steps(1, start) 1s infinite;
 }
-
-@keyframes spDaLampFrameAnim {
-	0% {
-		background-position: calc(-64px*0) calc(-64px*0);
-	}
-
-	20% {
-		background-position: calc(-64px*1) calc(-64px*0);
-	}
-
-	40% {
-		background-position: calc(-64px*2) calc(-64px*0);
-	}
-
-	60% {
-		background-position: calc(-64px*3) calc(-64px*0);
-	}
-
-	80% {
-		background-position: calc(-64px*4) calc(-64px*0);
-	}
-
-	100% {
-		background-position: calc(-64px*5) calc(-64px*0);
-	}
-}
-
 
 /******************************** Í·Ïñ ********************************/
 
