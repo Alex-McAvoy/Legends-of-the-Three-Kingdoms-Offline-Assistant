@@ -20,7 +20,7 @@
 			}],
 			"dialogues": [{
 				"name": "狂骨",
-				"descriptions": ["哼，也不看看我是何人？", "哈哈哈哈哈，赢你，还不容易？"],
+				"descriptions": ["哈哈哈哈哈，赢你，还不容易？", "哼，也不看看我是何人？"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-01_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-01_1_2.mp3"
@@ -53,7 +53,7 @@
 			}],
 			"dialogues": [{
 				"name": "神速",
-				"descriptions": ["取汝首级，如探囊取物。", "吾善于千里袭人。"],
+				"descriptions": ["吾善于千里袭人。","取汝首级，如探囊取物。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-02_1_2.mp3"
@@ -82,14 +82,14 @@
 			}],
 			"dialogues": [{
 				"name": "据守",
-				"descriptions": ["坚守此地，不退半步！", "兵精粮足，守土一方！"],
+				"descriptions": [ "兵精粮足，守土一方！","坚守此地，不退半步！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_1_2.mp3"
 				]
 			}, {
 				"name": "解围",
-				"descriptions": ["坚壁清野，以挫敌锐！", "化守为攻，出奇制胜！"],
+				"descriptions": [ "化守为攻，出奇制胜！","坚壁清野，以挫敌锐！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_2_2.mp3"
@@ -118,7 +118,7 @@
 			}],
 			"dialogues": [{
 				"name": "天香",
-				"descriptions": ["接着哦～", "替我挡着～"],
+				"descriptions": ["替我挡着～","接着哦～"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-04_1_2.mp3"
