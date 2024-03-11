@@ -1,0 +1,165 @@
+/* SP */
+
+/******************************** 小将灯标题 ********************************/
+.sp-title {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/sp/title.png");
+	margin-right: 35px;
+}
+
+/* 魏 */
+.sp-wei-title {
+	background-position: 0 calc(-64px*0);
+}
+
+/* 蜀 */
+.sp-shu-title {
+	background-position: 0 calc(-64px*1);
+}
+
+/* 吴 */
+.sp-wu-title {
+	background-position: 0 calc(-64px*2);
+}
+
+/* 群 */
+.sp-qun-title {
+	background-position: 0 calc(-64px*3);
+}
+
+/******************************** 大将灯 ********************************/
+.sp-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/qiFu/lamp.png");
+	transform: scale(0.7);
+	animation: spDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes spDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+
+/******************************** 头像 ********************************/
+
+.sp-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/sp/avatar.png");
+}
+
+/***** 魏 *****/
+/* SP·庞德 */
+.sp-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+
+/* SP·关羽 */
+.sp-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+
+/* SP·贾诩 */
+.sp-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+
+/* SP·曹仁 */
+.sp-wei-04 {
+	background-position: calc(-61px*3) calc(-61px*0);
+}
+
+/* SP·蔡文姬 */
+.sp-wei-05 {
+	background-position: calc(-61px*4) calc(-61px*0);
+}
+
+/* SP·姜维 */
+.sp-wei-06 {
+	background-position: calc(-61px*5) calc(-61px*0);
+}
+
+
+/***** 蜀 *****/
+/* SP·孙尚香 */
+.sp-shu-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+
+/* 蒲元 */
+.sp-shu-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+
+/* 周群 */
+.sp-shu-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+
+
+/***** 吴 *****/
+/* SP·庞统 */
+.sp-wu-01{
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+
+
+/***** 群 *****/
+/* SP·马超 */
+.sp-qun-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+
+/* SP·赵云 */
+.sp-qun-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+
+/* SP·貂蝉 */
+.sp-qun-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+
+/* SP·张郃 */
+.sp-qun-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+
+/* SP·孟获 */
+.sp-qun-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+
+/* SP·张辽 */
+.sp-qun-06 {
+	background-position: calc(-61px*5) calc(-61px*3);
+}
+
+/* SP·黄月英 */
+.sp-qun-07 {
+	background-position: calc(-61px*6) calc(-61px*3);
+}

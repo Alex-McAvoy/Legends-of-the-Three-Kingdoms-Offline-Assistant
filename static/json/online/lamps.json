@@ -1309,7 +1309,7 @@
 		"nodes": [{
 				"index": 0,
 				"name": "魏",
-				"lampClass": "qi-xiao-lamp qi-wei-lamp",
+				"lampClass": "",
 				"titleClass": "qi-title qi-wei-title",
 				"militaries": [{
 					"id": "qi-wei-01",
@@ -1327,7 +1327,7 @@
 			{
 				"index": 1,
 				"name": "蜀",
-				"lampClass": "qi-xiao-lamp qi-shu-lamp",
+				"lampClass": "",
 				"titleClass": "qi-title qi-shu-title",
 				"militaries": [{
 					"id": "qi-shu-01",
@@ -1348,7 +1348,7 @@
 			{
 				"index": 2,
 				"name": "吴",
-				"lampClass": "qi-xiao-lamp qi-wu-lamp",
+				"lampClass": "",
 				"titleClass": "qi-title qi-wu-title",
 				"militaries": [{
 						"id": "qi-wu-01",
@@ -1359,7 +1359,7 @@
 			{
 				"index": 3,
 				"name": "群",
-				"lampClass": "qi-xiao-lamp qi-qun-lamp",
+				"lampClass": "",
 				"titleClass": "qi-title qi-qun-title",
 				"militaries": [{
 					"id": "qi-qun-01",
@@ -1383,7 +1383,7 @@
 			{
 				"index": 4,
 				"name": "晋",
-				"lampClass": "qi-xiao-lamp qi-jin-lamp",
+				"lampClass": "",
 				"titleClass": "qi-title qi-jin-title",
 				"militaries": [{
 						"id": "qi-jin-01",
@@ -1396,11 +1396,98 @@
 	{
 		"index": 10,
 		"name": "SP",
-		"class": "sp",
+		"class": "sp-da-lamp",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "魏",
+				"lampClass": "",
+				"titleClass": "sp-title sp-wei-title",
+				"militaries": [{
+					"id": "sp-wei-01",
+					"avatarClass": "sp-wei-01 sp-avatar"
+				},{
+					"id": "sp-wei-02",
+					"avatarClass": "sp-wei-02 sp-avatar"
+				},
+				{
+					"id": "sp-wei-03",
+					"avatarClass": "sp-wei-03 sp-avatar"
+				},
+				{
+					"id": "sp-wei-04",
+					"avatarClass": "sp-wei-04 sp-avatar"
+				},
+				{
+					"id": "sp-wei-05",
+					"avatarClass": "sp-wei-05 sp-avatar"
+				},
+				{
+					"id": "sp-wei-06",
+					"avatarClass": "sp-wei-06 sp-avatar"
+				}]
+			},
+			{
+				"index": 1,
+				"name": "蜀",
+				"lampClass": "",
+				"titleClass": "sp-title sp-shu-title",
+				"militaries": [{
+					"id": "sp-shu-01",
+					"avatarClass": "sp-shu-01 sp-avatar"
+				},{
+					"id": "sp-shu-02",
+					"avatarClass": "sp-shu-02 sp-avatar"
+				},{
+					"id": "sp-shu-03",
+					"avatarClass": "sp-shu-03 sp-avatar"
+				}]
+			},
+			{
+				"index": 2,
+				"name": "吴",
+				"lampClass": "",
+				"titleClass": "sp-title sp-wu-title",
+				"militaries": [{
+						"id": "sp-wu-01",
+						"avatarClass": "sp-wu-01 sp-avatar"
+					}
+				]
+			},
+			{
+				"index": 3,
+				"name": "群",
+				"lampClass": "",
+				"titleClass": "sp-title sp-qun-title",
+				"militaries": [{
+					"id": "sp-qun-01",
+					"avatarClass": "sp-qun-01 sp-avatar"
+				},
+				{
+					"id": "sp-qun-02",
+					"avatarClass": "sp-qun-02 sp-avatar"
+				},
+				{
+					"id": "sp-qun-03",
+					"avatarClass": "sp-qun-03 sp-avatar"
+				},
+				{
+					"id": "sp-qun-04",
+					"avatarClass": "sp-qun-04 sp-avatar"
+				},
+				{
+					"id": "sp-qun-05",
+					"avatarClass": "sp-qun-05 sp-avatar"
+				},
+				{
+					"id": "sp-qun-06",
+					"avatarClass": "sp-qun-06 sp-avatar"
+				},
+				{
+					"id": "sp-qun-07",
+					"avatarClass": "sp-qun-07 sp-avatar"
+				}]
+			}
+		]
 	},
 	{
 		"index": 11,
