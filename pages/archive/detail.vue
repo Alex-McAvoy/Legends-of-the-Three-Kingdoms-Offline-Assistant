@@ -101,6 +101,17 @@
 				// 修改导航栏
 				this.navbarTitle = this.military.name
 			}
+			else if(packageId == 8) {
+				// 引入门阀士族武将包数据
+			}
+			else if(packageId == 9) {
+				// 引入祈福武将包数据
+				const militariesData = require("@/static/json/online/qiFu.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			}
 		}
 	}
 </script>

@@ -1,0 +1,606 @@
+{
+	"index": 9,
+	"name": "祈福",
+	"militaries": {
+		"qi-wei-01": {
+			"index": 0,
+			"name": "曹婴",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-wei-01.png",
+			"skills": [{
+				"name": "凌人",
+				"descriptions": "出牌阶段限一次，当你使用伤害牌指定目标后，你可以猜测其中一名目标角色的手牌区中是否有基本牌、锦囊牌或装备牌。若你猜对：至少一项，此牌对其造成的伤害+1；至少两项，你摸两张牌；三项，你获得技能“奸雄”和“行殇”直到你的下个回合开始。"
+			}, {
+				"name": "伏间",
+				"descriptions": "锁定技，结束阶段，你随机观看一名其他角色的X张手牌（X为全场手牌数最小的角色的手牌数）。"
+			}, {
+				"name": "☆ 奸雄",
+				"descriptions": "当你受到伤害后，你可以获得对你造成伤害的牌并摸一张牌。"
+			}, {
+				"name": "☆ 行殇",
+				"descriptions": "当其他角色死亡时，你可以获得其所有牌。"
+			}],
+			"dialogues": [{
+				"name": "凌人",
+				"descriptions": ["敌势已缓，休要走了，老贼！", "精兵如炬，困龙难飞！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-01_1_1.mp3",
+					"/static/video/online/qiFu/qi-wei-01_1_2.mp3"
+				]
+			}, {
+				"name": "伏间",
+				"descriptions": ["兵者，诡道也。", "粮资军备，一览无遗。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-01_2_1.mp3",
+					"/static/video/online/qiFu/qi-wei-01_2_2.mp3"
+				]
+			},{
+				"name": "☆ 奸雄",
+				"descriptions": ["且收此弩箭，不日奉还！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-01_3_1.mp3"
+				]
+			},{
+				"name": "☆ 行殇",
+				"descriptions": ["此刀枪军械，尽归我有！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-01_4_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["曹魏天下存，魂归故土安。"],
+				"srcs": ["/static/video/online/qiFu/qi-wei-01_dead.mp3"]
+			}]
+		},
+		"qi-wei-02": {
+			"index": 1,
+			"name": "曹纯",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-wei-02.png",
+			"skills": [{
+				"name": "缮甲",
+				"descriptions": "出牌阶段开始时，你可以摸三张牌，然后弃置X张牌（X为3减去你失去过装备牌的数量，使用装备牌除外）。若你以此法弃置的牌中没有非装备牌，你可以视为使用一张无距离限制且不计入次数的【杀】。"
+			}],
+			"dialogues": [{
+				"name": "缮甲",
+				"descriptions": ["缮甲厉兵，伺机而行。", "战当取精锐之兵而弃驽钝也。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-02_1_1.mp3",
+					"/static/video/online/qiFu/qi-wei-02_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["银甲在身，竟败于你手。"],
+				"srcs": ["/static/video/online/qiFu/qi-wei-02_dead.mp3"]
+			}]
+		},
+		"qi-wei-03": {
+			"index": 2,
+			"name": "曹爽",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-wei-03.png",
+			"skills": [{
+				"name": "托孤",
+				"descriptions": "当一名角色死亡时，你可以令其选择其武将牌上的一个技能（限定技、觉醒技、主公技除外），你失去上次以此法获得的技能，然后获得此技能。"
+			}, {
+				"name": "擅专",
+				"descriptions": "①当你对其他角色造成伤害后，若其判定区没有牌，你可以将其一张牌置于其判定区，若此牌不是延时锦囊牌，则红色牌视为【乐不思蜀】，黑色牌视为【兵粮寸断】；②结束阶段，若你本回合未造成过伤害，你可以摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "托孤",
+				"descriptions": ["君托以六尺之孤，爽，当寄百里之命。","先帝以大事托我，任重而道远。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-03_1_1.mp3",
+					"/static/video/online/qiFu/qi-wei-03_1_2.mp3"
+				]
+			}, {
+				"name": "擅专",
+				"descriptions": ["打入冷宫，禁足绝食。", "我言既出，谁敢不从？"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wei-03_2_1.mp3",
+					"/static/video/online/qiFu/qi-wei-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["悔不该降了司马懿。"],
+				"srcs": ["/static/video/online/qiFu/qi-wei-03_dead.mp3"]
+			}]
+		},
+		"qi-shu-01": {
+			"index": 3,
+			"name": "关索",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-shu-01.png",
+			"skills": [{
+				"name": "征南",
+				"descriptions": "当其他角色死亡后，你可以摸三张牌，然后你选择并获得以下技能之一：“武圣”、“当先”、“制蛮”。"
+			}, {
+				"name": "撷芳",
+				"descriptions": "锁定技，你计算与其他角色的距离-X（X为女性角色数）。"
+			},{
+				"name": "☆ 武圣",
+				"descriptions": "①你可以将一张红色牌当【杀】使用或打出；②你使用♦️【杀】无距离限制。"
+			}, {
+				"name": "☆ 当先",
+				"descriptions": "锁定技，回合开始时，你执行一个额外的出牌阶段。"
+			}, {
+				"name": "☆ 制蛮",
+				"descriptions": "当你对其他角色造成伤害时，你可以防止此伤害，然后获得其区域里的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "征南",
+				"descriptions": ["索全凭丞相差遣，万死不辞！","末将愿承父志，随丞相出征！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-01_1_1.mp3",
+					"/static/video/online/qiFu/qi-shu-01_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 武圣",
+				"descriptions": ["逆贼！可识得关氏之勇？"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-01_3_1.mp3"
+				]
+			},{
+				"name": "☆ 当先",
+				"descriptions": ["各位将军，且让小辈先行出战！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-01_4_1.mp3"
+				]
+			},{
+				"name": "☆ 制蛮",
+				"descriptions": ["蛮夷可抚，不可剿！"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-01_5_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["只恨天下未平，空留遗志。"],
+				"srcs": ["/static/video/online/qiFu/qi-shu-01_dead.mp3"]
+			}]
+		},
+		"qi-shu-02": {
+			"index": 4,
+			"name": "鲍三娘",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-shu-02.png",
+			"skills": [{
+				"name": "武娘",
+				"descriptions": "每回合限一次，当你于回合内使用仅指定唯一目标的【杀】结算结束后，你可以令其选择是否对你使用一张【杀】，然后你摸一张牌并令你本回合使用【杀】的次数上限+1。"
+			}, {
+				"name": "许身",
+				"descriptions": "限定技，当你进入濒死状态时，你可以回复体力至1点并获得技能“镇南”，然后若关索不在场，你可以令一名男性角色选择是否用关索替换其武将牌。"
+			}, {
+				"name": "☆ 镇南",
+				"descriptions": "①【南蛮入侵】对你无效；②出牌阶段限一次，你可以将至多X张手牌当【南蛮入侵】对你选择的X名其他角色使用（X为其他角色数）。"
+			}],
+			"dialogues": [{
+				"name": "武娘",
+				"descriptions": ["虽为女子身，不输男儿郎。", "剑舞轻影，沙场克敌。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-02_1_1.mp3",
+					"/static/video/online/qiFu/qi-shu-02_1_2.mp3"
+				]
+			}, {
+				"name": "许身",
+				"descriptions": ["救命之恩，涌泉相报。", "解我危难，报君华彩。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-02_2_1.mp3",
+					"/static/video/online/qiFu/qi-shu-02_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 镇南",
+				"descriptions": ["镇守南中，夫君无忧。", "与君携手，定平蛮夷。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-02_3_1.mp3",
+					"/static/video/online/qiFu/qi-shu-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我还想与你，共骑这雪花驹。"],
+				"srcs": ["/static/video/online/qiFu/qi-shu-02_dead.mp3"]
+			}]
+		},
+		"qi-shu-03": {
+			"index": 5,
+			"name": "卧龙&凤雏",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-shu-03.png",
+			"skills": [{
+				"name": "游龙",
+				"descriptions": "转换技，每轮各限一次，你可以废除你的一个装备栏，视为使用一张未以此法使用过的：阳：普通锦囊牌；阴：基本牌。"
+			}, {
+				"name": "鸾凤",
+				"descriptions": "限定技，当一名体力上限不小于你的角色进入濒死状态时，你可以令其：将体力值回复至3点，恢复其所有被废除的装备栏，将手牌摸至X张（X为6减去以此法恢复的装备栏数量）。若该角色是你，重置你“游龙”使用过的牌名。"
+			}],
+			"dialogues": [{
+				"name": "游龙",
+				"descriptions": ["赤壁献策，再谱春秋。", "卧龙出山，谋定万古。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-03_1_1.mp3",
+					"/static/video/online/qiFu/qi-shu-03_1_2.mp3"
+				]
+			}, {
+				"name": "鸾凤",
+				"descriptions": ["凤栖枯木，浴火涅槃。", "青鸾归宇，雏凤还巢。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-03_2_1.mp3",
+					"/static/video/online/qiFu/qi-shu-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["铁链，东风，也难困这魏军……"],
+				"srcs": ["/static/video/online/qiFu/qi-shu-03_dead.mp3"]
+			}]
+		},
+		"qi-shu-04": {
+			"index": 6,
+			"name": "费祎",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-shu-04.png",
+			"skills": [{
+				"name": "晏如",
+				"descriptions": "出牌阶段各限一次，若你的手牌数为奇数/偶数，你可以摸三张牌/弃置至少一半数量的手牌，然后弃置至少一半数量的手牌/摸三张牌。"
+			}, {
+				"name": "和衷",
+				"descriptions": "每回合各限一次，当你的手牌数变化后，若你的手牌数为1，你可以展示之并摸一张牌，然后你可以令你本回合使用下一张点数大于/小于此牌的普通锦囊牌额外结算一次。"
+			}],
+			"dialogues": [{
+				"name": "晏如",
+				"descriptions": ["国有宁日，民有丰年，大同也。", "及臻厥成，天下晏如也。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-04_1_1.mp3",
+					"/static/video/online/qiFu/qi-shu-04_1_2.mp3"
+				]
+			}, {
+				"name": "和衷",
+				"descriptions": ["家和而万事兴，国亦如是。", "你我同殿为臣，理当协力同心。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-shu-04_2_1.mp3",
+					"/static/video/online/qiFu/qi-shu-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["今为小人所伤，皆酒醉之误……"],
+				"srcs": ["/static/video/online/qiFu/qi-shu-04_dead.mp3"]
+			}]
+		},
+		"qi-wu-01": {
+			"index": 7,
+			"name": "潘淑",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-wu-01.png",
+			"skills": [{
+				"name": "威仪",
+				"descriptions": "当一名角色受到伤害后（每名角色每局游戏限一次），若该角色的体力值：不小于你，你可以令其失去1点体力；不大于你，你可以令其回复1点体力。"
+			}, {
+				"name": "锦织",
+				"descriptions": "当你需要使用或打出基本牌时，你可以弃置X张颜色相同的牌，然后摸一张牌，视为你使用或打出一张此基本牌（X为你本轮发动此技能的次数）。"
+			}],
+			"dialogues": [{
+				"name": "威仪",
+				"descriptions": ["无威仪者，不可奉社稷。", "有威仪者，进止雍容。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wu-01_1_1.mp3",
+					"/static/video/online/qiFu/qi-wu-01_1_2.mp3"
+				]
+			}, {
+				"name": "锦织",
+				"descriptions": ["织锦为旗，以扬威仪。", "坐而织锦，立则为仪。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-wu-01_2_1.mp3",
+					"/static/video/online/qiFu/qi-wu-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["本为织女，幸蒙帝垂怜……"],
+				"srcs": ["/static/video/online/qiFu/qi-wu-01_dead.mp3"]
+			}]
+		},
+		"qi-qun-01": {
+			"index": 8,
+			"name": "徐荣",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-qun-01.png",
+			"skills": [{
+				"name": "凶镬",
+				"descriptions": "①游戏开始时，你获得3个“暴戾”标记（“暴戾”标记数至多为3；你对有此标记的其他角色造成的伤害+1）；②出牌阶段，你可以交给一名没有“暴戾”标记的其他角色1个“暴戾”标记；③有“暴戾”标记的其他角色的出牌阶段开始时，其移去其所有的“暴戾”标记并执行一项：1.受到1点火焰伤害且本回合不能对你使用【杀】；2.失去1点体力且本回合手牌上限-1；3.令你随机获得其一张手牌和一张装备区里的牌。"
+			}, {
+				"name": "杀绝",
+				"descriptions": "锁定技，当其他角色进入濒死状态时，你获得1个“暴戾”标记，然后若其需要超过1个【桃】或【酒】才能救回，你获得令其进入濒死状态的牌。"
+			}],
+			"dialogues": [{
+				"name": "凶镬",
+				"descriptions": ["此镬加之于你，定有所伤。", "凶镬沿袭，怎会轻易无伤？"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-01_1_1.mp3",
+					"/static/video/online/qiFu/qi-qun-01_1_2.mp3"
+				]
+			}, {
+				"name": "杀绝",
+				"descriptions": ["杀伐决绝，不留后患。", "吾既出，必绝之。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-01_2_1.mp3",
+					"/static/video/online/qiFu/qi-qun-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此生无悔，心中无愧。"],
+				"srcs": ["/static/video/online/qiFu/qi-qun-01_dead.mp3"]
+			}]
+		},
+		"qi-qun-02": {
+			"index": 9,
+			"name": "张琪瑛",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-qun-02.png",
+			"skills": [{
+				"name": "法箓",
+				"descriptions": "锁定技，①游戏开始时，你获得以下四种标记各1个；②当你的牌因弃置而置入弃牌堆时，若此牌花色为♠️/♣️/♥️/♦️且你没有对应标记，你获得1个“紫微”/“后土”/“玉清”/“勾陈”标记。"
+			}, {
+				"name": "真仪",
+				"descriptions": "①当一名角色的判定牌生效前，你可以移去“紫微”，将此牌的判定结果改为♠️5或♥️5；②当你处于濒死状态时，你可以移去“后土”，将一张手牌当【桃】使用；③当你造成伤害时，你可以移去“玉清”，进行一次判定，若结果为黑色，此伤害+1；④当你受到属性伤害后，你可以移去“勾陈”，从牌堆中随机获得三种类型的牌各一张。"
+			}, {
+				"name": "点化",
+				"descriptions": "准备阶段或结束阶段，你可以观看牌堆顶的X张牌（X为你的标记数），然后将这些牌以任意顺序放回牌堆顶。"
+			}],
+			"dialogues": [{
+				"name": "法箓",
+				"descriptions": ["求法之道，以司籙籍。", "取舍有法，方得其法。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-02_1_1.mp3",
+					"/static/video/online/qiFu/qi-qun-02_1_2.mp3"
+				]
+			}, {
+				"name": "真仪",
+				"descriptions": ["不疾不徐，自爱自重。", "紫薇星辰，斗数之仪。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-02_2_1.mp3",
+					"/static/video/online/qiFu/qi-qun-02_2_2.mp3"
+				]
+			}, {
+				"name": "点化",
+				"descriptions": ["大道无形，点化无为。", "得此点化，必得大道。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-02_3_1.mp3",
+					"/static/video/online/qiFu/qi-qun-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["米碎面散，我心欲绝。"],
+				"srcs": ["/static/video/online/qiFu/qi-qun-02_dead.mp3"]
+			}]
+		},
+		"qi-qun-03": {
+			"index": 10,
+			"name": "袁谭&袁尚",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-qun-03.png",
+			"skills": [{
+				"name": "内伐",
+				"descriptions": "出牌阶段开始时，你可以摸两张牌或获得场上的一张牌，然后弃置一张牌。若你弃置的牌为基本牌/非基本牌，你本回合不能使用非基本牌/基本牌、使用【杀】的次数上限+X且使用时可以额外选择一名角色为目标/使用普通锦囊牌时可以为此牌增加或减少一个目标且前两次使用装备牌时摸X张牌（X为你此次因此技能不能使用的手牌的数量且至多为5）。"
+			}],
+			"dialogues": [{
+				"name": "内伐",
+				"descriptions": ["自相恩残，相煎何急。","同室内伐，贻笑外人。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-03_1_1.mp3",
+					"/static/video/online/qiFu/qi-qun-03_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["兄弟难齐心，该有此果……"],
+				"srcs": ["/static/video/online/qiFu/qi-qun-03_dead.mp3"]
+			}]
+		},
+		"qi-qun-04": {
+			"index": 11,
+			"name": "冯方女",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-qun-04.png",
+			"skills": [{
+				"name": "妆梳",
+				"descriptions": "①游戏开始时，你可以将一张“宝梳”置入你的装备区（当“宝梳”进入一个不为装备区的区域时，将之移出游戏）；②一名角色的回合开始时，你可以弃置一张牌，将一张“宝梳”置入其宝物区（牌的类别决定“宝梳”种类，若场上已有则改为移至其装备区）。"
+			}, {
+				"name": "垂涕",
+				"descriptions": "每回合限一次，当你或装备区有“宝梳”的角色的一张牌因弃置而置入弃牌堆后，若你能使用此牌，你可以使用之。"
+			}, {
+				"name": "☆ 琼梳",
+				"descriptions": "当你受到伤害时，你可以弃置与伤害值等量的牌，防止此伤害。"
+			}, {
+				"name": "☆ 犀梳",
+				"descriptions": "判定阶段开始前，你可以选择跳过本回合的判定阶段或弃牌阶段。"
+			}, {
+				"name": "☆ 金梳",
+				"descriptions": "锁定技，出牌阶段结束时，你将手牌摸至手牌上限（至多摸至五张）。"
+			}],
+			"dialogues": [{
+				"name": "妆梳",
+				"descriptions": ["殿前妆梳，风姿绝世。", "顾影徘徊，丰容靓饰。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-04_1_1.mp3",
+					"/static/video/online/qiFu/qi-qun-04_1_2.mp3"
+				]
+			}, {
+				"name": "垂涕",
+				"descriptions": ["悲愁垂涕，三日不食。", "宜数涕泣，示忧愁也。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-04_2_1.mp3",
+					"/static/video/online/qiFu/qi-qun-04_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 琼梳",
+				"descriptions": ["鬓怯琼梳，朱颜消瘦。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-04_3_1.mp3"
+				]
+			}, {
+				"name": "☆ 犀梳",
+				"descriptions": ["犀梳斜插，醉倚阑干。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-04_4_1.mp3"
+				]
+			}, {
+				"name": "☆ 金梳",
+				"descriptions": ["金梳富贵，蒙君宠幸。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-04_5_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["毒妇妒我……"],
+				"srcs": ["/static/video/online/qiFu/qi-qun-04_dead.mp3"]
+			}]
+		},
+		"qi-qun-05": {
+			"index": 12,
+			"name": "曹宪&曹华",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-qun-05.png",
+			"skills": [{
+				"name": "化木",
+				"descriptions": "当你使用手牌后，若此牌与本回合上一张被使用的牌颜色不同，你可以将此牌置于你的武将牌上，黑色牌称为“灵杉”，红色牌称为“玉树”。"
+			}, {
+				"name": "前盟",
+				"descriptions": "锁定技，当一名角色的“灵杉”或“玉树”数量变化后，若两者相等或有一项为0，你摸一张牌。"
+			}, {
+				"name": "良缘",
+				"descriptions": "每轮各限一次，你可以将场上所有“灵杉”/“玉树”当【酒】/【桃】使用。"
+			}, {
+				"name": "羁肆",
+				"descriptions": "限定技，准备阶段，你可以令一名其他角色获得你武将牌上已发动过的一个技能，然后你弃置所有手牌并视为对其使用一张无距离限制的【杀】。"
+			}],
+			"dialogues": [{
+				"name": "化木",
+				"descriptions": [
+					"左山右树，可供余生。",
+					"夫君，当与妾，共阅此人间之楷。",
+					"四月寻春花更香。",
+					"一树樱桃带雨红。",
+					"山重水复，心有灵犀。",
+					"灵之来兮，如云。"
+				],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-05_1_1.mp3",
+					"/static/video/online/qiFu/qi-qun-05_1_2.mp3",
+					"/static/video/online/qiFu/qi-qun-05_1_3.mp3",
+					"/static/video/online/qiFu/qi-qun-05_1_4.mp3",
+					"/static/video/online/qiFu/qi-qun-05_1_5.mp3",
+					"/static/video/online/qiFu/qi-qun-05_1_6.mp3"
+				]
+			}, {
+				"name": "前盟",
+				"descriptions": ["前盟已断，山树长别。", "苍山有灵，山树相依。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-05_2_1.mp3",
+					"/static/video/online/qiFu/qi-qun-05_2_2.mp3"
+				]
+			}, {
+				"name": "良缘",
+				"descriptions": ["千古奇遇，共剪西窗。", "金玉良缘，来日方长。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-05_3_1.mp3",
+					"/static/video/online/qiFu/qi-qun-05_3_2.mp3"
+				]
+			}, {
+				"name": "羁肆",
+				"descriptions": ["被褐怀玉，天放不羁。","心若野马，不系玄台。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-qun-05_4_1.mp3",
+					"/static/video/online/qiFu/qi-qun-05_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["爱恨有泪，聚散无常……"],
+				"srcs": ["/static/video/online/qiFu/qi-qun-05_dead.mp3"]
+			}]
+		},
+		"qi-jin-01": {
+			"index": 13,
+			"name": "周处",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/qiFu/qi-jin-01.png",
+			"skills": [{
+				"name": "善断",
+				"descriptions": "锁定技，①当你于回合外受到伤害后，你令你的可选数值（1，2，3，4）中一个最小的数值+1（至多加至9）直到你的下个回合结束。②你对应阶段开始时，你将本阶段的对应数值改为本回合未选择过的一个数值（摸牌阶段，摸牌数；出牌阶段，攻击范围、使用【杀】的次数上限；弃牌阶段，手牌上限）。"
+			}, {
+				"name": "义烈",
+				"descriptions": "当你需要使用基本牌时（每种基本牌每轮限一次），你可以将两张颜色相同的手牌当此牌使用。"
+			}],
+			"dialogues": [{
+				"name": "善断",
+				"descriptions": ["浪子回头，其期未晚矣。","心既存蛟虎，秉慧剑斩之。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-jin-01_1_1.mp3",
+					"/static/video/online/qiFu/qi-jin-01_1_2.mp3"
+				]
+			}, {
+				"name": "义烈",
+				"descriptions": ["从来天下义，只在青山中。", "沥血染征袍，英名万古存。"],
+				"srcs": [
+					"/static/video/online/qiFu/qi-jin-01_2_1.mp3",
+					"/static/video/online/qiFu/qi-jin-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["死战死谏，死亦可乎！"],
+				"srcs": ["/static/video/online/qiFu/qi-jin-01_dead.mp3"]
+			}]
+		}
+	}
+}
