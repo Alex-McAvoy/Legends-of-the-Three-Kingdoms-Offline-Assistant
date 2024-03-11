@@ -120,6 +120,14 @@
 				// 修改导航栏
 				this.navbarTitle = this.military.name
 			}
+			else if(packageId == 11) {
+				// 引入限定武将包数据
+				const militariesData = require("@/static/json/online/xianDing.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
+			}
 		}
 	}
 </script>
