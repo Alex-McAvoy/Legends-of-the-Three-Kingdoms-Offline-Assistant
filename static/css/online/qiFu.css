@@ -34,10 +34,10 @@
 	height: 64px;
 	background-image: url("@/static/images/online/qiFu/lamp.png");
 	transform: scale(0.7);
-	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+	animation: qiDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes jieJiangDaLampFrameAnim {
+@keyframes qiDaLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
 	}
@@ -62,48 +62,6 @@
 		background-position: calc(-64px*5) calc(-64px*0);
 	}
 }
-
-/******************************** 小将灯 ********************************/
-.jieJiang-xiao-lamp {
-	width: 64px;
-	height: 64px;
-	/* background-image: url("@/static/images/online/qiFu/lamp.png"); */
-}
-
-/* 魏 */
-.qi-wei-lamp {
-	animation: qiWeiLampFrameAnim steps(1, start) 1s infinite;
-}
-
-@keyframes qiWeiLampFrameAnim {}
-
-/* 蜀 */
-.qi-shu-lamp {
-	animation: qiShuLampFrameAnim steps(1, start) 1s infinite;
-}
-
-@keyframes qiShuLampFrameAnim {}
-
-/* 吴 */
-.qi-wu-lamp {
-	animation: qiWuLampFrameAnim steps(1, start) 1s infinite;
-}
-
-@keyframes qiWuLampFrameAnim {}
-
-/* 群 */
-.qi-qun-lamp {
-	animation: qiQunLampFrameAnim steps(1, start) 1s infinite;
-}
-
-@keyframes qiQunLampFrameAnim {}
-
-/* 晋 */
-.qi-jin-lamp {
-	animation: qiJinLampFrameAnim steps(1, start) 1s infinite;
-}
-
-@keyframes qiJinLampFrameAnim {}
 
 /******************************** 头像 ********************************/
 
