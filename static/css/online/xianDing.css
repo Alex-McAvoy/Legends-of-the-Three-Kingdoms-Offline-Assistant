@@ -16,7 +16,7 @@
 .xian-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/xianDing/lamp.png");
 	transform: scale(0.7);
 	animation: xianDaLampFrameAnim steps(1, start) 1s infinite;
 }
@@ -51,7 +51,7 @@
 .xian-xiao-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/xianDing/lamp.png");
 }
 
 /* ÏÞ¶¨ */
@@ -67,7 +67,7 @@
 	20% {
 		background-position: calc(-64px*1) calc(-64px*1);
 	}
-	
+
 	40% {
 		background-position: calc(-64px*2) calc(-64px*1);
 	}
@@ -75,7 +75,7 @@
 	60% {
 		background-position: calc(-64px*3) calc(-64px*1);
 	}
-	
+		
 	80% {
 		background-position: calc(-64px*4) calc(-64px*1);
 	}
