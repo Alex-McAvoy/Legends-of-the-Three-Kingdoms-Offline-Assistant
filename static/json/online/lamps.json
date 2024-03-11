@@ -1282,13 +1282,14 @@
 				"lampClass": "mou-xiao-lamp mou-wei-lamp",
 				"titleClass": "mou-title mou-wei-title",
 				"militaries": [{
-					"id": "mou-wei-01",
-					"avatarClass": "mou-wei-01 mou-avatar"
-				},
-				{
-					"id": "mou-wei-02",
-					"avatarClass": "mou-wei-02 mou-avatar"
-				}]
+						"id": "mou-wei-01",
+						"avatarClass": "mou-wei-01 mou-avatar"
+					},
+					{
+						"id": "mou-wei-02",
+						"avatarClass": "mou-wei-02 mou-avatar"
+					}
+				]
 			}
 		]
 	},
@@ -1303,17 +1304,99 @@
 	},
 	{
 		"index": 9,
-		"name": "SP",
-		"class": "sp",
+		"name": "祈福",
+		"class": "qi-da-lamp",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "魏",
+				"lampClass": "qi-xiao-lamp qi-wei-lamp",
+				"titleClass": "qi-title qi-wei-title",
+				"militaries": [{
+					"id": "qi-wei-01",
+					"avatarClass": "qi-wei-01 qi-avatar"
+				},
+				{
+					"id": "qi-wei-02",
+					"avatarClass": "qi-wei-02 qi-avatar"
+				},
+				{
+					"id": "qi-wei-03",
+					"avatarClass": "qi-wei-03 qi-avatar"
+				}]
+			},
+			{
+				"index": 1,
+				"name": "蜀",
+				"lampClass": "qi-xiao-lamp qi-shu-lamp",
+				"titleClass": "qi-title qi-shu-title",
+				"militaries": [{
+					"id": "qi-shu-01",
+					"avatarClass": "qi-shu-01 qi-avatar"
+				},
+				{
+					"id": "qi-shu-02",
+					"avatarClass": "qi-shu-02 qi-avatar"
+				},
+				{
+					"id": "qi-shu-03",
+					"avatarClass": "qi-shu-03 qi-avatar"
+				},{
+					"id": "qi-shu-04",
+					"avatarClass": "qi-shu-04 qi-avatar"
+				}]
+			},
+			{
+				"index": 2,
+				"name": "吴",
+				"lampClass": "qi-xiao-lamp qi-wu-lamp",
+				"titleClass": "qi-title qi-wu-title",
+				"militaries": [{
+						"id": "qi-wu-01",
+						"avatarClass": "qi-wu-01 qi-avatar"
+					}
+				]
+			},
+			{
+				"index": 3,
+				"name": "群",
+				"lampClass": "qi-xiao-lamp qi-qun-lamp",
+				"titleClass": "qi-title qi-qun-title",
+				"militaries": [{
+					"id": "qi-qun-01",
+					"avatarClass": "qi-qun-01 qi-avatar"
+				},
+				{
+					"id": "qi-qun-02",
+					"avatarClass": "qi-qun-02 qi-avatar"
+				},
+				{
+					"id": "qi-qun-03",
+					"avatarClass": "qi-qun-03 qi-avatar"
+				},{
+					"id": "qi-qun-04",
+					"avatarClass": "qi-qun-04 qi-avatar"
+				},{
+					"id": "qi-qun-05",
+					"avatarClass": "qi-qun-05 qi-avatar"
+				}]
+			},
+			{
+				"index": 4,
+				"name": "晋",
+				"lampClass": "qi-xiao-lamp qi-jin-lamp",
+				"titleClass": "qi-title qi-jin-title",
+				"militaries": [{
+						"id": "qi-jin-01",
+						"avatarClass": "qi-jin-01 qi-avatar"
+					}
+				]
+			}
+		]
 	},
 	{
 		"index": 10,
-		"name": "祈福",
-		"class": "qi",
+		"name": "SP",
+		"class": "sp",
 		"nodes": [{
 			"index": 0,
 			"class": "feng"

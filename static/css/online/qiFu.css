@@ -1,0 +1,194 @@
+/* Æí¸£ */
+
+/******************************** Ð¡½«µÆ±êÌâ ********************************/
+.qi-title {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/qiFu/title.png");
+	margin-right: 35px;
+}
+/* Îº */
+.qi-wei-title {
+	background-position: 0 calc(-64px*0);
+}
+/* Êñ */
+.qi-shu-title {
+	background-position: 0 calc(-64px*1);
+}
+/* Îâ */
+.qi-wu-title {
+	background-position: 0 calc(-64px*2);
+}
+/* Èº */
+.qi-qun-title {
+	background-position: 0 calc(-64px*3);
+}
+/* ½ú */
+.qi-jin-title {
+	background-position: 0 calc(-64px*4);
+}
+
+/******************************** ´ó½«µÆ ********************************/
+.qi-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/qiFu/lamp.png");
+	transform: scale(0.7);
+	animation: jieJiangDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiangDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** Ð¡½«µÆ ********************************/
+.jieJiang-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	/* background-image: url("@/static/images/online/qiFu/lamp.png"); */
+}
+
+/* Îº */
+.qi-wei-lamp {
+	animation: qiWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes qiWeiLampFrameAnim {}
+
+/* Êñ */
+.qi-shu-lamp {
+	animation: qiShuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes qiShuLampFrameAnim {}
+
+/* Îâ */
+.qi-wu-lamp {
+	animation: qiWuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes qiWuLampFrameAnim {}
+
+/* Èº */
+.qi-qun-lamp {
+	animation: qiQunLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes qiQunLampFrameAnim {}
+
+/* ½ú */
+.qi-jin-lamp {
+	animation: qiJinLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes qiJinLampFrameAnim {}
+
+/******************************** Í·Ïñ ********************************/
+
+.qi-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/qiFu/avatar.png");
+}
+
+/***** Îº *****/
+
+/* ²ÜÓ¤ */
+.qi-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*0);
+}
+
+/* ²Ü´¿ */
+.qi-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*0);
+}
+
+/* ²ÜË¬ */
+.qi-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*0);
+}
+
+/***** Êñ *****/
+
+/* ¹ØË÷ */
+.qi-shu-01 {
+	background-position: calc(-61px*0) calc(-61px*1);
+}
+
+/* ±«ÈýÄï */
+.qi-shu-02 {
+	background-position: calc(-61px*1) calc(-61px*1);
+}
+
+/* ÎÔÁú&·ï³û */
+.qi-shu-03 {
+	background-position: calc(-61px*2) calc(-61px*1);
+}
+
+/* ·Ñµt */
+.qi-shu-04 {
+	background-position: calc(-61px*3) calc(-61px*1);
+}
+
+/***** Îâ *****/
+
+/* ÅËÊç */
+.qi-wu-01 {
+	background-position: calc(-61px*0) calc(-61px*2);
+}
+
+/***** Èº *****/
+
+/* ÐìÈÙ */
+.qi-qun-01 {
+	background-position: calc(-61px*0) calc(-61px*3);
+}
+
+/* ÕÅç÷çø */
+.qi-qun-02 {
+	background-position: calc(-61px*1) calc(-61px*3);
+}
+
+/* Ô¬Ì·&Ô¬ÉÐ */
+.qi-qun-03 {
+	background-position: calc(-61px*2) calc(-61px*3);
+}
+
+/* ·ë·½Å® */
+.qi-qun-04 {
+	background-position: calc(-61px*3) calc(-61px*3);
+}
+
+/* ²ÜÏÜ&²Ü»ª */
+.qi-qun-05 {
+	background-position: calc(-61px*4) calc(-61px*3);
+}
+
+/***** ½ú *****/
+
+/* ÖÜ´¦ */
+.qi-jin-01 {
+	background-position: calc(-61px*0) calc(-61px*4);
+}
