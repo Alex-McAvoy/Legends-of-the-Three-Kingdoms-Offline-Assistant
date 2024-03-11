@@ -53,7 +53,7 @@
 			}],
 			"dialogues": [{
 				"name": "神速",
-				"descriptions": ["吾善于千里袭人。","取汝首级，如探囊取物。"],
+				"descriptions": ["吾善于千里袭人。", "取汝首级，如探囊取物。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-02_1_2.mp3"
@@ -82,14 +82,14 @@
 			}],
 			"dialogues": [{
 				"name": "据守",
-				"descriptions": [ "兵精粮足，守土一方！","坚守此地，不退半步！"],
+				"descriptions": ["兵精粮足，守土一方！", "坚守此地，不退半步！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_1_2.mp3"
 				]
 			}, {
 				"name": "解围",
-				"descriptions": [ "化守为攻，出奇制胜！","坚壁清野，以挫敌锐！"],
+				"descriptions": ["化守为攻，出奇制胜！", "坚壁清野，以挫敌锐！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-03_2_2.mp3"
@@ -118,7 +118,7 @@
 			}],
 			"dialogues": [{
 				"name": "天香",
-				"descriptions": ["替我挡着～","接着哦～"],
+				"descriptions": ["替我挡着～", "接着哦～"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-feng-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-feng-04_1_2.mp3"
@@ -288,7 +288,7 @@
 			}],
 			"dialogues": [{
 				"name": "强袭",
-				"descriptions": ["看我三步之内取你小命！", "吃我一戟！"],
+				"descriptions": ["吃我一戟！", "看我三步之内取你小命！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-01_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-01_1_2.mp3"
@@ -317,14 +317,14 @@
 			}],
 			"dialogues": [{
 				"name": "驱虎",
-				"descriptions": ["借你之手与他一搏吧。", "此乃驱虎吞狼之计。"],
+				"descriptions": ["此乃驱虎吞狼之计。", "借你之手与他一搏吧。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-02_1_2.mp3"
 				]
 			}, {
 				"name": "节命",
-				"descriptions": ["我，永不背弃！", "秉忠贞之志，守谦退之节。"],
+				"descriptions": ["秉忠贞之志，守谦退之节。", "我，永不背弃！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-02_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-02_2_2.mp3"
@@ -360,7 +360,7 @@
 				]
 			}, {
 				"name": "涅槃",
-				"descriptions": ["浴火重生！", "凤雏岂能消亡！"],
+				"descriptions": ["凤雏岂能消亡！", "浴火重生！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-03_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-03_2_2.mp3"
@@ -432,7 +432,7 @@
 			}],
 			"dialogues": [{
 				"name": "天义",
-				"descriptions": ["请助我一臂之力！", "我当要替天行道！"],
+				"descriptions": ["我当要替天行道！", "请助我一臂之力！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-05_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-05_1_2.mp3"
@@ -516,14 +516,14 @@
 			}],
 			"dialogues": [{
 				"name": "乱击",
-				"descriptions": ["全都去死吧！", "弓箭手，准备放箭！"],
+				"descriptions": ["弓箭手，准备放箭！", "全都去死吧！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-08_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-08_1_2.mp3"
 				]
 			}, {
 				"name": "血裔",
-				"descriptions": ["衣冠华胄，宜蒙优免！", "崇王攘夷，声张尊贵！"],
+				"descriptions": ["崇王攘夷，声张尊贵！", "衣冠华胄，宜蒙优免！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-huo-08_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-huo-08_2_2.mp3"
@@ -552,7 +552,7 @@
 			}],
 			"dialogues": [{
 				"name": "断粮",
-				"descriptions": ["截其援，断其粮，贼可擒也。", "人是铁，饭是钢。"],
+				"descriptions": ["人是铁，饭是钢。", "截其援，断其粮，贼可擒也。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-01_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-01_1_2.mp3"
@@ -591,21 +591,21 @@
 			}],
 			"dialogues": [{
 				"name": "行殇",
-				"descriptions": ["来，管杀还管埋。", "我的是我的，你的还是我的。"],
+				"descriptions": ["我的是我的，你的还是我的。", "来，管杀还管埋。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_1_2.mp3"
 				]
 			}, {
 				"name": "放逐",
-				"descriptions": ["给我翻过来。", "死罪可免，活罪难赦。"],
+				"descriptions": ["死罪可免，活罪难赦。", "给我翻过来。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_2_2.mp3"
 				]
 			}, {
 				"name": "颂威",
-				"descriptions": ["仙福永享，寿与天齐！", "千秋万载，一统江山！"],
+				"descriptions": ["千秋万载，一统江山！", "仙福永享，寿与天齐！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-02_3_2.mp3"
@@ -631,7 +631,7 @@
 			}],
 			"dialogues": [{
 				"name": "英魂",
-				"descriptions": ["不诛此贼三族，则吾死不瞑目！", "以吾魂魄，保佑吾儿之基业。"],
+				"descriptions": ["以吾魂魄，保佑吾儿之基业。", "不诛此贼三族，则吾死不瞑目！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-03_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-03_1_2.mp3"
@@ -666,14 +666,14 @@
 			}],
 			"dialogues": [{
 				"name": "酒池",
-				"descriptions": ["呃呵呵，再来，一壶！", "呃呵呵呵呵，好酒好酒！"],
+				"descriptions": ["呃呵呵呵呵，好酒好酒！", "呃呵呵，再来，一壶！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_1_2.mp3"
 				]
 			}, {
 				"name": "肉林",
-				"descriptions": ["美人儿，来香一个！", "食色，性也！"],
+				"descriptions": ["食色，性也！", "美人儿，来香一个！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_2_2.mp3"
@@ -687,7 +687,7 @@
 				]
 			}, {
 				"name": "暴虐",
-				"descriptions": ["顺我者昌，逆我者亡！", "呵呵哈哈哈哈哈哈！"],
+				"descriptions": ["呵呵哈哈哈哈哈哈！", "顺我者昌，逆我者亡！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_4_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-04_4_2.mp3"
@@ -723,7 +723,7 @@
 				]
 			}, {
 				"name": "烈刃",
-				"descriptions": ["尝尝我飞刀的厉害！", "亮兵器吧。"],
+				"descriptions": ["亮兵器吧。", "尝尝我飞刀的厉害！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-05_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-05_2_2.mp3"
@@ -752,7 +752,7 @@
 			}],
 			"dialogues": [{
 				"name": "祸首",
-				"descriptions": ["背黑锅我来，送死，你去！", "统统算我的！"],
+				"descriptions": ["统统算我的！", "背黑锅我来，送死，你去！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-06_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-06_1_2.mp3"
@@ -791,21 +791,21 @@
 			}],
 			"dialogues": [{
 				"name": "完杀",
-				"descriptions": ["神仙难救，神仙难救啊！", "我要你三更死，谁敢留你到五更！"],
+				"descriptions": ["我要你三更死，谁敢留你到五更！", "神仙难救，神仙难救啊！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_1_2.mp3"
 				]
 			}, {
 				"name": "乱武",
-				"descriptions": ["哭喊吧，哀求吧，挣扎吧，然后……死吧！", "哼哼哼哼，坐山观虎斗。"],
+				"descriptions": ["哼哼哼哼，坐山观虎斗。", "哭喊吧，哀求吧，挣扎吧，然后……死吧！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_2_2.mp3"
 				]
 			}, {
 				"name": "帷幕",
-				"descriptions": ["此计伤不到我。", "你奈我何？"],
+				"descriptions": ["你奈我何？", "此计伤不到我。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-07_3_2.mp3"
@@ -834,14 +834,14 @@
 			}],
 			"dialogues": [{
 				"name": "好施",
-				"descriptions": ["拿去拿去，莫跟哥哥客气！", "来来来，见面分一半。"],
+				"descriptions": ["来来来，见面分一半。", "拿去拿去，莫跟哥哥客气！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-08_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-08_1_2.mp3"
 				]
 			}, {
 				"name": "缔盟",
-				"descriptions": ["以和为贵，以和为贵。", "合纵连横，方能以弱胜强。"],
+				"descriptions": ["合纵连横，方能以弱胜强。", "以和为贵，以和为贵。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lin-08_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lin-08_2_2.mp3"
@@ -1067,7 +1067,7 @@
 				]
 			}, {
 				"name": "制霸",
-				"descriptions": ["我若怕你，非孙伯符也。", "是友是敌，一探便知。"],
+				"descriptions": ["是友是敌，一探便知。", "我若怕你，非孙伯符也。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shan-05_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shan-05_3_2.mp3"
@@ -1251,7 +1251,7 @@
 			}],
 			"dialogues": [{
 				"name": "拒战",
-				"descriptions": ["我州但有断头将军，无降将军也！", "砍头便砍头，何为怒邪！"],
+				"descriptions": ["砍头便砍头，何为怒邪！", "我州但有断头将军，无降将军也！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-02_1_2.mp3"
@@ -1280,14 +1280,14 @@
 			}],
 			"dialogues": [{
 				"name": "飞军",
-				"descriptions": ["无当飞军，伐叛乱，镇蛮夷！", "山地崎岖，也挡不住飞军破势！"],
+				"descriptions": ["山地崎岖，也挡不住飞军破势！", "无当飞军，伐叛乱，镇蛮夷！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-03_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-03_1_2.mp3"
 				]
 			}, {
 				"name": "兵略",
-				"descriptions": ["奇略兵术，敌，未能料之。", "兵略者，明战胜攻取之数，形机之势，诈谲之变。"],
+				"descriptions": ["兵略者，明战胜攻取之数，形机之势，诈谲之变。", "奇略兵术，敌，未能料之。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-03_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-03_2_2.mp3"
@@ -1319,7 +1319,7 @@
 			}],
 			"dialogues": [{
 				"name": "怀橘",
-				"descriptions": ["袖中怀绿桔，遗母报乳哺。", "情深舐犊，怀擢藏橘。"],
+				"descriptions": ["情深舐犊，怀擢藏橘。","袖中怀绿桔，遗母报乳哺。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-04_1_2.mp3"
@@ -1372,17 +1372,17 @@
 				]
 			}, {
 				"name": "掣政",
-				"descriptions": ["风驰电掣，政权不怠！", "廉平掣政，实为艰事。"],
+				"descriptions": ["风驰电掣，政权不怠！", "唉……廉平掣政，实为艰事。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-05_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-05_2_2.mp3"
 				]
 			}, {
 				"name": "立军",
-				"descriptions": ["立于朝堂，定于军心。", "君立于朝堂，军侧于四方！"],
+				"descriptions": ["君立于朝堂，军侧于四方！","立于朝堂，定于军心。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-05_3_1.mp3",
-					"/static/video/online/shenHuaZaiLin/shen-yin-05__2.mp3"
+					"/static/video/online/shenHuaZaiLin/shen-yin-05_3_2.mp3"
 				]
 			}, {
 				"name": "阵亡",
@@ -1408,14 +1408,14 @@
 			}],
 			"dialogues": [{
 				"name": "荐降",
-				"descriptions": ["得遇曹公，吾之幸也。", "曹公得荆不喜，喜得吾二人足矣。"],
+				"descriptions": ["曹公得荆不喜，喜得吾二人足矣。","得遇曹公，吾之幸也。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-06_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-06_1_2.mp3"
 				]
 			}, {
 				"name": "审时",
-				"descriptions": ["数语之言，审时度势。", "深中足智，鉴时审情。"],
+				"descriptions": [ "深中足智，鉴时审情。","数语之言，审时度势。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-06_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-06_2_2.mp3"
@@ -1461,7 +1461,7 @@
 				]
 			}, {
 				"name": "寸目",
-				"descriptions": ["狭目之见，只能窥底。", "目光所及，短寸之间。"],
+				"descriptions": ["哼，目光所及，短寸之间。","狭目之见，只能窥底。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-yin-07_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-yin-07_3_2.mp3"
@@ -1526,14 +1526,14 @@
 			}],
 			"dialogues": [{
 				"name": "庸肆",
-				"descriptions": ["玉玺在手，天下我有。", "大汉天下，已半入我手。"],
+				"descriptions": ["大汉天下，已半入我手。","玉玺在手，天下我有。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-01_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-01_1_2.mp3"
 				]
 			}, {
 				"name": "伪帝",
-				"descriptions": ["你们都得听我的号令！", "我才是皇帝！"],
+				"descriptions": ["我才是皇帝！","你们都得听我的号令！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-01_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-01_2_2.mp3"
@@ -1614,7 +1614,7 @@
 			}],
 			"dialogues": [{
 				"name": "罪论",
-				"descriptions": ["吾有三罪，未能除黄皓、制伯约、守国土。", "数罪当论，吾愧对先帝恩惠。"],
+				"descriptions": ["唉……数罪当论，吾愧对先帝恩惠。","吾有三罪，未能除黄皓、制伯约、守国土。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-04_1_2.mp3"
@@ -1650,7 +1650,7 @@
 			}],
 			"dialogues": [{
 				"name": "良姻",
-				"descriptions": ["结得良姻，固吴基业。", "君恩之命，妾身良姻之福。"],
+				"descriptions": ["君恩之命，妾身良姻之福。","结得良姻，固吴基业。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-05_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-05_1_2.mp3"
@@ -1689,7 +1689,7 @@
 			}],
 			"dialogues": [{
 				"name": "征荣",
-				"descriptions": ["东征高句丽，保辽东安稳。", "跨海东征，家国俱荣。"],
+				"descriptions": ["跨海东征，家国俱荣。","东征高句丽，保辽东安稳。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-06_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-06_1_2.mp3"
@@ -1748,15 +1748,18 @@
 				]
 			}, {
 				"name": "决堰",
-				"descriptions": ["毁堰坝之计，实为阻晋粮道。", "堰坝毁之，可令敌军自退。"],
+				"descriptions": ["堰坝毁之，可令敌军自退。","毁堰坝之计，实为阻晋粮道。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-07_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-07_2_2.mp3"
 				]
 			}, {
 				"name": "破势",
-				"descriptions": ["破晋军分进合击之势，牵晋军主力之实！", "破羊祜之策，势在必行！"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-lei-07_3_1.mp3"]
+				"descriptions": ["破羊祜之策，势在必行！","破晋军分进合击之势，牵晋军主力之实！"],
+				"srcs": [
+					"/static/video/online/shenHuaZaiLin/shen-lei-07_3_1.mp3",
+					"/static/video/online/shenHuaZaiLin/shen-lei-07_3_2.mp3"
+				]
 			}, {
 				"name": "☆ 集智",
 				"descriptions": ["智父安能有愚子乎？"],
@@ -1795,7 +1798,7 @@
 			}],
 			"dialogues": [{
 				"name": "雄乱",
-				"descriptions": ["北地枭雄，乱世不败。", "雄踞宛城，虽乱世可安。"],
+				"descriptions": ["雄踞宛城，虽乱世可安。","北地枭雄，乱世不败。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-lei-08_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-lei-08_1_2.mp3"
@@ -1831,7 +1834,7 @@
 			}],
 			"dialogues": [{
 				"name": "武神",
-				"descriptions": ["还不速速领死！", "取汝狗头，犹如探囊取物！"],
+				"descriptions": ["取汝狗头，犹如探囊取物！","还不速速领死！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-01_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-01_1_2.mp3"
@@ -1845,7 +1848,7 @@
 				]
 			}, {
 				"name": "阵亡",
-				"descriptions": ["夙愿已了，魂归地府。"],
+				"descriptions": ["大仇得报，可以离开了。"],
 				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-01_dead.mp3"]
 			}]
 		},
@@ -1867,7 +1870,7 @@
 			}],
 			"dialogues": [{
 				"name": "涉猎",
-				"descriptions": ["略懂略懂。", "什么都懂一点，生活更多彩一些。"],
+				"descriptions": ["什么都略懂一点，生活更多彩一些。","略懂略懂。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-02_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-02_1_2.mp3"
@@ -1910,7 +1913,7 @@
 				]
 			}, {
 				"name": "业炎",
-				"descriptions": ["让这熊熊业火焚尽你的罪恶！", "聆听吧，这献给你的镇魂曲！"],
+				"descriptions": ["聆听吧，这献给你的镇魂曲！","让这熊熊业火焚尽你的罪恶！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-03_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-03_2_2.mp3"
@@ -1942,21 +1945,21 @@
 			}],
 			"dialogues": [{
 				"name": "七星",
-				"descriptions": ["伏望天恩，誓讨汉贼！", "祈星辰之力佑我蜀汉！"],
+				"descriptions": ["祈星辰之力佑我蜀汉！","伏望天恩，誓讨汉贼！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_1_2.mp3"
 				]
 			}, {
 				"name": "狂风",
-				"descriptions": ["万事俱备，只欠业火。", "风~~起~~"],
+				"descriptions": ["风~~起~~","万事俱备，只欠业火。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_2_2.mp3"
 				]
 			}, {
 				"name": "大雾",
-				"descriptions": ["此非万全之策，唯惧天雷。", "此计可保你一时平安。"],
+				"descriptions": ["此计可保你一时平安。","此非万全之策，唯惧天雷。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-04_3_2.mp3"
@@ -2087,7 +2090,7 @@
 				]
 			}, {
 				"name": "龙魂",
-				"descriptions": ["能屈能伸，才是大丈夫。", "常山赵子龙在此！"],
+				"descriptions": ["常山赵子龙在此！","能屈能伸，才是大丈夫。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-07_2_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-07_2_2.mp3"
@@ -2159,23 +2162,23 @@
 			}, {
 				"name": "☆ 鬼才",
 				"descriptions": ["老夫，即是天命！"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_4_1.mp3"]
+				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_5_1.mp3"]
 			}, {
 				"name": "☆ 放逐",
 				"descriptions": ["赦你死罪，你去吧！"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_5_1.mp3"]
+				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_6_1.mp3"]
 			}, {
 				"name": "☆ 集智",
 				"descriptions": ["顺应天意，得道多助。"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_6_1.mp3"]
+				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_7_1.mp3"]
 			}, {
 				"name": "☆ 制衡",
 				"descriptions": ["天之道，轮回也。"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_7_1.mp3"]
+				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_8_1.mp3"]
 			}, {
 				"name": "☆ 完杀",
 				"descriptions": ["天要亡你，谁人能救？"],
-				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_8_1.mp3"]
+				"srcs": ["/static/video/online/shenHuaZaiLin/shen-shen-08_9_1.mp3"]
 			}, {
 				"name": "阵亡",
 				"descriptions": ["鼎足三分已成梦，一切都结束了。"],
@@ -2200,7 +2203,7 @@
 			}],
 			"dialogues": [{
 				"name": "龙怒",
-				"descriptions": ["损身熬心，誓报此仇！", "兄弟急难，血债血偿！"],
+				"descriptions": ["兄弟急难，血债血偿！","损身熬心，誓报此仇！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-09_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-09_1_2.mp3"
@@ -2282,7 +2285,7 @@
 			}],
 			"dialogues": [{
 				"name": "魄袭",
-				"descriptions": ["夜袭敌军，挫其锐气。", "受主知遇，袭敌不惧。"],
+				"descriptions": [ "受主知遇，袭敌不惧。","夜袭敌军，挫其锐气。"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-11_1_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-11_1_2.mp3"
@@ -2437,7 +2440,7 @@
 				]
 			}, {
 				"name": "天劫",
-				"descriptions": ["苍天已死，贫道当替天行道。", "贫道张角，请大汉赴死！"],
+				"descriptions": ["苍天既死，贫道当替天行道。", "贫道张角，请大汉赴死！"],
 				"srcs": [
 					"/static/video/online/shenHuaZaiLin/shen-shen-14_3_1.mp3",
 					"/static/video/online/shenHuaZaiLin/shen-shen-14_3_2.mp3"
