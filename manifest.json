@@ -1,9 +1,9 @@
 {
-    "name" : "三国杀面杀助手",
+    "name" : "杀批宝典",
     "appid" : "__UNI__FA10C83",
-    "description" : "三国杀面杀助手",
-    "versionName" : "0.1.1",
-    "versionCode" : 11,
+    "description" : "杀批宝典",
+    "versionName" : "0.2.0",
+    "versionCode" : 20,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
