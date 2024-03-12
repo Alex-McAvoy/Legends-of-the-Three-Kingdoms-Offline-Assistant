@@ -1,0 +1,214 @@
+/* 门阀士族 */
+
+/******************************** 小将灯标题 ********************************/
+.zu-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/menFaShiZu/title.png");
+}
+
+/* 颍川荀氏 */
+.zu-xun-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* 陈留吴氏 */
+.zu-wu-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* 颍川韩氏 */
+.zu-han-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* 颍川钟氏 */
+.zu-zhong-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* 太原王氏 */
+.zu-wang-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/******************************** 大将灯 ********************************/
+.zu-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	transform: scale(0.7);
+	animation: mouDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** 小将灯 ********************************/
+.zu-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+}
+
+/* 谋定天下 */
+.zu-zu-lamp {
+	animation: mouMouLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouMouLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+
+
+/******************************** 头像 ********************************/
+
+.zu-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/menFaShiZu/avatar.png");
+}
+
+
+/***** 颍川荀氏 *****/
+
+/* 族·荀淑 */
+.zu-xun-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/* 族·荀谌 */
+.zu-xun-02 {
+	background-position: calc(-61px*1) calc(-61px*0)
+}
+
+/* 族·荀采 */
+.zu-xun-03 {
+	background-position: calc(-61px*2) calc(-61px*0)
+}
+
+/* 族·荀粲 */
+.zu-xun-04 {
+	background-position: calc(-61px*3) calc(-61px*0)
+}
+
+/* 族·荀攸 */
+.zu-xun-05 {
+	background-position: calc(-61px*4) calc(-61px*0)
+}
+
+
+/***** 陈留吴氏 *****/
+
+/* 族·吴苋 */
+.zu-wu-01 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+/* 族·吴班 */
+.zu-wu-02 {
+	background-position: calc(-61px*1) calc(-61px*1)
+}
+
+/* 族·吴匡 */
+.zu-wu-03 {
+	background-position: calc(-61px*2) calc(-61px*1)
+}
+
+/* 族·吴乔 */
+.zu-wu-04 {
+	background-position: calc(-61px*3) calc(-61px*1)
+}
+
+/***** 颍川韩氏 *****/
+
+/* 族·韩韶 */
+.zu-han-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* 族·韩融 */
+.zu-han-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}
+
+/***** 颍川钟氏 *****/
+
+/* 族·钟琰 */
+.zu-zhong-01 {
+	background-position: calc(-61px*0) calc(-61px*3)
+}
+
+/* 族·钟毓 */
+.zu-zhong-02 {
+	background-position: calc(-61px*1) calc(-61px*3)
+}
+
+/***** 太原王氏 *****/
+
+/* 族·王允 */
+.zu-wang-01 {
+	background-position: calc(-61px*0) calc(-61px*4)
+}
+
+/* 族·王凌 */
+.zu-wang-02 {
+	background-position: calc(-61px*1) calc(-61px*4)
+}
+
+/* 族·王浑 */
+.zu-wang-03 {
+	background-position: calc(-61px*2) calc(-61px*4)
+}
+
+/* 族·王沦 */
+.zu-wang-04 {
+	background-position: calc(-61px*3) calc(-61px*4)
+}

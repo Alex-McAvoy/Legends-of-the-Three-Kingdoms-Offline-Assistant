@@ -133,6 +133,7 @@
 	@import url(@/static/css/online/jieYiJiangChengMing.css);
 	@import url(@/static/css/online/wenDeWuBei.css);
 	@import url(@/static/css/online/mouKuoZhanBao.css);
+	@import url(@/static/css/online/menFaShiZu.css);
 	@import url(@/static/css/online/qiFu.css);
 	@import url(@/static/css/online/sp.css);
 	@import url(@/static/css/online/xianDing.css);
