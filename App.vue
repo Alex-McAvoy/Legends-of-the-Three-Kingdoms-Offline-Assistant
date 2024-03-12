@@ -1,12 +1,8 @@
 <script>
 	export default {
 		onLaunch: function() {
-			// 隐藏原生tabbar
-			uni.hideTabBar({})
 		},
 		onShow: function() {
-			// 隐藏原生tabbar
-			uni.hideTabBar({})
 		},
 		onHide: function() {
 		}
