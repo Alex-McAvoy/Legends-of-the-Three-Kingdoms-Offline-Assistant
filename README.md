@@ -145,7 +145,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ## 贡献者
 
-Nancy-月皎：提供原画、语音、设计 UI
+Nancy-月皎：提供部分可行的建议
 
 ## 如何参与
 
