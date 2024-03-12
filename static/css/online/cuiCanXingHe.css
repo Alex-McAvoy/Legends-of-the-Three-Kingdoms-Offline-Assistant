@@ -1,0 +1,956 @@
+/* Ë≠Ë≤–«∫” */
+
+/******************************** –°Ω´µ∆±ÍÃ‚ ********************************/
+.can-title {
+	width: 320px;
+	height: 32px;
+	background-image: url("@/static/images/online/cuiCanXingHe/title.png");
+}
+
+/* ÃÏº´	*/
+.can-ji-title {
+	background-position: 0 calc(-32px*0);
+}
+
+/* ÀƒÂˆ */
+.can-bi-title {
+	background-position: 0 calc(-32px*1);
+}
+
+/* ÃÏ÷˘ */
+.can-zhu-title {
+	background-position: 0 calc(-32px*2);
+}
+
+/* ≈Æ ∑ */
+.can-nv-title {
+	background-position: 0 calc(-32px*3);
+}
+
+/* …ŸŒ¢ */
+.can-wei-title {
+	background-position: 0 calc(-32px*4);
+}
+
+/* ª¢Í⁄ */
+.can-ben-title {
+	background-position: 0 calc(-32px*5);
+}
+
+/* ¡–À¡ */
+.can-si-title {
+	background-position: 0 calc(-32px*6);
+}
+
+
+/******************************** ¥ÛΩ´µ∆ ********************************/
+.can-da-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	transform: scale(0.7);
+	animation: mouDaLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouDaLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*0);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*0);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*0);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*0);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*0);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*0);
+	}
+}
+
+/******************************** –°Ω´µ∆ ********************************/
+.can-xiao-lamp {
+	width: 64px;
+	height: 64px;
+	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+}
+
+/* ƒ±∂®ÃÏœ¬ */
+.can-can-lamp {
+	animation: mouMouLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouMouLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*1);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*1);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*1);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*1);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*1);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*1);
+	}
+
+}
+
+/* Œ‰∂Ø«¨¿§ */
+.can-wu-lamp {
+	animation: mouWuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouWuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* ∑‹”¬—ÔÕ˛ */
+.can-wei-lamp {
+	animation: mouWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes mouWeiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/******************************** Õ∑œÒ ********************************/
+
+/***** Àµ√˜£∫15“ª–– *****/
+.can-avatar {
+	width: 61px;
+	height: 61px;
+	background-image: url("@/static/images/online/cuiCanXingHe/avatar.png");
+}
+
+/***** ÃÏº´	*****/
+
+/* ÀÔ© */
+.can-ji-01 {
+	background-position: calc(-61px*0) calc(-61px*0)
+}
+
+/* ¡ı–≠ */
+.can-ji-02 {
+	background-position: calc(-61px*1) calc(-61px*0)
+}
+
+/* ≤‹∞∫ */
+.can-ji-03 {
+	background-position: calc(-61px*2) calc(-61px*0)
+}
+
+/* ∫ŒÃ´∫Û */
+.can-ji-04 {
+	background-position: calc(-61px*3) calc(-61px*0)
+}
+
+/* ÀÔ¬≥”˝ */
+.can-ji-05 {
+	background-position: calc(-61px*4) calc(-61px*0)
+}
+
+/* Õı»Ÿ */
+.can-ji-06 {
+	background-position: calc(-61px*5) calc(-61px*0)
+}
+
+/* ¡ıÁ˘ */
+.can-ji-07 {
+	background-position: calc(-61px*6) calc(-61px*0)
+}
+
+/* ≤‹›Ô */
+.can-ji-08 {
+	background-position: calc(-61px*7) calc(-61px*0)
+}
+
+/* ◊Ûó± */
+.can-ji-09 {
+	background-position: calc(-61px*8) calc(-61px*0)
+}
+
+/* ±Â∑Ú»À */
+.can-ji-10 {
+	background-position: calc(-61px*9) calc(-61px*0)
+}
+
+/* ¡ı±Á */
+.can-ji-11 {
+	background-position: calc(-61px*10) calc(-61px*0)
+}
+
+/* «Â∫”π´÷˜ */
+.can-ji-12 {
+	background-position: calc(-61px*11) calc(-61px*0)
+}
+
+/* Ã∆ºß */
+.can-ji-13 {
+	background-position: calc(-61px*12) calc(-61px*0)
+}
+
+/* ¡ı∫Í */
+.can-ji-14 {
+	background-position: calc(-61px*13) calc(-61px*0)
+}
+
+/* Î¯∑º¿º */
+.can-ji-15 {
+	background-position: calc(-61px*14) calc(-61px*0)
+}
+
+/* ‹«ºß */
+.can-ji-16 {
+	background-position: calc(-61px*0) calc(-61px*1)
+}
+
+/* ∂≈∑Ú»À */
+.can-ji-17 {
+	background-position: calc(-61px*1) calc(-61px*1)
+}
+
+/***** ÀƒÂˆ	*****/
+
+/* —Ó–ﬁ */
+.can-bi-01 {
+	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* ≥¬¡’ */
+.can-bi-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}
+
+/* ≥ÃÍ≈ */
+.can-bi-03 {
+	background-position: calc(-61px*2) calc(-61px*2)
+}
+
+/*  ø€∆ */
+.can-bi-04 {
+	background-position: calc(-61px*3) calc(-61px*2)
+}
+
+/* Õı‘  */
+.can-bi-05 {
+	background-position: calc(-61px*4) calc(-61px*2)
+}
+
+/* ∑¸ÕÍ */
+.can-bi-06 {
+	background-position: calc(-61px*5) calc(-61px*2)
+}
+
+/* ÷Ó∏Ë™ */
+.can-bi-07 {
+	background-position: calc(-61px*6) calc(-61px*2)
+}
+
+/* ¬Ì¡º */
+.can-bi-08 {
+	background-position: calc(-61px*7) calc(-61px*2)
+}
+
+/* Àæ¬Ì¿  */
+.can-bi-09 {
+	background-position: calc(-61px*8) calc(-61px*2)
+}
+
+/* ≤ΩÊÔ */
+.can-bi-10 {
+	background-position: calc(-61px*9) calc(-61px*2)
+}
+
+/* ∂≠‘  */
+.can-bi-11 {
+	background-position: calc(-61px*10) calc(-61px*2)
+}
+
+/* „€‘Û */
+.can-bi-12 {
+	background-position: calc(-61px*11) calc(-61px*2)
+}
+
+/* œ∑÷æ≤≈ */
+.can-bi-13 {
+	background-position: calc(-61px*12) calc(-61px*2)
+}
+
+/* ÀÔ«¨ */
+.can-bi-14 {
+	background-position: calc(-61px*13) calc(-61px*2)
+}
+
+/* ÕıÙ” */
+.can-bi-15 {
+	background-position: calc(-61px*14) calc(-61px*2)
+}
+
+/* ¬¿ÚØ */
+.can-bi-16 {
+	background-position: calc(-61px*0) calc(-61px*3)
+}
+
+/* ÀÔ…€ */
+.can-bi-17 {
+	background-position: calc(-61px*1) calc(-61px*3)
+}
+
+/* …Û≈‰ */
+.can-bi-18 {
+	background-position: calc(-61px*2) calc(-61px*3)
+}
+
+/* ‹˜⁄» */
+.can-bi-19 {
+	background-position: calc(-61px*3) calc(-61px*3)
+}
+
+/* ¬¿ø≠ */
+.can-bi-20 {
+	background-position: calc(-61px*4) calc(-61px*3)
+}
+
+/* ΩØ∏… */
+.can-bi-21 {
+	background-position: calc(-61px*5) calc(-61px*3)
+}
+
+/* ≈ÀûF */
+.can-bi-22 {
+	background-position: calc(-61px*6) calc(-61px*3)
+}
+
+/* —œæ˛ */
+.can-bi-23 {
+	background-position: calc(-61px*7) calc(-61px*3)
+}
+
+/* ∂≈œÆ */
+.can-bi-24 {
+	background-position: calc(-61px*8) calc(-61px*3)
+}
+
+/* µÀ÷• */
+.can-bi-25 {
+	background-position: calc(-61px*9) calc(-61px*3)
+}
+
+/* –¡≈˛ */
+.can-bi-26 {
+	background-position: calc(-61px*10) calc(-61px*3)
+}
+
+/* —Ó“« */
+.can-bi-27 {
+	background-position: calc(-61px*11) calc(-61px*3)
+}
+
+/* ≥¬µ« */
+.can-bi-28 {
+	background-position: calc(-61px*12) calc(-61px*3)
+}
+
+/* —ÚÏÔ */
+.can-bi-29 {
+	background-position: calc(-61px*13) calc(-61px*3)
+}
+
+/* ∂≠’— */
+.can-bi-30 {
+	background-position: calc(-61px*14) calc(-61px*3)
+}
+
+/* “¡ºÆ */
+.can-bi-31 {
+	background-position: calc(-61px*0) calc(-61px*4)
+}
+
+/* œƒ∫Ó–˛ */
+.can-bi-32 {
+	background-position: calc(-61px*1) calc(-61px*4)
+}
+
+/* ¬Ì»’¥î */
+.can-bi-33 {
+	background-position: calc(-61px*2) calc(-61px*4)
+}
+
+/* ⁄€÷‹ */
+.can-bi-34 {
+	background-position: calc(-61px*3) calc(-61px*4)
+}
+
+/* ’≈ª™ */
+.can-bi-35 {
+	background-position: calc(-61px*4) calc(-61px*4)
+}
+
+/* «¸ªŒ */
+.can-bi-36 {
+	background-position: calc(-61px*5) calc(-61px*4)
+}
+
+/* —÷∆‘ */
+.can-bi-37 {
+	background-position: calc(-61px*6) calc(-61px*4)
+}
+
+/* ≤‹ÙÀ */
+.can-bi-38 {
+	background-position: calc(-61px*7) calc(-61px*4)
+}
+
+/* Õı≠è */
+.can-bi-39 {
+	background-position: calc(-61px*8) calc(-61px*4)
+}
+
+/* ÀÔ∫Î */
+.can-bi-40 {
+	background-position: calc(-61px*9) calc(-61px*4)
+}
+
+/* ÃÔ≥Î */
+.can-bi-41 {
+	background-position: calc(-61px*10) calc(-61px*4)
+}
+
+/* π˘Õº */
+.can-bi-42 {
+	background-position: calc(-61px*11) calc(-61px*4)
+}
+
+/***** ÃÏ÷˘	*****/
+
+/* Ã£∂Ÿ */
+.can-zhu-01 {
+	background-position: calc(-61px*0) calc(-61px*5)
+}
+
+/* ¿ÓÇ‡ */
+.can-zhu-02 {
+	background-position: calc(-61px*1) calc(-61px*5)
+}
+
+/* ∑Æ≥Ì */
+.can-zhu-03 {
+	background-position: calc(-61px*2) calc(-61px*5)
+}
+
+/* π˘„· */
+.can-zhu-04 {
+	background-position: calc(-61px*3) calc(-61px*5)
+}
+
+/* ÿ£Õªπ« */
+.can-zhu-05 {
+	background-position: calc(-61px*4) calc(-61px*5)
+}
+
+/* …≥ƒ¶ø¬ */
+.can-zhu-06 {
+	background-position: calc(-61px*5) calc(-61px*5)
+}
+
+/* ≈À∑Ô */
+.can-zhu-07 {
+	background-position: calc(-61px*6) calc(-61px*5)
+}
+
+/* ÷Ó∏µÆ */
+.can-zhu-08 {
+	background-position: calc(-61px*7) calc(-61px*5)
+}
+
+/* —œ∞◊ª¢ */
+.can-zhu-09 {
+	background-position: calc(-61px*8) calc(-61px*5)
+}
+
+/* ’≈º√ */
+.can-zhu-10 {
+	background-position: calc(-61px*9) calc(-61px*5)
+}
+
+/* ∂°‘≠ */
+.can-zhu-11 {
+	background-position: calc(-61px*10) calc(-61px*5)
+}
+
+/* ª∆◊Ê */
+.can-zhu-12 {
+	background-position: calc(-61px*11) calc(-61px*5)
+}
+
+/* ∏ﬂ∏… */
+.can-zhu-13 {
+	background-position: calc(-61px*12) calc(-61px*5)
+}
+
+/* ÕıÀ´ */
+.can-zhu-14 {
+	background-position: calc(-61px*13) calc(-61px*5)
+}
+
+/* ∑∂ΩÆ&’≈¥Ô */
+.can-zhu-15 {
+	background-position: calc(-61px*14) calc(-61px*5)
+}
+
+/* ¡∫–À */
+.can-zhu-16 {
+	background-position: calc(-61px*0) calc(-61px*6)
+}
+
+/* ∞¢ª·‡´ */
+.can-zhu-17 {
+	background-position: calc(-61px*1) calc(-61px*6)
+}
+
+/* Œƒ«’ */
+.can-zhu-18 {
+	background-position: calc(-61px*2) calc(-61px*6)
+}
+
+/* ∫ŒΩ¯ */
+.can-zhu-19 {
+	background-position: calc(-61px*3) calc(-61px*6)
+}
+
+/* ≈£Ω */
+.can-zhu-20 {
+	background-position: calc(-61px*4) calc(-61px*6)
+}
+
+/* ∫´ÀÏ */
+.can-zhu-21 {
+	background-position: calc(-61px*5) calc(-61px*6)
+}
+
+/* ’≈—‡ */
+.can-zhu-22 {
+	background-position: calc(-61px*6) calc(-61px*6)
+}
+
+/* ¿Ó“Ï */
+.can-zhu-23 {
+	background-position: calc(-61px*7) calc(-61px*6)
+}
+
+
+/***** ≈Æ ∑	*****/
+
+/* ¡Èˆ¬ */
+.can-nv-01 {
+	background-position: calc(-61px*0) calc(-61px*7)
+}
+
+/* ’‘œÂ */
+.can-nv-02 {
+	background-position: calc(-61px*1) calc(-61px*7)
+}
+
+/* ª®ÙN */
+.can-nv-03 {
+	background-position: calc(-61px*2) calc(-61px*7)
+}
+
+/* πÿ“¯∆¡ */
+.can-nv-04 {
+	background-position: calc(-61px*3) calc(-61px*7)
+}
+
+/* ¥Û««&–°«« */
+.can-nv-05 {
+	background-position: calc(-61px*4) calc(-61px*7)
+}
+
+/* ’≈–«≤  */
+.can-nv-06 {
+	background-position: calc(-61px*5) calc(-61px*7)
+}
+
+/* ¬Ì‘∆ÚJ */
+.can-nv-07 {
+	background-position: calc(-61px*6) calc(-61px*7)
+}
+
+/* ∂≠∞◊ */
+.can-nv-08 {
+	background-position: calc(-61px*7) calc(-61px*7)
+}
+
+/* ’≈≤˝∆— */
+.can-nv-09 {
+	background-position: calc(-61px*8) calc(-61px*7)
+}
+
+/* —ÓÕÒ */
+.can-nv-10 {
+	background-position: calc(-61px*9) calc(-61px*7)
+}
+
+/* π˘ª± */
+.can-nv-11 {
+	background-position: calc(-61px*10) calc(-61px*7)
+}
+
+/* ∂°…–õ */
+.can-nv-12 {
+	background-position: calc(-61px*11) calc(-61px*7)
+}
+
+/* ∫˙Ω∂® */
+.can-nv-13 {
+	background-position: calc(-61px*12) calc(-61px*7)
+}
+
+/***** …ŸŒ¢	*****/
+
+/* ’≈±¶ */
+.can-wei-01 {
+	background-position: calc(-61px*0) calc(-61px*8)
+}
+
+/* Àæ¬Ìª’ */
+.can-wei-02 {
+	background-position: calc(-61px*1) calc(-61px*8)
+}
+
+/* ÷Ó∏π˚ */
+.can-wei-03 {
+	background-position: calc(-61px*2) calc(-61px*8)
+}
+
+/* ’≈¬≥ */
+.can-wei-04 {
+	background-position: calc(-61px*3) calc(-61px*8)
+}
+
+/* ±∞√÷∫Ù */
+.can-wei-05 {
+	background-position: calc(-61px*4) calc(-61px*8)
+}
+
+/* –Ìæ∏ */
+.can-wei-06 {
+	background-position: calc(-61px*5) calc(-61px*8)
+}
+
+/* ’≈¡Í */
+.can-wei-07 {
+	background-position: calc(-61px*6) calc(-61px*8)
+}
+
+/* ª∆≥–—Â */
+.can-wei-08 {
+	background-position: calc(-61px*7) calc(-61px*8)
+}
+
+/* ’≈÷• */
+.can-wei-09 {
+	background-position: calc(-61px*8) calc(-61px*8)
+}
+
+/* ¬¨ œ */
+.can-wei-10 {
+	background-position: calc(-61px*9) calc(-61px*8)
+}
+
+/***** ª¢Í⁄	*****/
+
+/* ÷Ó∏„° */
+.can-ben-01 {
+	background-position: calc(-61px*0) calc(-61px*9)
+}
+
+/* À’∑… */
+.can-ben-02 {
+	background-position: calc(-61px*1) calc(-61px*9)
+}
+
+/* ª∆»® */
+.can-ben-03 {
+	background-position: calc(-61px*2) calc(-61px*9)
+}
+
+/* Ã∆◊… */
+.can-ben-04 {
+	background-position: calc(-61px*3) calc(-61px*9)
+}
+
+/* π´ÀÔË∂ */
+.can-ben-05 {
+	background-position: calc(-61px*4) calc(-61px*9)
+}
+
+/* ≤‹∫È */
+.can-ben-06 {
+	background-position: calc(-61px*5) calc(-61px*9)
+}
+
+/* œƒ∫Ó∞‘ */
+.can-ben-07 {
+	background-position: calc(-61px*6) calc(-61px*9)
+}
+
+/* ¿÷Ω¯ */
+.can-ben-08 {
+	background-position: calc(-61px*7) calc(-61px*9)
+}
+
+/* ◊Ê√Ø */
+.can-ben-09 {
+	background-position: calc(-61px*8) calc(-61px*9)
+}
+
+/* ∂°∑Ó */
+.can-ben-10 {
+	background-position: calc(-61px*9) calc(-61px*9)
+}
+
+/* Œƒ∆∏ */
+.can-ben-11 {
+	background-position: calc(-61px*10) calc(-61px*9)
+}
+
+/* ¿ÓÕ® */
+.can-ben-12 {
+	background-position: calc(-61px*11) calc(-61px*9)
+}
+
+/* ∫ÿ∆Î */
+.can-ben-13 {
+	background-position: calc(-61px*12) calc(-61px*9)
+}
+
+/* ¬Ì÷“ */
+.can-ben-14 {
+	background-position: calc(-61px*13) calc(-61px*9)
+}
+
+/* Ù“Â */
+.can-ben-15 {
+	background-position: calc(-61px*14) calc(-61px*9)
+}
+
+/* ¬≥÷• */
+.can-ben-16 {
+	background-position: calc(-61px*0) calc(-61px*10)
+}
+
+/* ∏ﬂ¿¿ */
+.can-ben-17 {
+	background-position: calc(-61px*1) calc(-61px*10)
+}
+
+/* ÷‹ˆ– */
+.can-ben-18 {
+	background-position: calc(-61px*2) calc(-61px*10)
+}
+
+/* ≤‹–‘ */
+.can-ben-19 {
+	background-position: calc(-61px*3) calc(-61px*10)
+}
+
+/* ¬¿øı&¬¿œË */
+.can-ben-20 {
+	background-position: calc(-61px*4) calc(-61px*10)
+}
+
+/* Œ·—Â */
+.can-ben-21 {
+	background-position: calc(-61px*5) calc(-61px*10)
+}
+
+/* ÷Ï¡È */
+.can-ben-22 {
+	background-position: calc(-61px*6) calc(-61px*10)
+}
+
+/* ÃÔ‘• */
+.can-ben-23 {
+	background-position: calc(-61px*7) calc(-61px*10)
+}
+
+/* ’‘Ÿ≤ */
+.can-ben-24 {
+	background-position: calc(-61px*8) calc(-61px*10)
+}
+
+/* µÀ÷“ */
+.can-ben-25 {
+	background-position: calc(-61px*9) calc(-61px*10)
+}
+
+/* ªÙæ˛ */
+.can-ben-26 {
+	background-position: calc(-61px*10) calc(-61px*10)
+}
+
+/* —÷»· */
+.can-ben-27 {
+	background-position: calc(-61px*11) calc(-61px*10)
+}
+
+/* Œƒ—Ï */
+.can-ben-28 {
+	background-position: calc(-61px*12) calc(-61px*10)
+}
+
+/* ∏µÎ¿ */
+.can-ben-29 {
+	background-position: calc(-61px*13) calc(-61px*10)
+}
+
+/* ¬Ì≥– */
+.can-ben-30 {
+	background-position: calc(-61px*14) calc(-61px*10)
+}
+
+/*’≈“Ì */
+.can-ben-31 {
+	background-position: calc(-61px*0) calc(-61px*11)
+}
+
+/*¬ﬁœ‹ */
+.can-ben-32 {
+	background-position: calc(-61px*1) calc(-61px*11)
+}
+
+/*÷ÏÉy */
+.can-ben-33 {
+	background-position: calc(-61px*2) calc(-61px*11)
+}
+
+/*√œ¥Ô */
+.can-ben-34 {
+	background-position: calc(-61px*3) calc(-61px*11)
+}
+
+/*∂ŒÔG */
+.can-ben-35 {
+	background-position: calc(-61px*4) calc(-61px*11)
+}
+
+/*∫˙∞‡ */
+.can-ben-36 {
+	background-position: calc(-61px*5) calc(-61px*11)
+}
+
+/*∫¬∆’ */
+.can-ben-37 {
+	background-position: calc(-61px*6) calc(-61px*11)
+}
+
+/*¬Ì–›&¬ÌÃ˙ */
+.can-ben-38 {
+	background-position: calc(-61px*7) calc(-61px*11)
+}
+
+/*«£’– */
+.can-ben-39 {
+	background-position: calc(-61px*8) calc(-61px*11)
+}
+
+/*¡Ë≤Ÿ */
+.can-ben-40 {
+	background-position: calc(-61px*9) calc(-61px*11)
+}
+
+/***** ¡–À¡	*****/
+
+/* √”Û√ */
+.can-si-01 {
+	background-position: calc(-61px*0) calc(-61px*12)
+}
+
+/* Œ¿◊» */
+.can-si-02 {
+	background-position: calc(-61px*1) calc(-61px*12)
+}
+
+/* ¡ı∞Õ */
+.can-si-03 {
+	background-position: calc(-61px*2) calc(-61px*12)
+}
+
+/* ’≈ ¿∆Ω */
+.can-si-04 {
+	background-position: calc(-61px*3) calc(-61px*12)
+}
+
+/* ¬¿≤Æ…› */
+.can-si-05 {
+	background-position: calc(-61px*4) calc(-61px*12)
+}

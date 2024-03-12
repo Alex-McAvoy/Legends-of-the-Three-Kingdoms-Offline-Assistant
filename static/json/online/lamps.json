@@ -1246,11 +1246,657 @@
 	{
 		"index": 6,
 		"name": "璀璨星河",
-		"class": "can",
+		"class": "can-da-lamp",
 		"nodes": [{
-			"index": 0,
-			"class": "feng"
-		}]
+				"index": 0,
+				"name": "天极",
+				"lampClass": "can-xiao-lamp can-ji-lamp",
+				"titleClass": "can-title can-ji-title",
+				"militaries": [{
+						"id": "can-ji-01",
+						"avatarClass": "can-ji-01 can-avatar"
+					},
+					{
+						"id": "can-ji-02",
+						"avatarClass": "can-ji-02 can-avatar"
+					},
+					{
+						"id": "can-ji-03",
+						"avatarClass": "can-ji-03 can-avatar"
+					},
+					{
+						"id": "can-ji-04",
+						"avatarClass": "can-ji-04 can-avatar"
+					},
+					{
+						"id": "can-ji-05",
+						"avatarClass": "can-ji-05 can-avatar"
+					},
+					{
+						"id": "can-ji-06",
+						"avatarClass": "can-ji-06 can-avatar"
+					},
+					{
+						"id": "can-ji-07",
+						"avatarClass": "can-ji-07 can-avatar"
+					},
+					{
+						"id": "can-ji-08",
+						"avatarClass": "can-ji-08 can-avatar"
+					},
+					{
+						"id": "can-ji-09",
+						"avatarClass": "can-ji-09 can-avatar"
+					},
+					{
+						"id": "can-ji-10",
+						"avatarClass": "can-ji-10 can-avatar"
+					},
+					{
+						"id": "can-ji-11",
+						"avatarClass": "can-ji-11 can-avatar"
+					},
+					{
+						"id": "can-ji-12",
+						"avatarClass": "can-ji-12 can-avatar"
+					},
+					{
+						"id": "can-ji-13",
+						"avatarClass": "can-ji-13 can-avatar"
+					},
+					{
+						"id": "can-ji-14",
+						"avatarClass": "can-ji-14 can-avatar"
+					},
+					{
+						"id": "can-ji-15",
+						"avatarClass": "can-ji-15 can-avatar"
+					},
+					{
+						"id": "can-ji-16",
+						"avatarClass": "can-ji-16 can-avatar"
+					},
+					{
+						"id": "can-ji-17",
+						"avatarClass": "can-ji-17 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 1,
+				"name": "四弼",
+				"lampClass": "can-xiao-lamp can-bi-lamp",
+				"titleClass": "can-title can-bi-title",
+				"militaries": [{
+						"id": "can-bi-01",
+						"avatarClass": "can-bi-01 can-avatar"
+					},
+					{
+						"id": "can-bi-02",
+						"avatarClass": "can-bi-02 can-avatar"
+					},
+					{
+						"id": "can-bi-03",
+						"avatarClass": "can-bi-03 can-avatar"
+					},
+					{
+						"id": "can-bi-04",
+						"avatarClass": "can-bi-04 can-avatar"
+					},
+					{
+						"id": "can-bi-05",
+						"avatarClass": "can-bi-05 can-avatar"
+					},
+					{
+						"id": "can-bi-06",
+						"avatarClass": "can-bi-06 can-avatar"
+					},
+					{
+						"id": "can-bi-07",
+						"avatarClass": "can-bi-07 can-avatar"
+					},
+					{
+						"id": "can-bi-08",
+						"avatarClass": "can-bi-08 can-avatar"
+					},
+					{
+						"id": "can-bi-09",
+						"avatarClass": "can-bi-09 can-avatar"
+					},
+					{
+						"id": "can-bi-10",
+						"avatarClass": "can-bi-10 can-avatar"
+					},
+					{
+						"id": "can-bi-11",
+						"avatarClass": "can-bi-11 can-avatar"
+					},
+					{
+						"id": "can-bi-12",
+						"avatarClass": "can-bi-12 can-avatar"
+					},
+					{
+						"id": "can-bi-13",
+						"avatarClass": "can-bi-13 can-avatar"
+					},
+					{
+						"id": "can-bi-14",
+						"avatarClass": "can-bi-14 can-avatar"
+					},
+					{
+						"id": "can-bi-15",
+						"avatarClass": "can-bi-15 can-avatar"
+					},
+					{
+						"id": "can-bi-16",
+						"avatarClass": "can-bi-16 can-avatar"
+					},
+					{
+						"id": "can-bi-17",
+						"avatarClass": "can-bi-17 can-avatar"
+					},
+					{
+						"id": "can-bi-18",
+						"avatarClass": "can-bi-18 can-avatar"
+					},
+					{
+						"id": "can-bi-19",
+						"avatarClass": "can-bi-19 can-avatar"
+					},
+					{
+						"id": "can-bi-20",
+						"avatarClass": "can-bi-20 can-avatar"
+					},
+					{
+						"id": "can-bi-21",
+						"avatarClass": "can-bi-21 can-avatar"
+					},
+					{
+						"id": "can-bi-22",
+						"avatarClass": "can-bi-22 can-avatar"
+					},
+					{
+						"id": "can-bi-23",
+						"avatarClass": "can-bi-23 can-avatar"
+					},
+					{
+						"id": "can-bi-24",
+						"avatarClass": "can-bi-24 can-avatar"
+					},
+					{
+						"id": "can-bi-25",
+						"avatarClass": "can-bi-25 can-avatar"
+					},
+					{
+						"id": "can-bi-26",
+						"avatarClass": "can-bi-26 can-avatar"
+					},
+					{
+						"id": "can-bi-27",
+						"avatarClass": "can-bi-27 can-avatar"
+					},
+					{
+						"id": "can-bi-28",
+						"avatarClass": "can-bi-28 can-avatar"
+					},
+					{
+						"id": "can-bi-29",
+						"avatarClass": "can-bi-29 can-avatar"
+					},
+					{
+						"id": "can-bi-30",
+						"avatarClass": "can-bi-30 can-avatar"
+					},
+					{
+						"id": "can-bi-31",
+						"avatarClass": "can-bi-31 can-avatar"
+					},
+					{
+						"id": "can-bi-32",
+						"avatarClass": "can-bi-32 can-avatar"
+					},
+					{
+						"id": "can-bi-33",
+						"avatarClass": "can-bi-33 can-avatar"
+					},
+					{
+						"id": "can-bi-34",
+						"avatarClass": "can-bi-34 can-avatar"
+					},
+					{
+						"id": "can-bi-35",
+						"avatarClass": "can-bi-35 can-avatar"
+					},
+					{
+						"id": "can-bi-36",
+						"avatarClass": "can-bi-36 can-avatar"
+					},
+					{
+						"id": "can-bi-37",
+						"avatarClass": "can-bi-37 can-avatar"
+					},
+					{
+						"id": "can-bi-38",
+						"avatarClass": "can-bi-38 can-avatar"
+					},
+					{
+						"id": "can-bi-39",
+						"avatarClass": "can-bi-39 can-avatar"
+					},
+					{
+						"id": "can-bi-40",
+						"avatarClass": "can-bi-40 can-avatar"
+					},
+					{
+						"id": "can-bi-41",
+						"avatarClass": "can-bi-41 can-avatar"
+					},
+					{
+						"id": "can-bi-42",
+						"avatarClass": "can-bi-42 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 2,
+				"name": "天柱",
+				"lampClass": "can-xiao-lamp can-zhu-lamp",
+				"titleClass": "can-title can-zhu-title",
+				"militaries": [{
+						"id": "can-zhu-01",
+						"avatarClass": "can-zhu-01 can-avatar"
+					},
+					{
+						"id": "can-zhu-02",
+						"avatarClass": "can-zhu-02 can-avatar"
+					},
+					{
+						"id": "can-zhu-03",
+						"avatarClass": "can-zhu-03 can-avatar"
+					},
+					{
+						"id": "can-zhu-04",
+						"avatarClass": "can-zhu-04 can-avatar"
+					},
+					{
+						"id": "can-zhu-05",
+						"avatarClass": "can-zhu-05 can-avatar"
+					},
+					{
+						"id": "can-zhu-06",
+						"avatarClass": "can-zhu-06 can-avatar"
+					},
+					{
+						"id": "can-zhu-07",
+						"avatarClass": "can-zhu-07 can-avatar"
+					},
+					{
+						"id": "can-zhu-08",
+						"avatarClass": "can-zhu-08 can-avatar"
+					},
+					{
+						"id": "can-zhu-09",
+						"avatarClass": "can-zhu-09 can-avatar"
+					},
+					{
+						"id": "can-zhu-10",
+						"avatarClass": "can-zhu-10 can-avatar"
+					},
+					{
+						"id": "can-zhu-11",
+						"avatarClass": "can-zhu-11 can-avatar"
+					},
+					{
+						"id": "can-zhu-12",
+						"avatarClass": "can-zhu-12 can-avatar"
+					},
+					{
+						"id": "can-zhu-13",
+						"avatarClass": "can-zhu-13 can-avatar"
+					},
+					{
+						"id": "can-zhu-14",
+						"avatarClass": "can-zhu-14 can-avatar"
+					},
+					{
+						"id": "can-zhu-15",
+						"avatarClass": "can-zhu-15 can-avatar"
+					},
+					{
+						"id": "can-zhu-16",
+						"avatarClass": "can-zhu-16 can-avatar"
+					},
+					{
+						"id": "can-zhu-17",
+						"avatarClass": "can-zhu-17 can-avatar"
+					},
+					{
+						"id": "can-zhu-18",
+						"avatarClass": "can-zhu-18 can-avatar"
+					},
+					{
+						"id": "can-zhu-19",
+						"avatarClass": "can-zhu-19 can-avatar"
+					},
+					{
+						"id": "can-zhu-20",
+						"avatarClass": "can-zhu-20 can-avatar"
+					},
+					{
+						"id": "can-zhu-21",
+						"avatarClass": "can-zhu-21 can-avatar"
+					},
+					{
+						"id": "can-zhu-22",
+						"avatarClass": "can-zhu-22 can-avatar"
+					},
+					{
+						"id": "can-zhu-23",
+						"avatarClass": "can-zhu-23 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 3,
+				"name": "女史",
+				"lampClass": "can-xiao-lamp can-nv-lamp",
+				"titleClass": "can-title can-nv-title",
+				"militaries": [{
+						"id": "can-nv-01",
+						"avatarClass": "can-nv-01 can-avatar"
+					},
+					{
+						"id": "can-nv-02",
+						"avatarClass": "can-nv-02 can-avatar"
+					},
+					{
+						"id": "can-nv-03",
+						"avatarClass": "can-nv-03 can-avatar"
+					},
+					{
+						"id": "can-nv-04",
+						"avatarClass": "can-nv-04 can-avatar"
+					},
+					{
+						"id": "can-nv-05",
+						"avatarClass": "can-nv-05 can-avatar"
+					},
+					{
+						"id": "can-nv-06",
+						"avatarClass": "can-nv-06 can-avatar"
+					},
+					{
+						"id": "can-nv-07",
+						"avatarClass": "can-nv-07 can-avatar"
+					},
+					{
+						"id": "can-nv-08",
+						"avatarClass": "can-nv-08 can-avatar"
+					},
+					{
+						"id": "can-nv-09",
+						"avatarClass": "can-nv-09 can-avatar"
+					},
+					{
+						"id": "can-nv-10",
+						"avatarClass": "can-nv-10 can-avatar"
+					},
+					{
+						"id": "can-nv-11",
+						"avatarClass": "can-nv-11 can-avatar"
+					},
+					{
+						"id": "can-nv-12",
+						"avatarClass": "can-nv-12 can-avatar"
+					},
+					{
+						"id": "can-nv-13",
+						"avatarClass": "can-nv-13 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 4,
+				"name": "少微",
+				"lampClass": "can-xiao-lamp can-wei-lamp",
+				"titleClass": "can-title can-wei-title",
+				"militaries": [{
+						"id": "can-wei-01",
+						"avatarClass": "can-wei-01 can-avatar"
+					},
+					{
+						"id": "can-wei-02",
+						"avatarClass": "can-wei-02 can-avatar"
+					},
+					{
+						"id": "can-wei-03",
+						"avatarClass": "can-wei-03 can-avatar"
+					},
+					{
+						"id": "can-wei-04",
+						"avatarClass": "can-wei-04 can-avatar"
+					},
+					{
+						"id": "can-wei-05",
+						"avatarClass": "can-wei-05 can-avatar"
+					},
+					{
+						"id": "can-wei-06",
+						"avatarClass": "can-wei-06 can-avatar"
+					},
+					{
+						"id": "can-wei-07",
+						"avatarClass": "can-wei-07 can-avatar"
+					},
+					{
+						"id": "can-wei-08",
+						"avatarClass": "can-wei-08 can-avatar"
+					},
+					{
+						"id": "can-wei-09",
+						"avatarClass": "can-wei-09 can-avatar"
+					},
+					{
+						"id": "can-wei-10",
+						"avatarClass": "can-wei-10 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 5,
+				"name": "虎贲",
+				"lampClass": "can-xiao-lamp can-ben-lamp",
+				"titleClass": "can-title can-ben-title",
+				"militaries": [{
+						"id": "can-ben-01",
+						"avatarClass": "can-ben-01 can-avatar"
+					},
+					{
+						"id": "can-ben-02",
+						"avatarClass": "can-ben-02 can-avatar"
+					},
+					{
+						"id": "can-ben-03",
+						"avatarClass": "can-ben-03 can-avatar"
+					},
+					{
+						"id": "can-ben-04",
+						"avatarClass": "can-ben-04 can-avatar"
+					},
+					{
+						"id": "can-ben-05",
+						"avatarClass": "can-ben-05 can-avatar"
+					},
+					{
+						"id": "can-ben-06",
+						"avatarClass": "can-ben-06 can-avatar"
+					},
+					{
+						"id": "can-ben-07",
+						"avatarClass": "can-ben-07 can-avatar"
+					},
+					{
+						"id": "can-ben-08",
+						"avatarClass": "can-ben-08 can-avatar"
+					},
+					{
+						"id": "can-ben-09",
+						"avatarClass": "can-ben-09 can-avatar"
+					},
+					{
+						"id": "can-ben-10",
+						"avatarClass": "can-ben-10 can-avatar"
+					},
+					{
+						"id": "can-ben-11",
+						"avatarClass": "can-ben-11 can-avatar"
+					},
+					{
+						"id": "can-ben-12",
+						"avatarClass": "can-ben-12 can-avatar"
+					},
+					{
+						"id": "can-ben-13",
+						"avatarClass": "can-ben-13 can-avatar"
+					},
+					{
+						"id": "can-ben-14",
+						"avatarClass": "can-ben-14 can-avatar"
+					},
+					{
+						"id": "can-ben-15",
+						"avatarClass": "can-ben-15 can-avatar"
+					},
+					{
+						"id": "can-ben-16",
+						"avatarClass": "can-ben-16 can-avatar"
+					},
+					{
+						"id": "can-ben-17",
+						"avatarClass": "can-ben-17 can-avatar"
+					},
+					{
+						"id": "can-ben-18",
+						"avatarClass": "can-ben-18 can-avatar"
+					},
+					{
+						"id": "can-ben-19",
+						"avatarClass": "can-ben-19 can-avatar"
+					},
+					{
+						"id": "can-ben-20",
+						"avatarClass": "can-ben-20 can-avatar"
+					},
+					{
+						"id": "can-ben-21",
+						"avatarClass": "can-ben-21 can-avatar"
+					},
+					{
+						"id": "can-ben-22",
+						"avatarClass": "can-ben-22 can-avatar"
+					},
+					{
+						"id": "can-ben-23",
+						"avatarClass": "can-ben-23 can-avatar"
+					},
+					{
+						"id": "can-ben-24",
+						"avatarClass": "can-ben-24 can-avatar"
+					},
+					{
+						"id": "can-ben-25",
+						"avatarClass": "can-ben-25 can-avatar"
+					},
+					{
+						"id": "can-ben-26",
+						"avatarClass": "can-ben-26 can-avatar"
+					},
+					{
+						"id": "can-ben-27",
+						"avatarClass": "can-ben-27 can-avatar"
+					},
+					{
+						"id": "can-ben-28",
+						"avatarClass": "can-ben-28 can-avatar"
+					},
+					{
+						"id": "can-ben-29",
+						"avatarClass": "can-ben-29 can-avatar"
+					},
+					{
+						"id": "can-ben-30",
+						"avatarClass": "can-ben-30 can-avatar"
+					},
+					{
+						"id": "can-ben-31",
+						"avatarClass": "can-ben-31 can-avatar"
+					},
+					{
+						"id": "can-ben-32",
+						"avatarClass": "can-ben-32 can-avatar"
+					},
+					{
+						"id": "can-ben-33",
+						"avatarClass": "can-ben-33 can-avatar"
+					},
+					{
+						"id": "can-ben-34",
+						"avatarClass": "can-ben-34 can-avatar"
+					},
+					{
+						"id": "can-ben-35",
+						"avatarClass": "can-ben-35 can-avatar"
+					},
+					{
+						"id": "can-ben-36",
+						"avatarClass": "can-ben-36 can-avatar"
+					},
+					{
+						"id": "can-ben-37",
+						"avatarClass": "can-ben-37 can-avatar"
+					},
+					{
+						"id": "can-ben-38",
+						"avatarClass": "can-ben-38 can-avatar"
+					},
+					{
+						"id": "can-ben-39",
+						"avatarClass": "can-ben-39 can-avatar"
+					},
+					{
+						"id": "can-ben-40",
+						"avatarClass": "can-ben-40 can-avatar"
+					}
+				]
+			},
+			{
+				"index": 6,
+				"name": "列肆",
+				"lampClass": "can-xiao-lamp can-si-lamp",
+				"titleClass": "can-title can-si-title",
+				"militaries": [{
+						"id": "can-si-01",
+						"avatarClass": "can-si-01 can-avatar"
+					},
+					{
+						"id": "can-si-02",
+						"avatarClass": "can-si-02 can-avatar"
+					},
+					{
+						"id": "can-si-03",
+						"avatarClass": "can-si-03 can-avatar"
+					},
+					{
+						"id": "can-si-04",
+						"avatarClass": "can-si-04 can-avatar"
+					},
+					{
+						"id": "can-si-05",
+						"avatarClass": "can-si-05 can-avatar"
+					}
+				]
+			}
+		]
 	},
 	{
 		"index": 7,
@@ -1383,19 +2029,18 @@
 				"lampClass": "zu-xiao-lamp zu-wang-lamp",
 				"titleClass": "zu-title zu-wang-title",
 				"militaries": [{
-						"id": "zu-wang-01",
-						"avatarClass": "zu-wang-01 zu-avatar"
-					},{
-						"id": "zu-wang-02",
-						"avatarClass": "zu-wang-02 zu-avatar"
-					},{
-						"id": "zu-wang-03",
-						"avatarClass": "zu-wang-03 zu-avatar"
-					},{
-						"id": "zu-wang-04",
-						"avatarClass": "zu-wang-04 zu-avatar"
-					}
-				]
+					"id": "zu-wang-01",
+					"avatarClass": "zu-wang-01 zu-avatar"
+				}, {
+					"id": "zu-wang-02",
+					"avatarClass": "zu-wang-02 zu-avatar"
+				}, {
+					"id": "zu-wang-03",
+					"avatarClass": "zu-wang-03 zu-avatar"
+				}, {
+					"id": "zu-wang-04",
+					"avatarClass": "zu-wang-04 zu-avatar"
+				}]
 			}
 		]
 	},
@@ -1606,10 +2251,16 @@
 	{
 		"index": 12,
 		"name": "国战",
-		"class": "guo",
+		"class": "guo-da-lamp",
 		"nodes": [{
 			"index": 0,
-			"class": "feng"
+			"name": "",
+			"lampClass": "",
+			"titleClass": "",
+			"militaries": [{
+				"id": "",
+				"avatarClass": ""
+			}]
 		}]
 	}
 ]
