@@ -36,12 +36,12 @@
 .zu-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/menFaShiZu/lamp.png");
 	transform: scale(0.7);
-	animation: mouDaLampFrameAnim steps(1, start) 1s infinite;
+	animation: zuDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouDaLampFrameAnim {
+@keyframes zuDaLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
 	}
@@ -71,15 +71,15 @@
 .zu-xiao-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/menFaShiZu/lamp.png");
 }
 
-/* Ä±¶¨ÌìÏÂ */
-.zu-zu-lamp {
-	animation: mouMouLampFrameAnim steps(1, start) 1s infinite;
+/* ò£´¨Ü÷ÊÏ */
+.zu-xun-lamp {
+	animation: zuXunLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouMouLampFrameAnim {
+@keyframes zuXunLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*1);
 	}
@@ -106,7 +106,133 @@
 
 }
 
+/* ³ÂÁôÎâÊÏ */
+.zu-wu-lamp {
+	animation: zuWuLampFrameAnim steps(1, start) 1s infinite;
+}
 
+@keyframes zuWuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*2);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*2);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*2);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*2);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*2);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*2);
+	}
+
+}
+
+/* ò£´¨º«ÊÏ */
+.zu-han-lamp {
+	animation: zuHanLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes zuHanLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*3);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*3);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*3);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*3);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*3);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/* ò£´¨ÖÓÊÏ */
+.zu-zhong-lamp {
+	animation: zuZhongLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes zuZhongLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+
+}
+
+/* Ì«Ô­ÍõÊÏ */
+.zu-wang-lamp {
+	animation: zuWangLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes zuWangLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+
+}
 
 /******************************** Í·Ïñ ********************************/
 
