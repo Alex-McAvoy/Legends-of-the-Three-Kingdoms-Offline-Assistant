@@ -1,0 +1,762 @@
+{
+	"index": 8,
+	"name": "门阀士族",
+	"militaries": {
+		"zu-xun-01": {
+			"index": 0,
+			"name": "族·荀淑",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-xun-01.png",
+			"skills": [{
+				"name": "神君",
+				"descriptions": "当一名角色使用【杀】或普通锦囊牌时，你展示所有与此牌同名的手牌（称为“神君”牌），然后本阶段结束时，你可以将“神君”牌数张牌当任意“神君”牌使用。"
+			}, {
+				"name": "八龙",
+				"descriptions": "锁定技，当你每回合体力值首次变化后，若你手牌中锦囊牌为唯一最多的类别，你展示手牌并将手牌摸至场上角色数张。"
+			}, {
+				"name": "蹈节",
+				"descriptions": "宗族技，锁定技，当你每回合首次使用非伤害锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+			}],
+			"dialogues": [{
+				"name": "神君",
+				"descriptions": ["区区障眼之法，难遮神人之目。", "我以天地为师，自可道法自然。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-01_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-01_1_2.mp3"
+				]
+			}, {
+				"name": "八龙",
+				"descriptions": ["八龙之蜿蜿，云旗之委蛇。", "穆王乘八牡，天地恣遨游。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-01_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-01_2_2.mp3"
+				]
+			}, {
+				"name": "蹈节",
+				"descriptions": ["荀人如玉，向节而生。", "竹有其节，焚之不改。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-01_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天下陆沉，荀氏难支……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-xun-01_dead.mp3"]
+			}]
+		},
+		"zu-xun-02": {
+			"index": 1,
+			"name": "族·荀谌",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-xun-02.png",
+			"skills": [{
+				"name": "三恇",
+				"descriptions": "锁定技，当你每轮首次使用一种类别的牌后，你令一名角色交给你至少X张牌并获得你使用的牌（X为其满足的条件数）：1.场上有牌；2.已受伤；3.体力值小于手牌数。"
+			}, {
+				"name": "卑势",
+				"descriptions": "锁定技，当你第一次发动“三恇”选择的角色失去最后的手牌后，你回复1点体力。"
+			}, {
+				"name": "蹈节",
+				"descriptions": "宗族技，锁定技，当你每回合首次使用非伤害锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+			}],
+			"dialogues": [{
+				"name": "三恇",
+				"descriptions": ["人言可畏，宜常辟之。", "天地可敬，可常惧之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-02_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-02_1_2.mp3"
+				]
+			}, {
+				"name": "卑势",
+				"descriptions": ["虎卑其势，将有所逮。", "至山穷水尽，复柳暗花明。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-02_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-02_2_2.mp3"
+				]
+			}, {
+				"name": "蹈节",
+				"descriptions": ["此生所重者，慷慨之节也。", "愿以此身，全清尚之节。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-02_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["行二臣之为，羞见列祖……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-xun-02_dead.mp3"]
+			}]
+		},
+		"zu-xun-03": {
+			"index": 2,
+			"name": "族·荀采",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-xun-03.png",
+			"skills": [{
+				"name": "烈誓",
+				"descriptions": "出牌阶段，你可以选择一项：1.废除判定区并受到1点火焰伤害；2.弃置所有【闪】；3.弃置所有【杀】。然后令一名其他角色选择其他两项中的一项。"
+			}, {
+				"name": "点盏",
+				"descriptions": "锁定技，当你每轮首次使用一种花色的牌后，你横置此牌的唯一目标并重铸此花色的所有手牌，然后若你以此法横置了角色并重铸了手牌，则你摸一张牌。"
+			}, {
+				"name": "还阴",
+				"descriptions": "锁定技，当你进入濒死状态时，你将手牌摸至四张。"
+			}, {
+				"name": "蹈节",
+				"descriptions": "宗族技，锁定技，当你每回合首次使用非伤害锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+			}],
+			"dialogues": [{
+				"name": "烈誓",
+				"descriptions": ["拭刃为誓，女无二夫。", "霜刃证言，宁死不贰。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-03_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-03_1_2.mp3"
+				]
+			}, {
+				"name": "点盏",
+				"descriptions": ["此灯如我，独向光明。", "此间皆暗，唯灯瞩明。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-03_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-03_2_2.mp3"
+				]
+			}, {
+				"name": "还阴",
+				"descriptions": ["且将此身，还于阴氏。", "生不得同户，死可葬同穴乎？"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-03_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-03_3_2.mp3"
+				]
+			}, {
+				"name": "蹈节",
+				"descriptions": ["女子有节，宁死蹈之。", "荀氏三纲，死不贰嫁。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-03_4_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-03_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["苦难已过，世间大好……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-xun-03_dead.mp3"]
+			}]
+		},
+		"zu-xun-04": {
+			"index": 3,
+			"name": "族·荀粲",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-xun-04.png",
+			"skills": [{
+				"name": "熨身",
+				"descriptions": "出牌阶段限一次，你可以选择一名其他角色并令其回复1点体力，然后选择一项：1.视为其对你使用一张冰【杀】；2.视为你对其使用一张冰【杀】。"
+			}, {
+				"name": "伤神",
+				"descriptions": "当每回合首次有角色受到属性伤害后，你可以进行一次【闪电】判定并令其将手牌摸至四张。"
+			}, {
+				"name": "分钗",
+				"descriptions": "锁定技，若首次成为你技能目标的异性角色存活，你的判定牌视为♥️，否则视为♠️。"
+			}, {
+				"name": "蹈节",
+				"descriptions": "宗族技，锁定技，当你每回合首次使用非伤害锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+			}],
+			"dialogues": [{
+				"name": "熨身",
+				"descriptions": ["此心恋卿，尽融三九之冰。", "寒梅傲雪，馥郁三尺之香。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-04_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-04_1_2.mp3"
+				]
+			}, {
+				"name": "伤神",
+				"descriptions": ["识字数万，此痛无字可言。", "吾妻已逝，吾心悲怆。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-04_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-04_2_2.mp3"
+				]
+			}, {
+				"name": "分钗",
+				"descriptions": ["钗同我心，奈何分之？", "夫妻分钗，天涯陌路。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-04_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-04_3_2.mp3"
+				]
+			}, {
+				"name": "蹈节",
+				"descriptions": ["君子持节，何移情乎？", "我心慕鸳，从一而终。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-04_4_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-04_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此钗，今日可合乎？"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-xun-04_dead.mp3"]
+			}]
+		},
+		"zu-xun-05": {
+			"index": 4,
+			"name": "族·荀攸",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-xun-05.png",
+			"skills": [{
+				"name": "百出",
+				"descriptions": "当你使用牌结算结束后，若此牌：1.花色和类别的组合为你首次使用，你记录一个未被记录的普通锦囊牌的牌名，否则你本轮视为拥有技能“奇策”；2.为“百出”已记录的牌，你摸一张牌或回复1点体力。"
+			}, {
+				"name": "蹈节",
+				"descriptions": "宗族技，锁定技，当你每回合首次使用非伤害锦囊牌后，你选择一项：1.失去1点体力；2.失去一个锁定技。然后令一名同族角色获得此牌。"
+			}, {
+				"name": "☆ 奇策",
+				"descriptions": "出牌阶段限一次，你可以将所有手牌当任意一张普通锦囊牌使用。"
+			}],
+			"dialogues": [{
+				"name": "百出",
+				"descriptions": ["腹有经纶，到用时施无穷之计。", "胸纳甲兵，烽烟起可靖疆晏海。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-05_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-05_1_2.mp3"
+				]
+			}, {
+				"name": "蹈节",
+				"descriptions": ["秉忠正之心，可抚宁内外。", "贤者，温良恭俭让以得之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-05_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-05_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 奇策",
+				"descriptions": ["二袁相争，此曹公得利之时。", "穷寇宜追，需防死蛇之不僵。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-xun-05_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-xun-05_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["无知命之寿，明知命之节……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-xun-05_dead.mp3"]
+			}]
+		},
+		"zu-wu-01": {
+			"index": 5,
+			"name": "族·吴苋",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wu-01.png",
+			"skills": [{
+				"name": "移荣",
+				"descriptions": "出牌阶段限两次，你可以将手牌摸至/弃置至手牌上限，然后你的手牌上限-1/+1。"
+			}, {
+				"name": "贵相",
+				"descriptions": "锁定技，你本回合的第X个阶段开始前，将此阶段改为出牌阶段（X为你的手牌上限）。"
+			}, {
+				"name": "穆荫",
+				"descriptions": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+			}],
+			"dialogues": [{
+				"name": "移荣",
+				"descriptions": ["花开彼岸，繁荣不减当年。", "移花接木，花容更胜从前。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-01_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-01_1_2.mp3"
+				]
+			}, {
+				"name": "贵相",
+				"descriptions": ["女相显贵，凤仪从龙。", "正官七杀，天生富贵。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-01_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-01_2_2.mp3"
+				]
+			}, {
+				"name": "穆荫",
+				"descriptions": ["吴门隆盛，闻钟而鼎食。", "吴氏一族，感明君青睐。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-01_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["玄德东征，何日归还？"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wu-01_dead.mp3"]
+			}]
+		},
+		"zu-wu-02": {
+			"index": 6,
+			"name": "族·吴班",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wu-02.png",
+			"skills": [{
+				"name": "斩钉",
+				"descriptions": "你可以将任意张牌当【杀】使用并令你手牌上限-1。若此【杀】造成伤害，你将手牌摸至或弃置至手牌上限，否则此【杀】不计入次数。"
+			}, {
+				"name": "穆荫",
+				"descriptions": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+			}],
+			"dialogues": [{
+				"name": "斩钉",
+				"descriptions": ["汝颈硬，比之金铁何如？", "魍魉鼠辈，速速系颈俯首！"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-02_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-02_1_2.mp3"
+				]
+			}, {
+				"name": "穆荫",
+				"descriptions": ["世代佐忠义，子孙何绝焉？", "祖训秉心，其荫何能薄也？"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-02_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["无胆鼠辈，安敢暗箭伤人……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wu-02_dead.mp3"]
+			}]
+		},
+		"zu-wu-03": {
+			"index": 7,
+			"name": "族·吴匡",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wu-03.png",
+			"skills": [{
+				"name": "联诛",
+				"descriptions": "转换技，一名角色的出牌阶段限一次，阳：其可以重铸一张牌，然后你可以重铸一张牌。若这两张牌颜色相同，你的手牌上限+1；阴：其可以令你选择另一名其他角色，然后其与你可以依次对该角色使用一张【杀】。若这两张【杀】颜色不同，你的手牌上限-1。"
+			}, {
+				"name": "穆荫",
+				"descriptions": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+			}],
+			"dialogues": [{
+				"name": "联诛",
+				"descriptions": ["奸宦作乱，当联兵伐之。", "尽诛贼常侍，正在此时。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-03_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-03_1_2.mp3"
+				]
+			}, {
+				"name": "穆荫",
+				"descriptions": ["家有贵女，其德泽三代。", "吾家当以此女而兴之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-03_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["孟德何在？本初何在？"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wu-03_dead.mp3"]
+			}]
+		},
+		"zu-wu-04": {
+			"index": 8,
+			"name": "族·吴乔",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wu-04.png",
+			"skills": [{
+				"name": "跒倔",
+				"descriptions": "摸牌阶段开始时，你可以弃置一张黑色牌。若如此做，本阶段结束时，你展示所有手牌，然后若这些牌点数之和大于30，你的手牌上限-2，否则你执行一个额外的摸牌阶段。"
+			}, {
+				"name": "穆荫",
+				"descriptions": "宗族技，回合开始时，你可以令一名手牌上限不为全场最大的同族角色手牌上限+1。"
+			}],
+			"dialogues": [{
+				"name": "跒倔",
+				"descriptions": [],
+				"srcs": []
+			}, {
+				"name": "穆荫",
+				"descriptions": [],
+				"srcs": []
+			}, {
+				"name": "阵亡",
+				"descriptions": [],
+				"srcs": []
+			}]
+		},
+		"zu-han-01": {
+			"index": 9,
+			"name": "族·韩韶",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-han-01.png",
+			"skills": [{
+				"name": "放赈",
+				"descriptions": "出牌阶段开始时，你可以横置一名角色并选择一项：1.摸两张牌并交给其两张牌；2.令其回复1点体力。第X轮开始时（X为其座次），你失去此技能。"
+			}, {
+				"name": "留驹",
+				"descriptions": "出牌阶段结束时，你可以与一名角色拼点，输的角色可以使用拼点牌中的非基本牌。若你与其的相互距离因此变化，你复原技能“恤民”。"
+			}, {
+				"name": "恤民",
+				"descriptions": "宗族技，限定技，你可以将一张牌当【五谷丰登】对任意名其他角色使用。"
+			}],
+			"dialogues": [{
+				"name": "放赈",
+				"descriptions": ["百姓罹灾，当施粮以赈。", "开仓放粮，以赈灾民。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-01_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-01_1_2.mp3"
+				]
+			}, {
+				"name": "留驹",
+				"descriptions": ["当逐千里之驹，情深可留嬴城。", "乡老十里相送，此驹可彰吾情。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-01_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-01_2_2.mp3"
+				]
+			}, {
+				"name": "恤民",
+				"descriptions": ["民者居野而多艰，不可不恤。", "天下之本，上为君，下为民。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-01_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天地不仁，万物何孤……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-han-01_dead.mp3"]
+			}]
+		},
+		"zu-han-02": {
+			"index": 10,
+			"name": "族·韩融",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-han-02.png",
+			"skills": [{
+				"name": "连和",
+				"descriptions": "出牌阶段开始时，你可以横置两名角色，其下个出牌阶段结束时，若其此阶段未摸牌，其选择一项：1.令你摸X+1张牌；2.交给你X-1张牌（X为其此阶段获得牌数且至多为3）。"
+			}, {
+				"name": "缓颊",
+				"descriptions": "出牌阶段结束时，你可以与一名角色拼点，赢的角色可以使用一张拼点牌，然后若其未因此技能造成伤害，你获得另一张拼点牌，否则你失去一个技能。"
+			}, {
+				"name": "恤民",
+				"descriptions": "宗族技，限定技，你可以将一张牌当【五谷丰登】对任意名其他角色使用。"
+			}],
+			"dialogues": [{
+				"name": "连和",
+				"descriptions": ["枯草难存于劲风，唯抱簇得生。", "吾所来之由，一为好，二为和。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-02_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-02_1_2.mp3"
+				]
+			}, {
+				"name": "缓颊",
+				"descriptions": ["我之所言，皆为君好。", "吾言之切切，请君听之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-02_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-02_2_2.mp3"
+				]
+			}, {
+				"name": "恤民",
+				"descriptions": ["江海陆沉，皆为黎庶之泪。", "天下汹汹，百姓何辜？"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-han-02_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-han-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天下兴亡，皆苦百姓。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-han-02_dead.mp3"]
+			}]
+		},
+		"zu-zhong-01": {
+			"index": 11,
+			"name": "族·钟琰",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-zhong-01.png",
+			"skills": [{
+				"name": "观骨",
+				"descriptions": "转换技，出牌阶段限一次，阳：你可以观看牌堆顶的至多四张牌；阴：你可以观看一名角色的至多四张手牌。然后你可以使用其中一张牌。"
+			}, {
+				"name": "啸咏",
+				"descriptions": "锁定技，当你于回合内首次使用牌名字数为X的牌时（X为上次发动“观骨”时观看的牌数），“观骨”视为未发动过。"
+			}, {
+				"name": "保族",
+				"descriptions": "宗族技，限定技，当一名同族角色进入濒死状态时，你可以令其横置并回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "观骨",
+				"descriptions": ["此才拔萃，然观其形骨，恐早夭。", "绯衣者，汝所拔乎？"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-01_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-01_1_2.mp3"
+				]
+			}, {
+				"name": "啸咏",
+				"descriptions": ["凉风萧条，露沾我衣。", "忧来多方，慨然永怀。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-01_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-01_2_2.mp3"
+				]
+			}, {
+				"name": "保族",
+				"descriptions": ["好女宜家，可度大厄。", "宗族有难，当施以援手。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-01_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此间天下人，皆分一斗之才。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-zhong-01_dead.mp3"]
+			}]
+		},
+		"zu-zhong-02": {
+			"index": 12,
+			"name": "族·钟毓",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-zhong-02.png",
+			"skills": [{
+				"name": "捷谏",
+				"descriptions": "当你于一回合内使用第X张牌指定目标后（X为此牌牌名字数），若此牌不为装备牌，你可以令其中一名目标角色摸X张牌。"
+			}, {
+				"name": "惶汗",
+				"descriptions": "当你受到牌造成的伤害后，你可以摸X张牌（X为此牌牌名字数）并弃置等同于你已损失体力值数量张牌。然后若你本回合发动此技能的次数大于1，你复原技能“保族”。"
+			}, {
+				"name": "保族",
+				"descriptions": "宗族技，限定技，当一名同族角色进入濒死状态时，你可以令其横置并回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "捷谏",
+				"descriptions": ["庙胜之策，不临矢石。", "王者之兵，有征无战。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-02_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-02_1_2.mp3"
+				]
+			}, {
+				"name": "惶汗",
+				"descriptions": ["居天子阶下，故诚惶诚恐。", "战战惶惶，汗出如浆。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-02_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-02_2_2.mp3"
+				]
+			}, {
+				"name": "保族",
+				"descriptions": ["弟会腹有恶谋，不可不防。", "会期大祸将至，请晋公恕之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-zhong-02_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-zhong-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["百年钟氏，一朝为尘矣……"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-zhong-02_dead.mp3"]
+			}]
+		},
+		"zu-wang-01": {
+			"index": 13,
+			"name": "族·王允",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wang-01.png",
+			"skills": [{
+				"name": "解悬",
+				"descriptions": "转换技，限定技，阳：你可以将一张红色牌当【顺手牵羊】使用；阴：你可以将一张黑色牌当【过河拆桥】使用。"
+			}, {
+				"name": "铭戒",
+				"descriptions": "限定技，出牌阶段，你可以选择一名角色：1.你使用牌可以额外选择该角色为目标直到其下个回合结束；2.其下个回合结束时，你可以使用弃牌堆中本回合使用过的♠️牌和被抵消的牌。"
+			}, {
+				"name": "中流",
+				"descriptions": "宗族技，锁定技，当你使用牌时，若此牌不为同族角色的手牌，你武将牌上的技能视为未发动过。"
+			}],
+			"dialogues": [{
+				"name": "解悬",
+				"descriptions": ["允不才，愿以天下苍生为己任。", "愿以此身为膳，饲天下以太平。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-01_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-01_1_2.mp3"
+				]
+			}, {
+				"name": "铭戒",
+				"descriptions": ["大公至正，恪忠义于国。", "此生柱国之志，铭恪于胸。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-01_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-01_2_2.mp3"
+				]
+			}, {
+				"name": "中流",
+				"descriptions": ["国朝汹汹如涌，当如柱石镇之。", "砥中流之柱，其舍我复谁？"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-01_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["获罪于君，当伏大辟以谢天下。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wang-01_dead.mp3"]
+			}]
+		},
+		"zu-wang-02": {
+			"index": 14,
+			"name": "族·王凌",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wang-02.png",
+			"skills": [{
+				"name": "驳龙",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色选择一项：1.你交给其一张牌，然后你视为对其使用一张雷【杀】；2.交给你X张牌（X为你的手牌数），然后其视为对你使用一张【酒】。"
+			}, {
+				"name": "中流",
+				"descriptions": "宗族技，锁定技，当你使用牌时，若此牌不为同族角色的手牌，你武将牌上的技能视为未发动过。"
+			}],
+			"dialogues": [{
+				"name": "驳龙",
+				"descriptions": ["驳者，食虎之兽焉，可摄冢虎。", "主上暗弱，当另择明主侍之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-02_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-02_1_2.mp3"
+				]
+			}, {
+				"name": "中流",
+				"descriptions": ["王门世代骨鲠，皆为国之柱石。", "行舟至中流而遇浪，大风起兮。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-02_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["淩忠心可鉴，死亦未悔。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wang-02_dead.mp3"]
+			}]
+		},
+		"zu-wang-03": {
+			"index": 15,
+			"name": "族·王浑",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wang-03.png",
+			"skills": [{
+				"name": "抚循",
+				"descriptions": "出牌阶段限一次，你可以选择一项：1.获得一名其他角色的一张手牌；2.交给一名其他角色一张手牌。然后若其手牌数与你相同且于本阶段仅因此技能变化过，你可以将一张牌当任意一张基本牌使用。"
+			}, {
+				"name": "沉雅",
+				"descriptions": "当一名角色发动“出牌阶段限一次”的技能后，你可以令其重铸任意张牌名字数为X的牌（X为其手牌数）。"
+			}, {
+				"name": "中流",
+				"descriptions": "宗族技，锁定技，当你使用牌时，若此牌不为同族角色的手牌，你武将牌上的技能视为未发动过。"
+			}],
+			"dialogues": [{
+				"name": "抚循",
+				"descriptions": ["东吴遗民惶惶，宜抚而不宜罚。", "江东新附，不可以严法度之。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-03_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-03_1_2.mp3"
+				]
+			}, {
+				"name": "沉雅",
+				"descriptions": ["喜怒不现于形，此为执中之道。", "胸有万丈之海，故而波澜不惊。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-03_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-03_2_2.mp3"
+				]
+			}, {
+				"name": "中流",
+				"descriptions": ["国潮汹涌，当为中流之砥柱。", "执剑斩巨浪，息风波者出我辈。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-03_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-03_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["灭国之功本属我，奈何枉作他人衣。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wang-03_dead.mp3"]
+			}]
+		},
+		"zu-wang-04": {
+			"index": 16,
+			"name": "族·王沦",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/menFaShiZu/zu-wang-04.png",
+			"skills": [{
+				"name": "求心",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色选择一项。若如此做，当你对其使用的下一张〔1.【杀】；2.普通锦囊牌〕结算结束后，你视为对其使用一张〔1.任意一种普通锦囊牌；2.【杀】〕。"
+			}, {
+				"name": "简远",
+				"descriptions": "当一名角色发动“出牌阶段限一次”的技能后，你可以令其重铸任意张牌名字数为X的牌（X为其本阶段使用的牌数）。"
+			}, {
+				"name": "中流",
+				"descriptions": "宗族技，锁定技，当你使用牌时，若此牌不为同族角色的手牌，你武将牌上的技能视为未发动过。"
+			}],
+			"dialogues": [{
+				"name": "求心",
+				"descriptions": ["此生所求者，顺心意尔。", "羡孔丘知天命之岁，叹吾生之不达。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-04_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-04_1_2.mp3"
+				]
+			}, {
+				"name": "简远",
+				"descriptions": ["我视天地为三，其为众妙之门。", "昔年孔明有言，宁静方能致远。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-04_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-04_2_2.mp3"
+				]
+			}, {
+				"name": "中流",
+				"descriptions": ["上善若水，中流而引全局。", "泽物无声，此真名士风流。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wang-04_3_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wang-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["人间多锦绣，奈何我云不喜。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wang-04_dead.mp3"]
+			}]
+		}
+	}
+}
