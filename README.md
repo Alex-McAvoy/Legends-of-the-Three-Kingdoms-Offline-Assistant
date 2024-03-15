@@ -28,26 +28,7 @@
 </p>
 
 
-
-
-
-
-
-## 目录
-
-- [说明](#说明)
-- [起源](#起源)
-- [开源协议](#开源协议)
-- [开发指南](#开发指南)
-- [文件目录说明](#文件目录说明)
-- [工具](#工具)
-- [部署](#部署)
-- [待开发特性](#待开发特性)
-- [待处理Bug](#待处理Bug)
-- [贡献者](#贡献者)
-- [如何参与](#如何参与)
-- [使用框架](#使用框架)
-- [鸣谢](#鸣谢)
+[TOC]
 
 ## 说明
 
@@ -59,7 +40,17 @@
 
 另考虑服务器成本，本项目目前为**静态项目**
 
-## 起源
+## 效果展示
+
+<p align="center">
+  <img src="images/1.jpg" alt="Logo" height="300">
+  <img src="images/2.jpg" alt="Logo" height="300">
+  <img src="images/3.jpg" alt="Logo" height="300">
+  <img src="images/4.jpg" alt="Logo" height="300">
+  <img src="images/5.jpg" alt="Logo" height="300">
+</p>
+
+## 项目起源
 
 最早接触三国杀是 11 年，但关于那时的记忆已经消散地差不多了。上高中后，有幸认识一帮好友，每天中午去学校附近的麦当劳吃饭，然后打三国杀，假期聚会时，也大多是在桌游吧打一天的三国杀
 
@@ -77,6 +68,8 @@
 
 ## 开发指南
 
+### 项目运行
+
 1. 克隆项目
 
 ```sh
@@ -90,7 +83,7 @@ cd ./Legends-of-the-Three-Kingdoms-Offline-Assistant
 npm i
 ```
 
-## 文件目录说明
+### 文件目录说明
 
 ```
 filetree 
@@ -121,7 +114,7 @@ filetree
 
 ```
 
-## 工具
+### 工具
 
 `online-video-spider.py` 三国杀 Online 语音爬取脚本
 
@@ -137,13 +130,21 @@ python online-video-spider.py 游戏武将编号 实际编号 技能数 [--save_
 python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex/Desktop/mp3
 ```
 
-## 部署
+### 部署
 
 暂无
 
-## 待开发特性
+### 使用框架
+
+- [uniapp](https://uniapp.dcloud.net.cn/)
+- [uView 2.0.36](https://uviewui.com/components/intro.html)
+
+## 待处理
+
+### 新特性
 
 - [ ] 技能描述中，锁定技、主公技、限定技、转换技、隐匿解释
+- [ ] 武将故事
 - [ ] 技能描述排版
 - [ ] Online 国战图鉴
 - [ ] 十周年武将图鉴
@@ -153,18 +154,20 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 - [ ] 首页
 - [ ] 我的
 
-## 待处理Bug
+### Bug
 
 - [ ] Online 族吴乔无配音
 - [ ] Online 谋姜维无困奋、诈降语音
 - [ ] Online 兀突骨血量显示异常、燃殇与死亡语音声音小
 - [ ] Online 郭槐死亡语音重复两遍
 
-## 贡献者
+## 参与项目
+
+### 贡献者
 
 Nancy-月皎：提供部分可行的建议
 
-## 如何参与
+### 如何参与
 
 项目组全体成员十分欢迎您为本项目贡献页面
 
@@ -189,11 +192,6 @@ Nancy-月皎：提供部分可行的建议
 - `Update`：更新现有模块
 - `Refactor`：对一个页面/模块进行重构（较大规模的更改）
 - `Revert`：回退之前的更改
-
-## 使用框架
-
-- [uniapp](https://uniapp.dcloud.net.cn/)
-- [uView 2.0.36](https://uviewui.com/components/intro.html)
 
 ## 鸣谢
 
