@@ -5,7 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Download][download-shield]][download-url]
+[![Download][Download-shield]][download-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -211,4 +211,3 @@ Nancy-月皎：提供部分可行的建议
 [issues-shield]: https://img.shields.io/github/issues/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant.svg
 [download-url]: https://img.shields.io/github/downloads/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/total.svg
-
