@@ -5,7 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Download][Download-shield]][download-url]
+[![Downloads][Download-shield]][download-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -210,4 +210,5 @@ Nancy-月皎：提供部分可行的建议
 [stars-url]: https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant.svg
-[download-url]: https://img.shields.io/github/downloads/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/total.svg
+[download-shield]: https://img.shields.io/github/downloads/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/total.svg
+[download-url]: https://tooomm.github.io/github-release-stats/?username=Alex-McAvoy&repository=Legends-of-the-Three-Kingdoms-Offline-Assistant
