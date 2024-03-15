@@ -1705,167 +1705,167 @@
 			{
 				"index": 5,
 				"name": "虎贲",
-				"lampClass": "can-xiao-lamp can-ben-lamp",
-				"titleClass": "can-title can-ben-title",
+				"lampClass": "can-xiao-lamp can-hu-lamp",
+				"titleClass": "can-title can-hu-title",
 				"militaries": [{
-						"id": "can-ben-01",
-						"avatarClass": "can-ben-01 can-avatar"
+						"id": "can-hu-01",
+						"avatarClass": "can-hu-01 can-avatar"
 					},
 					{
-						"id": "can-ben-02",
-						"avatarClass": "can-ben-02 can-avatar"
+						"id": "can-hu-02",
+						"avatarClass": "can-hu-02 can-avatar"
 					},
 					{
-						"id": "can-ben-03",
-						"avatarClass": "can-ben-03 can-avatar"
+						"id": "can-hu-03",
+						"avatarClass": "can-hu-03 can-avatar"
 					},
 					{
-						"id": "can-ben-04",
-						"avatarClass": "can-ben-04 can-avatar"
+						"id": "can-hu-04",
+						"avatarClass": "can-hu-04 can-avatar"
 					},
 					{
-						"id": "can-ben-05",
-						"avatarClass": "can-ben-05 can-avatar"
+						"id": "can-hu-05",
+						"avatarClass": "can-hu-05 can-avatar"
 					},
 					{
-						"id": "can-ben-06",
-						"avatarClass": "can-ben-06 can-avatar"
+						"id": "can-hu-06",
+						"avatarClass": "can-hu-06 can-avatar"
 					},
 					{
-						"id": "can-ben-07",
-						"avatarClass": "can-ben-07 can-avatar"
+						"id": "can-hu-07",
+						"avatarClass": "can-hu-07 can-avatar"
 					},
 					{
-						"id": "can-ben-08",
-						"avatarClass": "can-ben-08 can-avatar"
+						"id": "can-hu-08",
+						"avatarClass": "can-hu-08 can-avatar"
 					},
 					{
-						"id": "can-ben-09",
-						"avatarClass": "can-ben-09 can-avatar"
+						"id": "can-hu-09",
+						"avatarClass": "can-hu-09 can-avatar"
 					},
 					{
-						"id": "can-ben-10",
-						"avatarClass": "can-ben-10 can-avatar"
+						"id": "can-hu-10",
+						"avatarClass": "can-hu-10 can-avatar"
 					},
 					{
-						"id": "can-ben-11",
-						"avatarClass": "can-ben-11 can-avatar"
+						"id": "can-hu-11",
+						"avatarClass": "can-hu-11 can-avatar"
 					},
 					{
-						"id": "can-ben-12",
-						"avatarClass": "can-ben-12 can-avatar"
+						"id": "can-hu-12",
+						"avatarClass": "can-hu-12 can-avatar"
 					},
 					{
-						"id": "can-ben-13",
-						"avatarClass": "can-ben-13 can-avatar"
+						"id": "can-hu-13",
+						"avatarClass": "can-hu-13 can-avatar"
 					},
 					{
-						"id": "can-ben-14",
-						"avatarClass": "can-ben-14 can-avatar"
+						"id": "can-hu-14",
+						"avatarClass": "can-hu-14 can-avatar"
 					},
 					{
-						"id": "can-ben-15",
-						"avatarClass": "can-ben-15 can-avatar"
+						"id": "can-hu-15",
+						"avatarClass": "can-hu-15 can-avatar"
 					},
 					{
-						"id": "can-ben-16",
-						"avatarClass": "can-ben-16 can-avatar"
+						"id": "can-hu-16",
+						"avatarClass": "can-hu-16 can-avatar"
 					},
 					{
-						"id": "can-ben-17",
-						"avatarClass": "can-ben-17 can-avatar"
+						"id": "can-hu-17",
+						"avatarClass": "can-hu-17 can-avatar"
 					},
 					{
-						"id": "can-ben-18",
-						"avatarClass": "can-ben-18 can-avatar"
+						"id": "can-hu-18",
+						"avatarClass": "can-hu-18 can-avatar"
 					},
 					{
-						"id": "can-ben-19",
-						"avatarClass": "can-ben-19 can-avatar"
+						"id": "can-hu-19",
+						"avatarClass": "can-hu-19 can-avatar"
 					},
 					{
-						"id": "can-ben-20",
-						"avatarClass": "can-ben-20 can-avatar"
+						"id": "can-hu-20",
+						"avatarClass": "can-hu-20 can-avatar"
 					},
 					{
-						"id": "can-ben-21",
-						"avatarClass": "can-ben-21 can-avatar"
+						"id": "can-hu-21",
+						"avatarClass": "can-hu-21 can-avatar"
 					},
 					{
-						"id": "can-ben-22",
-						"avatarClass": "can-ben-22 can-avatar"
+						"id": "can-hu-22",
+						"avatarClass": "can-hu-22 can-avatar"
 					},
 					{
-						"id": "can-ben-23",
-						"avatarClass": "can-ben-23 can-avatar"
+						"id": "can-hu-23",
+						"avatarClass": "can-hu-23 can-avatar"
 					},
 					{
-						"id": "can-ben-24",
-						"avatarClass": "can-ben-24 can-avatar"
+						"id": "can-hu-24",
+						"avatarClass": "can-hu-24 can-avatar"
 					},
 					{
-						"id": "can-ben-25",
-						"avatarClass": "can-ben-25 can-avatar"
+						"id": "can-hu-25",
+						"avatarClass": "can-hu-25 can-avatar"
 					},
 					{
-						"id": "can-ben-26",
-						"avatarClass": "can-ben-26 can-avatar"
+						"id": "can-hu-26",
+						"avatarClass": "can-hu-26 can-avatar"
 					},
 					{
-						"id": "can-ben-27",
-						"avatarClass": "can-ben-27 can-avatar"
+						"id": "can-hu-27",
+						"avatarClass": "can-hu-27 can-avatar"
 					},
 					{
-						"id": "can-ben-28",
-						"avatarClass": "can-ben-28 can-avatar"
+						"id": "can-hu-28",
+						"avatarClass": "can-hu-28 can-avatar"
 					},
 					{
-						"id": "can-ben-29",
-						"avatarClass": "can-ben-29 can-avatar"
+						"id": "can-hu-29",
+						"avatarClass": "can-hu-29 can-avatar"
 					},
 					{
-						"id": "can-ben-30",
-						"avatarClass": "can-ben-30 can-avatar"
+						"id": "can-hu-30",
+						"avatarClass": "can-hu-30 can-avatar"
 					},
 					{
-						"id": "can-ben-31",
-						"avatarClass": "can-ben-31 can-avatar"
+						"id": "can-hu-31",
+						"avatarClass": "can-hu-31 can-avatar"
 					},
 					{
-						"id": "can-ben-32",
-						"avatarClass": "can-ben-32 can-avatar"
+						"id": "can-hu-32",
+						"avatarClass": "can-hu-32 can-avatar"
 					},
 					{
-						"id": "can-ben-33",
-						"avatarClass": "can-ben-33 can-avatar"
+						"id": "can-hu-33",
+						"avatarClass": "can-hu-33 can-avatar"
 					},
 					{
-						"id": "can-ben-34",
-						"avatarClass": "can-ben-34 can-avatar"
+						"id": "can-hu-34",
+						"avatarClass": "can-hu-34 can-avatar"
 					},
 					{
-						"id": "can-ben-35",
-						"avatarClass": "can-ben-35 can-avatar"
+						"id": "can-hu-35",
+						"avatarClass": "can-hu-35 can-avatar"
 					},
 					{
-						"id": "can-ben-36",
-						"avatarClass": "can-ben-36 can-avatar"
+						"id": "can-hu-36",
+						"avatarClass": "can-hu-36 can-avatar"
 					},
 					{
-						"id": "can-ben-37",
-						"avatarClass": "can-ben-37 can-avatar"
+						"id": "can-hu-37",
+						"avatarClass": "can-hu-37 can-avatar"
 					},
 					{
-						"id": "can-ben-38",
-						"avatarClass": "can-ben-38 can-avatar"
+						"id": "can-hu-38",
+						"avatarClass": "can-hu-38 can-avatar"
 					},
 					{
-						"id": "can-ben-39",
-						"avatarClass": "can-ben-39 can-avatar"
+						"id": "can-hu-39",
+						"avatarClass": "can-hu-39 can-avatar"
 					},
 					{
-						"id": "can-ben-40",
-						"avatarClass": "can-ben-40 can-avatar"
+						"id": "can-hu-40",
+						"avatarClass": "can-hu-40 can-avatar"
 					}
 				]
 			},
