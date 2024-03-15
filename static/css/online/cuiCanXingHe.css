@@ -47,12 +47,12 @@
 .can-da-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/cuiCanXingHe/lamp.png");
 	transform: scale(0.7);
-	animation: mouDaLampFrameAnim steps(1, start) 1s infinite;
+	animation: canDaLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouDaLampFrameAnim {
+@keyframes canDaLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*0);
 	}
@@ -61,14 +61,14 @@
 		background-position: calc(-64px*1) calc(-64px*0);
 	}
 
-	40% {
+    40% {
 		background-position: calc(-64px*2) calc(-64px*0);
 	}
 
 	60% {
 		background-position: calc(-64px*3) calc(-64px*0);
 	}
-
+	
 	80% {
 		background-position: calc(-64px*4) calc(-64px*0);
 	}
@@ -82,15 +82,15 @@
 .can-xiao-lamp {
 	width: 64px;
 	height: 64px;
-	background-image: url("@/static/images/online/mouKuoZhanBao/lamp.png");
+	background-image: url("@/static/images/online/cuiCanXingHe/lamp.png");
 }
 
-/* 谋定天下 */
-.can-can-lamp {
-	animation: mouMouLampFrameAnim steps(1, start) 1s infinite;
+/* 天极 */
+.can-ji-lamp {
+	animation: canJiLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouMouLampFrameAnim {
+@keyframes canJiLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*1);
 	}
@@ -117,12 +117,12 @@
 
 }
 
-/* 武动乾坤 */
-.can-wu-lamp {
-	animation: mouWuLampFrameAnim steps(1, start) 1s infinite;
+/* 四弼 */
+.can-bi-lamp {
+	animation: canBiLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouWuLampFrameAnim {
+@keyframes canBiLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*2);
 	}
@@ -131,7 +131,7 @@
 		background-position: calc(-64px*1) calc(-64px*2);
 	}
 
-	40% {
+ 	40% {
 		background-position: calc(-64px*2) calc(-64px*2);
 	}
 
@@ -149,12 +149,12 @@
 
 }
 
-/* 奋勇扬威 */
-.can-wei-lamp {
-	animation: mouWeiLampFrameAnim steps(1, start) 1s infinite;
+/* 天柱 */
+.can-zhu-lamp {
+	animation: canZhuLampFrameAnim steps(1, start) 1s infinite;
 }
 
-@keyframes mouWeiLampFrameAnim {
+@keyframes canZhuLampFrameAnim {
 	0% {
 		background-position: calc(-64px*0) calc(-64px*3);
 	}
@@ -163,7 +163,7 @@
 		background-position: calc(-64px*1) calc(-64px*3);
 	}
 
-	40% {
+ 	40% {
 		background-position: calc(-64px*2) calc(-64px*3);
 	}
 
@@ -177,6 +177,136 @@
 
 	100% {
 		background-position: calc(-64px*5) calc(-64px*3);
+	}
+
+}
+
+/* 女史 */
+.can-nv-lamp {
+	animation: canNvLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes canNvLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	}
+
+}
+
+/* 少微 */
+.can-wei-lamp {
+	animation: canWeiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes canWeiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*5);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*5);
+	}
+
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*5);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*5);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*5);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*5);
+	}
+
+}
+
+
+/* 虎贲 */
+.can-hu-lamp {
+	animation: canHuLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes canHuLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*6);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*6);
+	}
+
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*6);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*6);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*6);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*6);
+	}
+
+}
+
+
+/* 列肆 */
+.can-si-lamp {
+	animation: canSiLampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes canSiLampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*7);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*7);
+	}
+
+ 	40% {
+		background-position: calc(-64px*2) calc(-64px*7);
+	}
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*7);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*7);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*7);
 	}
 
 }
