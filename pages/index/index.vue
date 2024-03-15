@@ -6,6 +6,7 @@
 		<view class="container">
 			<h1>首页</h1>
 			<h1>模块建设中</h1>
+			<h1>Developer ：Alex_McAvoy</h1>
 		</view>
 		<mine-tabbar :current="0"></mine-tabbar>
 	</view>
