@@ -43,11 +43,11 @@
 ## 效果展示
 
 <p align="center">
-  <img src="images/1.jpg" alt="Logo" height="300">
-  <img src="images/2.jpg" alt="Logo" height="300">
-  <img src="images/3.jpg" alt="Logo" height="300">
-  <img src="images/4.jpg" alt="Logo" height="300">
-  <img src="images/5.jpg" alt="Logo" height="300">
+  <img src="images/1.jpg" alt="1.jpg" height="300">
+  <img src="images/2.jpg" alt="2.jpg" height="300">
+  <img src="images/3.jpg" alt="3.jpg" height="300">
+  <img src="images/4.jpg" alt="4.jpg" height="300">
+  <img src="images/5.jpg" alt="5.jpg" height="300">
 </p>
 
 ## 项目起源
