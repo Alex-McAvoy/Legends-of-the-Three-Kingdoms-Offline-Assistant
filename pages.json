@@ -14,8 +14,8 @@
 				"navigationStyle": "custom"
 			}
 		}, {
-			// 工具主页
-			"path": "pages/utils/index",
+			// 卡片图鉴主页
+			"path": "pages/card/index",
 			"style": {
 				"navigationStyle": "custom"
 			}
@@ -42,8 +42,8 @@
 				"navigationStyle": "custom"
 			}
 		}, {
-			// 卡片图鉴主页
-			"path": "pages/card/index",
+			// 工具主页
+			"path": "pages/utils/index",
 			"style": {
 				"navigationStyle": "custom"
 			}

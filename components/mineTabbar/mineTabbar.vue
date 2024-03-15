@@ -34,8 +34,8 @@
 						customIcon: false,
 					},
 					{
-						pagePath: "pages/utils/index",
-						text: "工具",
+						pagePath: "pages/card/index",
+						text: "卡牌图鉴",
 						iconPath: "photo",
 						selectedIconPath: "photo-fill",
 						midButton: true,
@@ -50,8 +50,8 @@
 						customIcon: false,
 					},
 					{
-						pagePath: "pages/card/index",
-						text: "卡牌图鉴",
+						pagePath: "pages/utils/index",
+						text: "工具",
 						iconPath: "photo",
 						selectedIconPath: "photo-fill",
 						midButton: true,
