@@ -42,7 +42,7 @@
 - [工具](#工具)
 - [部署](#部署)
 - [待开发特性](#待开发特性)
-- [待处理 Bug](#待处理 Bug)
+- [待处理Bug](#待处理Bug)
 - [贡献者](#贡献者)
 - [如何参与](#如何参与)
 - [使用框架](#使用框架)
@@ -150,7 +150,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 - [ ] 首页
 - [ ] 我的
 
-## 待处理 Bug
+## 待处理Bug
 
 - [ ] Online 族吴乔无配音
 - [ ] Online 谋姜维无困奋、诈降语音
