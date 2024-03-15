@@ -13,7 +13,7 @@
 				</view>
 			</view>
 		</view>
-		<mine-tabbar :current="1"></mine-tabbar>
+		<mine-tabbar :current="2"></mine-tabbar>
 	</view>
 </template>
 

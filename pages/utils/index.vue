@@ -4,10 +4,10 @@
 			<page-search></page-search>
 		</u-sticky>
 		<view class="container">
-			<h1>首页</h1>
+			<h1>工具页</h1>
 			<h1>模块建设中</h1>
 		</view>
-		<mine-tabbar :current="0"></mine-tabbar>
+		<mine-tabbar :current="1"></mine-tabbar>
 	</view>
 </template>
 

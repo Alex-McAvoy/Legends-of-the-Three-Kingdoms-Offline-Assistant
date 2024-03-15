@@ -14,13 +14,19 @@
 				"navigationStyle": "custom"
 			}
 		}, {
-			// 图鉴主页
+			// 工具主页
+			"path": "pages/utils/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 武将图鉴主页
 			"path": "pages/archive/index",
 			"style": {
 				"navigationStyle": "custom"
 			}
 		}, {
-			// 图鉴详情页
+			// 武将图鉴详情页
 			"path": "pages/archive/list",
 			"style": {
 				"navigationBarTitleText": "",
@@ -33,6 +39,12 @@
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			// 卡片图鉴主页
+			"path": "pages/card/index",
+			"style": {
 				"navigationStyle": "custom"
 			}
 		}, {
@@ -49,8 +61,14 @@
 			"pagePath": "pages/index/index",
 			"text": "首页"
 		}, {
+			"pagePath": "pages/utils/index",
+			"text": "工具"
+		}, {
 			"pagePath": "pages/archive/index",
-			"text": "图鉴"
+			"text": "武将图鉴"
+		}, {
+			"pagePath": "pages/card/index",
+			"text": "卡牌图鉴"
 		}, {
 			"pagePath": "pages/mine/index",
 			"text": "我的"
