@@ -36,14 +36,16 @@
 
 - [说明](#说明)
 - [起源](#起源)
+- [开源协议](#开源协议)
 - [开发指南](#开发指南)
 - [文件目录说明](#文件目录说明)
 - [工具](#工具)
 - [部署](#部署)
-- [框架](#框架)
-- [开源协议](#开源协议)
+- [待开发特性](#待开发特性)
+- [待处理 Bug](#待处理 Bug)
 - [贡献者](#贡献者)
 - [如何参与](#如何参与)
+- [使用框架](#使用框架)
 - [鸣谢](#鸣谢)
 
 ## 说明
@@ -67,6 +69,10 @@
 前段时间聚会，一个朋友说，现在三国杀三个服务器，武将越出越多技能越来越长，有时候同一个武将在不同服务器上技能还不一样，每次打面杀看武将技能都像在读小作文，武将起源故事、台词也不知道是什么，没有之前有意思了
 
 我想了想，于是，就有了这个项目
+
+## 开源协议
+
+本项目开源协议为 [No License](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwigkv-KtMT0AhXFdXAKHdI4BCcQFnoECAQQAw&url=https%3A%2F%2Fchoosealicense.com%2Fno-permission%2F&usg=AOvVaw3M2Q4IbdhnpJ2K71TF7SPB)，这意味着可以随意的 fork 和使用，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系作者，望理解
 
 ## 开发指南
 
@@ -134,14 +140,22 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 暂无
 
-## 框架
+## 待开发特性
 
-- [uniapp](https://uniapp.dcloud.net.cn/)
-- [uView 2.0.36](https://uviewui.com/components/intro.html)
+- [ ] Online 国战图鉴
+- [ ] 十周年武将图鉴
+- [ ] 移动版武将图鉴
+- [ ] 卡牌图鉴
+- [ ] 工具
+- [ ] 首页
+- [ ] 我的
 
-## 开源协议
+## 待处理 Bug
 
-本项目开源协议为 [No License](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwigkv-KtMT0AhXFdXAKHdI4BCcQFnoECAQQAw&url=https%3A%2F%2Fchoosealicense.com%2Fno-permission%2F&usg=AOvVaw3M2Q4IbdhnpJ2K71TF7SPB)，这意味着可以随意的 fork 和使用，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系作者，望理解
+- [ ] Online 族吴乔无配音
+- [ ] Online 谋姜维无困奋、诈降语音
+- [ ] Online 兀突骨血量显示异常、燃殇与死亡语音声音小
+- [ ] Online 郭槐死亡语音重复两遍
 
 ## 贡献者
 
@@ -172,6 +186,11 @@ Nancy-月皎：提供部分可行的建议
 - `Update`：更新现有模块
 - `Refactor`：对一个页面/模块进行重构（较大规模的更改）
 - `Revert`：回退之前的更改
+
+## 使用框架
+
+- [uniapp](https://uniapp.dcloud.net.cn/)
+- [uView 2.0.36](https://uviewui.com/components/intro.html)
 
 ## 鸣谢
 
