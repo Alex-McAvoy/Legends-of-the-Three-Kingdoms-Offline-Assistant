@@ -143,6 +143,8 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ## 待开发特性
 
+- [ ] 技能描述中，锁定技、主公技、限定技、转换技、隐匿解释
+- [ ] 技能描述排版
 - [ ] Online 国战图鉴
 - [ ] 十周年武将图鉴
 - [ ] 移动版武将图鉴
