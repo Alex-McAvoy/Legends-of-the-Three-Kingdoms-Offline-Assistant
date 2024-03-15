@@ -26,6 +26,8 @@
     <a href="https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases">发行说明</a>
   </p>
 </p>
+
+
 ## 目录
 
 1. [说明](#说明)
