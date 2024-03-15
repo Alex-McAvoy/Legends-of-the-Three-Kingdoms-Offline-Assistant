@@ -1,0 +1,5371 @@
+{
+	"index": 6,
+	"name": "璀璨星河",
+	"militaries": {
+		"can-ji-01": {
+			"index": 0,
+			"name": "孙皓",
+			"force": "wu",
+			"magatama": {
+				"actual": 5,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-01.png",
+			"skills": [{
+				"name": "残蚀",
+				"descriptions": "摸牌阶段，你可以多摸X张牌（X为已受伤的角色数），然后当你本回合使用【杀】或普通锦囊牌时，你弃置一张牌。"
+			}, {
+				"name": "仇海",
+				"descriptions": "锁定技，当你受到伤害时，若你没有手牌，此伤害+1。"
+			}, {
+				"name": "归命",
+				"descriptions": "主公技，锁定技，当你发动“残蚀”时，其他吴势力角色视为已受伤。"
+			}],
+			"dialogues": [{
+				"name": "残蚀",
+				"descriptions": ["众人与蝼蚁何异？呵呵呵。", "难道，一切不在朕手中？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-01_1_2.mp3"
+				]
+			}, {
+				"name": "仇海",
+				"descriptions": ["哼！树敌三千又如何？", "不发狂，就灭亡！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-01_2_2.mp3"
+				]
+			}, {
+				"name": "归命",
+				"descriptions": ["这是要我命归黄泉吗！", "这就是末世皇帝的不归路！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-01_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-01_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["命啊！命！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-01_dead.mp3"]
+			}]
+		},
+		"can-ji-02": {
+			"index": 1,
+			"name": "刘协",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-02.png",
+			"skills": [{
+				"name": "天命",
+				"descriptions": "当你成为【杀】的目标后，你可以弃置两张牌（不足则全弃，无牌则不弃），摸两张牌，然后全场体力值唯一最多的其他角色也可以如此做。"
+			}, {
+				"name": "密诏",
+				"descriptions": "出牌阶段限一次，你可以将所有手牌交给一名其他角色，令其与你选择的另一名其他角色拼点。赢的角色视为对没赢的角色使用一张【杀】。"
+			}],
+			"dialogues": [{
+				"name": "天命",
+				"descriptions": ["朕乃大汉皇帝，天命之子！", "皇汉国祚，千年不息。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-02_1_2.mp3"
+				]
+			}, {
+				"name": "密诏",
+				"descriptions": ["爱卿世受皇恩，堪此重任。", "此诏事关重大，切记小心行事。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["为什么不把复兴汉室的权力交给我……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-02_dead.mp3"]
+			}]
+		},
+		"can-ji-03": {
+			"index": 2,
+			"name": "曹昂",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-03.png",
+			"skills": [{
+				"name": "慷忾",
+				"descriptions": "当一名角色成为【杀】的目标后，若你与其距离1以内，你可以摸一张牌，然后交给其一张牌并展示之。若此牌为装备牌，该角色可以使用此牌。"
+			}],
+			"dialogues": [{
+				"name": "慷忾",
+				"descriptions": ["典将军，比比看谁杀敌更多！", "父亲快走，有我殿后！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-03_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["典将军，还是你赢了……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-03_dead.mp3"]
+			}]
+		},
+		"can-ji-04": {
+			"index": 3,
+			"name": "何太后",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-04.png",
+			"skills": [{
+				"name": "鸩毒",
+				"descriptions": "一名角色的出牌阶段开始时，你可以弃置一张手牌，然后该角色视为使用一张【酒】，若该角色不是你，你对其造成1点伤害。"
+			}, {
+				"name": "戚乱",
+				"descriptions": "一名角色的回合结束时，你可以摸X张牌（X为你本回合杀死的角色数的3倍+本回合死亡且不是你杀死的角色的数量）。"
+			}],
+			"dialogues": [{
+				"name": "鸩毒",
+				"descriptions": ["怪只怪你，不该生有皇子！", "后宫之中，岂有你的位置？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-04_1_2.mp3"
+				]
+			}, {
+				"name": "戚乱",
+				"descriptions": ["带我召吾兄入宫，谁敢不从！", "本后自有哥哥在外照应，有什么好担心的？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["你们男人造的孽，非要说什么红颜祸水！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-04_dead.mp3"]
+			}]
+		},
+		"can-ji-05": {
+			"index": 4,
+			"name": "孙鲁育",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-05.png",
+			"skills": [{
+				"name": "魅步",
+				"descriptions": "其他角色的出牌阶段开始时，若你在其攻击范围内，你可以弃置一张牌，令该角色本阶段视为拥有技能“止息”，然后若你以此法弃置的牌不为【杀】或黑色锦囊牌，其本阶段计算与你的距离视为1。"
+			}, {
+				"name": "穆穆",
+				"descriptions": "出牌阶段开始时，你可以选择一项：1.弃置场上的一张装备牌；2.获得场上的一张防具牌且你本阶段不能使用或打出【杀】。"
+			}, {
+				"name": "☆ 止息",
+				"descriptions": "锁定技，你的出牌阶段内：1.当你使用第X张牌后；2.当你使用锦囊牌结算结束后，你本阶段不能再使用牌（X为你的体力值）。"
+			}],
+			"dialogues": [{
+				"name": "魅步",
+				"descriptions": ["萧墙之乱，宫闱之衅，实为吴国之祸啊！", "若要动手，就请先杀我吧！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-05_1_2.mp3"
+				]
+			}, {
+				"name": "穆穆",
+				"descriptions": ["立储乃国家大事，我们姐妹不便参与。", "只求相夫教子，不求参政议事。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-05_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["姐姐，你且好自为之。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-05_dead.mp3"]
+			}]
+		},
+		"can-ji-06": {
+			"index": 5,
+			"name": "王荣",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-06.png",
+			"skills": [{
+				"name": "丰姿",
+				"descriptions": "出牌阶段限一次，当你使用基本牌或普通锦囊牌时，你可弃置一张同类型的手牌，令此牌效果额外执行一次。"
+			}, {
+				"name": "吉占",
+				"descriptions": "摸牌阶段，你可以改为展示牌堆顶的一张牌，猜测牌堆顶的下一张牌点数大于或小于此牌，然后展示之，若你猜对，你可以重复此流程。你获得你以此法展示的所有牌。"
+			}, {
+				"name": "赋颂",
+				"descriptions": "当你死亡时，你可令一名体力上限大于你的角色选择一项：1.获得技能“丰姿”；2.获得技能“吉占”。"
+			}],
+			"dialogues": [{
+				"name": "丰姿",
+				"descriptions": ["丰姿秀丽，礼法不失。", "倩影姿态，悄然入心。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-06_1_2.mp3"
+				]
+			}, {
+				"name": "吉占",
+				"descriptions": ["得吉占之兆，延福运之气。", "吉占逢时，化险为夷。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-06_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-06_2_2.mp3"
+				]
+			}, {
+				"name": "赋颂",
+				"descriptions": ["陛下垂爱，妾身方有此位。", "长情颂，君王恩。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-06_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-06_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["只求吾儿，一生平安……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-06_dead.mp3"]
+			}]
+		},
+		"can-ji-07": {
+			"index": 6,
+			"name": "刘琦",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-07.png",
+			"skills": [{
+				"name": "问计",
+				"descriptions": "出牌阶段开始时，你可以令一名其他角色交给你一张牌，然后你本回合使用与此牌牌名相同的牌不能被其他角色响应。"
+			}, {
+				"name": "屯江",
+				"descriptions": "结束阶段，若你本回合未跳过出牌阶段且你于本回合的出牌阶段内未使用牌指定过其他角色为目标，你可以摸X张牌（X为全场势力数）。"
+			}],
+			"dialogues": [{
+				"name": "问计",
+				"descriptions": ["还望先生救我！", "言出子口，入于吾耳，可以言未？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-07_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-07_1_2.mp3"
+				]
+			}, {
+				"name": "屯江",
+				"descriptions": ["江夏冲要之地，孩儿愿往守之。", "皇叔勿惊，吾与关将军已到！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-07_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["父亲……孩儿来见你了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-07_dead.mp3"]
+			}]
+		},
+		"can-ji-08": {
+			"index": 7,
+			"name": "曹蒿",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-08.png",
+			"skills": [{
+				"name": "礼赂",
+				"descriptions": "摸牌阶段，你可以改为将手牌摸至体力上限（至多摸至五张），然后交给一名其他角色至少一张手牌。若你给出的牌数大于你上一次以此法给出的牌数，你加1点体力上限并回复1点体力。"
+			}, {
+				"name": "翊正",
+				"descriptions": "结束阶段，你可以选择一名其他角色（直到你的下回合开始）。当该角色造成伤害或回复体力时，若其体力上限小于你，你减1点体力上限，然后此伤害值或回复值+1。"
+			}],
+			"dialogues": [{
+				"name": "礼赂",
+				"descriptions": ["乱狱滋丰，以礼赂之。", "微薄之礼，聊表敬意！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-08_1_2.mp3"
+				]
+			}, {
+				"name": "翊正",
+				"descriptions": ["玉树盈阶，望子成龙！", "择善者，翊赞季兴。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-08_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["孟德，勿忘汝父之仇！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-08_dead.mp3"]
+			}]
+		},
+		"can-ji-09": {
+			"index": 8,
+			"name": "左棻",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-09.png",
+			"skills": [{
+				"name": "诏颂",
+				"descriptions": "①其他角色的摸牌阶段结束时，若其没有下列标记，你可以令其展示并交给你一张手牌，根据此牌类别获得对应标记：锦囊牌-“诔”标记；装备牌-“赋”标记；基本牌-“颂”标记。②拥有标记的角色可以于该角色的对应时机移去此标记，然后执行对应效果：“诔”标记-进入濒死状态时-将体力值回复至1点，摸一张牌；“赋”标记-出牌阶段开始时-弃置一名角色区域里的至多两张牌；“颂”标记-使用【杀】仅指定一个目标时-为此【杀】额外选择至多两个目标。"
+			}, {
+				"name": "离思",
+				"descriptions": "当你于回合外使用的牌结算结束后置入弃牌堆时，你可以将此牌交给一名手牌数不大于你的其他角色。"
+			}],
+			"dialogues": [{
+				"name": "诏颂",
+				"descriptions": ["领诏者，可上而颂之。", "今为诏，以上告下也。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-09_1_2.mp3"
+				]
+			}, {
+				"name": "离思",
+				"descriptions": ["骨肉至亲，化为他人。", "梦想魂归，见所思兮。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["惨怆愁悲……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-09_dead.mp3"]
+			}]
+		},
+		"can-ji-10": {
+			"index": 9,
+			"name": "卞夫人",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-10.png",
+			"skills": [{
+				"name": "挽危",
+				"descriptions": "每回合限一次，当你因被其他角色弃置或获得而失去牌后，你可以获得牌堆中一张与之牌名相同的牌（若牌堆中没有，你改为摸一张牌）。"
+			}, {
+				"name": "约俭",
+				"descriptions": "每回合限两次，当其他角色对你使用的牌置入弃牌堆时，你可以展示所有手牌，若你的手牌中包含的花色与此牌均不同，你获得此牌。"
+			}],
+			"dialogues": [{
+				"name": "挽危",
+				"descriptions": ["梁、沛之间，非子廉无有今日。", "正使祸至，共死何苦！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-10_1_2.mp3"
+				]
+			}, {
+				"name": "约俭",
+				"descriptions": ["无文绣珠玉，器皆黑漆。", "性情约俭，不尚华丽。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["心肝涂地，惊愕断绝。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-10_dead.mp3"]
+			}]
+		},
+		"can-ji-11": {
+			"index": 10,
+			"name": "刘辩",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-11.png",
+			"skills": [{
+				"name": "诗怨",
+				"descriptions": "每回合每项限一次，当你成为其他角色使用牌的目标后，若该角色的体力值：1.大于你，你可以摸三张牌；2.等于你，你可以摸两张牌；3.小于你，你可以摸一张牌。"
+			}, {
+				"name": "毒逝",
+				"descriptions": "锁定技，①当你进入濒死状态时，其他角色不能对你使用【桃】直到此次濒死结算结束；②当你死亡时，你令一名其他角色获得此技能。"
+			}, {
+				"name": "余威",
+				"descriptions": "主公技，锁定技，其他群势力角色的回合内，“诗怨”改为“每回合每项限两次”。"
+			}],
+			"dialogues": [{
+				"name": "诗怨",
+				"descriptions": ["感怀诗于前，绝怨赋于后。", "汉宫楚歌起，四面无援矣。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-11_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-11_1_2.mp3"
+				]
+			}, {
+				"name": "毒逝",
+				"descriptions": ["孤无病，此药无需服。", "辟恶之毒，为最毒。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-11_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-11_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["侯非侯，王非王。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-11_dead.mp3"]
+			}]
+		},
+		"can-ji-12": {
+			"index": 11,
+			"name": "清河公主",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-12.png",
+			"skills": [{
+				"name": "谮构",
+				"descriptions": "当你攻击范围内一名角色使用【闪】时，你可以弃置一张非基本牌或失去1点体力，令此【闪】无效，然后你获得之。"
+			}, {
+				"name": "长姬",
+				"descriptions": "一名角色的结束阶段，若你本回合：造成过伤害，你可以令其摸两张牌；受到过伤害，你可以令其弃置两张牌。"
+			}],
+			"dialogues": [{
+				"name": "谮构",
+				"descriptions": ["此书定能置夏侯楙于死地。", "夏侯违制，请君上定夺。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-12_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-12_1_2.mp3"
+				]
+			}, {
+				"name": "长姬",
+				"descriptions": ["魏武有子数十，唯我最长。", "长姐为大，众弟怎可悖之？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-12_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-12_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我言非虚，君上何疑于我？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-12_dead.mp3"]
+			}]
+		},
+		"can-ji-13": {
+			"index": 12,
+			"name": "唐姬",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-13.png",
+			"skills": [{
+				"name": "抗歌",
+				"descriptions": "你的第一个回合开始时，你选择一名其他角色：1.当该角色于其回合外获得牌时，你摸等量的牌（每回合至多摸三张）；2.每轮限一次，当该角色进入濒死状态时，你可以令其回复体力至1点；3.当该角色死亡时，你弃置所有牌并失去1点体力。"
+			}, {
+				"name": "节烈",
+				"descriptions": "当其他角色对你造成伤害时，若其不是“抗歌”角色，你可以防止此伤害，失去X点体力并选择一种花色，然后令“抗歌”角色从弃牌堆中随机获得X张此花色的牌（X为此次伤害的伤害值）。"
+			}],
+			"dialogues": [{
+				"name": "抗歌",
+				"descriptions": ["慷慨悲歌，以抗凶逆。", "忧惶昼夜，抗之以歌。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-13_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-13_1_2.mp3"
+				]
+			}, {
+				"name": "节烈",
+				"descriptions": ["节烈之妇，从一而终也！", "清闲贞静，守节整齐。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-13_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-13_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["皇天崩兮后土颓。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-13_dead.mp3"]
+			}]
+		},
+		"can-ji-14": {
+			"index": 13,
+			"name": "刘宏",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-14.png",
+			"skills": [{
+				"name": "鬻爵",
+				"descriptions": "出牌阶段限一次，你可以废除你的一个装备栏，并选择一名有手牌的其他角色，令其交给你一张手牌，然后其获得技能“执笏”直到你的下个回合开始。"
+			}, {
+				"name": "图兴",
+				"descriptions": "锁定技，①当你废除一个装备栏时，你加1点体力上限并回复1点体力。②当你首次废除所有装备栏后，你减4点体力上限，然后你本局游戏接下来造成的伤害+1。"
+			}, {
+				"name": "☆ 执笏",
+				"descriptions": "锁定技，每回合限两次，当你对其他角色造成伤害后，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "鬻爵",
+				"descriptions": ["国库空虚，鬻爵可解。", "卖官鬻爵，酣歌畅饮。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-14_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-14_1_2.mp3"
+				]
+			}, {
+				"name": "图兴",
+				"descriptions": ["国之兴亡，休戚相关。", "兴业安民，宏图可绘。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-14_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-14_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["权利的滋味，让人沉沦。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-14_dead.mp3"]
+			}]
+		},
+		"can-ji-15": {
+			"index": 14,
+			"name": "滕芳兰",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-15.png",
+			"skills": [{
+				"name": "落宠",
+				"descriptions": "准备阶段，或当你每回合第一次受到伤害后，你可以选择一名角色并选择一项（每轮每个选项与每名角色各限一次）：1.令其回复1点体力；2.令其失去1点体力；3.令其弃置两张牌；4.令其摸两张牌。"
+			}, {
+				"name": "哀尘",
+				"descriptions": "锁定技，当你进入濒死状态时，若“落宠”的选项数大于1，你移除一个选项。"
+			}],
+			"dialogues": [{
+				"name": "落宠",
+				"descriptions": ["宠至莫言非，思移难恃貌。", "君王一时情，安有恩长久。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-15_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-15_1_2.mp3"
+				]
+			}, {
+				"name": "哀尘",
+				"descriptions": ["泪干红落面，心结发垂头。", "思君应叹息，苦泪无言垂。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-15_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-15_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["封侯归命，夫妻同归。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-15_dead.mp3"]
+			}]
+		},
+		"can-ji-16": {
+			"index": 15,
+			"name": "芮姬",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-16.png",
+			"skills": [{
+				"name": "巧力",
+				"descriptions": "出牌阶段，你可以选择一项（每个选项每阶段限一次）：1.将一张武器牌当【决斗】使用，当此牌对目标角色造成伤害后，你摸X张牌（X为此牌的攻击范围），然后你可以将其中任意张牌交给任意名其他角色；2.将一张非武器装备牌当【决斗】使用且此牌不能被响应，然后于结束阶段随机获得一张装备牌。"
+			}, {
+				"name": "清靓",
+				"descriptions": "每回合限一次，当你成为其他角色使用的伤害牌的唯一目标时，你可以展示所有手牌并选择一项：1.你与其各摸一张牌；2.弃置一种花色的所有手牌并取消之。"
+			}],
+			"dialogues": [{
+				"name": "巧力",
+				"descriptions": ["别跑，且吃我一斧！", "让我看看，你的能耐。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-16_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-16_1_2.mp3"
+				]
+			}, {
+				"name": "清靓",
+				"descriptions": ["挥斧摇清风，笑颜比朝霞。", "素手抚重斧，飞矢擦靓装。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-16_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-16_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这斧头怎么变这么重了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-16_dead.mp3"]
+			}]
+		},
+		"can-ji-17": {
+			"index": 16,
+			"name": "杜夫人",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-ji-17.png",
+			"skills": [{
+				"name": "异色",
+				"descriptions": "当其他角色获得你的牌后，若此牌为：红色，你可以令其回复1点体力；黑色，其下次受到【杀】造成的伤害+1。"
+			}, {
+				"name": "顺世",
+				"descriptions": "准备阶段，或当你于回合外受到伤害后，你可以交给一名其他角色一张牌（伤害来源除外），然后直到你的下个回合结束，你：摸牌阶段多摸一张牌、出牌阶段使用的【杀】次数上限+1、手牌上限+1。"
+			}],
+			"dialogues": [{
+				"name": "异色",
+				"descriptions": ["明丽端庄，双瞳剪水。", "姿色天然，貌若桃李。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-17_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-17_1_2.mp3"
+				]
+			}, {
+				"name": "顺世",
+				"descriptions": ["顺应时运，得保安康。", "随遇而安，宠辱不惊。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-ji-17_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-ji-17_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["往事云烟，去日苦多。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-17_dead.mp3"]
+			}]
+		},
+		"can-bi-01": {
+			"index": 17,
+			"name": "杨修",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-01.png",
+			"skills": [{
+				"name": "啖酪",
+				"descriptions": "当你成为锦囊牌的目标后，若你不是此牌的唯一目标，你可以摸一张牌，然后此牌对你无效。"
+			}, {
+				"name": "鸡肋",
+				"descriptions": "当你受到伤害后，你可以声明一种牌的类别，本回合伤害来源不能使用、打出或弃置你声明的此类手牌。"
+			}],
+			"dialogues": [{
+				"name": "啖酪",
+				"descriptions": ["来来，一人一口！", "我喜欢！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-01_1_2.mp3"
+				]
+			}, {
+				"name": "鸡肋",
+				"descriptions": ["食之无肉，弃之有味。", "曹公之意，我已了然。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我固自已死之晚也。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-01_dead.mp3"]
+			}]
+		},
+		"can-bi-02": {
+			"index": 18,
+			"name": "陈琳",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-02.png",
+			"skills": [{
+				"name": "笔伐",
+				"descriptions": "①结束阶段，你可以将一张手牌扣置于一名没有“笔伐”牌的其他角色武将牌上；②有“笔伐”牌的角色的回合开始时，其观看此牌并选择一项：1.交给你一张与此牌类别相同的手牌，并获得此牌；2.移去此牌，然后失去1点体力。"
+			}, {
+				"name": "颂词",
+				"descriptions": "出牌阶段，你可以选择一名手牌数不等于体力值的角色（每名角色每局游戏限一次），若该角色的手牌数：小于体力值，其摸两张牌；大于体力值，其弃置两张牌。"
+			}],
+			"dialogues": [{
+				"name": "笔伐",
+				"descriptions": ["笔墨纸砚，皆兵器也！", "汝德行败坏，人所不齿也！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-02_1_2.mp3"
+				]
+			}, {
+				"name": "颂词",
+				"descriptions": ["将军德才兼备，大汉之栋梁也！", "汝窃国奸贼，人人得而诛之！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["来人，我的笔呢……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-02_dead.mp3"]
+			}]
+		},
+		"can-bi-03": {
+			"index": 19,
+			"name": "程昱",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-03.png",
+			"skills": [{
+				"name": "设伏",
+				"descriptions": "①结束阶段，你可以记录一个未被记录的基本牌或锦囊牌的牌名并扣置一张手牌，称为“伏兵”；②你的回合外，当其他角色使用手牌时，你可以移去一张记录牌名相同的“伏兵”，令此牌无效（若此牌有目标角色则改为取消所有目标）。"
+			}, {
+				"name": "贲育",
+				"descriptions": "当你受到伤害后，若你的手牌数：小于X，你可以将手牌摸至X张（最多摸至5张）；大于X，你可以弃置至少X+1张手牌，然后对伤害来源造成1点伤害。（X为伤害来源的手牌数）"
+			}],
+			"dialogues": [{
+				"name": "设伏",
+				"descriptions": ["圈套已设，埋伏已完，只等敌军进来。", "如此天网，量你插翅也难逃！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-03_1_2.mp3"
+				]
+			}, {
+				"name": "贲育",
+				"descriptions": ["曹公智略乃上天所授。", "天下大乱，群雄并起，必有命势！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-03_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此诚报效国家之时，吾却休矣。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-03_dead.mp3"]
+			}]
+		},
+		"can-bi-04": {
+			"index": 20,
+			"name": "士燮",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-04.png",
+			"skills": [{
+				"name": "避乱",
+				"descriptions": "结束阶段，若有其他角色计算与你的距离为1，你可以弃置一张牌，令其他角色计算与你的距离+X（X为全场势力数）。"
+			}, {
+				"name": "礼下",
+				"descriptions": "锁定技，其他角色的结束阶段，若你不在其攻击范围内，你选择一至两项：1.摸一张牌；2.令其摸两张牌；3.令其回复1点体力。选择完成后，其他角色计算与你的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "避乱",
+				"descriptions": ["身处乱世，自保足矣！", "避一时之乱，求长世安稳。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-04_1_2.mp3"
+				]
+			}, {
+				"name": "礼下",
+				"descriptions": ["将军真乃国之栋梁。", "英雄可安身立命于交州之地。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我这一生，足矣。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-04_dead.mp3"]
+			}]
+		},
+		"can-bi-05": {
+			"index": 21,
+			"name": "王允",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-05.png",
+			"skills": [{
+				"name": "连计",
+				"descriptions": "出牌阶段限一次，你可以弃置一张手牌，令一名其他角色使用牌堆中的一张武器牌，然后该角色选择一项：1.对你选择的另一名角色使用一张【杀】；2.令你将其装备区里的武器牌交给一名角色。"
+			}, {
+				"name": "谋逞",
+				"descriptions": "觉醒技，准备阶段，若其他角色因“连计”使用的【杀】造成过伤害，你失去技能“连计”，然后获得技能“矜功”。"
+			}, {
+				"name": "☆ 矜功",
+				"descriptions": "出牌阶段限一次，你可以将一张【杀】或装备牌当普通锦囊牌使用（三选一）。"
+			}],
+			"dialogues": [{
+				"name": "连计",
+				"descriptions": ["两计扣用，以催强势。", "容老夫细细思量。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-05_1_2.mp3"
+				]
+			}, {
+				"name": "谋逞",
+				"descriptions": ["董贼伏诛，天下太平！", "叫天不应，叫地不灵，今天就是你的死期。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-05_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-05_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 矜功",
+				"descriptions": ["董贼旧部，可尽诛之！", "若无老夫之谋，尔等皆化为腐土也。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-05_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-05_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["努力谢关东诸公，勤以国家为念！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-05_dead.mp3"]
+			}]
+		},
+		"can-bi-06": {
+			"index": 22,
+			"name": "伏完",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-06.png",
+			"skills": [{
+				"name": "谋溃",
+				"descriptions": "当你使用【杀】指定一名角色为目标后，你可以选择一项：1.摸一张牌；2.弃置该角色的一张牌。若如此做，当此【杀】被该角色的【闪】抵消时，其弃置你的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "谋溃",
+				"descriptions": ["你的死期到了。", "同归于尽吧。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-06_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["后会有期……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-06_dead.mp3"]
+			}]
+		},
+		"can-bi-07": {
+			"index": 23,
+			"name": "诸葛瑾",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-07.png",
+			"skills": [{
+				"name": "缓释",
+				"descriptions": "当一名角色的判定牌生效前，你可以令其观看你的手牌并选择你的一张牌，然后你打出此牌代替判定牌。"
+			}, {
+				"name": "弘援",
+				"descriptions": "每阶段限一次，当你一次性获得至少两张牌后，你可以交给至多两名其他角色各一张牌。"
+			}, {
+				"name": "明哲",
+				"descriptions": "锁定技，当你于出牌阶段外失去红色牌时，你展示之并摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "缓释",
+				"descriptions": ["缓乐之危急，释兵之困顿。", "尽死生之力，保友邦之安。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-07_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-07_1_2.mp3"
+				]
+			}, {
+				"name": "弘援",
+				"descriptions": ["诸将莫慌，粮草已到。", "自舍其身，施于天下。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-07_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-07_2_2.mp3"
+				]
+			}, {
+				"name": "明哲",
+				"descriptions": ["明以洞察，哲以保身。", "塞翁失马，焉知非福。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-07_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-07_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["君臣不相负，来世复君臣。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-07_dead.mp3"]
+			}]
+		},
+		"can-bi-08": {
+			"index": 24,
+			"name": "马良",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-08.png",
+			"skills": [{
+				"name": "自书",
+				"descriptions": "锁定技，①其他角色的结束阶段结束时，你将本回合获得的牌置入弃牌堆；②你的回合内，当你不是因此技能获得牌时，你摸一张牌。"
+			}, {
+				"name": "应援",
+				"descriptions": "当你于回合内使用牌结算结束时，你可以令一名其他角色随机从牌堆中获得一张与此牌类型相同的牌（每种类型的牌每回合限一次）。"
+			}],
+			"dialogues": [{
+				"name": "自书",
+				"descriptions": ["慢着，让我来！", "身外之物，不要也罢！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-08_1_2.mp3"
+				]
+			}, {
+				"name": "应援",
+				"descriptions": ["接好嘞！", "好牌只用一次怎么够？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-08_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我的使命，完成了吗……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-08_dead.mp3"]
+			}]
+		},
+		"can-bi-09": {
+			"index": 25,
+			"name": "司马朗",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-09.png",
+			"skills": [{
+				"name": "郡兵",
+				"descriptions": "一名角色的结束阶段，若其手牌数小于2，其可以摸一张牌并交给你所有手牌，然后你交给该角色等量的牌。"
+			}, {
+				"name": "去疾",
+				"descriptions": "出牌阶段限一次，你可以弃置X张牌（X为你已损失的体力值），令至多X名角色各回复1点体力。若弃置的牌中包含黑色牌，你失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "郡兵",
+				"descriptions": ["男儿慷慨，军中豪迈。", "郡国当有搜狩习战之备。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-09_1_2.mp3"
+				]
+			}, {
+				"name": "去疾",
+				"descriptions": ["若不去兵之疾，则将何以守国？", "愿为将士，略尽绵薄。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["微功未效，有辱国恩。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-09_dead.mp3"]
+			}]
+		},
+		"can-bi-10": {
+			"index": 26,
+			"name": "步骘",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-10.png",
+			"skills": [{
+				"name": "弘德",
+				"descriptions": "当你一次性获得或失去至少两张牌时，你可以令一名其他角色摸一张牌。"
+			}, {
+				"name": "定叛",
+				"descriptions": "出牌阶段限X次（X为场上反贼数），你可以令一名装备区有牌的角色摸一张牌并选择一项：1.令你弃置其一张装备区里的牌；2.收回装备区里的牌，然后受到1点伤害。"
+			}],
+			"dialogues": [{
+				"name": "弘德",
+				"descriptions": ["德无单行，福必双至。", "江南重义，东吴尚德。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-10_1_2.mp3"
+				]
+			}, {
+				"name": "定叛",
+				"descriptions": ["从孙者生，从刘者死！", "多行不义必自毙！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["交州已定，主公尽可放心。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-10_dead.mp3"]
+			}]
+		},
+		"can-bi-11": {
+			"index": 27,
+			"name": "董允",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-11.png",
+			"skills": [{
+				"name": "秉正",
+				"descriptions": "出牌阶段结束时，你可以选择一名手牌数不等于体力值的角色并选择一项：1.令其弃置一张手牌；2.令其摸一张牌。然后若该角色的手牌数等于体力值，你摸一张牌，且可以交给其一张牌。"
+			}, {
+				"name": "舍宴",
+				"descriptions": "当你成为普通锦囊牌的目标时，你可以选择一名角色（不能为此牌唯一的目标角色），若该角色为此牌的目标角色，则此牌对其无效，否则其成为此牌的目标。"
+			}],
+			"dialogues": [{
+				"name": "秉正",
+				"descriptions": ["自古，就是邪不胜正！", "主公面前，岂容小人搬弄是非！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-11_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-11_1_2.mp3"
+				]
+			}, {
+				"name": "舍宴",
+				"descriptions": ["公事为重，宴席不去也罢。", "还是改日吧。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-11_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-11_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["大汉，要亡于宦官之手了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-11_dead.mp3"]
+			}]
+		},
+		"can-bi-12": {
+			"index": 28,
+			"name": "阚泽",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-12.png",
+			"skills": [{
+				"name": "下书",
+				"descriptions": "出牌阶段开始时，你可以将所有手牌交给一名其他角色，令该角色亮出任意张手牌，然后你选择一项：1.获得其亮出的手牌；2.获得其未亮出的手牌。"
+			}, {
+				"name": "宽释",
+				"descriptions": "结束阶段，你可以选择一名角色。直到你的下个回合开始，当其下一次受到大于1点的伤害时，防止此伤害，然后你跳过你的下个回合的摸牌阶段。"
+			}],
+			"dialogues": [{
+				"name": "下书",
+				"descriptions": ["吾有密信，特来献于将军！", "将军若不信，可亲自验看！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-12_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-12_1_2.mp3"
+				]
+			}, {
+				"name": "宽释",
+				"descriptions": ["不知者无罪！", "罚酒三杯，下不为例！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-12_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-12_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我早已做好了牺牲的准备。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-12_dead.mp3"]
+			}]
+		},
+		"can-bi-13": {
+			"index": 29,
+			"name": "戏志才",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-13.png",
+			"skills": [{
+				"name": "天妒",
+				"descriptions": "当你的判定牌生效后，你可以获得之。"
+			}, {
+				"name": "先辅",
+				"descriptions": "锁定技，游戏开始时，你选择一名其他角色。当该角色受到伤害后/回复体力后，你受到等量的伤害/回复等量的体力。"
+			}, {
+				"name": "筹策",
+				"descriptions": "当你受到1点伤害后，你可以进行一次判定，若结果为：黑色，你弃置一名角色区域里的一张牌；红色，你令一名角色摸一张牌（若其为“先辅”角色，其改为摸两张牌）。"
+			}],
+			"dialogues": [{
+				"name": "天妒",
+				"descriptions": ["天意，不可逆。", "既是如此。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-13_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-13_1_2.mp3"
+				]
+			}, {
+				"name": "先辅",
+				"descriptions": ["辅佐明君，从一而终。", "吾于此生，竭尽所能。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-13_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-13_2_2.mp3"
+				]
+			}, {
+				"name": "筹策",
+				"descriptions": ["一筹一划，一策一略。", "主公之忧，吾之所思也。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-13_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-13_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["为何……不再给我……一点点时间……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-13_dead.mp3"]
+			}]
+		},
+		"can-bi-14": {
+			"index": 30,
+			"name": "孙乾",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-14.png",
+			"skills": [{
+				"name": "谦雅",
+				"descriptions": "当你成为锦囊牌的目标后，你可以将任意张手牌交给一名其他角色。"
+			}, {
+				"name": "说盟",
+				"descriptions": "出牌阶段结束时，你可以与一名角色拼点。若你赢，则你视为使用一张【无中生有】，否则其视为对你使用一张【过河拆桥】。"
+			}],
+			"dialogues": [{
+				"name": "谦雅",
+				"descriptions": ["君子不妄动，动必有道。", "哎！将军过誉了！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-14_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-14_1_2.mp3"
+				]
+			}, {
+				"name": "说盟",
+				"descriptions": ["你我唇齿相依，共御外敌，何如？", "今兵薄势寡，可遣某为使往说之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-14_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-14_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["恨不能得见皇叔早登大宝，咳咳咳……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-14_dead.mp3"]
+			}]
+		},
+		"can-bi-15": {
+			"index": 31,
+			"name": "王粲",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-15.png",
+			"skills": [{
+				"name": "散文",
+				"descriptions": "每回合限一次，当你获得牌时，若你手中有与这些牌牌名相同的牌，你可以展示之，弃置获得的同名牌，摸弃牌数两倍数量的牌。"
+			}, {
+				"name": "登楼",
+				"descriptions": "限定技，结束阶段，若你没有手牌，你可以观看牌堆顶的四张牌，然后获得其中的非基本牌，并以任意顺序使用其中的基本牌（不能使用则弃置）。"
+			}, {
+				"name": "七哀",
+				"descriptions": "限定技，当你进入濒死状态时，你可以令所有其他角色同时交给你一张牌。"
+			}],
+			"dialogues": [{
+				"name": "散文",
+				"descriptions": ["文若春华，思若泉涌。", "独步汉南，散文天下。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-15_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-15_1_2.mp3"
+				]
+			}, {
+				"name": "登楼",
+				"descriptions": ["登兹楼以四望兮，聊暇日以销忧。", "惟日月之逾迈兮，俟河清其未极。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-15_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-15_2_2.mp3"
+				]
+			}, {
+				"name": "七哀",
+				"descriptions": ["未知身死处，何能两相完？", "悟彼下泉人，喟然伤心肝。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-15_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-15_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["一作驴鸣悲，万古送葬别。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-15_dead.mp3"]
+			}]
+		},
+		"can-bi-16": {
+			"index": 32,
+			"name": "吕虔",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-16.png",
+			"skills": [{
+				"name": "威虏",
+				"descriptions": "锁定技，当你受到其他角色造成的伤害后，该角色于你的下一个出牌阶段开始时失去X点体力（X为该角色的体力值-1），然后其于你的回合结束时回复因此失去的体力。"
+			}, {
+				"name": "赠刀",
+				"descriptions": "限定技，出牌阶段，你可以将装备区里的任意张的牌置于一名其他角色的武将牌旁（当有“赠刀”牌的角色造成伤害时，其移去一张“赠刀”牌，然后此伤害+1）。"
+			}],
+			"dialogues": [{
+				"name": "威虏",
+				"descriptions": ["贼人势大，须从长计议。", "时机未到，先行撤退。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-16_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-16_1_2.mp3"
+				]
+			}, {
+				"name": "赠刀",
+				"descriptions": ["有功赏之，有过罚之。", "治军之道，功过分明。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-16_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-16_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我自泰山郡以来，百姓获安，镇军伐贼，此生已无憾！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-16_dead.mp3"]
+			}]
+		},
+		"can-bi-17": {
+			"index": 33,
+			"name": "孙邵",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-17.png",
+			"skills": [{
+				"name": "弼政",
+				"descriptions": "摸牌阶段结束时，你可以令一名其他角色摸两张牌，然后你与其之中手牌数大于体力上限的角色弃置两张牌。"
+			}, {
+				"name": "佚典",
+				"descriptions": "当你使用基本牌或普通锦囊牌指定目标时，若弃牌堆中没有同名牌，你可以令另一名角色成为此牌的目标。"
+			}],
+			"dialogues": [{
+				"name": "弼政",
+				"descriptions": ["弼亮四世，正色率下。", "弼佐辅君，国事政法。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-17_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-17_1_2.mp3"
+				]
+			}, {
+				"name": "佚典",
+				"descriptions": ["无传书卷记，功过自有评。", "佚以典传，千秋谁记。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-17_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-17_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此去一别，难见文举。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-17_dead.mp3"]
+			}]
+		},
+		"can-bi-18": {
+			"index": 34,
+			"name": "审配",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-18.png",
+			"skills": [{
+				"name": "刚直",
+				"descriptions": "锁定技，你对其他角色与其他角色对你即将造成的伤害均视为失去体力。"
+			}, {
+				"name": "备战",
+				"descriptions": "回合结束时，你可以令一名角色将手牌摸至体力上限（至多摸至五张）。若如此做，该角色的下个回合开始时，若其手牌数为全场最多，其本回合不能对除其以外的角色使用牌。"
+			}],
+			"dialogues": [{
+				"name": "刚直",
+				"descriptions": ["死便死，降？断不能降！", "只恨箭支太少，不能射杀汝等！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-18_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-18_1_2.mp3"
+				]
+			}, {
+				"name": "备战",
+				"descriptions": ["今伐曹氏，譬如覆手之举。", "十，则围之；五，则攻之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-18_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-18_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾君在北，但求面北而亡。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-18_dead.mp3"]
+			}]
+		},
+		"can-bi-19": {
+			"index": 35,
+			"name": "荀谌",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-19.png",
+			"skills": [{
+				"name": "锋略",
+				"descriptions": "出牌阶段开始时，你可以与一名角色拼点，若你赢，则其交给你其手牌区、装备区和判定区里的各一张牌，否则你交给其一张牌。然后当此拼点结束后，你可以令其获得你拼点的牌。"
+			}, {
+				"name": "谋识",
+				"descriptions": "出牌阶段限一次，你可以交给一名没有“谋识”标记的其他角色一张手牌，然后其获得“谋识”标记直到其出牌阶段结束（当有“谋识”标记的角色于其出牌阶段内对每名角色第一次造成伤害后，你摸一张牌）。"
+			}],
+			"dialogues": [{
+				"name": "锋略",
+				"descriptions": ["汝能比得上我家主公吗？", "将军有让贤之名而身安于泰山也，实乃上策。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-19_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-19_1_2.mp3"
+				]
+			}, {
+				"name": "谋识",
+				"descriptions": ["官渡决战，袁公必胜而曹氏必败。", "吾既辅佐袁公，定不会使其覆巢。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-19_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-19_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾欲赴死，断不做背主之事。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-19_dead.mp3"]
+			}]
+		},
+		"can-bi-20": {
+			"index": 36,
+			"name": "吕凯",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-20.png",
+			"skills": [{
+				"name": "图南",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色观看牌堆顶的一张牌，然后其选择一项：1.使用此牌（无距离限制）；2.将此牌当【杀】使用。"
+			}, {
+				"name": "闭境",
+				"descriptions": "结束阶段，你可以将一张手牌标记为“闭境”牌：1.准备阶段，你弃置手牌中的“闭境”牌；2.其他角色的弃牌阶段开始时，若你本回合失去过“闭境”牌，其弃置两张牌。"
+			}],
+			"dialogues": [{
+				"name": "图南",
+				"descriptions": ["敢问丞相，何时挥师南下？", "攻伐之道，一念之间。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-20_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-20_1_2.mp3"
+				]
+			}, {
+				"name": "闭境",
+				"descriptions": ["拒吴闭境，臣，誓保永昌！", "一臣无二主，可战不可降！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-20_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-20_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["守节不易，吾愿舍身为蜀。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-20_dead.mp3"]
+			}]
+		},
+		"can-bi-21": {
+			"index": 37,
+			"name": "蒋干",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-21.png",
+			"skills": [{
+				"name": "伪诚",
+				"descriptions": "当你交给其他角色手牌后，或你的手牌被其他角色获得后，若你的手牌数小于体力值，你可以摸一张牌。"
+			}, {
+				"name": "盗书",
+				"descriptions": "出牌阶段限一次，你可以选择一名其他角色并选择一种花色，然后获得该角色一张手牌。若此牌与你选择的花色：相同，你对其造成1点伤害且本阶段此技能发动次数上限+1；不同，你交给该角色一张其他花色的手牌（若没有需展示所有手牌）。"
+			}],
+			"dialogues": [{
+				"name": "伪诚",
+				"descriptions": ["略施谋略，敌军便信以为真。", "吾只观雅规，而非说客。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-21_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-21_1_2.mp3"
+				]
+			}, {
+				"name": "盗书",
+				"descriptions": ["得此文书，丞相定可高枕无忧。", "让我看看，这是什么机密。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-21_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-21_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["丞相，再给我一次机会啊。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-21_dead.mp3"]
+			}]
+		},
+		"can-bi-22": {
+			"index": 38,
+			"name": "潘濬",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-22.png",
+			"skills": [{
+				"name": "观微",
+				"descriptions": "每回合限一次，一名角色的出牌阶段结束时，若其本回合使用过至少两张牌且这些牌花色均相同，你可以弃置一张牌，令其摸两张牌并于此阶段结束后执行一个额外的出牌阶段。"
+			}, {
+				"name": "公清",
+				"descriptions": "锁定技，当你受到伤害时，若伤害来源的攻击范围：小于3，将此次伤害的伤害值改为1；大于3，此伤害+1。"
+			}],
+			"dialogues": [{
+				"name": "观微",
+				"descriptions": ["天下未定，请主公以大局为重。", "今日宴请诸位，有要事相商。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-22_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-22_1_2.mp3"
+				]
+			}, {
+				"name": "公清",
+				"descriptions": ["尔辈何故与降虏交善。", "豪将在外，增兵必成祸患啊！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-22_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-22_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["耻失荆州，耻失荆州啊！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-22_dead.mp3"]
+			}]
+		},
+		"can-bi-23": {
+			"index": 39,
+			"name": "严峻",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-23.png",
+			"skills": [{
+				"name": "观潮",
+				"descriptions": "出牌阶段开始时，你可以选择一项，当你本阶段使用牌时，若你本阶段使用过的所有牌的点数均为严格〔1.递增；2.递减〕，你摸一张牌。"
+			}, {
+				"name": "逊贤",
+				"descriptions": "每名其他角色的回合限一次，当你使用或打出的牌置入弃牌堆时，你可以将之交给一名手牌数大于你的角色。"
+			}],
+			"dialogues": [{
+				"name": "观潮",
+				"descriptions": ["朝夕之间，可知所进退。", "月盈，潮起晨暮也；月亏，潮起日半也。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-23_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-23_1_2.mp3"
+				]
+			}, {
+				"name": "逊贤",
+				"descriptions": ["督军之才，子明强于我甚多。", "此间重任，公卿可担之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-23_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-23_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["著作，还，没完成。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-23_dead.mp3"]
+			}]
+		},
+		"can-bi-24": {
+			"index": 40,
+			"name": "杜袭",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-24.png",
+			"skills": [{
+				"name": "驱徙",
+				"descriptions": "限定技，出牌阶段结束时，你可以跳过本回合的弃牌阶段，并将武将牌翻至背面，然后选择两名手牌数不同的其他角色，令其中手牌少的角色获得获得另一名角色的一张牌，并获得“丰”标记，另一名角色获得“歉”标记。①拥有“丰”的角色摸牌阶段多摸一张牌，拥有“歉”标记的角色摸牌阶段少摸一张牌；②拥有“丰”/“歉”的角色死亡时，或每轮开始时，你可以将“丰”/“歉”移动给没有另一种标记的角色。"
+			}, {
+				"name": "避凶",
+				"descriptions": "锁定技，弃牌阶段结束时，若你本阶段弃置过手牌，其他角色不能对你使用与这些牌花色相同的牌直到你的下个回合开始。"
+			}],
+			"dialogues": [{
+				"name": "驱徙",
+				"descriptions": ["不自改悔，终须驱徙。", "奈何驱徙，不使存活。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-24_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-24_1_2.mp3"
+				]
+			}, {
+				"name": "避凶",
+				"descriptions": ["避凶而从吉，以趋荆州。", "逢凶化吉，遇难呈祥。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-24_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-24_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["避凶不及，难……也……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-24_dead.mp3"]
+			}]
+		},
+		"can-bi-25": {
+			"index": 41,
+			"name": "邓芝",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-25.png",
+			"skills": [{
+				"name": "修好",
+				"descriptions": "每回合限一次，当你对其他角色造成伤害时，或受到其他角色造成的伤害时，你可以防止此伤害，然后伤害来源摸两张牌。"
+			}, {
+				"name": "素俭",
+				"descriptions": "锁定技，弃牌阶段，你改为选择一项：1.将所有不为本回合获得的手牌交给一名其他角色；2.弃置不为本回合获得的手牌，然后弃置一名其他角色至多等量的牌。"
+			}],
+			"dialogues": [{
+				"name": "修好",
+				"descriptions": ["吴蜀合同，可御魏敌。", "与吴修好，共为唇齿。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-25_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-25_1_2.mp3"
+				]
+			}, {
+				"name": "素俭",
+				"descriptions": ["不苟素俭，不置私产。", "高风亮节，摆袖却金。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-25_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-25_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["修好未成，蜀汉恐危。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-25_dead.mp3"]
+			}]
+		},
+		"can-bi-26": {
+			"index": 42,
+			"name": "辛毗",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-26.png",
+			"skills": [{
+				"name": "持节",
+				"descriptions": "每回合限一次：1.当你受到其他角色使用的牌造成的伤害后，你可以令此牌在接下来的结算中对其他角色无效；2.当其他角色使用牌结算结束后，若你是目标之一且此牌没有造成过伤害，你可以获得之。"
+			}, {
+				"name": "引裾",
+				"descriptions": "限定技，出牌阶段，你可以选择一名其他角色，然后你本回合：1.对其造成伤害时，改为令其回复等量的体力；2.使用牌指定其为目标后，与其各摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "持节",
+				"descriptions": ["持节阻战，奉帝赐诏。", "此战不在急，请仲达明了。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-26_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-26_1_2.mp3"
+				]
+			}, {
+				"name": "引裾",
+				"descriptions": ["据理直谏，吾人臣本分。", "迁徙之计，危涉万民。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-26_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-26_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["失民心，且无食。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-26_dead.mp3"]
+			}]
+		},
+		"can-bi-27": {
+			"index": 43,
+			"name": "杨仪",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-27.png",
+			"skills": [{
+				"name": "狷狭",
+				"descriptions": "回合结束时，你可以视为对一名其他角色依次使用至多两张牌名各不相同的仅指定唯一目标的普通锦囊牌。若如此做，该角色下个回合结束时，其可以视为对你使用等量张【杀】。"
+			}, {
+				"name": "定措",
+				"descriptions": "每回合限一次，当你造成或受到伤害后，你可以摸两张牌，然后若这两张牌颜色不同，你弃置一张手牌。"
+			}],
+			"dialogues": [{
+				"name": "狷狭",
+				"descriptions": ["汝有何功？竟能居我之上！", "恃才傲立，恩怨必偿。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-27_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-27_1_2.mp3"
+				]
+			}, {
+				"name": "定措",
+				"descriptions": ["丞相新丧，吾当继之。", "规画分部，筹度粮谷。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-27_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-27_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["魏延庸奴，吾，誓杀汝！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-27_dead.mp3"]
+			}]
+		},
+		"can-bi-28": {
+			"index": 44,
+			"name": "陈登",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-28.png",
+			"skills": [{
+				"name": "丰积",
+				"descriptions": "摸牌阶段开始时，你可以依次选择是否令对应项数值-1：1.摸牌阶段摸牌数；2.出牌阶段使用【杀】的次数上限。你每选择一项，便令一名其他角色下回合的对应项数值+2，选择完成后，你令本回合选择否的对应项数值+1。"
+			}],
+			"dialogues": [{
+				"name": "丰积",
+				"descriptions": ["此退彼进，月亏待盈。", "取舍有道，待机而赢。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-28_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-28_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["可无命，不可无脍……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-28_dead.mp3"]
+			}]
+		},
+		"can-bi-29": {
+			"index": 45,
+			"name": "羊祜",
+			"force": "jin",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-29.png",
+			"skills": [{
+				"name": "怀远",
+				"descriptions": "①当你失去一张“绥”时（“绥”为你的初始手牌），你令一名角色执行一项：1.手牌上限+1；2.攻击范围+1；3.摸一张牌。②当你死亡时，你可以令一名其他角色获得你以此法增加的手牌上限和攻击范围的加值。"
+			}, {
+				"name": "崇信",
+				"descriptions": "出牌阶段限一次，你可以令一名有手牌的其他角色与你各重铸一张牌。"
+			}, {
+				"name": "德彰",
+				"descriptions": "觉醒技，准备阶段，若你没有“绥”，你减1点体力上限，并获得技能“卫戍”。"
+			}, {
+				"name": "☆ 卫戍",
+				"descriptions": "锁定技，①你的摸牌阶段外，当你不是因此技能摸牌后，你令一名角色摸一张牌；②你的弃牌阶段外，当你弃置牌后，你弃置一名其他角色的一张牌。"
+			}],
+			"dialogues": [{
+				"name": "怀远",
+				"descriptions": ["当怀远志，砥砺奋进。", "举有成资，谋有全策。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-29_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-29_1_2.mp3"
+				]
+			}, {
+				"name": "崇信",
+				"descriptions": ["非诚不行，无信不立。", "以诚待人，可得其心。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-29_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-29_2_2.mp3"
+				]
+			}, {
+				"name": "德彰",
+				"descriptions": ["以德怀柔，广得军心。", "德彰四海，威震八荒。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-29_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-29_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 卫戍",
+				"descriptions": ["水来土掩，兵来将挡。", "吴人来犯，当用心戒备。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-29_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-29_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["当断不断，反受其乱……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-29_dead.mp3"]
+			}]
+		},
+		"can-bi-30": {
+			"index": 46,
+			"name": "董昭",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-30.png",
+			"skills": [{
+				"name": "先略",
+				"descriptions": "①主公的回合开始时，你可以记录一个普通锦囊牌的牌名（覆盖之前的记录）；②每回合限一次，当其他角色使用与记录的牌牌名相同的牌结算后，你摸两张牌并将其中任意张牌分配给任意角色，然后你记录一个普通锦囊牌的牌名。"
+			}, {
+				"name": "造王",
+				"descriptions": "限定技，出牌阶段，你可以令一名角色加1点体力上限，回复1点体力并摸三张牌，然后若其为：忠臣，当主公死亡时，其与主公交换身份牌；反贼，当其被主公或忠臣杀死时，主忠方获胜。"
+			}],
+			"dialogues": [{
+				"name": "先略",
+				"descriptions": ["行略于先，未雨绸缪。", "先见梧叶，而后知秋。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-30_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-30_1_2.mp3"
+				]
+			}, {
+				"name": "造王",
+				"descriptions": ["大魏当兴，吾主可王！", "身加九锡，当君不让！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-30_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-30_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["昭，一心向魏，绝无二心！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-30_dead.mp3"]
+			}]
+		},
+		"can-bi-31": {
+			"index": 47,
+			"name": "伊籍",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-31.png",
+			"skills": [{
+				"name": "机捷",
+				"descriptions": "出牌阶段限一次，你可以观看牌堆底的一张牌，然后交给任意角色。"
+			}, {
+				"name": "急援",
+				"descriptions": "当一名角色进入濒死状态或你交给一名其他角色牌时，你可以令其摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "机捷",
+				"descriptions": ["敏捷察微，知千里之情。", "随机应变，不失礼数。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-31_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-31_1_2.mp3"
+				]
+			}, {
+				"name": "急援",
+				"descriptions": ["蔡瑁欲害将军，特此星夜来报。", "荆州有异，需速避之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-31_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-31_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["蜀科律法，难以撰写。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-31_dead.mp3"]
+			}]
+		},
+		"can-bi-32": {
+			"index": 48,
+			"name": "夏侯玄",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-32.png",
+			"skills": [{
+				"name": "宦浮",
+				"descriptions": "当你使用【杀】指定一名角色为目标时，或成为其他角色使用【杀】的目标时，你可以弃置至多等同于体力上限数量张牌，然后若此【杀】对目标角色造成的伤害值等于你以此法弃置的牌的数量，你摸两倍数量的牌。"
+			}, {
+				"name": "清议",
+				"descriptions": "出牌阶段限一次，你可以与至多两名其他角色同时弃置一张牌，若类型相同，你可以对这些角色重复此流程，然后你可以于结束阶段获得以此法弃置的黑色牌和红色牌各一张。"
+			}, {
+				"name": "迮阅",
+				"descriptions": "限定技，准备阶段，你可以令一名于你上个回合结束后对你造成过伤害的其他角色失去武将牌上一个技能（锁定技、觉醒技、限定技除外）。若如此做，每轮开始时，其视为对你使用X张【杀】（X为其已失去此技能的轮数；若此【杀】造成伤害，其获得以此法失去的技能）。"
+			}],
+			"dialogues": [{
+				"name": "宦浮",
+				"descriptions": ["宦海浮沉，莫问前路。", "仕途险恶，吉凶难料。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-32_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-32_1_2.mp3"
+				]
+			}, {
+				"name": "清议",
+				"descriptions": ["布政得失，愿与诸君共议。", "领军伐谋，还请诸位献策。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-32_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-32_2_2.mp3"
+				]
+			}, {
+				"name": "迮阅",
+				"descriptions": ["以令相迮，束阀阅之家。", "以正相争，清朝野之妒。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-32_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-32_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["玉山倾颓心无尘……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-32_dead.mp3"]
+			}]
+		},
+		"can-bi-33": {
+			"index": 49,
+			"name": "马日磾",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 2
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-33.png",
+			"skills": [{
+				"name": "秉节",
+				"descriptions": "出牌阶段开始时，你可以减1点体力上限，然后当你本回合使用【杀】或普通锦囊牌指定目标后，除你以外的每名目标角色弃置一张牌。"
+			}, {
+				"name": "正订",
+				"descriptions": "锁定技，你的回合外，当你使用或打出牌响应其他角色使用的牌时，若这两张牌颜色相同，你加1点体力上限。"
+			}],
+			"dialogues": [{
+				"name": "秉节",
+				"descriptions": ["秉节传旌，心存丹衷。", "秉节刚劲，奸佞务尽。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-33_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-33_1_2.mp3"
+				]
+			}, {
+				"name": "正订",
+				"descriptions": ["行义修正，改故用新。", "义约谬误，有所正订。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-33_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-33_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["失节屈辱忧恚！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-33_dead.mp3"]
+			}]
+		},
+		"can-bi-34": {
+			"index": 50,
+			"name": "谯周",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-34.png",
+			"skills": [{
+				"name": "知命",
+				"descriptions": "准备阶段，或弃牌阶段结束时，你摸一张牌，然后你可以将一张牌置于牌堆顶。"
+			}, {
+				"name": "星卜",
+				"descriptions": "结束阶段，你可以亮出牌堆顶的三张牌，然后你可以选择一名其他角色。若其中的红色牌数：为3，其下个回合：摸牌阶段多摸两张牌、出牌阶段使用【杀】的次数上限+1；为2，其下个回合：出牌阶段使用【杀】的次数上限-1、跳过弃牌阶段；不大于1，其于其下个回合的准备阶段弃置一张手牌。"
+			}],
+			"dialogues": [{
+				"name": "知命",
+				"descriptions": ["天定人命，仅可一窥。", "知命而行，尽诸人事。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-34_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-34_1_2.mp3"
+				]
+			}, {
+				"name": "星卜",
+				"descriptions": ["天现祥瑞，此乃大吉之兆。", "天象显异，北伐万不可期。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-34_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-34_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["老夫死不足惜，但求蜀地百姓无虞！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-34_dead.mp3"]
+			}]
+		},
+		"can-bi-35": {
+			"index": 51,
+			"name": "张华",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-35.png",
+			"skills": [{
+				"name": "弼昏",
+				"descriptions": "锁定技，当你使用牌指定其他角色为目标时，若你的手牌数大于手牌上限，你取消之，然后若此牌仅指定唯一目标，其获得之。"
+			}, {
+				"name": "剑合",
+				"descriptions": "出牌阶段，你可以重铸至少两张同名牌或装备牌，令一名角色选择一项：1.重铸等量张此类别的牌；2.受到你造成的1点雷电伤害。（每名角色每阶段限一次）"
+			}, {
+				"name": "穿屋",
+				"descriptions": "锁定技，当你造成或受到伤害后，你失去武将牌上前X个技能直到回合结束（X为你的攻击范围）并摸与失去技能数等量的牌。"
+			}],
+			"dialogues": [{
+				"name": "弼昏",
+				"descriptions": ["辅弼天家，以扶朝纲。", "为国治政，尽忠匡辅。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-35_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-35_1_2.mp3"
+				]
+			}, {
+				"name": "剑合",
+				"descriptions": ["身临朝阙，腰悬太阿。", "位登三事，当配龙泉。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-35_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-35_2_2.mp3"
+				]
+			}, {
+				"name": "穿屋",
+				"descriptions": ["斩蛇穿屋，其志绥远。", "祝融侵库，剑怀远志。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-35_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-35_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["桑化为柏，此非不祥乎？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-35_dead.mp3"]
+			}]
+		},
+		"can-bi-36": {
+			"index": 52,
+			"name": "屈晃",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-36.png",
+			"skills": [{
+				"name": "切谏",
+				"descriptions": "当一名角色失去最后的手牌后，你可以与其各摸一张牌，然后选择一项：1.弃置你或其场上的一张牌；2.你本轮不能对其发动此技能。"
+			}, {
+				"name": "泥首",
+				"descriptions": "锁定技，当你装备区里的牌进入弃牌堆后，你选择一项：1.将此牌当【闪电】使用；2.于本阶段结束时与一名全场手牌数最少的角色交换手牌且本阶段你不能再发动此项效果。"
+			}],
+			"dialogues": [{
+				"name": "切谏",
+				"descriptions": ["东宫不稳，必使众人生异。", "今三方鼎持，不宜擅动储君。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-36_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-36_1_2.mp3"
+				]
+			}, {
+				"name": "泥首",
+				"descriptions": ["臣以泥涂手，足证本心。", "人生百年，终埋一抔黄土。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-36_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-36_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["臣死谏于斯，死得其所……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-36_dead.mp3"]
+			}]
+		},
+		"can-bi-37": {
+			"index": 53,
+			"name": "阎圃",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-37.png",
+			"skills": [{
+				"name": "缓图",
+				"descriptions": "每轮限一次，你攻击范围内的一名其他角色的摸牌阶段开始前，你可以交给其一张牌，令其跳过此阶段，然后你于本回合的结束阶段选择一项：1.令其回复1点体力并摸两张牌；2.摸三张牌并交给其两张手牌。"
+			}, {
+				"name": "避祸",
+				"descriptions": "限定技，当一名角色脱离濒死状态时，你可以令其摸三张牌，然后除其以外的角色本轮计算与其的距离+X（X为场上角色数）。"
+			}],
+			"dialogues": [{
+				"name": "缓图",
+				"descriptions": ["今群雄蜂起，主公宜外收内敛，勿为祸先。", "昔陈胜之事，足为今日之师，望主公熟虑。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-37_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-37_1_2.mp3"
+				]
+			}, {
+				"name": "避祸",
+				"descriptions": ["公以败兵之身投之，功轻且恐难保身也。", "公不若附之他人与相拒，然后委质，功必多。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-37_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-37_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["公皆听吾计，圃岂敢不专……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-37_dead.mp3"]
+			}]
+		},
+		"can-bi-38": {
+			"index": 54,
+			"name": "曹羲",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-38.png",
+			"skills": [{
+				"name": "刚述",
+				"descriptions": "当你使用非基本牌结算结束后，你可以选择一项，令你的〔1.攻击范围；2.下一个摸牌阶段额定摸牌数；3.出牌阶段内使用【杀】的次数上限〕+1直到你抵消一张牌（各至多加至5；你记录每个选项的对应数值）。"
+			}, {
+				"name": "谏旋",
+				"descriptions": "当你受到伤害后，你可以选择一名角色。该角色摸一张牌，其手牌数与“刚述”记录的其中一个数值相同，其重复此流程。"
+			}],
+			"dialogues": [{
+				"name": "刚述",
+				"descriptions": ["羲而立之年，当为立身之事。", "总六军之要，秉选举之机。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-38_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-38_1_2.mp3"
+				]
+			}, {
+				"name": "谏旋",
+				"descriptions": ["司马氏卧虎藏龙，大兄安能小觑。", "兄长以兽为猎，殊不知己亦为猎乎？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-38_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-38_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["曹氏亡矣，大魏亡矣……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-38_dead.mp3"]
+			}]
+		},
+		"can-bi-39": {
+			"index": 55,
+			"name": "王瓘",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-39.png",
+			"skills": [{
+				"name": "谬焰",
+				"descriptions": "转换技，你可以将一张黑色牌当【火攻】使用，阳：若此牌造成了伤害，你获得本阶段展示过的所有牌；阴：若此牌没有造成伤害，本轮此技能失效。"
+			}, {
+				"name": "失路",
+				"descriptions": "锁定技，当你受到伤害后，你摸等同于体力值数量张牌，然后展示你攻击范围内的一名其他角色的一张手牌并令此牌视为【杀】。"
+			}],
+			"dialogues": [{
+				"name": "谬焰",
+				"descriptions": ["未时引火，必大败蜀军。", "我等诈降，必欺姜维于不意。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-39_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-39_1_2.mp3"
+				]
+			}, {
+				"name": "失路",
+				"descriptions": ["吾计不成，吾命何归？", "烟尘四起，无处寻路。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-39_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-39_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我本魏将，将军救我！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-39_dead.mp3"]
+			}]
+		},
+		"can-bi-40": {
+			"index": 56,
+			"name": "孙弘",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-40.png",
+			"skills": [{
+				"name": "险诐",
+				"descriptions": "出牌阶段限一次，你可以将手牌摸至或弃置至与一名角色装备区内的牌数相同，当你每以此法弃置一张牌时，你随机获得弃牌堆中另一张与之类型相同的牌。"
+			}, {
+				"name": "谮润",
+				"descriptions": "每阶段限一次，当你摸牌时，你可以改为获得一名其他角色的等量的牌，然后其选择一项：1.摸等量的牌；2.你不能再对其发动武将牌上的技能。"
+			}],
+			"dialogues": [{
+				"name": "谮润",
+				"descriptions": ["宦海如薄冰，求生逐富贵。", "吾不欲为鱼肉，故为刀俎。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-40_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-40_1_2.mp3"
+				]
+			}, {
+				"name": "谮润",
+				"descriptions": ["据图谋不轨，今奉诏索命。", "休妄论芍陂之战，当诛之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-40_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-40_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["诸葛公何至于此……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-40_dead.mp3"]
+			}]
+		},
+		"can-bi-41": {
+			"index": 57,
+			"name": "田畴",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-41.png",
+			"skills": [{
+				"name": "善刀",
+				"descriptions": "出牌阶段限一次，你可将任意名角色的各一张牌置于牌堆顶，视为对这些角色使用一张【五谷丰登】，然后视为对剩余的其他角色使用一张【万箭齐发】。"
+			}],
+			"dialogues": [{
+				"name": "善刀",
+				"descriptions": ["君子藏器，待天时而动。", "善刀而藏之，可解充栋之牛。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-41_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-41_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吾罪大矣，何堪封侯之荣？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-41_dead.mp3"]
+			}]
+		},
+		"can-bi-42": {
+			"index": 58,
+			"name": "郭图",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-bi-42.png",
+			"skills": [{
+				"name": "趋势",
+				"descriptions": "出牌阶段限一次，你可以摸一张牌，然后将一张手牌扣置于一名其他角色的武将牌上，称为“趋”（一名武将牌上有“趋”的角色的结束阶段，其移去该“趋”，然后若其本回合使用过与“趋”类型相同的牌，你摸X张牌，X为其本回合使用牌指定过的目标数且至多为5）。"
+			}, {
+				"name": "诿解",
+				"descriptions": "每名其他角色的回合限一次，当你需要使用或打出基本牌时，你可以声明一种基本牌的牌名，然后弃置一名距离为1的其他角色的一张手牌，若此牌与你声明的牌牌名相同，你视为使用或打出之。"
+			}],
+			"dialogues": [{
+				"name": "趋势",
+				"descriptions": ["将军天人之姿，可令四海归心。", "小小锦上之花，难表一腔敬意。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-bi-42_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-42_1_2.mp3"
+				]
+			}, {
+				"name": "诿解",
+				"descriptions": ["败战之罪在你，休要多言！", "纵汝舌灿莲花，亦难逃死罪。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-42_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-bi-42_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["工于心计而不成事，匹夫怀其罪。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-42_dead.mp3"]
+			}]
+		},
+		"can-zhu-01": {
+			"index": 59,
+			"name": "蹋顿",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-01.png",
+			"skills": [{
+				"name": "乱战",
+				"descriptions": "锁定技，①当你造成或受到伤害后，你获得1个“乱战”标记；②当你使用【杀】或黑色普通锦囊牌时，你可以额外选择X名角色为目标（X为“乱战”标记数）；③当你使用【杀】或黑色普通锦囊牌指定目标后，若此牌的目标角色数小于X，你移去一半（向下取整）“乱战”标记。"
+			}],
+			"dialogues": [{
+				"name": "乱战",
+				"descriptions": ["受袁氏大恩，当效死力！", "现，正是我乌桓崛起之机！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-01_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["呃啊，不该趟曹袁之争的浑水。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-01_dead.mp3"]
+			}]
+		},
+		"can-zhu-02": {
+			"index": 60,
+			"name": "李傕",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 2
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-02.png",
+			"skills": [{
+				"name": "狼袭",
+				"descriptions": "准备阶段，你可以对一名体力值不大于你的其他角色造成0~2点随机伤害。"
+			}, {
+				"name": "亦算",
+				"descriptions": "出牌阶段限一次，当你使用的普通锦囊牌结算结算后进入弃牌堆时，你可以减1点体力上限，获得之。"
+			}],
+			"dialogues": [{
+				"name": "狼袭",
+				"descriptions": ["袭夺之势，如狼噬骨。", "引吾至此，怎能不袭掠之？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-02_1_2.mp3"
+				]
+			}, {
+				"name": "亦算",
+				"descriptions": ["吾亦能善算谋划。", "算计人心，我也可略施一二。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["若无内讧，也不至如此。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-02_dead.mp3"]
+			}]
+		},
+		"can-zhu-03": {
+			"index": 61,
+			"name": "樊稠",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-03.png",
+			"skills": [{
+				"name": "兴乱",
+				"descriptions": "出牌阶段限一次，当你使用一张牌结算结束后，你可以选择一项：1.获得场上的一张点数为6牌；2.从牌堆中展示两张点数为6的牌并获得其中一张（没有则改为摸一张牌）；3.令一名其他角色选择弃置一张点数为6的牌或交给你一张牌。"
+			}],
+			"dialogues": [{
+				"name": "兴乱",
+				"descriptions": ["大兴兵争，长安当乱。", "勇猛兴军，乱世当立。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-03_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["唉，稚然疑心，甚重。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-03_dead.mp3"]
+			}]
+		},
+		"can-zhu-04": {
+			"index": 62,
+			"name": "郭汜",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-04.png",
+			"skills": [{
+				"name": "贪狈",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色选择一项：1.令你随机获得其区域内的一张牌，然后你本阶段不能对其使用牌；2.令你本阶段对其使用牌无距离与次数限制。"
+			}, {
+				"name": "伺盗",
+				"descriptions": "出牌阶段限一次，当你使用一张牌结算结束后，若此牌与你本回合使用的上一张牌有相同的目标角色，你可以将一张手牌当【顺手牵羊】对其中一名相同的目标角色使用（须合法）。"
+			}],
+			"dialogues": [{
+				"name": "贪狈",
+				"descriptions": ["此机，我怎么会错失？", "你的东西，现在是我的了！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-04_1_2.mp3"
+				]
+			}, {
+				"name": "伺盗",
+				"descriptions": ["连发伺动，顺手可得！", "伺机而动，此地可窃。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["伍习，你……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-04_dead.mp3"]
+			}]
+		},
+		"can-zhu-05": {
+			"index": 63,
+			"name": "兀突骨",
+			"force": "qun",
+			"magatama": {
+				"actual": 15,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-05.png",
+			"skills": [{
+				"name": "燃殇",
+				"descriptions": "锁定技，①当你受到1点火焰伤害后，你获得1枚“燃”标记；②结束阶段，你失去X点体力（X为你的“燃”标记数）。"
+			}, {
+				"name": "悍勇",
+				"descriptions": "当你使用【南蛮入侵】或【万箭齐发】指定目标后，若你的体力值小于游戏轮数，你可以令此牌造成的伤害+1。"
+			}],
+			"dialogues": [{
+				"name": "燃殇",
+				"descriptions": ["战火燃尽英雄胆！", "尔等，竟如此歹毒！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-05_1_2.mp3"
+				]
+			}, {
+				"name": "悍勇",
+				"descriptions": ["犯我者，杀！", "藤甲军从无对手，不服来战！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-05_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["撤，快撤！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-05_dead.mp3"]
+			}]
+		},
+		"can-zhu-06": {
+			"index": 64,
+			"name": "沙摩柯",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-06.png",
+			"skills": [{
+				"name": "蒺藜",
+				"descriptions": "当你于一回合内使用或打出第X张牌时，你可以摸X张牌（X为你的攻击范围）。"
+			}],
+			"dialogues": [{
+				"name": "蒺藜",
+				"descriptions": ["蒺藜骨朵，威震慑敌。", "看我一招铁蒺藜骨朶！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-06_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["五溪蛮夷，不可能输！！！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-06_dead.mp3"]
+			}]
+		},
+		"can-zhu-07": {
+			"index": 65,
+			"name": "潘凤",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-07.png",
+			"skills": [{
+				"name": "狂斧",
+				"descriptions": "出牌阶段限一次，你可以弃置场上一张装备牌，视为使用一张无距离与次数限制的【杀】。然后此【杀】结算结束后，若：弃置的不是你的牌且此【杀】没有造成伤害，你弃置两张手牌；弃置的是你的牌且此【杀】造成了伤害，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "狂斧",
+				"descriptions": ["大斧到处，片甲不留！", "你可接得住我一斧？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-07_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-07_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["来者……可是魔将？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-07_dead.mp3"]
+			}]
+		},
+		"can-zhu-08": {
+			"index": 66,
+			"name": "诸葛诞",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-08.png",
+			"skills": [{
+				"name": "功獒",
+				"descriptions": "锁定技，当其他角色死亡后，你加1点体力上限，然后回复1点体力。"
+			}, {
+				"name": "举义",
+				"descriptions": "觉醒技，准备阶段，若你体力上限大于全场角色数，你摸X张牌（X为你的体力上限），然后获得技能“崩坏”和“威重”。"
+			}, {
+				"name": "☆ 崩坏",
+				"descriptions": "锁定技，结束阶段，若你不是全场体力值最低的角色，你选择一项：1.失去1点体力；2.减1点体力上限。"
+			}, {
+				"name": "☆ 威重",
+				"descriptions": "锁定技，当你的体力上限变化时，若你手牌数：不为全场最少，你摸一张牌；为全场最少，你摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "功獒",
+				"descriptions": ["攻城拔寨，建功立业。", "恪尽职守，忠心事主。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-08_1_2.mp3"
+				]
+			}, {
+				"name": "举义",
+				"descriptions": ["司马氏篡权，我当替天伐之！", "若国有难，吾当举义！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-08_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-08_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 崩坏",
+				"descriptions": ["（咳嗽声）"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-08_3_1.mp3"
+				]
+			}, {
+				"name": "☆ 威重",
+				"descriptions": ["定当夷司马氏三族！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-08_4_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["诸葛一氏定会为我复仇！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-08_dead.mp3"]
+			}]
+		},
+		"can-zhu-09": {
+			"index": 67,
+			"name": "严白虎",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-09.png",
+			"skills": [{
+				"name": "雉盗",
+				"descriptions": "锁定技，当你于出牌阶段内第一次对其他角色造成伤害后，你获得其每个区域内的各一张牌，然后本回合你不能对其他角色使用牌。"
+			}, {
+				"name": "寄篱",
+				"descriptions": "锁定技，当一名与你距离为1的角色成为一名其他角色使用红色基本牌或红色普通锦囊牌的目标时，若你不为此牌的目标，你成为此牌的目标。"
+			}],
+			"dialogues": [{
+				"name": "雉盗",
+				"descriptions": ["谁有地盘，谁是老大！", "乱世之中，能者为王！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-09_1_2.mp3"
+				]
+			}, {
+				"name": "寄篱",
+				"descriptions": ["寄人篱下的日子，不好过呀！", "这份恩德，白虎记下了！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["严舆吾弟，为兄来陪你了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-09_dead.mp3"]
+			}]
+		},
+		"can-zhu-10": {
+			"index": 68,
+			"name": "张济",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-10.png",
+			"skills": [{
+				"name": "掠命",
+				"descriptions": "出牌阶段限一次，你可以令一名装备区里的牌数小于你的其他角色选择一个点数，然后你进行一次判定，若其选择的点数与判定结果：相同，你对其造成2点伤害；不同，你随机获得其区域里的一张牌。"
+			}, {
+				"name": "屯军",
+				"descriptions": "限定技，出牌阶段，你可以令一名角色随机使用牌堆中的X张不同类型的装备牌（不能替换已有的装备，X为你发动过技能“掠命”的次数）。"
+			}],
+			"dialogues": [{
+				"name": "掠命",
+				"descriptions": ["劫命掠财，毫不费力。", "人财，皆掠之，嘿嘿！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-10_1_2.mp3"
+				]
+			}, {
+				"name": "屯军",
+				"descriptions": ["得封侯爵，屯军弘农。", "屯军弘农，养精蓄锐。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["哪里来的乱箭？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-10_dead.mp3"]
+			}]
+		},
+		"can-zhu-11": {
+			"index": 69,
+			"name": "丁原",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-11.png",
+			"skills": [{
+				"name": "慈孝",
+				"descriptions": "准备阶段，若场上没有拥有“义子”标记的角色，则你可以令一名其他角色获得一个“义子”标记，否则你可以弃置一张牌并将“义子”标记移动给另一名其他角色。（拥有“义子”标记的角色视为拥有技能“叛弑”）"
+			}, {
+				"name": "先率",
+				"descriptions": "锁定技，本轮游戏的第一次伤害的〔造成伤害后〕，你摸一张牌，然后若此次伤害的伤害来源是你，你再对受伤角色造成1点伤害。"
+			}, {
+				"name": "☆ 叛弑",
+				"descriptions": "锁定技，①准备阶段，你交给拥有技能“慈孝”的角色一张手牌；②当你于出牌阶段内对拥有技能“慈孝”的目标角色使用【杀】：1.造成的伤害+1；2.结算结束后，若其受到你为伤害来源的【杀】造成的伤害，你结束出牌阶段。"
+			}],
+			"dialogues": [{
+				"name": "慈孝",
+				"descriptions": ["吾儿奉先，天下无敌！", "父慈子孝，义理为先！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-11_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-11_1_2.mp3"
+				]
+			}, {
+				"name": "先率",
+				"descriptions": ["九州齐喑，首义嘱吾！", "雄兵一击，则天下大白！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-11_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-11_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["你我父子，此恩今日断。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-11_dead.mp3"]
+			}]
+		},
+		"can-zhu-12": {
+			"index": 70,
+			"name": "黄祖",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-12.png",
+			"skills": [{
+				"name": "挽弓",
+				"descriptions": "锁定技，当你使用【杀】时，若你使用的上一张牌为基本牌，此【杀】无距离和次数限制、造成的伤害+1。"
+			}],
+			"dialogues": [{
+				"name": "挽弓",
+				"descriptions": ["强弓挽之，以射长箭！", "挽弓如月，克定江夏。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-12_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-12_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["命也……势也……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-12_dead.mp3"]
+			}]
+		},
+		"can-zhu-13": {
+			"index": 71,
+			"name": "高干",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-13.png",
+			"skills": [{
+				"name": "拒关",
+				"descriptions": "出牌阶段限一次，你可以将一张手牌当【杀】或【决斗】使用。若受到此牌伤害的角色未于你的下个回合开始前对你造成过伤害，则你于下个摸牌阶段多摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "拒关",
+				"descriptions": ["吾欲自立，举兵拒关。", "自立门户，拒关不开。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-13_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-13_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天不助我！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-13_dead.mp3"]
+			}]
+		},
+		"can-zhu-14": {
+			"index": 72,
+			"name": "王双",
+			"force": "wei",
+			"magatama": {
+				"actual": 8,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-14.png",
+			"skills": [{
+				"name": "追猎",
+				"descriptions": "锁定技，①你使用【杀】无距离限制；②当你使用【杀】指定你攻击范围外的一名角色为目标后，此【杀】不计入次数且你进行一次判定，若结果为武器牌或坐骑牌，则此【杀】伤害值增加至该角色的体力值，否则你失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "追猎",
+				"descriptions": ["我喜欢，猎夺沙场的快感。", "追敌夺魂，猎尽贼寇。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-14_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-14_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我居然，被蜀军所击倒。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-14_dead.mp3"]
+			}]
+		},
+		"can-zhu-15": {
+			"index": 73,
+			"name": "范疆&张达",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-15.png",
+			"skills": [{
+				"name": "怨仇",
+				"descriptions": "锁定技，你使用或其他角色对你使用的黑色【杀】无视防具。"
+			}, {
+				"name": "决生",
+				"descriptions": "限定技，你可以视为使用一张基础伤害值为X的【决斗】（X为目标角色本局使用过的【杀】的数量且至少为1）。若如此做，其获得此技能直到其下回合结束。"
+			}],
+			"dialogues": [{
+				"name": "怨仇",
+				"descriptions": ["鞭挞之仇，不共戴天！", "三将军怎可如此对待我二人！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-15_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-15_1_2.mp3"
+				]
+			}, {
+				"name": "决生",
+				"descriptions": ["向死而生，索性拼个鱼死网破！", "张翼德，我二人报仇来了！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-15_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-15_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吴侯救我！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-15_dead.mp3"]
+			}]
+		},
+		"can-zhu-16": {
+			"index": 74,
+			"name": "梁兴",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-16.png",
+			"skills": [{
+				"name": "掳掠",
+				"descriptions": "出牌阶段开始时，你可以令一名有手牌且手牌数小于你的其他角色选择一项：1.将所有手牌交给你，然后你将武将牌翻面；2.翻面，然后视为对你使用一张【杀】。"
+			}, {
+				"name": "追袭",
+				"descriptions": "锁定技，当你对其他角色造成伤害时，或受到其他角色造成的伤害时，若此次伤害不为传导伤害且该角色的“翻面状态”与你不同，此伤害+1。"
+			}],
+			"dialogues": [{
+				"name": "掳掠",
+				"descriptions": ["趁火打劫，乘危掳掠。", "天下大乱，掳掠以自保。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-16_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-16_1_2.mp3"
+				]
+			}, {
+				"name": "追袭",
+				"descriptions": ["得势追击，胜望在握！", "诸将得令，追而袭之！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-16_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-16_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夏侯渊，你竟敢！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-16_dead.mp3"]
+			}]
+		},
+		"can-zhu-17": {
+			"index": 75,
+			"name": "阿会喃",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-17.png",
+			"skills": [{
+				"name": "蟨蛮",
+				"descriptions": "锁定技，一名角色的回合结束时，若本回合前两张基本牌的使用者：均不为你，你视为使用本回合被使用的第三张基本牌；仅其中之一为你，你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "蟨蛮",
+				"descriptions": ["伤人之蛇蝎，向来善藏形。", "我不欲伤人，奈何人自伤！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-17_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-17_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["什么？大王要杀我？！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-17_dead.mp3"]
+			}]
+		},
+		"can-zhu-18": {
+			"index": 76,
+			"name": "文钦",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-18.png",
+			"skills": [{
+				"name": "犷骜",
+				"descriptions": "你/其他角色使用【杀】可以额外选择一名角色/你为目标（须合法），然后若你的手牌数为偶数，你摸一张牌并可以令此【杀】对其中任意名目标角色无效。"
+			}, {
+				"name": "彗企",
+				"descriptions": "觉醒技，一名角色的回合结束时，若本回合仅有三名角色成为过牌的目标（其中须包含你），你回复1点体力并获得技能“偕举”。"
+			}, {
+				"name": "☆ 偕举",
+				"descriptions": "出牌阶段限一次，你可以令任意名本回合成为过牌的目标的角色各可以将一张黑色牌当【杀】使用。"
+			}],
+			"dialogues": [{
+				"name": "犷骜",
+				"descriptions": ["策马觅封侯，长驱万里之数。", "大丈夫行事，焉能畏首畏尾。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-18_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-18_1_2.mp3"
+				]
+			}, {
+				"name": "彗企",
+				"descriptions": ["今大星西垂，此天降清君侧之证。", "彗星竟于西北，此罚天狼之兆。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-18_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-18_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 偕举",
+				"descriptions": ["今举大义，誓与仲恭共死。", "天降大任，当与志士同忾。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-18_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-18_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["天不佑国魏，天不佑族文！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-18_dead.mp3"]
+			}]
+		},
+		"can-zhu-19": {
+			"index": 77,
+			"name": "何进",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-19.png",
+			"skills": [{
+				"name": "谋诛",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色交给你一张手牌，然后若其手牌数小于你，其选择一项：1.视为使用一张【杀】；2.视为使用一张【决斗】。"
+			}, {
+				"name": "延祸",
+				"descriptions": "当你死亡时，你可以弃置杀死你的角色的至多X张牌（X为你的牌数）。"
+			}],
+			"dialogues": [{
+				"name": "谋诛",
+				"descriptions": ["宦官专权，进必诛之。", "汝等罪大恶极，快快伏法。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-19_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-19_1_2.mp3"
+				]
+			}, {
+				"name": "延祸",
+				"descriptions": ["乱世，才刚刚开始。", "你很快就笑不出来啦。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-19_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-19_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["不能……遗祸世间。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-19_dead.mp3"]
+			}]
+		},
+		"can-zhu-20": {
+			"index": 78,
+			"name": "牛金",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-20.png",
+			"skills": [{
+				"name": "挫锐",
+				"descriptions": "锁定技，①游戏开始时，你将手牌摸至X张（X为场上角色数）；②当你成为延时锦囊牌的目标后，你跳过下一个判定阶段。"
+			}, {
+				"name": "裂围",
+				"descriptions": "当你杀死其他角色时，你可以摸三张牌。"
+			}],
+			"dialogues": [{
+				"name": "挫锐",
+				"descriptions": ["区区乌合之众，如何困得住我！", "今日就让你见识见识，老牛的厉害！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-20_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-20_1_2.mp3"
+				]
+			}, {
+				"name": "裂围",
+				"descriptions": ["敌阵已乱，速速突围！", "杀你，如同碾死一只蚂蚁！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-20_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-20_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这包围圈太厚，老牛尽力了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-20_dead.mp3"]
+			}]
+		},
+		"can-zhu-21": {
+			"index": 79,
+			"name": "韩遂",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-21.png",
+			"skills": [{
+				"name": "逆乱",
+				"descriptions": "体力值大于你的角色的结束阶段，若其本回合使用过【杀】，你可以将一张黑色牌当【杀】对其使用。"
+			}, {
+				"name": "骁袭",
+				"descriptions": "每轮开始时，你可以视为使用一张无距离限制的【杀】。"
+			}],
+			"dialogues": [{
+				"name": "逆乱",
+				"descriptions": ["如果不能功成名就，那就干脆为祸一方。", "哈哈哈哈哈哈，天下之事皆无常。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-21_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-21_1_2.mp3"
+				]
+			}, {
+				"name": "骁袭",
+				"descriptions": ["两军交战，能者为胜。", "打你个措手不及。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-21_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-21_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["马侄儿为何，啊……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-21_dead.mp3"]
+			}]
+		},
+		"can-zhu-22": {
+			"index": 80,
+			"name": "张燕",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-22.png",
+			"skills": [{
+				"name": "肃疾",
+				"descriptions": "一名角色的出牌阶段开始时，若其已受伤，你可以将一张黑色牌当【杀】使用（若此【杀】对其造成过伤害，你获得其一张牌）。"
+			}, {
+				"name": "狼蹈",
+				"descriptions": "当你使用【杀】指定一名角色为唯一目标时，你可以与其同时选择一项（若此【杀】未杀死目标角色，你移除该选项）：1.令此【杀】造成的伤害+1；2.额外选择一名角色为此【杀】的目标；3.此【杀】不能被响应。"
+			}],
+			"dialogues": [{
+				"name": "肃疾",
+				"descriptions": ["飞燕如风，非快不得破。", "载疾风之势，摧万仞之城。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-22_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-22_1_2.mp3"
+				]
+			}, {
+				"name": "狼蹈",
+				"descriptions": ["虎踞黑山，望天下百城。", "狼顾四野，视幽冀为饵。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-22_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-22_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["草莽之辈……难登大雅之堂……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-22_dead.mp3"]
+			}]
+		},
+		"can-zhu-23": {
+			"index": 81,
+			"name": "李异",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-zhu-23.png",
+			"skills": [{
+				"name": "缠双",
+				"descriptions": "①出牌阶段限一次，你可以与一名其他角色同时选择一项并分别执行：1.重铸一张牌；2.可以使用一张【杀】（以此法使用的【杀】不计入次数限制）；3.弃置两张牌；②结束阶段，你根据X的值，依次执行上述项中的前等量项（X为你本回合执行过的项数）。"
+			}, {
+				"name": "蘸金",
+				"descriptions": "锁定技，若你的装备区里没有武器牌，视为你装备着【贯石斧】。"
+			}],
+			"dialogues": [{
+				"name": "缠双",
+				"descriptions": ["武艺精熟，勇冠三军。", "以一敌二，易如反掌。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-23_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-23_1_2.mp3"
+				]
+			}, {
+				"name": "蘸金",
+				"descriptions": ["寒光纵横，血战八方！", "蘸金霜刃，力贯山河！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-zhu-23_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-zhu-23_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此人竟如此勇猛……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-23_dead.mp3"]
+			}]
+		},
+		"can-nv-01": {
+			"index": 82,
+			"name": "灵雎",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-01.png",
+			"skills": [{
+				"name": "竭缘",
+				"descriptions": "①当你对其他角色造成伤害时，若该角色体力值不小于你，你可以弃置一张黑色手牌，令此伤害+1；②当你受到其他角色造成的伤害时，若其体力值不小于你，你可以弃置一张红色手牌，令此伤害-1。"
+			}, {
+				"name": "焚心",
+				"descriptions": "锁定技，当一名其他角色死亡后，根据其身份修改“竭缘”：忠臣，你减少伤害无体力值限制；反贼，你增加伤害无体力值限制；内奸，弃置牌时无颜色限制且可以弃置装备牌。"
+			}],
+			"dialogues": [{
+				"name": "竭缘",
+				"descriptions": ["我所有的努力，都是为了杀你！", "我必须活下去！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-01_1_2.mp3"
+				]
+			}, {
+				"name": "焚心",
+				"descriptions": ["杀人，诛心！", "主上，这是最后的机会！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["主上……对不起……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-01_dead.mp3"]
+			}]
+		},
+		"can-nv-02": {
+			"index": 83,
+			"name": "赵襄",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-02.png",
+			"skills": [{
+				"name": "芳魂",
+				"descriptions": "①当你使用【杀】造成伤害后，或当你受到【杀】造成的伤害后，你获得等同于伤害值数个“梅影”标记；②当你需要使用或打出【杀】或【闪】时，你可以移去1个“梅影”标记，发动一次“龙胆”，然后你于使用或打出的牌结算结算后摸一张牌。"
+			}, {
+				"name": "扶汉",
+				"descriptions": "限定技，回合开始时，若你拥有过“梅影”标记，你可以移去所有“梅影”标记，然后从五张蜀势力武将牌中选择一张替换，并将体力上限数调整为移去过的“梅影”标记数（至少为2且至多为8）。你回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "芳魂",
+				"descriptions": ["万花凋落尽，一梅独傲霜。", "暗香疏影处，凌风踏雪来！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-02_1_2.mp3"
+				]
+			}, {
+				"name": "扶汉",
+				"descriptions": ["承先父之志，扶汉兴刘！", "天将降大任于我！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["遁入阴影之中。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-02_dead.mp3"]
+			}]
+		},
+		"can-nv-03": {
+			"index": 84,
+			"name": "花鬘",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-03.png",
+			"skills": [{
+				"name": "蛮裔",
+				"descriptions": "锁定技，【南蛮入侵】对你无效。"
+			}, {
+				"name": "蛮嗣",
+				"descriptions": "①出牌阶段限一次，你可以将所有手牌当【南蛮入侵】使用；②当一名角色受到【南蛮入侵】造成的伤害后，你摸一张牌。"
+			}, {
+				"name": "薮影",
+				"descriptions": "每回合限一次，当你使用牌指定其他角色为唯一目标后/成为其他角色使用牌的唯一目标后，若此牌不是本回合使用者对目标角色使用的第一张牌，你可以弃置一张牌，你收回此牌/令此牌对你无效。"
+			}, {
+				"name": "战缘",
+				"descriptions": "觉醒技，准备阶段，若你已因“蛮嗣”累计获得过至少七张牌，你加1点体力上限并回复1点体力，然后你可以选择一名男性角色，若如此做，你与其获得技能“系力”，然后你失去技能“蛮嗣”。"
+			}, {
+				"name": "☆ 系力",
+				"descriptions": "每回合限一次，当拥有此技能的其他角色于其回合内对另一名其他角色造成伤害时，你可以弃置一张牌，令此伤害+1，然后你与其各摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "蛮裔",
+				"descriptions": ["蛮族的力量，你可不要小瞧！", "南蛮女子，该当英勇善战！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-03_1_2.mp3"
+				]
+			}, {
+				"name": "蛮嗣",
+				"descriptions": ["承父母庇护，得此福气。", "多谢父母怜爱。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-03_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-03_2_2.mp3"
+				]
+			}, {
+				"name": "薮影",
+				"descriptions": ["幽薮影单，只身勇斗！", "真薮影移，险战不惧！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-03_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-03_3_2.mp3"
+				]
+			}, {
+				"name": "战缘",
+				"descriptions": ["势不同，情相随。", "战中结缘，虽苦亦甜。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-03_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-03_4_2.mp3"
+				]
+			}, {
+				"name": "☆ 系力",
+				"descriptions": ["系力而为，助君得胜。", "有我在，将军此战必能一举拿下！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-03_5_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-03_5_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["南蛮之地的花，还在开吗……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-03_dead.mp3"]
+			}]
+		},
+		"can-nv-04": {
+			"index": 85,
+			"name": "关银屏",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-04.png",
+			"skills": [{
+				"name": "雪恨",
+				"descriptions": "出牌阶段限一次，你可以弃置一张红色牌并选择至多X名角色（X为你已损失的体力值且至少为1），然后你横置这些角色，并对其中一名角色各造成1点火焰伤害。"
+			}, {
+				"name": "虎啸",
+				"descriptions": "锁定技，当你对一名角色造成火焰伤害后，其摸一张牌，然后你本回合对其使用牌无次数限制。"
+			}, {
+				"name": "武继",
+				"descriptions": "觉醒技，结束阶段，若你本回合造成过至少3点伤害，你加1点体力上限并回复1点体力，失去技能“虎啸”，然后从牌堆、弃牌堆或场上获得【青龙偃月刀】。"
+			}],
+			"dialogues": [{
+				"name": "雪恨",
+				"descriptions": ["这炙热的鲜血，父亲，你可感觉得到？", "取你首级，祭先父之灵。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-04_1_2.mp3"
+				]
+			}, {
+				"name": "虎啸",
+				"descriptions": ["大仇未报，还不能放弃。", "虎父无犬女！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-04_2_2.mp3"
+				]
+			}, {
+				"name": "武继",
+				"descriptions": ["我感受到了，父亲的力量。", "我也要像父亲那样坚强。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-04_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["父亲，你来救我了吗？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-04_dead.mp3"]
+			}]
+		},
+		"can-nv-05": {
+			"index": 86,
+			"name": "大乔&小乔",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-05.png",
+			"skills": [{
+				"name": "星舞",
+				"descriptions": "弃牌阶段开始时，你可以将一张牌置于你的武将牌上，称为“舞”，然后你可以翻面并弃置两张手牌（若“舞”的张数大于2，你可以改为移去三张“舞”），弃置一名其他角色装备区里的所有牌，并对其造成2点伤害（若其为女性角色则改为1点伤害）。"
+			}, {
+				"name": "落雁",
+				"descriptions": "锁定技，若你的武将牌上有“舞”，你视为拥有技能“天香”和“流离”。"
+			}, {
+				"name": "☆ 天香",
+				"descriptions": "当你受到伤害时，你可以弃置一张♥️手牌，防止此伤害并选择一名其他角色，若如此做，你选择一项：1.令其受到伤害来源对其造成的1点伤害，然后其摸X张牌（X为其已损失的体力值，且至多为5）；2.令其失去1点体力，然后其获得你弃置的牌。"
+			}, {
+				"name": "☆ 流离",
+				"descriptions": "当你成为其他角色使用【杀】的目标时，你可以弃置一张牌，将此【杀】转移给你攻击范围内的另一名其他角色。"
+			}],
+			"dialogues": [{
+				"name": "星舞",
+				"descriptions": ["哼，不要小瞧女孩子哦！", "姐妹齐心，其利断金！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-05_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 天香",
+				"descriptions": ["替我挡着吧！", "哼！我才不怕你呢！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-05_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-05_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 流离",
+				"descriptions": ["呵呵，交给你啦。", "不懂得怜香惜玉么？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-05_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-05_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["伯符，公瑾，请一定要守住我们的江东哦！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-05_dead.mp3"]
+			}]
+		},
+		"can-nv-06": {
+			"index": 87,
+			"name": "张星彩",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-06.png",
+			"skills": [{
+				"name": "甚贤",
+				"descriptions": "每名其他角色的回合限一次，当其他角色因弃置而失去基本牌后，你可以摸一张牌。"
+			}, {
+				"name": "枪舞",
+				"descriptions": "出牌阶段限一次，你可以进行一次判定，然后本回合你使用：点数小于判定结果的【杀】无距离限制；点数大于判定结果的【杀】不计入次数限制。"
+			}],
+			"dialogues": [{
+				"name": "甚贤",
+				"descriptions": ["愿尽己力，为君分忧。", "抚慰军心，以安国事。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-06_1_2.mp3"
+				]
+			}, {
+				"name": "枪舞",
+				"descriptions": ["父亲未竟之业，由我继续！", "咆哮沙场，万夫不敌！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-06_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["复兴汉室之路，臣妾再也不能陪伴左右。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-06_dead.mp3"]
+			}]
+		},
+		"can-nv-07": {
+			"index": 88,
+			"name": "马云騄",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-07.png",
+			"skills": [{
+				"name": "凤魄",
+				"descriptions": "当你于回合内使用本回合的第一张【杀】或第一张【决斗】指定一名角色为目标后，若其是此牌唯一的目标，你可以选择一项：1.摸X张牌；2.令此牌的基础伤害值+X（X为其手牌中的♦️牌数）。"
+			}, {
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "凤魄",
+				"descriptions": ["等我提枪上马，打你个落花流水！", "对付你，用不着我家哥哥亲自上阵！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-07_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-07_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["是你们欺负人。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-07_dead.mp3"]
+			}]
+		},
+		"can-nv-08": {
+			"index": 89,
+			"name": "董白",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-08.png",
+			"skills": [{
+				"name": "连诛",
+				"descriptions": "出牌阶段限一次，你可以展示并交给一名其他角色一张牌，若此牌为黑色，其需弃置两张牌或令你摸两张牌。"
+			}, {
+				"name": "黠慧",
+				"descriptions": "锁定技，①黑色牌不计入你的手牌上限；②当其他角色获得你的黑色牌时，其不能使用、打出或弃置这些牌直到其体力值减少为止。"
+			}],
+			"dialogues": [{
+				"name": "连诛",
+				"descriptions": ["若有不臣之心，定当株连九族。", "你们都是一条绳上的蚂蚱。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-08_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["放肆，我要让爷爷赐你们死罪！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-08_dead.mp3"]
+			}]
+		},
+		"can-nv-09": {
+			"index": 90,
+			"name": "张昌蒲",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-09.png",
+			"skills": [{
+				"name": "严教",
+				"descriptions": "出牌阶段限一次，你可以选择一名其他角色并亮出牌堆顶的四张牌，令该角色将这些牌分成点数之和相等的两组并将这两组牌分配给你与其，然后将剩余未分组的牌置入弃牌堆。若未分组的牌超过一张，本回合你的手牌上限-1。"
+			}, {
+				"name": "省身",
+				"descriptions": "当你受到伤害后，你可以摸随机一至两张牌，令下一次发动“严教”亮出的牌数+X（X为你已损失的体力值；加值总数至多为6）。"
+			}],
+			"dialogues": [{
+				"name": "严教",
+				"descriptions": ["会虽童稚，勤见规诲。", "性矜严教，明于教训。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-09_1_2.mp3"
+				]
+			}, {
+				"name": "省身",
+				"descriptions": ["居上不骄，制节谨度。", "君子之行，皆积小以致高大。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我还是小看了，孙氏的伎俩。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-09_dead.mp3"]
+			}]
+		},
+		"can-nv-10": {
+			"index": 91,
+			"name": "杨婉",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-10.png",
+			"skills": [{
+				"name": "诱言",
+				"descriptions": "出牌阶段和弃牌阶段各限一次，当你的牌因弃置而置入弃牌堆时，你可以从牌堆中获得每种花色的牌各一张（本次弃牌的花色除外）。"
+			}, {
+				"name": "追还",
+				"descriptions": "结束阶段，你可以选择一名角色；该角色的下个准备阶段，若此期间内对其造成过伤害的角色：体力值大于其，受到该角色造成的2点伤害；体力值不大于其，随机弃置两张手牌。"
+			}],
+			"dialogues": [{
+				"name": "诱言",
+				"descriptions": ["诱言者，为人所不齿。", "诱言之弊，不可不慎。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-10_1_2.mp3"
+				]
+			}, {
+				"name": "追还",
+				"descriptions": ["追而还击，皆为因果。", "伤人者，追而还之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["遇人……不淑……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-10_dead.mp3"]
+			}]
+		},
+		"can-nv-11": {
+			"index": 92,
+			"name": "郭槐",
+			"force": "jin",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-11.png",
+			"skills": [{
+				"name": "哲妇",
+				"descriptions": "当你于回合外使用或打出牌后，你可以令一名有手牌的其他角色选择一项：1.弃置一张与之牌名相同的牌；2.受到你造成的1点伤害。"
+			}, {
+				"name": "遗毒",
+				"descriptions": "当你使用伤害牌结算结束后，你可以展示其中一名未受到此牌伤害的目标角色的至多三张手牌，若这些牌颜色均相同，你弃置这些牌。"
+			}],
+			"dialogues": [{
+				"name": "哲妇",
+				"descriptions": ["非我善妒，实乃汝之过也。", "履行不端者，当有此罚。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-11_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-11_1_2.mp3"
+				]
+			}, {
+				"name": "遗毒",
+				"descriptions": ["彼之砒霜，吾之蜜糖。", "巧动心思，以遗他人。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-11_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-11_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我死后，切勿从粲、午之言……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-11_dead.mp3"]
+			}]
+		},
+		"can-nv-12": {
+			"index": 93,
+			"name": "丁尚涴",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-12.png",
+			"skills": [{
+				"name": "抚悼",
+				"descriptions": "①游戏开始时，你摸三张牌，交给一名其他角色至多三张手牌，弃置任意张手牌，然后记录你的手牌数；②一名角色的回合结束时，若其手牌数与记录的数值相同，你可以与其各摸一张牌。"
+			}, {
+				"name": "讽言",
+				"descriptions": "锁定技，当你受到其他角色造成的伤害后，或响应其他角色使用的牌结算结束后，你选择一项：1.摸一张牌，然后交给其一张牌；2.其摸一张牌，然后弃置两张牌。"
+			}],
+			"dialogues": [{
+				"name": "抚悼",
+				"descriptions": ["冰刃入腹，使肝肠寸断。", "失子之殇，世间再无春秋。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-12_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-12_1_2.mp3"
+				]
+			}, {
+				"name": "讽言",
+				"descriptions": ["何不以曹公之命，换我儿之命乎。", "亲儿丧于宛城，曹公何颜复还？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-12_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-12_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["今生与曹，不复相见。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-12_dead.mp3"]
+			}]
+		},
+		"can-nv-13": {
+			"index": 94,
+			"name": "胡金定",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-nv-13.png",
+			"skills": [{
+				"name": "轻缘",
+				"descriptions": "锁定技，游戏开始时，或当你第一次受到伤害时，你令一名没有“轻缘”标记的其他角色获得“轻缘”标记（每回合限一次，当有“轻缘”标记的其他角色获得牌后，你随机获得一名有“轻缘”标记的其他角色的一张手牌）。"
+			}, {
+				"name": "重身",
+				"descriptions": "你可以将一张本轮获得的红色牌当【闪】使用。"
+			}],
+			"dialogues": [{
+				"name": "轻缘",
+				"descriptions": ["男儿重义气，自古轻别离。", "缘轻义重，倚东篱而叹长生。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-13_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-13_1_2.mp3"
+				]
+			}, {
+				"name": "重身",
+				"descriptions": ["妾死则矣，腹中稚婴何辜？", "身怀六甲，君忘好生之德乎？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-nv-13_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-nv-13_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["君无愧于天下，可有悔于妻儿？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-13_dead.mp3"]
+			}]
+		},
+		"can-wei-01": {
+			"index": 95,
+			"name": "张宝",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-01.png",
+			"skills": [{
+				"name": "咒缚",
+				"descriptions": "①出牌阶段限一次，你可以将一张牌置于一名武将牌旁没有“咒”的其他角色的武将牌旁，称为“咒”（当有“咒”的角色判定时，将“咒”作为判定牌）；②一名角色的回合结束时，你令本回合所有移去过“咒”的角色失去1点体力。"
+			}, {
+				"name": "影兵",
+				"descriptions": "锁定技，当有“咒”的角色使用与“咒”颜色相同的牌时，你摸一张牌，然后若这是你第二次因该“咒”摸牌，你获得该“咒”。"
+			}],
+			"dialogues": [{
+				"name": "咒缚",
+				"descriptions": ["违吾咒者，倾死灭亡。", "咒宝符命，速显威灵。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-01_1_2.mp3"
+				]
+			}, {
+				"name": "影兵",
+				"descriptions": ["朱雀玄武，誓为我征。", "所呼立至，所召立前。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["黄天，为何？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-01_dead.mp3"]
+			}]
+		},
+		"can-wei-02": {
+			"index": 96,
+			"name": "司马徽",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-02.png",
+			"skills": [{
+				"name": "荐杰",
+				"descriptions": "①你的第一个准备阶段，你令两名不同角色分别获得“龙印”和“凤印”；②出牌阶段限一次（你的第一个回合除外），或当拥有“龙印”/“凤印”的角色死亡时，你可以转移“龙印”/“凤印”。•拥有 “龙印”/“凤印” 的角色视为拥有技能“火计”/“连环”（均一回合限三次）；•同时拥有“龙印”和“凤印”的角色视为拥有技能“业炎”，且在“业炎”发动后移去“龙印”和“凤印”。"
+			}, {
+				"name": "称好",
+				"descriptions": "当一名角色受到属性伤害后，若其处于“连环状态”且是此次伤害传导的起点，你可以观看牌堆顶的X张牌并将这些牌分配给任意角色（X为横置角色数+1）。"
+			}, {
+				"name": "隐士",
+				"descriptions": "锁定技，当你受到属性伤害或锦囊牌造成的伤害时，若你没有“龙印”或“凤印”且装备区内没有防具牌，防止此伤害。"
+			}],
+			"dialogues": [{
+				"name": "荐杰",
+				"descriptions": ["卧龙凤雏，二者得一，可安天下。", "公怀王佐之才，宜择人而仕。", "二人齐聚，汉室可兴矣。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-02_1_2.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-02_1_3.mp3"
+				]
+			}, {
+				"name": "称好",
+				"descriptions": ["好，很好，非常好。", "您的话也很好。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-02_2_2.mp3"
+				]
+			}, {
+				"name": "隐士",
+				"descriptions": ["山野闲散之人，不堪重用。", "我老啦，会有胜我十倍的人来帮助你。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-02_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-02_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这似乎……没那么好了……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-02_dead.mp3"]
+			}]
+		},
+		"can-wei-03": {
+			"index": 97,
+			"name": "诸葛果",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-03.png",
+			"skills": [{
+				"name": "祈禳",
+				"descriptions": "当你使用装备牌结算结束后，你可以获得牌堆中的一张锦囊牌，若此牌：为普通锦囊牌，你使用此牌仅指定一个目标时，可以多选择一个目标；不为普通锦囊牌，你的下个回合发动“羽化”时观看的牌数的值+1（至多加至5）。"
+			}, {
+				"name": "羽化",
+				"descriptions": "锁定技，①非基本牌不计入你的手牌上限；②准备阶段或结束阶段，你观看牌堆顶的一张牌，并将其中任意张牌以任意顺序置于牌堆顶，将剩余的牌以任意顺序置于牌堆底。"
+			}],
+			"dialogues": [{
+				"name": "祈禳",
+				"descriptions": ["集母亲之智，效父亲之法，祈以七星。", "仙甲既来，岂无仙术乎？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-03_1_2.mp3"
+				]
+			}, {
+				"name": "羽化",
+				"descriptions": ["凤羽飞烟，乘化仙尘。", "此乃仙人之物，不可轻弃。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-03_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["飘飘乎如遗世独立，羽化而登仙。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-03_dead.mp3"]
+			}]
+		},
+		"can-wei-04": {
+			"index": 98,
+			"name": "张鲁",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-04.png",
+			"skills": [{
+				"name": "义舍",
+				"descriptions": "①结束阶段，若你没有“米”，你可以摸两张牌，然后将两张牌置于你的武将牌上，称为“米”；②当最后一张“米”被移去时，你回复1点体力。"
+			}, {
+				"name": "布施",
+				"descriptions": "当你受到1点伤害后，或对其他角色造成1点伤害后，受伤角色可以获得一张“米”。"
+			}, {
+				"name": "米道",
+				"descriptions": "当一名角色的判定牌生效前，你可以打出一张“米”代替之。"
+			}],
+			"dialogues": [{
+				"name": "义舍",
+				"descriptions": ["行大义之举，须有向道之心。", "你有你的权谋，我，哼，自有我的道义。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-04_1_2.mp3"
+				]
+			}, {
+				"name": "布施",
+				"descriptions": ["布施行善，乃道义之本。", "行布施，得天道。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-04_2_2.mp3"
+				]
+			}, {
+				"name": "米道",
+				"descriptions": ["从善从良，从五斗米道。", "兼济天下，解百姓之忧。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-04_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-04_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["但，归置于道，无意凡世争斗。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-04_dead.mp3"]
+			}]
+		},
+		"can-wei-05": {
+			"index": 99,
+			"name": "卑弥呼",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-05.png",
+			"skills": [{
+				"name": "纵傀",
+				"descriptions": "①回合开始时，你可以令一名没有“傀”标记的其他角色获得1个“傀”标记；②每轮开始时，体力值最低且没有“傀”标记的一名其他角色获得1个“傀”标记。"
+			}, {
+				"name": "骨疽",
+				"descriptions": "锁定技，当有“傀”标记的角色受到伤害后，你摸一张牌。"
+			}, {
+				"name": "拜假",
+				"descriptions": "觉醒技，准备阶段，若你因“骨疽”累计摸过至少七张牌，你加1点体力上限并回复1点体力，然后令所有没有“傀”标记的其他角色各获得1个“傀”标记，若如此做，你失去技能“骨疽”，获得技能“蚕食”。"
+			}, {
+				"name": "☆ 蚕食",
+				"descriptions": "①当一名其他角色使用基本牌或普通锦囊牌指定你为唯一目标时，若其有“傀”标记，你可以取消之，然后移去其的“傀”标记；②当你使用基本牌或普通锦囊牌指定一名角色为唯一目标时，你可以额外选择任意名有“傀”标记的其他角色为目标，然后移去这些角色的“傀”标记。"
+			}],
+			"dialogues": [{
+				"name": "纵傀",
+				"descriptions": ["准备好，听候女王的差遣了吗？", "契约已定！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-05_1_2.mp3"
+				]
+			}, {
+				"name": "骨疽",
+				"descriptions": ["我能看到，你的灵魂在颤抖。", "你死后，我将超度你的亡魂。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-05_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-05_2_2.mp3"
+				]
+			}, {
+				"name": "拜假",
+				"descriptions": ["以邪马台的名义！", "我要摧毁你的一切，然后建立我的国度。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-05_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-05_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 蚕食",
+				"descriptions": ["是你在召唤我吗？", "这片土地的人真是太有趣了。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-05_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-05_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我还会从黄泉比良坂回来的。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-05_dead.mp3"]
+			}]
+		},
+		"can-wei-06": {
+			"index": 100,
+			"name": "许靖",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-06.png",
+			"skills": [{
+				"name": "誉虚",
+				"descriptions": "出牌阶段，当你使用牌结算结束后，你可以摸一张牌，然后你本阶段下一次使用牌结算结束后，你不能发动此技能且弃置一张牌。"
+			}, {
+				"name": "实荐",
+				"descriptions": "当一名其他角色于其出牌阶段第二次使用牌结算结束后，你可以弃置一张牌，令其本回合获得技能“誉虚”。"
+			}],
+			"dialogues": [{
+				"name": "誉虚",
+				"descriptions": ["誉名浮虚，播流四海。", "誉虚之名，得保一时。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-06_1_2.mp3"
+				]
+			}, {
+				"name": "实荐",
+				"descriptions": ["国家安危，在于足下。", "行之得道，即社稷用宁。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-06_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-06_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["漂薄风波，绝粮茹草。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-06_dead.mp3"]
+			}]
+		},
+		"can-wei-07": {
+			"index": 101,
+			"name": "张陵",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-07.png",
+			"skills": [{
+				"name": "虎骑",
+				"descriptions": "锁定技，①你计算与其他角色的距离-1；②当你于回合外受到伤害后，你进行一次判定，若结果为红色，你视为对伤害来源使用一张【杀】。"
+			}, {
+				"name": "授符",
+				"descriptions": "①出牌阶段限一次，你可摸一张牌，然后将一张手牌置于一名没有“箓”的角色的武将牌上，称为“箓”（若一名角色的武将牌上有“箓”，其不能使用或打出与“箓”同类型的牌）；②当有“箓”的角色受到伤害后，或其于弃牌阶段弃置至少两张与“箓”同类型的牌后，移去该“箓”。"
+			}],
+			"dialogues": [{
+				"name": "虎骑",
+				"descriptions": ["骑虎云游，探求道法。", "求仙长生，感悟万象。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-07_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-07_1_2.mp3"
+				]
+			}, {
+				"name": "授符",
+				"descriptions": ["得授符法，驱鬼灭害。", "吾得法器，必斩万恶！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-07_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["羽化登仙，遗世独立。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-07_dead.mp3"]
+			}]
+		},
+		"can-wei-08": {
+			"index": 102,
+			"name": "黄承彦",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-08.png",
+			"skills": [{
+				"name": "观虚",
+				"descriptions": "出牌阶段限一次，你可以观看一名其他角色的手牌，然后你可以用其中一张牌交换牌堆顶的五张牌中的一张。若如此做，你弃置其手牌中三张相同花色的牌。"
+			}, {
+				"name": "雅士",
+				"descriptions": "当你受到伤害后，你可以选择一项：1.令伤害来源的非锁定技无效直到其下个回合开始；2.对一名其他角色发动一次“观虚”。"
+			}],
+			"dialogues": [{
+				"name": "观虚",
+				"descriptions": ["不识此阵者，必为所迷。", "虚实相生，变化无穷。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-08_1_2.mp3"
+				]
+			}, {
+				"name": "雅士",
+				"descriptions": ["德行贞绝者，谓其雅士。", "鸿儒雅士，闻见多矣。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-08_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-08_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["皆为虚妄……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-08_dead.mp3"]
+			}]
+		},
+		"can-wei-09": {
+			"index": 103,
+			"name": "张芝",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-09.png",
+			"skills": [{
+				"name": "笔心",
+				"descriptions": "一名角色的准备阶段或结束阶段，你可以声明一种牌的类别并摸3张牌，然后将所有此类别的手牌当任意一张基本牌使用（每种类别限声明1次；你本轮使用过的基本牌除外）。"
+			}, {
+				"name": "洗墨",
+				"descriptions": "锁定技，当你发动“笔心”后，你对技能“笔心”依次执行以下一项修改：1.删去“一名角色”；2.删去“准备阶段”；3.删去“结束阶段”并交换描述中的两个数字，然后你失去此技能并获得技能“飞白”。"
+			}, {
+				"name": "☆ 飞白",
+				"descriptions": "转换技，锁定技，阳：当你使用非黑色牌对一名角色造成伤害时，此伤害+1；阴：当你使用非红色牌令一名角色回复体力时，此回复+1。"
+			}],
+			"dialogues": [{
+				"name": "笔心",
+				"descriptions": ["携笔落云藻，文书剖纤毫。", "执纸抒胸臆，挥笔涕汍澜。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-09_1_2.mp3"
+				]
+			}, {
+				"name": "洗墨",
+				"descriptions": ["帛尽漂洗，以待后用。", "故帛无尽，而笔不停也。", "以帛为纸，临池习书。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-09_2_2.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-09_2_3.mp3"
+				]
+			}, {
+				"name": "☆ 飞白",
+				"descriptions": ["字之体势，一笔而成。", "超前绝伦，独步无双。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-09_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-09_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["力透三分，何以言老……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-09_dead.mp3"]
+			}]
+		},
+		"can-wei-10": {
+			"index": 104,
+			"name": "卢氏",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-wei-10.png",
+			"skills": [{
+				"name": "驻颜",
+				"descriptions": "结束阶段，你可以选择一项（每个选项每名角色限一次），令一名角色将〔1.体力值；2.手牌数〕调整至与其上个准备阶段相同（摸牌时至多摸至五张；若其未执行过准备阶段，则调整至与游戏开始时相同）。"
+			}, {
+				"name": "雷劫",
+				"descriptions": "准备阶段，你可以令一名角色进行一次判定，若结果为♠️2~9，其受到2点雷电伤害，否则其摸两张牌。"
+			}],
+			"dialogues": [{
+				"name": "驻颜",
+				"descriptions": ["心有灵犀，面如不老之椿。", "驻颜有术，此间用得芳容。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-10_1_2.mp3"
+				]
+			}, {
+				"name": "雷劫",
+				"descriptions": ["雷劫锻体，清瘴涤魂。", "欲得长生，必受此劫。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-wei-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-wei-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["人世寻大道，何其愚也。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-10_dead.mp3"]
+			}]
+		},
+		"can-hu-01": {
+			"index": 105,
+			"name": "诸葛恪",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-01.png",
+			"skills": [{
+				"name": "傲才",
+				"descriptions": "你的回合外，当你需要使用或打出基本牌时，你可以观看牌堆顶的两张牌（若你没有手牌，则改为四张牌），并可以使用或打出其中的基本牌。"
+			}, {
+				"name": "黩武",
+				"descriptions": "出牌阶段，你可以弃置X张牌，对你攻击范围内的一名其他角色造成1点伤害（X为该角色的体力值）。若其因此进入濒死状态且被救回，你失去1点体力且本回合此技能失效。"
+			}],
+			"dialogues": [{
+				"name": "傲才",
+				"descriptions": ["哼，易如反掌。", "吾主圣明，泽披臣属。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-01_1_2.mp3"
+				]
+			}, {
+				"name": "黩武",
+				"descriptions": ["全力攻城，言退者，斩！", "破曹大功，正在今朝！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["重权震主，是我疏忽了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-01_dead.mp3"]
+			}]
+		},
+		"can-hu-02": {
+			"index": 106,
+			"name": "苏飞",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-02.png",
+			"skills": [{
+				"name": "联翩",
+				"descriptions": "每回合限三次，当你于出牌阶段使用牌时，若此牌与你本阶段使用的上一张牌有相同的目标，你可以摸一张牌，然后你可以将摸到的牌交给其中一名相同的目标角色。"
+			}],
+			"dialogues": [{
+				"name": "联翩",
+				"descriptions": ["心无旁骛，断而敢行。", "需持续投入，方有回报。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-02_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["恐不能再与兴霸兄，并肩奋战了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-02_dead.mp3"]
+			}]
+		},
+		"can-hu-03": {
+			"index": 107,
+			"name": "黄权",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-03.png",
+			"skills": [{
+				"name": "点虎",
+				"descriptions": "锁定技，游戏开始时，你选择一名其他角色。当你对该角色造成伤害后，或当该角色回复体力后，你摸一张牌。"
+			}, {
+				"name": "谏计",
+				"descriptions": "出牌阶段限一次，你可以令一名其他角色摸一张牌，然后其可以使用该牌。"
+			}],
+			"dialogues": [{
+				"name": "点虎",
+				"descriptions": ["预则立，不预则废！", "就用你，给我军祭旗！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-03_1_2.mp3"
+				]
+			}, {
+				"name": "谏计",
+				"descriptions": ["锦上添花，不如雪中送炭。", "密计交于将军，可解燃眉之困。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-03_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["魏王厚待于我，降魏又有何错？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-03_dead.mp3"]
+			}]
+		},
+		"can-hu-04": {
+			"index": 108,
+			"name": "唐咨",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-04.png",
+			"skills": [{
+				"name": "兴棹",
+				"descriptions": "锁定技，若场上已受伤的角色数不小于：1，你视为拥有技能“恂恂”；2，你使用装备牌时摸一张牌；3，你跳过弃牌阶段。"
+			}, {
+				"name": "☆ 恂恂",
+				"descriptions": "摸牌阶段开始时，你可以观看牌堆顶的四张牌，然后将其中的两张牌置于牌堆顶，将其余的牌置于牌堆底。"
+			}],
+			"dialogues": [{
+				"name": "兴棹",
+				"descriptions": ["拿些上好的木料来！", "精挑细选，方能成百年之计。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-04_1_2.mp3"
+				]
+			}, {
+				"name": "☆ 恂恂",
+				"descriptions": ["让我先探他一探。", "船，也不是一天就能造出来的。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["偷工减料，要不得啊！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-04_dead.mp3"]
+			}]
+		},
+		"can-hu-05": {
+			"index": 109,
+			"name": "公孙瓒",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-05.png",
+			"skills": [{
+				"name": "义从",
+				"descriptions": "锁定技，①你计算与其他角色的距离-1；②若你的体力值不大于2，其他角色计算与你的距离+1。"
+			}],
+			"dialogues": [{
+				"name": "义从",
+				"descriptions": ["冲啊！", "众将听令，摆好阵势，御敌！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-05_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我军将败，我已无颜苟活于世。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-05_dead.mp3"]
+			}]
+		},
+		"can-hu-06": {
+			"index": 110,
+			"name": "曹洪",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-06.png",
+			"skills": [{
+				"name": "援护",
+				"descriptions": "结束阶段，你可以将一张装备牌置入一名角色的装备区，若此牌为：武器牌，你弃置其距离为1的一名角色的区域里的一张牌；防具牌，其摸一张牌；坐骑牌，其回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "援护",
+				"descriptions": ["刀剑无眼，须得小心防护。", "将军，这件兵器可还趁手？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-06_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-06_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["福兮祸所伏……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-06_dead.mp3"]
+			}]
+		},
+		"can-hu-07": {
+			"index": 111,
+			"name": "夏侯霸",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-07.png",
+			"skills": [{
+				"name": "豹变",
+				"descriptions": "锁定技，若你的体力值：不大于3，你视为拥有技能“挑衅”；不大于2，你视为拥有技能“咆哮”；为1，你视为拥有技能“神速”。"
+			}, {
+				"name": "☆ 挑衅",
+				"descriptions": "出牌阶段限一次，你可以选择一名攻击范围内含你的其他角色，除非其对你使用一张【杀】且此【杀】对你造成伤害，否则你弃置其一张牌并将本技能于本阶段内修改为“出牌阶段限两次”。"
+			}, {
+				"name": "☆ 咆哮",
+				"descriptions": "锁定技，你使用【杀】无次数限制。"
+			}, {
+				"name": "☆ 神速",
+				"descriptions": "你可以选择至多三项：1.跳过判定阶段和摸牌阶段；2.跳过出牌阶段并弃置一张装备牌；3.跳过弃牌阶段并翻面。你每选择一项，便视为你使用一张无距离限制的【杀】。"
+			}],
+			"dialogues": [{
+				"name": "☆ 挑衅",
+				"descriptions": ["跪下受降，饶你不死！", "黄口小儿，可听过将军名号？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-07_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-07_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 咆哮",
+				"descriptions": ["喝！", "受死吧！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-07_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-07_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 神速",
+				"descriptions": ["冲杀敌阵，来去如电！", "今日有恙在身，需得速战速决！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-07_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-07_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["弃魏投蜀，死而无憾。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-07_dead.mp3"]
+			}]
+		},
+		"can-hu-08": {
+			"index": 112,
+			"name": "乐进",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-08.png",
+			"skills": [{
+				"name": "骁果",
+				"descriptions": "其他角色的结束阶段，你可以弃置一张基本牌，令其选择一项：1.弃置一张装备牌，并令你摸一张牌；2.受到你对其造成的1点伤害。"
+			}],
+			"dialogues": [{
+				"name": "骁果",
+				"descriptions": ["三军听我号令，不得撤退！", "看我先登城头，立下首功！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-08_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-08_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["箭疮发作，吾命休矣。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-08_dead.mp3"]
+			}]
+		},
+		"can-hu-09": {
+			"index": 113,
+			"name": "祖茂",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-09.png",
+			"skills": [{
+				"name": "引兵",
+				"descriptions": "结束阶段，你可以将任意张非基本牌置于你的武将牌上（当你受到【杀】或【决斗】造成的伤害后，你移去一张“引兵”牌）。"
+			}, {
+				"name": "绝地",
+				"descriptions": "锁定技，准备阶段，若你的武将牌上有“引兵”牌，你选择一项：1.移去“引兵”牌，然后将手牌摸至体力上限；2.令一名体力值不大于你的其他角色获得“引兵”牌，然后其回复1点体力并摸等量的牌。"
+			}],
+			"dialogues": [{
+				"name": "引兵",
+				"descriptions": ["追兵凶猛，末将断后！", "将军走此小道，追兵交我应付！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-09_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-09_1_2.mp3"
+				]
+			}, {
+				"name": "绝地",
+				"descriptions": ["困兽之斗，以全忠义！", "提起武器，最后一搏！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-09_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-09_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["孙将军，已经，安全了吧……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-09_dead.mp3"]
+			}]
+		},
+		"can-hu-10": {
+			"index": 114,
+			"name": "丁奉",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-10.png",
+			"skills": [{
+				"name": "短兵",
+				"descriptions": "①当你使用【杀】时，可以额外选择一名距离为1的角色为目标；②当你使用【杀】指定距离为1的角色为目标后，其需使用两张【闪】才能抵消。"
+			}, {
+				"name": "奋迅",
+				"descriptions": "出牌阶段限一次，你可以令你本回合计算与一名其他角色的距离视为1，然后直到此回合结束时，若你未对其造成过伤害，你弃置一张牌。"
+			}],
+			"dialogues": [{
+				"name": "短兵",
+				"descriptions": ["众将官，短刀出鞘！", "短兵轻甲也可取汝性命！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-10_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-10_1_2.mp3"
+				]
+			}, {
+				"name": "奋迅",
+				"descriptions": ["取封侯爵赏，正在今日！", "给我拉过来！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-10_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-10_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这风太冷了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-10_dead.mp3"]
+			}]
+		},
+		"can-hu-11": {
+			"index": 115,
+			"name": "文聘",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-11.png",
+			"skills": [{
+				"name": "镇卫",
+				"descriptions": "当一名体力值小于你的其他角色成为另一名其他角色使用【杀】或黑色锦囊牌的唯一目标时，你可以弃置一张牌并选择一项：1.摸一张牌，将此牌转移给你；2.令此牌无效，然后使用者于当前回合结束时重新获得之。"
+			}],
+			"dialogues": [{
+				"name": "镇卫",
+				"descriptions": ["再敢来犯，仍叫你无功而返！", "江夏防线，固若金汤！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-11_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-11_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["终于也守不住了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-11_dead.mp3"]
+			}]
+		},
+		"can-hu-12": {
+			"index": 116,
+			"name": "李通",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-12.png",
+			"skills": [{
+				"name": "推锋",
+				"descriptions": "①当你受到1点伤害后，你可以将一张牌置于你的武将牌上，称为“锋”；②准备阶段，你移去所有的“锋”，摸2X张牌，然后你本回合的出牌阶段使用【杀】的次数上限+X（X为你以此法移去“锋”的数）。"
+			}],
+			"dialogues": [{
+				"name": "推锋",
+				"descriptions": ["椎锋陷阵，以杀贼首。", "敌锋之锐，我已尽知。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-12_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-12_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["战死沙场，快哉！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-12_dead.mp3"]
+			}]
+		},
+		"can-hu-13": {
+			"index": 117,
+			"name": "贺齐",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-13.png",
+			"skills": [{
+				"name": "绮胄",
+				"descriptions": "锁定技，你根据装备区里牌的花色数视为拥有以下技能：1种以上，“短兵”；2种以上，“英姿”；3种以上，“奋威”；4种，“澜疆”。"
+			}, {
+				"name": "闪袭",
+				"descriptions": "出牌阶段限一次，你可以展示你与一名攻击范围内不包含你的角色共计至多X张手牌（X为你的空置装备栏数），弃置其中的【闪】，然后获得其一张未以此法展示的牌。"
+			}, {
+				"name": "☆ 短兵",
+				"descriptions": "①当你使用【杀】时，可以额外选择一名距离为1的角色为目标；②当你使用【杀】指定距离为1的角色为目标后，其需使用两张【闪】才能抵消。"
+			}, {
+				"name": "☆ 英姿",
+				"descriptions": "锁定技，①摸牌阶段，你多摸一张牌；②你的手牌上限等于X（X为你的体力上限）。"
+			}, {
+				"name": "☆ 奋威",
+				"descriptions": "限定技，当一张锦囊牌指定至少两个目标后，你可以令此牌对其中任意名目标角色无效。"
+			}, {
+				"name": "☆ 澜疆",
+				"descriptions": "结束阶段，你可以令所有手牌数不小于你的角色依次选择是否令你摸一张牌。若如此做，你可以对其中一名手牌数等于你的角色造成1点伤害，然后令其中一名手牌数小于你的角色摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "闪袭",
+				"descriptions": ["敌援未到，需要速战速决。", "快马加鞭，赶在敌人戒备之前。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-13_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-13_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 短兵",
+				"descriptions": ["可真是把好刀啊！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-13_3_1.mp3"
+				]
+			}, {
+				"name": "☆ 英姿",
+				"descriptions": ["人靠衣装马靠鞍。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-13_4_1.mp3"
+				]
+			}, {
+				"name": "☆ 奋威",
+				"descriptions": ["这一身装备，叫你们开开眼界！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-13_5_1.mp3"
+				]
+			}, {
+				"name": "☆ 澜疆",
+				"descriptions": ["大江惊澜，浪涌四极之疆。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-13_6_1.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["别拿走，我的装备！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-13_dead.mp3"]
+			}]
+		},
+		"can-hu-14": {
+			"index": 118,
+			"name": "马忠",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-14.png",
+			"skills": [{
+				"name": "抚蛮",
+				"descriptions": "出牌阶段每名角色限一次，你可以将一张手牌交给一名其他角色并令此牌视为【杀】，然后其使用此【杀】结算结束后，若此【杀】造成过伤害，则你摸两张牌，否则你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "抚蛮",
+				"descriptions": ["恩威并施，蛮夷可为我所用。", "发兵器了。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-14_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-14_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["丞相不在，你们竟然……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-14_dead.mp3"]
+			}]
+		},
+		"can-hu-15": {
+			"index": 119,
+			"name": "麴义",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-15.png",
+			"skills": [{
+				"name": "伏骑",
+				"descriptions": "锁定技，当你使用【杀】或普通锦囊牌指定目标后，与你距离为1的其他角色不能响应此牌。"
+			}, {
+				"name": "骄恣",
+				"descriptions": "锁定技，当你造成或受到伤害时，若你的手牌数为全场唯一最多，此伤害+1。"
+			}],
+			"dialogues": [{
+				"name": "伏骑",
+				"descriptions": ["既来之，休走之！", "白马？哼~定叫他有来无回！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-15_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-15_1_2.mp3"
+				]
+			}, {
+				"name": "骄恣",
+				"descriptions": ["今日之获，皆是吾之功劳！", "今吾于此，尔等皆为飞灰！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-15_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-15_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["为主公戎马一生，主公为何如此对我。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-15_dead.mp3"]
+			}]
+		},
+		"can-hu-16": {
+			"index": 120,
+			"name": "鲁芝",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-16.png",
+			"skills": [{
+				"name": "清忠",
+				"descriptions": "出牌阶段开始时，你可以摸两张牌，然后本阶段结束时，你与一名全场手牌数最少的角色交换手牌。"
+			}, {
+				"name": "卫境",
+				"descriptions": "每轮限一次，当你需要使用【杀】或【闪】时，你可以视为使用一张【杀】或【闪】。"
+			}],
+			"dialogues": [{
+				"name": "清忠",
+				"descriptions": ["执政为民，当尽我所能。", "吾自幼流离失所，更能体恤百姓之苦。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-16_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-16_1_2.mp3"
+				]
+			}, {
+				"name": "卫境",
+				"descriptions": ["战事兴起，最苦的仍是百姓。", "国乃大家，保大家才有小家。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-16_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-16_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["年迈力微，是该告老还乡了。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-16_dead.mp3"]
+			}]
+		},
+		"can-hu-17": {
+			"index": 121,
+			"name": "高览",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-17.png",
+			"skills": [{
+				"name": "袭营",
+				"descriptions": "出牌阶段开始时，你可以弃置一张非基本手牌，令所有其他角色各选择一项：1.弃置一张牌；2.本回合不能使用或打出牌。若如此做，结束阶段，若你于本回合的出牌阶段内造成过伤害，你从牌堆中获得一张伤害牌。"
+			}],
+			"dialogues": [{
+				"name": "袭营",
+				"descriptions": ["速袭曹营，以解乌巢之难！","此番若攻不能成，我军恐难以再战。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-17_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-17_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["郭图小辈之计，误军啊！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-17_dead.mp3"]
+			}]
+		},
+		"can-hu-18": {
+			"index": 122,
+			"name": "周鲂",
+			"force": "wu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-18.png",
+			"skills": [{
+				"name": "断发",
+				"descriptions": "出牌阶段，你可以弃置任意张黑色牌，然后摸等量的牌（本阶段以此法弃置的牌的总数至多为你的体力上限）。"
+			}, {
+				"name": "诱敌",
+				"descriptions": "结束阶段，你可以令一名其他角色弃置你的一张手牌，若此牌不为：【杀】，你获得其一张牌；黑色牌，你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "断发",
+				"descriptions": ["身体发肤，受之父母。", "今断发以明志，尚不可证吾之心意？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-18_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-18_1_2.mp3"
+				]
+			}, {
+				"name": "诱敌",
+				"descriptions": ["笺书七条，足以表我归降之心。","东吴已容不下我，愿降以保周全。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-18_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-18_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["功亏一篑，功亏一篑啊。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-18_dead.mp3"]
+			}]
+		},
+		"can-hu-19": {
+			"index": 123,
+			"name": "曹性",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-19.png",
+			"skills": [{
+				"name": "流矢",
+				"descriptions": "出牌阶段，你可以将一张♥️牌置于牌堆顶并选择一名其他角色，视为对其使用一张不计入次数限制的【杀】（受到此【杀】伤害的目标角色的手牌上限-1）。"
+			}, {
+				"name": "斩腕",
+				"descriptions": "锁定技，受到“流矢”效果影响的角色的弃牌阶段结束时，若其本阶段弃置过牌，你摸等同于其弃牌数的牌，然后移除其“流矢”的效果。"
+			}],
+			"dialogues": [{
+				"name": "流矢",
+				"descriptions": ["就你叫夏侯惇？", "兀那贼将，且吃我一箭！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-19_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-19_1_2.mp3"
+				]
+			}, {
+				"name": "斩腕",
+				"descriptions": ["郝萌！尔敢造反不成！", "健儿护主，奸逆断腕！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-19_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-19_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["夏侯将军，有话好说。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-19_dead.mp3"]
+			}]
+		},
+		"can-hu-20": {
+			"index": 124,
+			"name": "吕旷&吕翔",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-20.png",
+			"skills": [{
+				"name": "齐攻",
+				"descriptions": "当你使用的【杀】被其他角色使用【闪】抵消后，若其是此【杀】唯一的目标，你可以令一名角色选择是否对该角色使用一张无距离限制的【杀】（此【杀】不能被响应）。"
+			}, {
+				"name": "列侯",
+				"descriptions": "出牌阶段限一次，你可以令一名你攻击范围内有手牌的其他角色交给你一张手牌，然后你交给另一名你攻击范围内的其他角色一张手牌。"
+			}],
+			"dialogues": [{
+				"name": "齐攻",
+				"descriptions": ["打虎亲兄弟！", "兄弟齐心，其利断金！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-20_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-20_1_2.mp3"
+				]
+			}, {
+				"name": "列侯",
+				"descriptions": ["识时务者为俊杰。", "丞相有令，尔敢不从？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-20_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-20_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["此处可是新野……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-20_dead.mp3"]
+			}]
+		},
+		"can-hu-21": {
+			"index": 125,
+			"name": "吾彦",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-21.png",
+			"skills": [{
+				"name": "澜疆",
+				"descriptions": "结束阶段，你可以令所有手牌数不小于你的角色依次选择是否令你摸一张牌。若如此做，你可以对其中一名手牌数等于你的角色造成1点伤害，然后令其中一名手牌数小于你的角色摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "澜疆",
+				"descriptions": ["一人擒虎力，千军拗锋芒。", "勇力擎四疆，狂滥涌八荒。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-21_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-21_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["世间再无擒虎客……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-21_dead.mp3"]
+			}]
+		},
+		"can-hu-22": {
+			"index": 126,
+			"name": "朱灵",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-22.png",
+			"skills": [{
+				"name": "急陷",
+				"descriptions": "摸牌阶段结束时，你可以视为对满足以下任意项的一名其他角色使用一张【杀】并摸X张牌（X为其符合的条件数）：1.装备区里有防具牌；2.技能数比你多；3.未受伤。若此【杀】未对其造成过伤害，你失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "急陷",
+				"descriptions": ["全军出击，速攻敌城。", "勿以我为念，攻城！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-22_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-22_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["母亲，弟弟，我来了……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-22_dead.mp3"]
+			}]
+		},
+		"can-hu-23": {
+			"index": 127,
+			"name": "田豫",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-23.png",
+			"skills": [{
+				"name": "扫狄",
+				"descriptions": "当你使用【杀】或普通锦囊牌指定其他角色为唯一目标时，你可以令你与其计算距离的其中一条最短路径之间的角色均成为此牌的目标。"
+			}, {
+				"name": "追讨",
+				"descriptions": "准备阶段，你可以令一名没有“追讨”标记的其他角色获得“追讨”标记直到你对其造成伤害后（你计算与有“追讨”标记的其他角色的距离-1）。"
+			}],
+			"dialogues": [{
+				"name": "扫狄",
+				"descriptions": ["狄祸悬野，秋风扫之！", "戎狄作乱，岂能坐视？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-23_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-23_1_2.mp3"
+				]
+			}, {
+				"name": "追讨",
+				"descriptions": ["敌将休走，汝命休矣！", "长缨在手，敌寇何逃？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-23_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-23_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["命数之沙，已尽矣……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-23_dead.mp3"]
+			}]
+		},
+		"can-hu-24": {
+			"index": 128,
+			"name": "赵俨",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-24.png",
+			"skills": [{
+				"name": "同协",
+				"descriptions": "出牌阶段开始时，你可以令你和至多两名其他角色获得“同协”标记直到你的下回合开始，然后其中手牌唯一最少的角色摸一张牌（当有“同协”标记的角色：1.不因此技能使用的仅指定唯一目标的【杀】结算结束后，其他有“同协”标记的角色可以依次对目标使用一张无距离限制的【杀】；2.受到伤害时，本回合未失去过体力的一名其他有“同协”标记的角色可以防止此伤害并失去1点体力）。"
+			}],
+			"dialogues": [{
+				"name": "同协",
+				"descriptions": ["分则必败，合则可胜。", "唯同心协力，方可破敌。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-24_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-24_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["援军不至，樊城之围难解。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-24_dead.mp3"]
+			}]
+		},
+		"can-hu-25": {
+			"index": 129,
+			"name": "邓忠",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-25.png",
+			"skills": [{
+				"name": "勘破",
+				"descriptions": "①当你使用【杀】对目标角色造成伤害后，你可以观看其手牌并获得其中一张与此【杀】花色相同的牌；②每回合限一次，你可以将一张手牌当【杀】使用。"
+			}, {
+				"name": "更战",
+				"descriptions": "①其他角色的出牌阶段限一次，当一张【杀】因弃置而置入弃牌堆时，你可以获得之；②其他角色的结束阶段，若其本回合未使用过【杀】，则你下一个出牌阶段使用【杀】的次数上限+1。"
+			}],
+			"dialogues": [{
+				"name": "勘破",
+				"descriptions": ["兵锋相交，便可知其玄机！", "先发一军，以探敌营虚实！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-25_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-25_1_2.mp3"
+				]
+			}, {
+				"name": "更战",
+				"descriptions": ["将无常败，军可常胜。", "前进可活，后退即死！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-25_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-25_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["杀身报国，死得其所……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-25_dead.mp3"]
+			}]
+		},
+		"can-hu-26": {
+			"index": 130,
+			"name": "霍峻",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-26.png",
+			"skills": [{
+				"name": "穷守",
+				"descriptions": "锁定技，①游戏开始时，你废除你的装备区并摸四张牌；②你的手牌上限+4。"
+			}, {
+				"name": "奋锐",
+				"descriptions": "结束阶段，你可以弃置一张牌，恢复一个装备栏并随机使用一张对应副类别的装备牌，然后你可以对一名装备区里牌数小于你的角色造成X点伤害（X为你与其装备区里的牌数之差）且你不能再以此法造成伤害。"
+			}],
+			"dialogues": [{
+				"name": "穷守",
+				"descriptions": ["戍守孤城，其势不侵！","吾头可得，而城不可得！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-26_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-26_1_2.mp3"
+				]
+			}, {
+				"name": "奋锐",
+				"descriptions": ["待其疲敝，则可一击破之！", "覆军斩将，便在旦夕之间！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-26_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-26_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["主公，峻有负所托……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-26_dead.mp3"]
+			}]
+		},
+		"can-hu-27": {
+			"index": 131,
+			"name": "阎柔",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-27.png",
+			"skills": [{
+				"name": "仇讨",
+				"descriptions": "当你使用【杀】指定目标后/成为【杀】的目标后，你可以弃置此【杀】使用者的一张牌，目标角色不能响应此【杀】且此【杀】不记入次数/你不能响应此【杀】。"
+			}, {
+				"name": "襄戍",
+				"descriptions": "限定技，结束阶段，若你本回合造成过伤害，你可以令一名已受伤的角色回复X点体力并摸X张牌（X为你本回合造成的伤害值且至多为5）。"
+			}],
+			"dialogues": [{
+				"name": "仇讨",
+				"descriptions": ["大恨深仇，此剑讨之！", "是非恩怨，此役决之！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-27_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-27_1_2.mp3"
+				]
+			}, {
+				"name": "襄戍",
+				"descriptions": ["得道多襄，为公是瞻！", "愿为中原，永戍北疆！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-27_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-27_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["寒风折戍矛，铁衣裹枯骨。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-27_dead.mp3"]
+			}]
+		},
+		"can-hu-28": {
+			"index": 132,
+			"name": "文鸯",
+			"force": "wei",
+			"magatama": {
+				"actual": 5,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-28.png",
+			"skills": [{
+				"name": "膂力",
+				"descriptions": "每回合限一次，当你造成伤害后，你可以将手牌摸至与体力值数或将体力回复至手牌数。"
+			}, {
+				"name": "仇决",
+				"descriptions": "觉醒技，一名角色的回合结束时，若你的手牌数和体力值相差3或更多，你减1点体力上限并获得技能“背水”，然后将“膂力”改为你的回合内“每回合限两次”。"
+			}, {
+				"name": "☆ 背水",
+				"descriptions": "觉醒技，准备阶段，若你的手牌数或体力值小于2，你减1点体力上限并获得技能“清剿”，然后将“膂力”改为“受到伤害后”也可以发动。"
+			}, {
+				"name": "☆ 清剿",
+				"descriptions": "出牌阶段开始时，你可以弃置所有手牌，然后从牌堆或弃牌堆中随机获得八张牌名各不相同且副类别不同的牌。若如此做，结束阶段，你弃置所有牌。"
+			}],
+			"dialogues": [{
+				"name": "膂力",
+				"descriptions": ["此击若中，万念俱灰！", "姿器膂力，万人之雄。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-28_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-28_1_2.mp3"
+				]
+			}, {
+				"name": "仇决",
+				"descriptions": ["家仇未报，怎可独安。", "逆臣之军，不足为惧。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-28_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-28_2_2.mp3"
+				]
+			}, {
+				"name": "☆ 背水",
+				"descriptions": ["某若退却半步，诸将可立斩之！", "效淮阴之举，力敌数千！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-28_3_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-28_3_2.mp3"
+				]
+			}, {
+				"name": "☆ 清剿",
+				"descriptions": ["慈不掌兵，义不养财！", "清蛮夷之乱，剿不臣之贼！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-28_4_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-28_4_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["痛贯心膂，天灭大魏啊！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-28_dead.mp3"]
+			}]
+		},
+		"can-hu-29": {
+			"index": 133,
+			"name": "傅肜",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-29.png",
+			"skills": [{
+				"name": "效死",
+				"descriptions": "出牌阶段限一次，你可以与一名有手牌的其他角色各弃置一张基本牌，然后你可以使用其中的任意张牌（以此法使用的牌无距离和次数限制），若其不能以此法弃置牌，则你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "效死",
+				"descriptions": ["既抱必死之心，焉存偷生之意。", "为国效死，死得其所。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-29_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-29_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["吴狗！何有汉将军降者？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-29_dead.mp3"]
+			}]
+		},
+		"can-hu-30": {
+			"index": 134,
+			"name": "马承",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-30.png",
+			"skills": [{
+				"name": "骋烈",
+				"descriptions": "你使用【杀】可以额外指定两个目标，然后你展示牌堆顶等同于此牌目标数数量张牌，将一张手牌与其中一张牌交换（此操作对其他角色不可见），将这些牌分别扣置于目标角色的武将牌上直到此【杀】结算结束（若“骋烈”牌为红色的角色响应了此【杀】，则其交给你一张牌，否则其回复1点体力）。"
+			}, {
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "骋烈",
+				"descriptions": ["策马逐金雕，跨鞍寻天狼。","铁蹄踏南北，烈马惊黄沙。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-30_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-30_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["儿有辱父祖之威名……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-30_dead.mp3"]
+			}]
+		},
+		"can-hu-31": {
+			"index": 135,
+			"name": "张翼",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-31.png",
+			"skills": [{
+				"name": "殿军",
+				"descriptions": "锁定技，回合结束时，你受到1点伤害并执行一个额外的出牌阶段。"
+			}, {
+				"name": "亢锐",
+				"descriptions": "当一名角色于其回合内首次受到伤害后，你可以摸一张牌并选择一项：1.其回复1点体力；2.其本回合下次造成的伤害+1。若如此做，当其于本回合造成伤害时，其本回合的手牌上限等于0。"
+			}],
+			"dialogues": [{
+				"name": "殿军",
+				"descriptions": ["大将军勿忧，翼可领后军。","诸将速行，某自领军殿后。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-31_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-31_1_2.mp3"
+				]
+			}, {
+				"name": "亢锐",
+				"descriptions": ["尔等魍魉，愿试吾剑之利乎？","诸君鼓力，克复中原指日可待！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-31_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-31_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["伯约不见疲惫之国力乎？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-31_dead.mp3"]
+			}]
+		},
+		"can-hu-32": {
+			"index": 136,
+			"name": "罗宪",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-32.png",
+			"skills": [{
+				"name": "带砺",
+				"descriptions": "一名角色的回合结束时，若你手牌中被展示过的牌为偶数，你可以翻面，摸三张牌并展示之。"
+			}],
+			"dialogues": [{
+				"name": "带砺",
+				"descriptions": ["国朝倾覆，吾宁当为降虏乎！", "弃百姓之所仰，君子不为也。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-32_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-32_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["汉亡矣，命休矣……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-32_dead.mp3"]
+			}]
+		},
+		"can-hu-33": {
+			"index": 137,
+			"name": "朱儁",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-33.png",
+			"skills": [{
+				"name": "摧破",
+				"descriptions": "锁定技，当你于一回合内使用第X张牌时（X为此牌牌名字数），若此牌为伤害牌，则此牌的基础伤害值+1，否则你摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "摧破",
+				"descriptions": ["虎贲冯河，何惧千城。", "长锋在手，万寇辟易。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-33_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-33_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["李郭匹夫，安敢辱我！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-33_dead.mp3"]
+			}]
+		},
+		"can-hu-34": {
+			"index": 138,
+			"name": "孟达",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-34.png",
+			"skills": [{
+				"name": "苟得",
+				"descriptions": "一名角色的回合结束时，若与你势力相同的角色于本回合执行过以下项中的任意个，你可以选择一个未被执行过的项并执行：1.摸一张牌；2.弃置一名角色的一张手牌；3.视为使用一张【杀】；4.变更势力。"
+			}],
+			"dialogues": [{
+				"name": "苟得",
+				"descriptions": ["蝼蚁尚且偷生，况我大将军乎。", "为保身家性命，做奔臣又如何？"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-34_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-34_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["丞相援军何其远乎？"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-34_dead.mp3"]
+			}]
+		},
+		"can-hu-35": {
+			"index": 139,
+			"name": "段颎",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-35.png",
+			"skills": [{
+				"name": "扫谷",
+				"descriptions": "转换技，出牌阶段或结束阶段（若此时为你的结束阶段，则你须弃置一张牌并改为令一名其他角色执行当前状态且此技能不会以此法转换状态），阳：你可以弃置两张牌（本阶段弃置过花色的牌除外），然后使用其中的【杀】；阴：你可以摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "扫谷",
+				"descriptions": ["大汉铁骑，必昭卫霍余风于当年。", "笑驱百蛮，试问谁敢牧马于中原！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-35_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-35_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["秋霜落，天下寒。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-35_dead.mp3"]
+			}]
+		},
+		"can-hu-36": {
+			"index": 140,
+			"name": "胡班",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-36.png",
+			"skills": [{
+				"name": "晖云",
+				"descriptions": "你可以将一张牌当【火攻】使用，然后你于此牌结算结束后选择一项（每个选项每轮限一次）：1.令目标可以使用展示牌，然后重铸所有手牌；2.令目标可以使用一张手牌，然后重铸展示牌；3.令目标可以摸一张牌。"
+			}],
+			"dialogues": [{
+				"name": "晖云",
+				"descriptions": ["舍身饲离火，不负万古名。", "义士今犹在，青笺气千云。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-36_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-36_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["无耻鼠辈，吾耻与为伍。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-36_dead.mp3"]
+			}]
+		},
+		"can-hu-37": {
+			"index": 141,
+			"name": "郝普",
+			"force": "shu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-37.png",
+			"skills": [{
+				"name": "镇荧",
+				"descriptions": "出牌阶段限两次，你可以与一名手牌数不大于你的其他角色同时将手牌摸至或弃置至至多两张，然后其中手牌数较少的角色视为对另一名角色使用一张【决斗】。"
+			}],
+			"dialogues": [{
+				"name": "镇荧",
+				"descriptions": ["吾闻世间有忠义，今欲为之。", "吴虽兵临三郡，普宁死不降。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-37_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-37_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["徒做奔臣，死无其所。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-37_dead.mp3"]
+			}]
+		},
+		"can-hu-38": {
+			"index": 142,
+			"name": "马休&马铁",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-38.png",
+			"skills": [{
+				"name": "垦伤",
+				"descriptions": "你可以将至少两张牌当【杀】使用，然后你可以将目标改为X名角色（X为转化此【杀】所用的牌数）。若X大于此【杀】造成的伤害值之和，你摸一张牌。"
+			}, {
+				"name": "马术",
+				"descriptions": "锁定技，你计算与其他角色的距离-1。"
+			}],
+			"dialogues": [{
+				"name": "垦伤",
+				"descriptions": ["择兵选将，一击而大白。","纵横三辅，垦伤庸富。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-38_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-38_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我兄弟，愿随父帅赴死。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-38_dead.mp3"]
+			}]
+		},
+		"can-hu-39": {
+			"index": 143,
+			"name": "牵招",
+			"force": "wei",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-39.png",
+			"skills": [{
+				"name": "威抚",
+				"descriptions": "出牌阶段，你可以弃置一张牌并进行一次判定，然后你本回合使用的下一张与判定牌类别相同的牌无距离限制且可以额外指定一名角色为目标。若你以此法弃置的牌与判定牌类别相同，你摸一张牌。"
+			}, {
+				"name": "款塞",
+				"descriptions": "每回合限一次，当一名角色使用牌指定目标后，若此牌的目标数不小于你的体力值，你可以令其中一名目标角色选择一项：1.交给你一张牌；2.令你回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "威抚",
+				"descriptions": ["蛮人畏威，当束甲抚之。","以威为抚，可定万世之太平。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-39_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-39_1_2.mp3"
+				]
+			}, {
+				"name": "款塞",
+				"descriptions": ["君既以礼相待，我何干戈相向。", "我备美酒，待君玉帛。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-39_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-39_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["玄德兄，弟来迟矣……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-39_dead.mp3"]
+			}]
+		},
+		"can-hu-40": {
+			"index": 144,
+			"name": "凌操",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-hu-40.png",
+			"skills": [{
+				"name": "独进",
+				"descriptions": "摸牌阶段，你可以多摸X+1张牌（X为你装备区里牌数的一半，向上取整）。"
+			}],
+			"dialogues": [{
+				"name": "独进",
+				"descriptions": ["带兵十万，不如老夫多甲一件。", "轻舟独进，破敌先锋。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-hu-40_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-hu-40_1_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["啊，此箭何来……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-40_dead.mp3"]
+			}]
+		},
+		"can-si-01": {
+			"index": 145,
+			"name": "糜竺",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-si-01.png",
+			"skills": [{
+				"name": "资援",
+				"descriptions": "出牌阶段限一次，你可以交给一名其他角色任意张点数之和为13的牌，然后该角色回复1点体力。"
+			}, {
+				"name": "巨贾",
+				"descriptions": "锁定技，①你的手牌上限+X；②游戏开始时，你多摸X张牌。（X为你的体力上限）"
+			}],
+			"dialogues": [{
+				"name": "资援",
+				"descriptions": ["区区薄礼，万望使君笑纳。", "雪中送炭，以解君愁。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-01_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-01_1_2.mp3"
+				]
+			}, {
+				"name": "巨贾",
+				"descriptions": ["钱！？要多少有多少！", "君子爱财，取之有道。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-01_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["劣弟背主，我之罪也。"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-si-01_dead.mp3"]
+			}]
+		},
+		"can-si-02": {
+			"index": 146,
+			"name": "卫兹",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-si-02.png",
+			"skills": [{
+				"name": "援资",
+				"descriptions": "每轮限一次，其他角色的准备阶段，你可以交给其所有手牌。然后当其本回合造成伤害后，若你手牌数不大于其，你可以摸两张牌。"
+			}, {
+				"name": "烈节",
+				"descriptions": "当你受到伤害后，你可以弃置至多三张牌并摸等量的牌，然后你可以弃置伤害来源至多X张牌。（X为你以此法弃置的红色牌数）"
+			}],
+			"dialogues": [{
+				"name": "援资",
+				"descriptions": ["不过是些身外之物罢了。", "兹之家资，将军可尽取之。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-02_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-02_1_2.mp3"
+				]
+			}, {
+				"name": "烈节",
+				"descriptions": ["头可断，然节不可夺。", "血可流，而志不可改。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-02_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["敌军势众，速退！"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-si-02_dead.mp3"]
+			}]
+		},
+		"can-si-03": {
+			"index": 147,
+			"name": "刘巴",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-si-03.png",
+			"skills": [{
+				"name": "统度",
+				"descriptions": "准备阶段，你可以令一名角色交给你一张手牌。若如此做，出牌阶段结束时，你将此牌置于牌堆顶。"
+			}, {
+				"name": "铸币",
+				"descriptions": "①出牌阶段限X次（X为你的体力上限），你可以令一名角色重铸一张牌，以此法摸的牌称为“币”；②有“币”的角色的结束阶段，其观看牌堆底的五张牌，然后可以用任意张“币”交换其中等量的牌。"
+			}],
+			"dialogues": [{
+				"name": "统度",
+				"descriptions": ["上下调度，臣工皆有所为。", "统筹部划，不糜国利分毫。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-03_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-03_1_2.mp3"
+				]
+			}, {
+				"name": "铸币",
+				"descriptions": ["钱货之通者，在乎币。", "融金为料，可铸五铢。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-03_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-03_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["恨未见，铸兵为币之日……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-si-03_dead.mp3"]
+			}]
+		},
+		"can-si-04": {
+			"index": 148,
+			"name": "张世平",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-si-04.png",
+			"skills": [{
+				"name": "鸿济",
+				"descriptions": "每轮各限一次，一名角色的准备阶段，若其手牌数是全场最少/最多，你可以令其于本回合摸牌/出牌阶段结束后额外执行一个额外的摸牌/出牌阶段。"
+			}, {
+				"name": "行贾",
+				"descriptions": "①游戏开始时，你随机将三张坐骑牌置于你的武将牌上；②结束阶段，你可以将其中一张牌置入一名其他角色的装备区，然后你获得牌堆中一张♦️牌。"
+			}],
+			"dialogues": [{
+				"name": "鸿济",
+				"descriptions": ["玄德公当世人杰，奇货可居。", "张某慕君高义，愿鼎力相助。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-04_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-04_1_2.mp3"
+				]
+			}, {
+				"name": "行贾",
+				"descriptions": ["乱世烽烟，贾者如火中取栗尔。", "天下动荡，货行千里可易千金。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-04_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-04_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["其货犹在，其人老矣……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-si-04_dead.mp3"]
+			}]
+		},
+		"can-si-05": {
+			"index": 149,
+			"name": "吕伯奢",
+			"force": "qun",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/cuiCanXingHe/can-si-05.png",
+			"skills": [{
+				"name": "缚豕",
+				"descriptions": "①当一名角色使用【杀】结算结束后，若你与其距离1以内，你将此牌置于你的武将牌上，称为“缚豕”；②你可以移去任意张“缚豕”，摸等量的牌并视为使用一张【杀】，然后选择等量项：1.额外选择一名角色为目标；2.此牌对其中一名目标角色造成的伤害-1；3.此牌对其中一名目标角色造成的伤害+1。若此牌的目标和你选择的选项均相邻，则此【杀】不计入次数。"
+			}, {
+				"name": "东道",
+				"descriptions": "转换技，农民的回合结束时，阳：你可以令地主执行一个额外的回合；阴：其可以执行一个额外的回合。"
+			}],
+			"dialogues": [{
+				"name": "缚豕",
+				"descriptions": ["缚豕待宰，要让阿瞒吃个肚儿溜圆。", "今个儿呀，咱们吃油汪汪的猪肉！"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-05_1_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-05_1_2.mp3"
+				]
+			}, {
+				"name": "东道",
+				"descriptions": ["阿瞒远道而来，老夫当尽地主之谊！", "我乃嵩兄故交，孟德来此可无忧虑。"],
+				"srcs": [
+					"/static/video/online/cuiCanXingHe/can-si-05_2_1.mp3",
+					"/static/video/online/cuiCanXingHe/can-si-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["阿瞒，我沽酒回来……呃……"],
+				"srcs": ["/static/video/online/cuiCanXingHe/can-si-05_dead.mp3"]
+			}]
+		}
+	}
+}

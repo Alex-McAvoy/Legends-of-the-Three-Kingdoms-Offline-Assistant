@@ -92,6 +92,11 @@
 				this.navbarTitle = this.military.name
 			}  else if(packageId == 6) {
 				// 引入璀璨星河武将包数据
+				const militariesData = require("@/static/json/online/cuiCanXingHe.json")
+				// 获取当前武将数据
+				this.military = militariesData.militaries[militaryId]
+				// 修改导航栏
+				this.navbarTitle = this.military.name
 			}
 			else if(packageId == 7) {
 				// 引入谋扩展包数据
