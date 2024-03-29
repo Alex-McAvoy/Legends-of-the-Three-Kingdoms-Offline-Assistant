@@ -13,8 +13,13 @@
 					<image class="force-image" :src="militaryForce" mode="widthFix"></image>
 				</view>
 				<!-- 勾玉盒子 -->
-				<view class="magatama-box">
-					<view class="magatama">
+				<view class="magatama-box">	
+					<view v-if="item.magatama.actual>10" class="magatama">
+						<image class="magatama-image" :src="militaryMagatama"
+							mode="widthFix"></image>
+						<view class="magatama-text">×{{item.magatama.actual}}</view>
+					</view>
+					<view v-else class="magatama">
 						<image v-for="index in item.magatama.actual" class="magatama-image" :src="militaryMagatama"
 							mode="widthFix"></image>
 						<image v-for="index in item.magatama.blank" class="magatama-image" :src="militaryMagatamaBlank"
@@ -232,11 +237,17 @@
 						display: flex;
 						flex-direction: row;
 
+						/* 勾玉图 */
 						.magatama-image {
 							width: 10%;
 							height: auto;
 							margin-top: 5px;
 							align-self: center;
+						}
+						
+						/* 勾玉文本 */
+						.magatama-text {
+							color: white;
 						}
 					}
 				}
