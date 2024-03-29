@@ -388,16 +388,22 @@
 			}],
 			"dialogues": [{
 				"name": "跒倔",
-				"descriptions": [],
-				"srcs": []
+				"descriptions": ["汉旗未复，此生不居于檐下。","蜀川大好，皆可为家。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-04_1_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-04_1_2.mp3"
+				]
 			}, {
 				"name": "穆荫",
-				"descriptions": [],
-				"srcs": []
+				"descriptions": ["生继汉泽于身，死效忠义于行。","吾祖彰汉室之荣，今子孙莫敢忘。"],
+				"srcs": [
+					"/static/video/online/menFaShiZu/zu-wu-04_2_1.mp3",
+					"/static/video/online/menFaShiZu/zu-wu-04_2_2.mp3"
+				]
 			}, {
 				"name": "阵亡",
-				"descriptions": [],
-				"srcs": []
+				"descriptions": ["蜀川万里，孤身伶仃。"],
+				"srcs": ["/static/video/online/menFaShiZu/zu-wu-04_dead.mp3"]
 			}]
 		},
 		"zu-han-01": {
