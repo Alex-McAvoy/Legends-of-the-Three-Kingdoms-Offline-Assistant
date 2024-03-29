@@ -13,10 +13,9 @@
 					<image class="force-image" :src="militaryForce" mode="widthFix"></image>
 				</view>
 				<!-- 勾玉盒子 -->
-				<view class="magatama-box">	
+				<view class="magatama-box">
 					<view v-if="item.magatama.actual>10" class="magatama">
-						<image class="magatama-image" :src="militaryMagatama"
-							mode="widthFix"></image>
+						<image class="magatama-image" :src="militaryMagatama" mode="widthFix"></image>
 						<view class="magatama-text">×{{item.magatama.actual}}</view>
 					</view>
 					<view v-else class="magatama">
@@ -46,11 +45,12 @@
 				<!-- 技能容器 -->
 				<view class="skills-container" v-for="skill in item.skills">
 					<!-- 技能名 -->
-					<view class="skill-name" :style="{backgroundImage: 'url('+skillBackground+')', color: skillFontColor }">
+					<view class="skill-name"
+						:style="{backgroundImage: 'url('+skillBackground+')', color: skillFontColor }">
 						{{skill.name}}
 					</view>
 					<!-- 技能描述 -->
-					<view class="skill-description">{{skill.descriptions}}</view>
+					<view class="skill-description" v-html="dealDescriptions(skill.descriptions)"></view>
 				</view>
 				<!-- 台词分隔 -->
 				<image class="dialogue-divide" :src="dialogueDivideImgSrc" mode="widthFix"></image>
@@ -73,11 +73,19 @@
 				</view>
 			</view>
 		</view>
+		
+		<!-- 技能描述中的概念模态框-->
+		<view>
+			<u-modal :show="modal.show" :title="modal.title" :content="modal.content"
+			:showConfirmButton="false" :closeOnClickOverlay="true" @close="closeModal">
+			</u-modal>
+		</view>
 	</view>
 </template>
 
 <script>
 	import mineAudio from "@/components/mineAudio/mineAudio.vue"
+	
 	export default {
 		name: "militaryGeneral",
 		components: {
@@ -129,7 +137,13 @@
 				// 技能分隔图
 				skillDivideImgSrc: "/static/images/common/militaryGeneral/divide_skill.png",
 				// 台词分隔图
-				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/divide_dialogue.png"
+				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/divide_dialogue.png",
+				// 技能描述中关键字（锁定技、主公技、限定技、转换技、隐匿）的模态框
+				modal: {
+					show: false,
+					title: "标题",
+					content: "内容"
+				}
 			};
 		},
 		mounted() {
@@ -137,7 +151,7 @@
 			this.skillBackground = require('@/static/images/common/militaryGeneral/skill_' + this.$props.item.force +
 				'.png')
 			// 动态加载武将技能字体颜色
-			if(this.$props.item.force == "shen"){
+			if (this.$props.item.force == "shen") {
 				this.skillFontColor = "white"
 			} else {
 				this.skillFontColor = "black"
@@ -148,8 +162,17 @@
 			// 动态加载武将勾玉图
 			this.militaryMagatama = require('@/static/images/common/militaryGeneral/magatama_' + this.$props.item.force +
 				'.png')
+
+			// 将vue实例方法绑定到window对象上
+			window.showZhuGongModal = this.showZhuGongModal
+			window.showSuoDingModal = this.showSuoDingModal
+			window.showXianDingModal = this.showXianDingModal
+			window.showJueXingModal = this.showJueXingModal
+			window.showZhuanHuanModal = this.showZhuanHuanModal
+			window.showZongZuModal = this.showZongZuModal
+			window.showYinNiModal = this.showYinNiModal
 		},
-		computed: {
+		comModalputed: {
 			imgSrc() {
 				return this.$props.item.imgSrc
 			}
@@ -161,7 +184,97 @@
 					urls: [this.imgSrc],
 					longPressActions: true
 				})
-			}
+			},
+			// 处理技能描述中的概念
+			dealDescriptions(descriptions) {
+				if (descriptions.includes("主公技")) {
+					descriptions = descriptions.replace(
+						"主公技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showZhuGongModal()' >主公技</font>"
+						)
+				}
+				if (descriptions.includes("锁定技")) {
+					descriptions = descriptions.replace(
+						"锁定技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showSuoDingModal()' >锁定技</font>"
+						)
+				}
+				if (descriptions.includes("限定技")) {
+					descriptions = descriptions.replace(
+						"限定技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showXianDingModal()' >限定技</font>"
+						)
+				}
+				if (descriptions.includes("觉醒技")) {
+					descriptions = descriptions.replace(
+						"觉醒技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showJueXingModal()' >觉醒技</font>"
+						)
+				}
+				if (descriptions.includes("转换技")) {
+					descriptions = descriptions.replace(
+						"转换技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showZhuanHuanModal()' >转换技</font>"
+						)
+				}
+				if (descriptions.includes("宗族技")) {
+					descriptions = descriptions.replace(
+						"宗族技",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showZongZuModal()' >宗族技</font>")
+				}
+				if (descriptions.includes("隐匿")) {
+					descriptions = descriptions.replace(
+						"隐匿",
+						"<font style='text-decoration: underline;font-weight:bold;' onclick='showYinNiModal()' >隐匿</font>")
+				}
+				return descriptions
+			},
+			// 主公技模态框
+			showZhuGongModal() {
+				this.modal.show = true
+				this.modal.title = "主公技"
+				this.modal.content = "技能的标签之一。带有此标签的技能只有在该角色的身份为主公时才能拥有。若该角色在游戏开始时没有此技能，则不受此限制。"
+			},
+			// 锁定技模态框
+			showSuoDingModal() {
+				this.modal.show = true
+				this.modal.title = "锁定技"
+				this.modal.content = "技能的标签之一。请注意：带有“锁定技”标签的技能不一定强制发动，不带有“锁定技”标签的技能未必不强制发动。锁定技在优先级计算上，完全没有任何特权。"
+			},
+			// 限定技模态框
+			showXianDingModal() {
+				this.modal.show = true
+				this.modal.title = "限定技"
+				this.modal.content = "技能的标签之一。带有此标签的技能于一局游戏内仅能发动一次。"
+			},
+			// 觉醒技模态框
+			showJueXingModal() {
+				this.modal.show = true
+				this.modal.title = "觉醒技"
+				this.modal.content = "技能的标签之一。当符合觉醒条件时，玩家必须“觉醒”。带有此标签的技能视为附带一个“锁定技”标签和一个“限定技”标签。"
+			},
+			// 转换技模态框
+			showZhuanHuanModal() {
+				this.modal.show = true
+				this.modal.title = "转换技"
+				this.modal.content = "技能的标签之一。该技能拥有“阳”、“阴”两个状态。游戏开始时，该技能处于“阳”状态。转换技发动后，技能会自动切换到另一种形态，不把阴技能发动就不能使用阳技能，反之亦然。"
+			},
+			// 宗族技模态框
+			showZongZuModal() {
+				this.modal.show = true
+				this.modal.title = "宗族技"
+				this.modal.content = "技能的标签之一。属于同一宗族的族武将拥有相同的宗族技。"
+			},
+			// 隐匿模态框
+			showYinNiModal() {
+				this.modal.show = true
+				this.modal.title = "隐匿"
+				this.modal.content = "在游戏开始时，改为对外亮出“隐匿牌”作为武将牌。“隐匿”状态下的武将没有体力值（血量显示为一个面具），性别为男。当在“隐匿”状态下扣减体力时，防止之并亮出真正的武将牌，称为“登场”。回合开始时，若你处于“隐匿”状态，你“登场”。"
+			},
+			// 关闭模态框
+			closeModal() {
+				this.modal.show = false
+			},
 		}
 	}
 </script>
@@ -244,7 +357,7 @@
 							margin-top: 5px;
 							align-self: center;
 						}
-						
+
 						/* 勾玉文本 */
 						.magatama-text {
 							color: white;
