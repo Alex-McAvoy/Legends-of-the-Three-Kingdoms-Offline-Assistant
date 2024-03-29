@@ -160,10 +160,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ### Bug
 
-- [ ] Online 族吴乔无配音
 - [ ] Online 谋姜维无困奋、诈降语音
-- [ ] Online 兀突骨血量显示异常、燃殇与死亡语音声音小
-- [ ] Online 郭槐死亡语音重复两遍
 
 ## 参与项目
 
