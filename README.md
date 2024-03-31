@@ -149,8 +149,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ### 新特性
 
-- [ ] 武将故事
-- [ ] 扩展包出处
+- [ ] 武将列传
 - [ ] Online 国战图鉴
 - [ ] 十周年武将图鉴
 - [ ] 移动版武将图鉴
