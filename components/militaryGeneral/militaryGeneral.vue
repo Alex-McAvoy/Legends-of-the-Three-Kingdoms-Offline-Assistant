@@ -138,7 +138,7 @@
 				skillDivideImgSrc: "/static/images/common/militaryGeneral/divide_skill.png",
 				// 台词分隔图
 				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/divide_dialogue.png",
-				// 技能描述中关键字（锁定技、主公技、限定技、转换技、隐匿）的模态框
+				// 技能描述中关键字的模态框
 				modal: {
 					show: false,
 					title: "标题",

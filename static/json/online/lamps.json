@@ -2,6 +2,8 @@
 		"index": 0,
 		"name": "标准",
 		"class": "biao-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 			"index": 0,
 			"name": "蜀汉虎将",
@@ -145,7 +147,10 @@
 		"index": 1,
 		"name": "神话再临",
 		"class": "shen-da-lamp",
-		"nodes": [{
+		"content": ["故不知诸侯之谋者，不能豫交；不知山林、险阻、沮泽之形者，不能行军；不用乡导者，不能得地利。故兵以诈立，以利动，以分和为变者也。故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。"],
+		"source": ["《孙子兵法·军争》"],
+		"nodes": [
+			{
 			"index": 0,
 			"name": "其疾如风",
 			"lampClass": "shen-xiao-lamp shen-feng-lamp",
@@ -441,6 +446,8 @@
 		"index": 2,
 		"name": "一将成名",
 		"class": "jiang-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 				"index": 0,
 				"name": "一将成名1",
@@ -784,6 +791,8 @@
 		"index": 3,
 		"name": "界限突破",
 		"class": "jie-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 			"index": 0,
 			"name": "界·蜀汉虎将",
@@ -1075,6 +1084,8 @@
 		"index": 4,
 		"name": "界·一将成名",
 		"class": "jieJiang-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 			"index": 0,
 			"name": "界·一将成名1",
@@ -1120,6 +1131,8 @@
 		"index": 5,
 		"name": "文德武备",
 		"class": "wenWu-da-lamp",
+		"content": ["故将之所慎者五：一曰理，二曰备，三曰果，四曰戒，五曰约，理者，治众如治寡。备者，出门如见敌。果者，临敌不怀生。或者，虽克如始战。约者，法令省而不烦。"],
+		"source": ["《吴子兵法·论将》"],
 		"nodes": [{
 				"index": 0,
 				"name": "理",
@@ -1247,6 +1260,24 @@
 		"index": 6,
 		"name": "璀璨星河",
 		"class": "can-da-lamp",
+		"content": [
+			"中宫天极星，其一明者，太一常居也。",
+			"四辅四星又名四弼，在极星侧，是曰帝之四邻，所以辅佐北极而出度授政也。",
+			"天柱五星，在紫微宫内，近东垣，主建教等二十四气也。",
+			"女史一星在柱下史北，掌记禁中传漏动静，主时要事也。",
+			"廷籓西有隋星五，曰少微，士大夫。",
+			"虎贲一星在太微西藩之外，上相之西，下台之南。",
+			"列肆二星，在斛西北，主货珍宝金玉等也。"
+			],
+		"source": [
+			"《史记·天官书》",
+			"《宋史·天文志二》",
+			"《甘石星经·内厨》",
+			"《甘石星经·女史》",
+			"《史记·天官书》",
+			"《观象玩占·第八卷》",
+			"《甘石星经·帝座》"
+		],
 		"nodes": [{
 				"index": 0,
 				"name": "天极",
@@ -1902,6 +1933,8 @@
 		"index": 7,
 		"name": "谋扩展包",
 		"class": "mou-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 				"index": 0,
 				"name": "谋",
@@ -1943,6 +1976,17 @@
 		"index": 8,
 		"name": "门阀士族",
 		"class": "zu-da-lamp",
+		"content": [
+			"自章、和以后，其有善绩者，往往不绝。如鲁恭、吴祐、刘宽及颍川四长，并以仁信笃诚，使人不欺。",
+			"谓荀淑为当涂长，韩韶为嬴长，陈寔为太丘长，钟皓为林虑长。淑等皆颍川人也。",
+			"先主穆皇后，陈留人也。兄吴壹，少孤，壹父素与刘焉有旧，是以举家随焉入蜀。"
+		],
+		"source": [
+			"《后汉书·循吏传序》",
+			"《后汉书·循吏传序》李贤注",
+			"《三国志·蜀书·二主妃子传》"
+			
+		],
 		"nodes": [{
 				"index": 0,
 				"name": "颍川荀氏",
@@ -2048,6 +2092,8 @@
 		"index": 9,
 		"name": "祈福",
 		"class": "qi-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 				"index": 0,
 				"name": "魏",
@@ -2140,6 +2186,8 @@
 		"index": 10,
 		"name": "SP",
 		"class": "sp-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 				"index": 0,
 				"name": "魏",
@@ -2237,6 +2285,8 @@
 		"index": 11,
 		"name": "限定",
 		"class": "xian-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 			"index": 0,
 			"name": "限定",
@@ -2252,6 +2302,8 @@
 		"index": 12,
 		"name": "国战",
 		"class": "guo-da-lamp",
+		"content": [],
+		"source": [],
 		"nodes": [{
 			"index": 0,
 			"name": "",

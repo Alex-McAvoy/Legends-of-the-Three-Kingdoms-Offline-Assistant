@@ -21,6 +21,15 @@
 					<!-- 大将灯名 -->
 					<view class="lamp-name">{{lamp.name}}</view>
 				</view>
+				
+				<!-- 扩展包起源容器 -->
+				<view class="package-introduction-container" v-if="lamp.content.length != 0">
+					<!-- 扩展包起源按钮 -->
+					<view class="package-introduction-button" @click="showPackageIntroductionModal(lamp.name,lamp.content,lamp.source)">
+						<font>查看起源</font>
+					</view>
+				</view>
+				
 				<!-- 横戟分隔 -->
 				<image class="divide" :src="divideImgSrc" mode="widthFix"></image>
 				<!-- 图鉴容器 -->
@@ -47,6 +56,16 @@
 		</view>
 		<!-- 底部导航栏 -->
 		<mine-tabbar :current="-1"></mine-tabbar>
+		
+		<!-- 扩展包起源模态框-->
+		<view>
+			<u-modal :show="modal.show" :title="modal.title"
+			:showConfirmButton="false" :closeOnClickOverlay="true" @close="closeModal">
+				<view class="modal-content">
+					<rich-text :nodes="modal.content"></rich-text>
+				</view>
+			</u-modal>
+		</view>
 	</view>
 </template>
 
@@ -76,8 +95,18 @@
 					fontSize: '30rpx',
 					fontWeight: '600',
 				},
+				packageIntroduction: {
+					content: "123123",
+					source: "123123"
+				},
 				// 横戟分隔图
 				divideImgSrc: "/static/images/common/archive/divide.png",
+				// 扩展包起源模态框
+				modal: {
+					show: false,
+					title: "标题",
+					content: "内容"
+				}
 			};
 		},
 		onLoad(option) {
@@ -120,7 +149,22 @@
 				uni.navigateTo({
 					url: '/pages/archive/detail?index=' + this.lamp.index + '&id=' + item.id
 				})
-			}
+			},
+			// 展示扩展包起源模态框
+			showPackageIntroductionModal(title, content, source){
+				this.modal.show = true
+				this.modal.title = title
+				this.modal.content = ''
+				for(let i=0; i < content.length; i++) {
+					this.modal.content  +=
+					'<div class="content">' + content[i] + '</div>'
+					 +'<div class="cite">' + source[i] + '</div>'
+				}
+			},
+			// 关闭模态框
+			closeModal() {
+				this.modal.show = false
+			},
 		}
 	}
 </script>
@@ -148,12 +192,11 @@
 		background-color: #2e2b2c;
 		border-bottom: #413430 groove 5px;
 	}
-
+	
 	/* 图鉴 */
 	.container {
 		display: flex;
 		flex-direction: column;
-
 
 		/* 背景 */
 		.bg {
@@ -189,6 +232,37 @@
 					font-size: 32px;
 					font-weight: bold;
 					text-align: center;
+				}
+			}
+
+			/* 扩展包起源容器 */
+			.package-introduction-container {
+				display: flex;
+				justify-content: right;
+				
+				/* 扩展包起源按钮 */
+				.package-introduction-button {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					
+					background-image: url("@/static/images/common/archive/source_button.png");
+					background-repeat: round;
+					width: 100px;
+					padding: 5px 0px;
+					
+					/* 扩展包起源文字 */
+					font {
+						font-family: heiTi;
+						font-weight: bold;
+						font-size: small;
+						text-align: center;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+						textShadow: 0px 0px 7px rgba(52, 255, 204, 0.1);
+						background-image: -webkit-linear-gradient(top, #aca08d,#f3f1f4,#b9b196);					
+					}
 				}
 			}
 
@@ -244,6 +318,43 @@
 					}
 				}
 			}
+		}
+	}
+	
+	/* 扩展包起源模态框 */
+	.modal-content {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin: 10px;
+		font-size: 30rpx;
+		
+	
+		/* 内容 */
+		/deep/ .content {
+			width: 100%;
+			height: auto;	
+			align-self: center;
+			font-style: italic;
+			word-wrap: break-word;
+			word-break: normal;
+			text-indent: 2em;
+			&:before {
+			  content: "“";
+			}
+			&:after {
+			  content: "”";
+			}
+		}
+		
+		/* 出处 */
+		/deep/ .cite {
+		  display: block;
+		  font-style: italic;
+		  text-align: right;
+		  &:before {
+		    content: "—— ";
+		  }
 		}
 	}
 </style>
