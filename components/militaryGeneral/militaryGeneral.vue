@@ -59,7 +59,7 @@
 					<view class="skill-description" v-html="dealDescriptions(skill.descriptions)"></view>
 				</view>
 				<!-- 语音容器 -->
-				<view v-else-if="tabsIndex==1" class="dialogues-container" v-for="dialogue in item.dialogues">
+				<view v-if="tabsIndex==1" class="dialogues-container" v-for="dialogue in item.dialogues">
 					<!-- 技能名 -->
 					<view class="dialogue-name">
 						{{dialogue.name}}
@@ -75,9 +75,8 @@
 						</view>
 					</view>
 				</view>
-				
 				<!-- 武将列传容器 -->
-				<view v-else-if="tabsIndex==2" class="history-container">
+				<view v-if="tabsIndex==2" class="history-container">
 					<text class="history-text">{{item.history}}</text>
 				</view>
 			</view>
