@@ -23,9 +23,9 @@
 				</view>
 				
 				<!-- 扩展包起源容器 -->
-				<view class="package-introduction-container" v-if="lamp.content.length != 0">
+				<view class="intro-package-container" v-if="lamp.content.length != 0">
 					<!-- 扩展包起源按钮 -->
-					<view class="package-introduction-button" @click="showPackageIntroductionModal(lamp.name,lamp.content,lamp.source)">
+					<view class="intro-package-button" @click="showPackageIntroductionModal(lamp.name,lamp.content,lamp.source)">
 						<font>查看起源</font>
 					</view>
 				</view>
@@ -94,10 +94,6 @@
 					color: '#efe5bf',
 					fontSize: '30rpx',
 					fontWeight: '600',
-				},
-				packageIntroduction: {
-					content: "123123",
-					source: "123123"
 				},
 				// 横戟分隔图
 				divideImgSrc: "/static/images/common/archive/divide.png",
@@ -236,12 +232,12 @@
 			}
 
 			/* 扩展包起源容器 */
-			.package-introduction-container {
+			.intro-package-container {
 				display: flex;
 				justify-content: right;
 				
 				/* 扩展包起源按钮 */
-				.package-introduction-button {
+				.intro-package-button {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
