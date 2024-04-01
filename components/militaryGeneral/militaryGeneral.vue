@@ -31,19 +31,25 @@
 				<image class="military-image" :src="item.imgSrc" mode="widthFix"></image>
 			</view>
 		</view>
+		
 		<!-- 内容容器 -->
 		<view class="content-container">
 			<!-- 武将名 -->
 			<view class="name">
 				<text>{{item.name}}</text>
 			</view>
-
+			
+			<!-- 武将数据标签栏 -->
+			<u-tabs :list="militaryTabsList" class="tabs" lineColor="#60544a" lineWidth="50"
+			:activeStyle="tabsActive" @click="getTabsList"></u-tabs>
+			
 			<!-- 介绍容器 -->
 			<view class="intro-container">
-				<!-- 技能分隔 -->
-				<image class="skill-divide" :src="skillDivideImgSrc" mode="widthFix"></image>
+				<!-- 分隔 -->
+				<image class="intro-divide" :src="divideImgSrc" mode="widthFix"></image>
+
 				<!-- 技能容器 -->
-				<view class="skills-container" v-for="skill in item.skills">
+				<view v-if="tabsIndex==0" class="skills-container" v-for="skill in item.skills">
 					<!-- 技能名 -->
 					<view class="skill-name"
 						:style="{backgroundImage: 'url('+skillBackground+')', color: skillFontColor }">
@@ -52,24 +58,27 @@
 					<!-- 技能描述 -->
 					<view class="skill-description" v-html="dealDescriptions(skill.descriptions)"></view>
 				</view>
-				<!-- 台词分隔 -->
-				<image class="dialogue-divide" :src="dialogueDivideImgSrc" mode="widthFix"></image>
-				<!-- 台词容器 -->
-				<view class="dialogues-container" v-for="dialogue in item.dialogues">
+				<!-- 语音容器 -->
+				<view v-else-if="tabsIndex==1" class="dialogues-container" v-for="dialogue in item.dialogues">
 					<!-- 技能名 -->
 					<view class="dialogue-name">
 						{{dialogue.name}}
 					</view>
-					<!-- 台词容器 -->
+					<!-- 语音容器 -->
 					<view class="dialogue-description-container">
 						<view v-for="(description,index) in dialogue.descriptions" class="dialogue-description">
-							<!-- 台词 -->
+							<!-- 语音 -->
 							<text>{{description}}</text>
 							<!-- 音频 -->
 							<mine-audio class="dialogue-audio" :src="dialogue.srcs[index]"
 								:audio-id="'audio_' + item.index + '_' + index"></mine-audio>
 						</view>
 					</view>
+				</view>
+				
+				<!-- 武将列传容器 -->
+				<view v-else-if="tabsIndex==2" class="history-container">
+					<text class="history-text">{{item.history}}</text>
 				</view>
 			</view>
 		</view>
@@ -108,11 +117,11 @@
 						// 技能描述
 						description: ''
 					}],
-					// 台词
+					// 语音
 					dialogues: [{
 						// 技能名
 						name: "",
-						// 台词
+						// 语音
 						descriptions: [],
 						// 音频地址
 						srcs: []
@@ -126,6 +135,30 @@
 				militaryBorder: "/static/images/common/militaryGeneral/border.png",
 				// 武将势力图
 				militaryForce: "",
+				// 武将数据标签栏
+				militaryTabsList: [{
+					name: "技能",
+				},{
+					name: "语音",
+				},{
+					name: "武将列传",
+				}],
+				// 标签栏选中样式
+				tabsActive: {
+					padding: '0 10rpx',
+					color: '#1e1b1b',
+					fontWeight: 'bold',
+					fontWeight: '600',
+					transform: 'scale(1.3)',
+				},
+				// 标签栏未选中样式
+				tabsInactive: {
+					padding: '10rpx',
+					fontSize: '30rpx',
+					fontWeight: '600',
+				},
+				// 标签索引
+				tabsIndex: 0,
 				// 武将技能背景图
 				skillBackground: "",
 				// 武将技能字体颜色
@@ -134,10 +167,8 @@
 				militaryMagatama: "",
 				// 武将空白勾玉图
 				militaryMagatamaBlank: "/static/images/common/militaryGeneral/magatama_blank.png",
-				// 技能分隔图
-				skillDivideImgSrc: "/static/images/common/militaryGeneral/divide_skill.png",
-				// 台词分隔图
-				dialogueDivideImgSrc: "/static/images/common/militaryGeneral/divide_dialogue.png",
+				// 分隔图
+				divideImgSrc: "",
 				// 技能描述中关键字的模态框
 				modal: {
 					show: false,
@@ -150,6 +181,8 @@
 			// 动态加载武将技能背景图
 			this.skillBackground = require('@/static/images/common/militaryGeneral/skill_' + this.$props.item.force +
 				'.png')
+			// 动态加载武将数据
+			this.getTabsList({index: 0})
 			// 动态加载武将技能字体颜色
 			if (this.$props.item.force == "shen") {
 				this.skillFontColor = "white"
@@ -172,7 +205,7 @@
 			window.showZongZuModal = this.showZongZuModal
 			window.showYinNiModal = this.showYinNiModal
 		},
-		comModalputed: {
+		computed: {
 			imgSrc() {
 				return this.$props.item.imgSrc
 			}
@@ -184,6 +217,18 @@
 					urls: [this.imgSrc],
 					longPressActions: true
 				})
+			},
+			// 获取武将数据
+			getTabsList(item) {
+				this.tabsIndex = item.index
+				// 根据tabs的index，显示分隔图
+				if (item.index == 0) { // 技能
+					this.divideImgSrc = "/static/images/common/militaryGeneral/divide_skill.png"
+				} else if (item.index == 1) { // 语音
+					this.divideImgSrc = "/static/images/common/militaryGeneral/divide_dialogue.png"
+				} else if (item.index == 2) { // 武将列传
+					this.divideImgSrc = "/static/images/common/militaryGeneral/divide_history.png"
+				}
 			},
 			// 处理技能描述中的概念
 			dealDescriptions(descriptions) {
@@ -274,7 +319,7 @@
 			// 关闭模态框
 			closeModal() {
 				this.modal.show = false
-			},
+			}
 		}
 	}
 </script>
@@ -383,6 +428,25 @@
 			}
 		}
 
+		/* 标签栏 */
+		.tabs {
+			height: 80rpx;
+			padding: 5px 10px 0px 10px;
+			font-family: huaWenXingKai;
+			background-color: #ffffff;
+			margin-bottom: 20px;
+		}
+		::v-deep .u-tabs__wrapper__nav {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			position: relative;
+			justify-content: space-between;
+		}
+		::v-deep .u-tabs__wrapper__nav__item {
+			flex: 1 1 0% !important;
+		}
+		
 		/* 内容容器 */
 		.content-container {
 			display: flex;
@@ -413,8 +477,8 @@
 				flex-direction: column;
 				gap: 20px;
 
-				/* 技能分隔 */
-				.skill-divide {
+				/* 分隔 */
+				.intro-divide {
 					justify-self: center;
 					align-self: center;
 					width: 100%;
@@ -452,15 +516,7 @@
 					}
 				}
 
-				/* 台词分隔 */
-				.dialogue-divide {
-					justify-self: center;
-					align-self: center;
-					width: 100%;
-					height: auto;
-				}
-
-				/* 台词容器 */
+				/* 语音容器 */
 				.dialogues-container {
 					display: flex;
 					gap: 20px;
@@ -486,7 +542,7 @@
 						direction: ltr;
 					}
 
-					/* 台词描述容器 */
+					/* 语音描述容器 */
 					.dialogue-description-container {
 						display: flex;
 						flex-direction: column;
@@ -494,22 +550,33 @@
 						align-items: flex-start;
 						gap: 20px;
 
-						/* 台词描述 */
+						/* 语音描述 */
 						.dialogue-description {
 							display: flex;
 							flex-direction: row;
 							justify-content: center;
 
-							/* 台词音频 */
+							/* 语音音频 */
 							.dialogue-audio {
 								margin: 5rpx 0px 0px 0px;
 							}
 						}
 					}
 				}
+			
+				/* 武将列传容器 */
+				.history-container {
+					display: flex;
+					gap: 20px;
+					padding-top: 10px;
+					font-size: 30rpx;
+					
+					/* 武将列传文本 */
+					.history-text {
+						text-indent:2em;
+					}
+				}
 			}
 		}
-
-
 	}
 </style>
