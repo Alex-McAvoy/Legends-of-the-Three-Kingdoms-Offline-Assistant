@@ -6,7 +6,7 @@ module.exports = {
     // 应用名称
     name: "Legends-of-the-Three-Kingdoms-Offline-Assistant",
     // 应用版本
-    version: "Alpha 1.0.0",
+    version: "v0.3.0-alpha",
   },
 }
 
