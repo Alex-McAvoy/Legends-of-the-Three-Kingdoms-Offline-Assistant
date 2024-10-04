@@ -69,7 +69,7 @@
 
 ## 开源协议
 
-本项目开源协议为 [No License](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwigkv-KtMT0AhXFdXAKHdI4BCcQFnoECAQQAw&url=https%3A%2F%2Fchoosealicense.com%2Fno-permission%2F&usg=AOvVaw3M2Q4IbdhnpJ2K71TF7SPB)，这意味着可以随意的 fork 和使用，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系作者，望理解
+本项目开源协议为 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)，这意味着可以随意的使用、复制、修改和分发，但分发时一定要提供源码，且分发后的程序同样遵循GPL协议，程序的所有贡献者，自动提供免费专利许可。
 
 ## 开发指南
 
@@ -147,20 +147,33 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ## 待处理
 
-### 新特性
+### 未完成
 
-- [ ] 武将列传
+- [ ] Online 武将列传
+	- [ ] 界限突破
+	- [ ] 界一将成名
+	- [ ] 文德武备
+	- [ ] 璀璨星河
+	- [ ] 谋扩展包
+	- [ ] 门阀士族
+	- [ ] 祈福
+	- [ ] SP
+	- [ ] 限定
 - [ ] Online 国战图鉴
+
+### Bug
+
+- [ ] Online 谋姜维无困奋、诈降语音
+
+
+### 计划中
+
 - [ ] 十周年武将图鉴
 - [ ] 移动版武将图鉴
 - [ ] 卡牌图鉴
 - [ ] 工具
 - [ ] 首页
 - [ ] 我的
-
-### Bug
-
-- [ ] Online 谋姜维无困奋、诈降语音
 
 ## 参与项目
 
