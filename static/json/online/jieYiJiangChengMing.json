@@ -26,7 +26,8 @@
 				"name": "阵亡",
 				"descriptions": ["先停一下吧……"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"jieJiang-1-02": {
 			"index": 1,
@@ -52,7 +53,8 @@
 				"name": "阵亡",
 				"descriptions": ["盛只恨，不能再为主公，破敌制胜了。"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-02_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"jieJiang-1-03": {
 			"index": 2,
@@ -88,7 +90,8 @@
 				"name": "阵亡",
 				"descriptions": ["一步迟，步步迟啊。"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-03_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"jieJiang-1-04": {
 			"index": 3,
@@ -122,10 +125,132 @@
 				"name": "阵亡",
 				"descriptions": ["可叹主公知而不用啊！"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-04_dead.mp3"]
-			}]
+			}],
+			"history": ""
+		},
+		"jieJiang-1-05": {
+			"index": 4,
+			"name": "界·法正",
+			"force": "shu",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-1-05.png",
+			"skills": [{
+				"name": "眩惑",
+				"descriptions": "摸牌阶段结束时，你可以将两张手牌交给一名其他角色，并选择另一名角色，然后令该角色选择一项：1.对你选择的角色使用一张【杀】；2.令你观看其手牌并获得其两张牌。"
+			}, {
+				"name": "恩怨",
+				"descriptions": "①当你一次性获得一名其他角色的至少两张牌后，你可以令其摸一张牌；②当你受到1点伤害后，你可以令伤害来源选择一项：1.交给你一张红色手牌；2.失去1点体力。"
+			}],
+			"dialogues": [{
+				"name": "眩惑",
+				"descriptions": ["眩惑之术，非为迷惑，乃为明辨贤愚。", "以眩惑试人心，以真情待贤才，方能得天下。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-05_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-05_1_2.mp3"
+				]
+			}, {
+				"name": "恩怨",
+				"descriptions": ["恩重如山，必报之以雷霆之势！", "怨深似海，必还之以烈火之怒！"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-05_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-05_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["孝直不忠，不能佑主公复汉室了……"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-05_dead.mp3"]
+			}],
+			"history": ""
+		},
+		"jieJiang-1-06": {
+			"index": 5,
+			"name": "界·张春华",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-1-06.png",
+			"skills": [{
+				"name": "绝情",
+				"descriptions": "锁定技，你即将造成的伤害视为失去体力。"
+			}, {
+				"name": "伤逝",
+				"descriptions": "当你的手牌数小于X时，你可以将手牌摸至X张（X为你已损失的体力值）。"
+			}, {
+				"name": "翦灭",
+				"descriptions": "出牌阶段限一次，你可以与一名其他角色同时在红色或黑色中选择一种颜色，你与其各弃置此颜色的所有手牌，然后弃牌数较多的角色视为对弃牌数较少的角色使用一张【决斗】。"
+			}],
+			"dialogues": [{
+				"name": "绝情",
+				"descriptions": ["情丝如雪，难当暖阳。", "有情总被无情负，绝情方无软肋生。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_1_2.mp3"
+				]
+			}, {
+				"name": "伤逝",
+				"descriptions": ["伤我最深的，竟是你司马懿。", "世间刀剑数万，何以情字伤人？"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_2_2.mp3"
+				]
+			}, {
+				"name": "翦灭",
+				"descriptions": ["莫说是你，天潢贵胄亦可杀得！", "你我不到黄泉，不复相见！"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_3_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-06_3_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["我不负懿，懿负我。"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-06_dead.mp3"]
+			}],
+			"history": ""
+		},
+		"jieJiang-1-07": {
+			"index": 6,
+			"name": "界·吴国太",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-1-07.png",
+			"skills": [{
+				"name": "甘露",
+				"descriptions": "出牌阶段限一次，你可以弃置X张牌，令两名角色交换装备区里的牌（X他们装备区里的牌数之差，若X不大于你已损失的体力值则无需弃置）。"
+			}, {
+				"name": "补益",
+				"descriptions": "当一名角色进入濒死状态时，你可以展示其一张牌，然后若此牌不为基本牌，该角色弃置此牌并回复1点体力。"
+			}],
+			"dialogues": [{
+				"name": "甘露",
+				"descriptions": ["今见玄德，真佳婿也。", "吾家有女，当择良婿。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-07_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-07_1_2.mp3"
+				]
+			}, {
+				"name": "补益",
+				"descriptions": ["补气凝神，百邪不侵。", "今植桑梧，可荫来者。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-07_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-1-07_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["竖子，何以胞妹为饵乎？"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-1-07_dead.mp3"]
+			}],
+			"history": ""
 		},
 		"jieJiang-2-01": {
-			"index": 4,
+			"index": 7,
 			"name": "界·曹彰",
 			"force": "wei",
 			"magatama": {
@@ -147,10 +272,48 @@
 				"name": "阵亡",
 				"descriptions": ["黄须金甲，也难敌骨肉毒心！"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-2-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
+		},
+		"jieJiang-2-02": {
+			"index": 8,
+			"name": "界·程普",
+			"force": "wu",
+			"magatama": {
+				"actual": 4,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-2-02.png",
+			"skills": [{
+				"name": "疠火",
+				"descriptions": "①当你使用火【杀】时，你可以多选择一个目标；②当你使用【杀】时，若此【杀】不为火【杀】，你可以将此【杀】改为火【杀】，然后此【杀】结算结束后，若此【杀】造成过伤害，你选择一项：1.弃置一张牌；2.失去1点体力。"
+			}, {
+				"name": "醇醪",
+				"descriptions": "当你或与你相邻的角色的【杀】因弃置而置入弃牌堆后，你将此【杀】置于你的武将牌上，称为“醇”（当一名角色处于濒死状态时，你可以移去X张“醇”，令该角色视为使用一张【酒】，X为你本轮以此法使用【酒】的次数）。"
+			}],
+			"dialogues": [{
+				"name": "疠火",
+				"descriptions": ["此火只为全歼敌寇，无需妇人之仁。", "战胜攻取，以火修功。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-2-02_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-2-02_1_2.mp3"
+				]
+			},{
+				"name": "醇醪",
+				"descriptions": ["背下佳酿，以做庆功之用。", "饮此壮行酒，当立先头功。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-2-02_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-2-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["以暴讨贼，竟遭报应么……"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-2-02_dead.mp3"]
+			}],
+			"history": ""
 		},
 		"jieJiang-3-01": {
-			"index": 5,
+			"index": 9,
 			"name": "界·简雍",
 			"force": "shu",
 			"magatama": {
@@ -181,6 +344,78 @@
 				"name": "阵亡",
 				"descriptions": ["此景竟无言以对。"],
 				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-3-01_dead.mp3"]
+			}]
+		},
+		"jieJiang-3-02": {
+			"index": 10,
+			"name": "界·曹冲",
+			"force": "wei",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-3-02.png",
+			"skills": [{
+				"name": "称象",
+				"descriptions": "当你受到1点伤害后，你可以亮出牌堆顶的四张牌，获得其中任意张点数之和不大于13的牌。若你以此法获得的牌点数之和为13，你下一次发动此技能亮出的牌数+1。"
+			}, {
+				"name": "仁心",
+				"descriptions": "当其他角色进入濒死状态时，你可以翻面并弃置一张装备牌，令其将体力回复至1点。"
+			}],
+			"dialogues": [{
+				"name": "称象",
+				"descriptions": ["谁知道称大象需要几步？", "象虽大，然可并舟称之。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-3-02_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-3-02_1_2.mp3"
+				]
+			}, {
+				"name": "仁心",
+				"descriptions": ["待三日中，然后自归。", "王者仁心，尚性善之本。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-3-02_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-3-02_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["性慧早夭，为之奈何？"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-3-02_dead.mp3"]
+			}]
+		},
+		"jieJiang-4-01": {
+			"index": 11,
+			"name": "界·蔡夫人",
+			"force": "qun",
+			"magatama": {
+				"actual": 3,
+				"blank": 0
+			},
+			"imgSrc": "/static/images/online/jieYiJiangChengMing/jieJiang-4-01.png",
+			"skills": [{
+				"name": "窃听",
+				"descriptions": "其他角色的回合结束时，若其本回合没有对其他角色造成过伤害，你可以选择一项（若其本回合没有对其他角色使用过牌，则改为至多两项）：1.将其装备区里的一张牌置入你的装备区；2.摸一张牌。"
+			}, {
+				"name": "献州",
+				"descriptions": "限定技，出牌阶段，你可以将装备区里的所有牌交给一名其他角色，然后该角色选择一项：1.令你回复X点体力；2.对其攻击范围内的至多X名角色各造成1点伤害（X为你交给其的牌数）。"
+			}],
+			"dialogues": [{
+				"name": "窃听",
+				"descriptions": ["好你个刘玄德，敢坏我儿大事。", "两个大男人窃窃私语，定没有好事。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-4-01_1_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-4-01_1_2.mp3"
+				]
+			}, {
+				"name": "献州",
+				"descriptions": ["今献州以降，请丞相善待我孤儿寡母。", "我儿志短才疏，只求方寸之地安享富贵。"],
+				"srcs": [
+					"/static/video/online/jieYiJiangChengMing/jieJiang-4-01_2_1.mp3",
+					"/static/video/online/jieYiJiangChengMing/jieJiang-4-01_2_2.mp3"
+				]
+			}, {
+				"name": "阵亡",
+				"descriptions": ["这哪里是青州，分明是黄泉。"],
+				"srcs": ["/static/video/online/jieYiJiangChengMing/jieJiang-4-01_dead.mp3"]
 			}]
 		}
 	}
