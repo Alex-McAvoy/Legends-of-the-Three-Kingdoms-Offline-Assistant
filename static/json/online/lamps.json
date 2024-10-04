@@ -1105,6 +1105,18 @@
 				{
 					"id": "jieJiang-1-04",
 					"avatarClass": "jieJiang-1-04 jieJiang-avatar"
+				},
+				{
+					"id": "jieJiang-1-05",
+					"avatarClass": "jieJiang-1-05 jieJiang-avatar"
+				},
+				{
+					"id": "jieJiang-1-06",
+					"avatarClass": "jieJiang-1-06 jieJiang-avatar"
+				},
+				{
+					"id": "jieJiang-1-07",
+					"avatarClass": "jieJiang-1-07 jieJiang-avatar"
 				}
 			]
 		}, {
@@ -1115,6 +1127,9 @@
 			"militaries": [{
 				"id": "jieJiang-2-01",
 				"avatarClass": "jieJiang-2-01 jieJiang-avatar"
+			},{
+				"id": "jieJiang-2-02",
+				"avatarClass": "jieJiang-2-02 jieJiang-avatar"
 			}]
 		}, {
 			"index": 2,
@@ -1124,6 +1139,19 @@
 			"militaries": [{
 				"id": "jieJiang-3-01",
 				"avatarClass": "jieJiang-3-01 jieJiang-avatar"
+			},
+			{
+				"id": "jieJiang-3-02",
+				"avatarClass": "jieJiang-3-02 jieJiang-avatar"
+			}]
+		}, {
+			"index": 3,
+			"name": "界·一将成名4",
+			"lampClass": "jieJiang-xiao-lamp jieJiang-4-lamp",
+			"titleClass": "jieJiang-title jieJiang-4-title",
+			"militaries": [{
+				"id": "jieJiang-4-01",
+				"avatarClass": "jieJiang-4-01 jieJiang-avatar"
 			}]
 		}]
 	},

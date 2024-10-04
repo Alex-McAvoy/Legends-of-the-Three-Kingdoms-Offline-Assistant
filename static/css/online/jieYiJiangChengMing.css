@@ -7,20 +7,27 @@
 	background-image: url("@/static/images/online/jieYiJiangChengMing/title.png");
 }
 
-/* 一将成名1 */
+/* 界·一将成名1 */
 .jieJiang-1-title {
 	background-position: 0 calc(-32px*0);
 }
 
-/* 一将成名2 */
+/* 界·一将成名2 */
 .jieJiang-2-title {
 	background-position: 0 calc(-32px*1);
 }
 
-/* 一将成名3 */
+/* 界·一将成名3 */
 .jieJiang-3-title {
 	background-position: 0 calc(-32px*2);
 }
+
+
+/* 界·一将成名4 */
+.jieJiang-4-title {
+	background-position: 0 calc(-32px*3);
+}
+
 
 /******************************** 大将灯 ********************************/
 .jieJiang-da-lamp {
@@ -64,7 +71,7 @@
 	background-image: url("@/static/images/online/jieYiJiangChengMing/lamp.png");
 }
 
-/* 一将成名1 */
+/* 界·一将成名1 */
 .jieJiang-1-lamp {
 	animation: jieJiang1LampFrameAnim steps(1, start) 1s infinite;
 }
@@ -96,7 +103,7 @@
 
 }
 
-/* 一将成名2 */
+/* 界·一将成名2 */
 .jieJiang-2-lamp {
 	animation: jieJiang2LampFrameAnim steps(1, start) 1s infinite;
 }
@@ -128,7 +135,7 @@
 
 }
 
-/* 一将成名3 */
+/* 界·一将成名3 */
 .jieJiang-3-lamp {
 	animation: jieJiang3LampFrameAnim steps(1, start) 1s infinite;
 }
@@ -160,6 +167,39 @@
 
 }
 
+
+/* 界·一将成名4 */
+.jieJiang-4-lamp {
+	animation: jieJiang4LampFrameAnim steps(1, start) 1s infinite;
+}
+
+@keyframes jieJiang4LampFrameAnim {
+	0% {
+		background-position: calc(-64px*0) calc(-64px*4);
+	}
+
+	20% {
+		background-position: calc(-64px*1) calc(-64px*4);
+	}
+	
+	40% {
+		background-position: calc(-64px*2) calc(-64px*4);
+	} 
+
+	60% {
+		background-position: calc(-64px*3) calc(-64px*4);
+	}
+
+	80% {
+		background-position: calc(-64px*4) calc(-64px*4);
+	}
+
+	100% {
+		background-position: calc(-64px*5) calc(-64px*4);
+	} 
+
+}
+
 /******************************** 头像 ********************************/
 
 .jieJiang-avatar {
@@ -168,39 +208,73 @@
 	background-image: url("@/static/images/online/jieYiJiangChengMing/avatar.png");
 }
 
-/***** 一将成名1 *****/
+/***** 界·一将成名1 *****/
 
-/* 凌统	*/
+/* 界·凌统	*/
 .jieJiang-1-01 {
 	background-position: calc(-61px*0) calc(-61px*0)
 }
 
-/* 徐盛	*/
+/* 界·徐盛	*/
 .jieJiang-1-02 {
 	background-position: calc(-61px*1) calc(-61px*0)
 }
 
-/* 高顺	*/
+/* 界·陈宫	*/
 .jieJiang-1-03 {
 	background-position: calc(-61px*2) calc(-61px*0)
 }
 
-/* 陈宫	*/
+/* 界·高顺	*/
 .jieJiang-1-04 {
 	background-position: calc(-61px*3) calc(-61px*0)
 }
 
+/* 界·法正	*/
+.jieJiang-1-05 {
+	background-position: calc(-61px*4) calc(-61px*0)
+}
 
-/***** 一将成名2 *****/
-/* 曹彰 */
+/* 界·张春华	*/
+.jieJiang-1-06 {
+	background-position: calc(-61px*5) calc(-61px*0)
+}
+
+/* 界·吴国太	*/
+.jieJiang-1-07 {
+	background-position: calc(-61px*6) calc(-61px*0)
+}
+
+
+
+/***** 界·一将成名2 *****/
+/* 界·曹彰 */
 .jieJiang-2-01 {
 	background-position: calc(-61px*0) calc(-61px*1)
 }
 
+/* 界·程普 */
+.jieJiang-2-02 {
+	background-position: calc(-61px*1) calc(-61px*1)
+}
 
-/***** 一将成名3	*****/
 
-/* 简雍 */
+/***** 界·一将成名3	*****/
+
+/* 界·简雍 */
 .jieJiang-3-01 {
 	background-position: calc(-61px*0) calc(-61px*2)
+}
+
+/* 界·曹冲 */
+.jieJiang-3-02 {
+	background-position: calc(-61px*1) calc(-61px*2)
+}
+
+
+/***** 界·一将成名4	*****/
+
+/* 界·简雍 */
+.jieJiang-4-01 {
+	background-position: calc(-61px*0) calc(-61px*3)
 }
