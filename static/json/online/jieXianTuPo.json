@@ -36,7 +36,8 @@
 				"name": "阵亡",
 				"descriptions": ["桃园一拜，恩义常在。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-hu-01_dead.mp3"]
-			}]
+			}],
+			"history":"字云长，本字长生，并州河东解州人。五虎上将之首，爵至汉寿亭侯，谥曰“壮缪侯”。被奉为“关圣帝君”，崇为“武圣”。"
 		},
 		"jie-hu-02": {
 			"index": 1,
@@ -72,7 +73,8 @@
 				"name": "阵亡",
 				"descriptions": ["桃园一拜，此生无憾！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-hu-02_dead.mp3"]
-			}]
+			}],
+			"history":"字翼德，涿郡人，燕颔虎须，豹头环眼。有诗云:“长坂桥头杀气生，横枪立马眼圆睁。一声好似轰雷震，独退曹家百万兵”。"
 		},
 		"jie-hu-03": {
 			"index": 2,
@@ -108,7 +110,8 @@
 				"name": "阵亡",
 				"descriptions": ["你们谁，还敢再上！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-hu-03_dead.mp3"]
-			}]
+			}],
+			"history":"字子龙，常山真定人。身长八尺，姿颜雄伟。长坂坡单骑救阿斗，先主云:“子龙一身都是胆也。”"
 		},
 		"jie-hu-04": {
 			"index": 3,
@@ -138,7 +141,8 @@
 				"name": "阵亡",
 				"descriptions": ["请将我，葬在西凉。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-hu-04_dead.mp3"]
-			}]
+			}],
+			"history":"字孟起，扶风茂陵人，汉末凉州军阀、蜀五虎上将之一。马超是伏波将军马援的后人，汉末诸侯马腾之子。"
 		},
 		"jie-zhu-01": {
 			"index": 4,
@@ -174,7 +178,8 @@
 				"name": "阵亡",
 				"descriptions": ["汉室未兴，祖宗未耀，朕实不忍此时西去。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-zhu-01_dead.mp3"]
-			}]
+			}],
+			"history":"先主姓刘，讳备，字玄德，涿郡涿县人，汉景帝子中山靖王胜之后也。以仁德治天下。"
 		},
 		"jie-zhu-02": {
 			"index": 5,
@@ -210,7 +215,8 @@
 				"name": "阵亡",
 				"descriptions": ["华佗何在……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-zhu-02_dead.mp3"]
-			}]
+			}],
+			"history":"魏武帝曹操，字孟德，小名阿瞒、吉利，沛国谯人。精兵法，善诗歌，乃治世之能臣，乱世之奸雄也。"
 		},
 		"jie-zhu-03": {
 			"index": 6,
@@ -246,7 +252,8 @@
 				"name": "阵亡",
 				"descriptions": ["锦绣江东，岂能失于我手？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-zhu-03_dead.mp3"]
-			}]
+			}],
+			"history":"吴大帝，字仲谋，吴郡富春县人。统领吴与蜀魏三足鼎立，制衡天下。"
 		},
 		"jie-yong-01": {
 			"index": 7,
@@ -282,7 +289,8 @@
 				"name": "阵亡",
 				"descriptions": ["别管我，继续…上…"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-01_dead.mp3"]
-			}]
+			}],
+			"history":"字兴霸，巴郡临江人，祖籍荆州南阳郡。为人勇猛刚强，忠心耿耿，勇往无前。曾带兵百人于二更奇袭曹营，大挫其锐气。"
 		},
 		"jie-yong-02": {
 			"index": 8,
@@ -338,7 +346,8 @@
 				"name": "阵亡",
 				"descriptions": ["你，给我等着。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-02_dead.mp3"]
-			}]
+			}],
+			"history":"字子明，汝南富陂[bēi]人。陈寿评曰:“吕蒙勇而有谋断，识军计，谲郝普，擒关羽，最其妙者。初虽轻果妄杀，终于克己，有国士之量，岂徒武将而已乎!”"
 		},
 		"jie-yong-03": {
 			"index": 9,
@@ -374,7 +383,8 @@
 				"name": "阵亡",
 				"descriptions": ["盖，有负公瑾重托。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-03_dead.mp3"]
-			}]
+			}],
+			"history":"字公覆，零陵郡泉陵县人。官至偏将军、武陵太守。以苦肉计骗曹孟德，亲往诈降，火烧战船，重创敌军。"
 		},
 		"jie-yong-04": {
 			"index": 10,
@@ -410,7 +420,8 @@
 				"name": "阵亡",
 				"descriptions": ["诸多败绩，有负丞相重托。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-04_dead.mp3"]
-			}]
+			}],
+			"history":"字元让，沛国谯人，曹魏开国元勋，汉朝开国功臣之一夏侯婴的后代。少年时以勇气闻名于乡里。曹操起兵，夏侯惇是其最早的将领之一。多次为曹操镇守后方，曾率军民阻断太寿河水，筑陂塘灌溉农田，使百姓受益，功勋卓著。历任折冲校尉、济阴太守、建武将军，官至大将军，封高安乡侯，死后谥为忠侯。"
 		},
 		"jie-yong-05": {
 			"index": 11,
@@ -436,7 +447,8 @@
 				"name": "阵亡",
 				"descriptions": ["被敌人占了先机，呃。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-05_dead.mp3"]
-			}]
+			}],
+			"history":"字文远，魏雁门马邑人。官至前将军、征东将军、晋阳侯。武功高强，又谋略过人，多次建立奇功，以八百人突袭孙权十万大军，皆望风披靡。"
 		},
 		"jie-yong-06": {
 			"index": 12,
@@ -462,7 +474,8 @@
 				"name": "阵亡",
 				"descriptions": ["丞相，末将尽力了！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-06_dead.mp3"]
-			}]
+			}],
+			"history":"字仲康，谯国谯县人。和典韦一同统率着曹操的亲卫队“虎卫军”。因为他十分勇猛，所以有“虎痴”的绰号。曾有裸衣斗马超之举。"
 		},
 		"jie-yong-07": {
 			"index": 13,
@@ -498,7 +511,8 @@
 				"name": "阵亡",
 				"descriptions": ["我竟然输了，不可能。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-07_dead.mp3"]
-			}]
+			}],
+			"history":"字奉先，五原郡九原县人。三国第一猛将，曾独力战刘关张三人，其武力世之无双。时人语曰:“人中有吕布，马中有赤兔。”"
 		},
 		"jie-yong-08": {
 			"index": 14,
@@ -534,7 +548,8 @@
 				"name": "阵亡",
 				"descriptions": ["我掉以轻心了……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-08_dead.mp3"]
-			}]
+			}],
+			"history":"董卓旗下名将，自荐抵抗山东地区反对董卓的诸侯联军于汜水关前，他先后斩杀济北相鲍信之弟鲍忠和孙坚部将祖茂、以及袁术部将俞涉和韩馥手下潘凤等人，最后关东联军派出关羽与之一对一决斗而被杀。"
 		},
 		"jie-yong-09": {
 			"index": 15,
@@ -570,7 +585,8 @@
 				"name": "阵亡",
 				"descriptions": ["报国杀敌，虽死犹荣。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-09_dead.mp3"]
-			}]
+			}],
+			"history":"字曼成，曹操摩下将领。李典深明大义，不与人争功，崇尚学习与高贵儒雅，尊重博学之士，在军中被称为长者。李典有长者之风，官至破虏将军，三十六岁去世。魏文帝曹丕继位后追谥号为愍侯。"
 		},
 		"jie-yong-10": {
 			"index": 16,
@@ -606,7 +622,8 @@
 				"name": "阵亡",
 				"descriptions": ["皇图霸业梦，付之，一炬中……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-yong-10_dead.mp3"]
-			}]
+			}],
+			"history":"字伯珪，汉族，号“白马义从”。辽西令支人。东汉末年献帝年间占据幽州一带的军阀，汉末群雄之一。出身贵族，因母地位卑贱，只当了郡中小吏。他貌美，声音洪亮，机智善辩。后随卢植于缑[gōu]氏山中读书，粗通经传。"
 		},
 		"jie-wei-01": {
 			"index": 17,
@@ -642,7 +659,8 @@
 				"name": "阵亡",
 				"descriptions": ["穷尽毕生，有憾无悔。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-01_dead.mp3"]
-			}]
+			}],
+			"history":"字孔明，号卧龙，琅琊阳都人，蜀汉丞相。在世时被封为武乡侯，谥曰忠武侯。著有《出师表》、《诫子书》等。怀不世之才，以空城戏司马，能观星象而通鬼神。"
 		},
 		"jie-wei-02": {
 			"index": 18,
@@ -678,7 +696,8 @@
 				"name": "阵亡",
 				"descriptions": ["既生瑜，何生亮；既生瑜，何生亮！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-02_dead.mp3"]
-			}]
+			}],
+			"history":"字公瑾，庐江舒县人，任东吴三军大都督，雄姿英发，人称“美周郎”’。赤壁之战前，巧用反间计杀了精通水战的叛将蔡瑁、张允。"
 		},
 		"jie-wei-03": {
 			"index": 19,
@@ -714,7 +733,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的未竟之业……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-03_dead.mp3"]
-			}]
+			}],
+			"history":"本名陆议，字伯言，吴郡吴县人。历任东吴大都督、丞相。吴大帝孙权兄孙策之婿，世代为江东大族。以谦逊之书麻痹关羽，夺取荆州，又有火烧连营大破蜀军，大伤蜀之元气。"
 		},
 		"jie-wei-04": {
 			"index": 20,
@@ -750,7 +770,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的气数，就到这里了吗？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-04_dead.mp3"]
-			}]
+			}],
+			"history":"晋宣帝，字仲达，河内温人。曾任职过曹魏的大都督，太尉，太傅。少有奇节，聪明多大略，博学洽闻，伏膺儒教，世之鬼才也。"
 		},
 		"jie-wei-05": {
 			"index": 21,
@@ -786,7 +807,8 @@
 				"name": "阵亡",
 				"descriptions": ["（咳嗽声）"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-05_dead.mp3"]
-			}]
+			}],
+			"history":"字奉孝，颍川阳翟人。原为袁绍部下，后转投曹操，为曹操统一北方立下了功勋，官至军师祭酒，封洧阳亭侯。于曹操征伐乌丸时病逝，年仅三十八岁。谥曰贞侯。史书上称他“才策谋略，世之奇士”。而曹操称赞他见识过人，是自己的“奇佐”。"
 		},
 		"jie-wei-06": {
 			"index": 22,
@@ -822,7 +844,8 @@
 				"name": "阵亡",
 				"descriptions": ["生老病死，命不可违。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-06_dead.mp3"]
-			}]
+			}],
+			"history":"字元化，一名旉[fū]，沛国谯人，“建安三神医”之一。集平生之所得著《青囊经》，现已失传。"
 		},
 		"jie-wei-07": {
 			"index": 23,
@@ -868,7 +891,8 @@
 				"name": "阵亡",
 				"descriptions": ["母亲，孩儿尽孝来了。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-wei-07_dead.mp3"]
-			}]
+			}],
+			"history":"字元直，颍川人。与司马徽、诸葛亮等人为友。先曾仕官于新野的刘备，后因曹操囚禁其母而不得不弃备投操，临行前向刘备推荐诸葛亮之才。入曹营后，一言不发，不曾为曹操进献过一计半策。后人形容徐庶“身在曹营心在汉”。"
 		},
 		"jie-guo-01": {
 			"index": 24,
@@ -897,7 +921,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的面容，有吓到你吗？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-guo-01_dead.mp3"]
-			}]
+			}],
+			"history":"荆州沔[miǎn]南白水人，沔阳名士黄承彦之女，诸葛亮之妻，诸葛瞻之母。容貌甚丑，而有奇才：上通天文，下察地理，韬略近于诸书无所不晓，诸葛亮在南阳闻其贤而迎娶。"
 		},
 		"jie-guo-02": {
 			"index": 25,
@@ -933,7 +958,8 @@
 				"name": "阵亡",
 				"descriptions": ["哎呀，这次弓箭射歪了。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-guo-02_dead.mp3"]
-			}]
+			}],
+			"history":"孙夫人，乃孙权之妹。刘备定荆州，孙权进妹与其结姻，重固盟好。孙夫人才捷刚猛，有诸兄之风。后人为其立庙，号曰“枭姬庙”。"
 		},
 		"jie-guo-03": {
 			"index": 26,
@@ -969,7 +995,8 @@
 				"name": "阵亡",
 				"descriptions": ["出亦复何苦，入亦复何愁。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-guo-03_dead.mp3"]
-			}]
+			}],
+			"history":"中山无极人，别称甄洛或甄宓，庙号文昭甄皇后。魏文帝曹丕的正室。懂诗文，有倾国倾城之貌。纪实小说《太平广记》中记载，《洛神赋》即是曹植为她所作。"
 		},
 		"jie-guo-04": {
 			"index": 27,
@@ -1005,7 +1032,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的任务，终于完成了……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-guo-04_dead.mp3"]
-			}]
+			}],
+			"history":"中国古代四大美女之一，有闭月羞花之貌。司徒王允之义女，由王允授意施行连环计，离间董卓、吕布，借布手除卓。后貂蝉成为吕布的妾。"
 		},
 		"jie-guo-05": {
 			"index": 28,
@@ -1041,7 +1069,8 @@
 				"name": "阵亡",
 				"descriptions": ["伯符，再也没人能欺负我了。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-guo-05_dead.mp3"]
-			}]
+			}],
+			"history":"庐江皖县人，为乔公长女，孙策之妻，小乔之姊。与小乔并称为“江东二乔”，容貌国色流离。"
 		},
 		"jie-feng-01": {
 			"index": 29,
@@ -1067,7 +1096,8 @@
 				"name": "阵亡",
 				"descriptions": ["不得不服老啊！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-01_dead.mp3"]
-			}]
+			}],
+			"history":"字汉升，今河南南阳人。汉末三国时期蜀汉名将。本为刘表部下中郎将，后归刘备，并助刘备攻益州刘璋，在定军山一战中阵斩曹操部下名将夏侯渊。备称汉中王后改封后将军赐关内侯。"
 		},
 		"jie-feng-02": {
 			"index": 30,
@@ -1113,7 +1143,8 @@
 				"name": "阵亡",
 				"descriptions": ["天书无效，人心难聚。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-02_dead.mp3"]
-			}]
+			}],
+			"history":"巨鹿人，黄巾起义军首领，太平道创始人。张角早年信奉黄老学说，对在汉代十分流行的谶[chèn]纬之学也深有研究，对民间医术、巫术也很熟悉。"
 		},
 		"jie-feng-03": {
 			"index": 31,
@@ -1149,7 +1180,8 @@
 				"name": "阵亡",
 				"descriptions": ["符水失效，此病难医……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-03_dead.mp3"]
-			}]
+			}],
+			"history":"自号太平道人，琅琊人，在吴郡、会稽一带为百姓治病，甚得人心。孙策怒之，以惑人心为由斩之，后策常受吉咒而亡。"
 		},
 		"jie-feng-04": {
 			"index": 32,
@@ -1185,7 +1217,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的速度，还是不够……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-04_dead.mp3"]
-			}]
+			}],
+			"history":"字妙才，沛国谯人。东汉末年曹操部下名将，夏侯惇之族弟，八虎骑之一。群雄征讨董卓时随曹操一同起兵，后征战四方，屡立功勋。在平定马超叛乱后负责西北防线的镇守。公元219年刘备攻打汉中，被刘备部将黄忠所杀。"
 		},
 		"jie-feng-05": {
 			"index": 33,
@@ -1221,7 +1254,8 @@
 				"name": "阵亡",
 				"descriptions": ["这次失败，意料之中……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-05_dead.mp3"]
-			}]
+			}],
+			"history":"字文长，义阳人。三国时期蜀汉名将，诸葛亮死后，魏延因被陷害谋反而遭杨仪一党所杀。"
 		},
 		"jie-feng-06": {
 			"index": 34,
@@ -1267,7 +1301,8 @@
 				"name": "阵亡",
 				"descriptions": ["同心而离居，忧伤以终老……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-feng-06_dead.mp3"]
-			}]
+			}],
+			"history":"庐江皖县人也。父桥国老德尊于时。小乔国色流离，资貌绝伦。建安三年，周瑜协策攻皖拔之。娶小乔为妻。后人谓英雄美女，天作之合。"
 		},
 		"jie-huo-01": {
 			"index": 35,
@@ -1303,7 +1338,8 @@
 				"name": "阵亡",
 				"descriptions": ["孟德此计，防不胜防！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-01_dead.mp3"]
-			}]
+			}],
+			"history":"字本初，汉族，汝南汝阳人，出身名门望族，自曾祖父起四代有五人位居三公，自己也居三公之上，其家族也因此有“四世三公”之称。曾于初平元年被推举为反董卓联合军的盟主，联军瓦解后，在汉末群雄割据的过程中，袁绍先占据冀州，又先后夺青、并二州，并于建安四年击败了割据幽州的军阀公孙瓒，势力达到顶点;但在建安五年的官渡之战中败于曹操。在平定冀州叛乱之后，于建安七年病死。"
 		},
 		"jie-huo-02": {
 			"index": 36,
@@ -1369,7 +1405,8 @@
 				"name": "阵亡",
 				"descriptions": ["骥飞羽落，坡道归尘。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-02_dead.mp3"]
-			}]
+			}],
+			"history":"庞统，字士元，襄阳人。三国时刘备帐下谋士，官拜军师中郎将。才智与诸葛亮齐名，人称“凤雏”。在进围雒县时，统率众攻城，不幸被流矢击中去世，时年三十六岁。追赐统为关内侯，谥曰侯。统死后，葬于落凤坡。"
 		},
 		"jie-huo-03": {
 			"index": 37,
@@ -1425,7 +1462,8 @@
 				"name": "阵亡",
 				"descriptions": ["星途半废，夙愿未完……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-03_dead.mp3"]
-			}]
+			}],
+			"history":"字孔明，号卧龙居士，琅琊阳都人。刘备曾“三顾茅庐”得见卧龙。卧龙以一篇《隆中对》分析天下形势，提出先取荆州，再取益州成鼎足之势的说法。《三国演义》中的诸葛亮、“火烧善用“火攻”，曾用火攻战术赢得多场战役，如“火烧赤壁”、“火烧博望坡”、“藤甲兵”等。"
 		},
 		"jie-huo-04": {
 			"index": 38,
@@ -1455,7 +1493,8 @@
 				"name": "阵亡",
 				"descriptions": ["人亡马倒，命之所归。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-04_dead.mp3"]
-			}]
+			}],
+			"history":"字令明，东汉末年雍州南安郡狙[huán]道县人。曹操部下重要将领。官至立义将军，拜关门亭侯。谥曰壮侯。有一子会。"
 		},
 		"jie-huo-05": {
 			"index": 39,
@@ -1491,7 +1530,8 @@
 				"name": "阵亡",
 				"descriptions": ["无妄之灾，难以避免……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-05_dead.mp3"]
-			}]
+			}],
+			"history":"太史慈，字子义，东莱黄县人。东汉末年武将，守言应诺，遵信义，始终如一，弭息诽论。官至建昌都尉。弓马熟练，箭法精良。原为刘繇部下，后被孙策收降，于赤壁之战前病逝，死时才四十一岁。"
 		},
 		"jie-huo-06": {
 			"index": 40,
@@ -1527,7 +1567,8 @@
 				"name": "阵亡",
 				"descriptions": ["一招不慎，为虎所噬……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-06_dead.mp3"]
-			}]
+			}],
+			"history":"字文若，颍川颍阴人。东汉末年曹操帐下首席谋臣，杰出的战略家。被世人称作“王佐之才”。"
 		},
 		"jie-huo-07": {
 			"index": 41,
@@ -1563,7 +1604,8 @@
 				"name": "阵亡",
 				"descriptions": ["为将者，怎么徒手而亡？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-07_dead.mp3"]
-			}]
+			}],
+			"history":"曹魏猛将，擅使大双戟，壮猛任侠，曾为乡人报仇，杀人出市，人莫敢近。相貌魁梧，膂力过人。张绣背叛曹操时，典韦为保护曹操而独挡叛军，击杀多人，但最终因不敌众而战死。"
 		},
 		"jie-huo-08": {
 			"index": 42,
@@ -1589,7 +1631,8 @@
 				"name": "阵亡",
 				"descriptions": ["双雄皆陨，徒隆武圣之名……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-huo-08_dead.mp3"]
-			}]
+			}],
+			"history":"东汉末年河北袁绍部下武将，素有威名。颜良与文丑一起作为袁绍军队的勇将而闻名。建安四年，袁绍以颜良、文丑为将，率精卒十万，准备攻许都。次年，兵进黎阳遣颜良攻白马。终均亡于关羽刀下。"
 		},
 		"jie-lin-01": {
 			"index": 43,
@@ -1645,7 +1688,8 @@
 				"name": "阵亡",
 				"descriptions": ["地府可有美人乎？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-01_dead.mp3"]
-			}]
+			}],
+			"history":"字仲颖，陇西临洮[táo]人。东汉末年少帝、献帝时权臣，西凉军阀。官至太师、郿[méi]侯。其为人残忍嗜杀，倒行逆施，招致群雄联合讨伐，但联合军在董卓迁都长安不久后瓦解。后被其亲信吕布所杀。"
 		},
 		"jie-lin-02": {
 			"index": 44,
@@ -1681,7 +1725,8 @@
 				"name": "阵亡",
 				"descriptions": ["袁术之辈，不可共谋！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-02_dead.mp3"]
-			}]
+			}],
+			"history":"字文台，汉族，吴郡富春人。东汉末期地方军阀，著名将领。史书说他“容貌不凡，性阔达，好奇节”，是大军事家孙武的后裔。汉末群雄之一，三国中吴国的奠基人。孙权建国后，追谥孙坚为武烈皇帝。"
 		},
 		"jie-lin-03": {
 			"index": 45,
@@ -1727,7 +1772,8 @@
 				"name": "阵亡",
 				"descriptions": ["这汉人，竟如此厉害……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-03_dead.mp3"]
-			}]
+			}],
+			"history":"据传为火神祝融氏后裔，南蛮王孟获之妻。武艺超群，善使飞刀，是《三国演义》中写到的唯一真正上过战场的女性。曾与孟获一起抵抗蜀军，在诸葛亮七擒七纵孟获之后，随孟获投降蜀汉。"
 		},
 		"jie-lin-04": {
 			"index": 46,
@@ -1773,7 +1819,8 @@
 				"name": "阵亡",
 				"descriptions": ["此劫……我已有所算……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-04_dead.mp3"]
-			}]
+			}],
+			"history":"贾诩，字文和，武威姑臧人。三国时期魏国著名谋士。曾先后担任三国军阀李傕、张绣、曹操的谋士。官至魏国太尉，谥曰肃侯。"
 		},
 		"jie-lin-05": {
 			"index": 47,
@@ -1809,7 +1856,8 @@
 				"name": "阵亡",
 				"descriptions": ["一生为国，纵死无憾！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-05_dead.mp3"]
-			}]
+			}],
+			"history":"字子敬，汉族，临淮东城人，中国东汉末年东吴的著名军事统帅。他曾为孙权提出鼎足江东的战略规划，因此得到孙权的赏识，于周瑜死后代替周瑜领兵，守陆口。曾单刀赴会关羽于荆州。"
 		},
 		"jie-lin-06": {
 			"index": 48,
@@ -1845,7 +1893,8 @@
 				"name": "阵亡",
 				"descriptions": ["勿再放我，但求速死！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-06_dead.mp3"]
-			}]
+			}],
+			"history":"中国三国时期南中少数族首领。系东汉末益州建宁郡大姓，身材肥硕。生卒年不详。官至御史中丞。曾被诸葛亮七擒七纵，传为佳话。"
 		},
 		"jie-lin-07": {
 			"index": 49,
@@ -1881,7 +1930,8 @@
 				"name": "阵亡",
 				"descriptions": ["亚夫易老，李广难封……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-lin-07_dead.mp3"]
-			}]
+			}],
+			"history":"字公明，河东杨人。三国时期曹魏名将，本为杨奉帐下骑都尉，杨奉被曹操击败后转投曹操，在曹操手下多立功勋，参与官渡、赤壁、关中征伐、汉中征伐等几次重大战役。"
 		},
 		"jie-shan-01": {
 			"index": 50,
@@ -1917,7 +1967,8 @@
 				"name": "阵亡",
 				"descriptions": ["红尘看破，驾鹤仙升……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-01_dead.mp3"]
-			}]
+			}],
+			"history":"左慈，字元放，东汉末方士，汉族，庐江人。在道教历史上，东汉时期的丹鼎派道术是从他一脉相传。"
 		},
 		"jie-shan-02": {
 			"index": 51,
@@ -1983,7 +2034,8 @@
 				"name": "阵亡",
 				"descriptions": ["将军英勇，我…我投降……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-02_dead.mp3"]
-			}]
+			}],
+			"history":"蜀汉后主，字公嗣。小名阿斗。刘备之子，母亲是昭烈皇后甘氏。三国时期蜀汉第二位皇帝，公元223-263年在位。公元263年蜀汉被曹魏所灭，刘禅投降曹魏，被封为安乐公。"
 		},
 		"jie-shan-03": {
 			"index": 52,
@@ -2049,7 +2101,8 @@
 				"name": "阵亡",
 				"descriptions": ["汝等，怎能受于吉蛊惑？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-03_dead.mp3"]
-			}]
+			}],
+			"history":"字伯符，吴郡富春人。孙坚长子，孙权长兄。东汉末年割据江东一带的军阀，汉末群雄之一，三国时期吴国的奠基者。三国演义中绰号“小霸王”，统一江东。在一次狩猎中为刺客所伤，不久后身亡，年仅二十六岁。其弟孙权接掌孙策势力，并于称帝后，追孙策为长沙桓王。"
 		},
 		"jie-shan-04": {
 			"index": 53,
@@ -2095,7 +2148,8 @@
 				"name": "阵亡",
 				"descriptions": ["钟会！你为何害我！"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-04_dead.mp3"]
-			}]
+			}],
+			"history":"字士载，义阳棘阳人。三国时期魏国杰出的军事家、将领。公元263年他与钟会分别率军攻打蜀汉，最后他率先进入成都，使得蜀汉灭亡。后因遭到钟会的污蔑和陷害，被司马昭猜忌而被收押，最后与其子邓忠一起被卫瓘[guàn]派遣的武将田续所杀害。"
 		},
 		"jie-shan-05": {
 			"index": 54,
@@ -2141,7 +2195,8 @@
 				"name": "阵亡",
 				"descriptions": ["星散流离……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-05_dead.mp3"]
-			}]
+			}],
+			"history":"字伯约，天水冀人。三国时期蜀汉著名将领、军事统帅。原为曹魏天水郡的中郎将，后降蜀汉，官至凉州刺史、大将军。诸葛亮去世后继承诸葛亮的遗志，继续率领蜀汉军队北伐曹魏，与曹魏名将陈泰、郭淮、邓艾等多次交手。"
 		},
 		"jie-shan-06": {
 			"index": 55,
@@ -2167,7 +2222,8 @@
 				"name": "阵亡",
 				"descriptions": ["何处之流矢……"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-06_dead.mp3"]
-			}]
+			}],
+			"history":"张郃，字儁乂[jùn yì]，河间鄚[mào]人。三国时期魏国名将。官渡之战时，本为袁绍部将的张郃投降了曹操，并在曹操帐下多立功勋，于曹魏建立后加封为征西车骑将军。诸葛亮六出祁山之间，张郃多次抵御蜀军的进攻，于公元231年在木门道被诸葛亮设伏射死。后谥曰壮侯。为曹魏“五子良将”之一。"
 		},
 		"jie-shan-07": {
 			"index": 56,
@@ -2203,7 +2259,8 @@
 				"name": "阵亡",
 				"descriptions": ["飘飘外域里，何日能归乡？"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-07_dead.mp3"]
-			}]
+			}],
+			"history":"名琰，原字昭姬，晋时避司马昭讳，改字文姬，文学家蔡邕[yōng]的女儿，精于天文数理既博学能文，又善诗赋，兼长辩才与音律。代表作有《胡笳十八拍》《悲愤诗》等。"
 		},
 		"jie-shan-08": {
 			"index": 57,
@@ -2239,7 +2296,8 @@
 				"name": "阵亡",
 				"descriptions": ["老臣年迈，无力为继。"],
 				"srcs": ["/static/video/online/jieXianTuPo/jie-shan-08_dead.mp3"]
-			}]
+			}],
+			"history": "张昭，字子布，彭城人，三国时期吴国重臣，善丹青。拜辅吴将军，班亚三司，改封娄侯。年八十一卒，谥曰文侯。张纮，字子纲，广陵人。东吴谋士，和张昭一起合称“二张”。孙策平定江东时亲自登门邀请，张纮遂出仕为官。张纮后来建议孙权迁都秣陵，孙权正在准备时张纮病逝，其年六十岁。孙权为之流涕。"
 		}
 	}
 }
