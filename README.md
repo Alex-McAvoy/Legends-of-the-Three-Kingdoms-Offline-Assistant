@@ -54,7 +54,7 @@
 
 由于作者俗务繁忙，因此预计该项目将长期处于 alpha 版，如有需要，请移步 [Releases](https://github.com/Alex-McAvoy/Legends-of-the-Three-Kingdoms-Offline-Assistant/releases) 下载
 
-另考虑服务器成本，本项目目前为**静态项目**
+另考虑服务器成本，本项目目前为**静态项目**，安装包较大
 
 ## 效果展示
 
@@ -167,7 +167,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 ### 计划中
 
-- [ ] 改为动态获取数据
+- [ ] 改为动态获取数据（租服务器，暂时没钱，欢迎赞助）
 - [ ] 十周年武将图鉴
 - [ ] 移动版武将图鉴
 - [ ] 卡牌图鉴
