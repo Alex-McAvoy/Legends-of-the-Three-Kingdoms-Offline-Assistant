@@ -150,7 +150,6 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 ### 进行中
 
 - [ ] Online 武将列传
-	- [ ] 界限突破
 	- [ ] 文德武备
 	- [ ] 璀璨星河
 	- [ ] 谋扩展包
