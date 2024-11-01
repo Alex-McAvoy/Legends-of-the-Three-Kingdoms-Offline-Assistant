@@ -56,7 +56,8 @@
 				"name": "阵亡",
 				"descriptions": ["虎入骷冢，司马难兴。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-01_dead.mp3"]
-			}]
+			}],
+			"history": "晋宣帝，字仲达，河内温人。曾任职过曹魏的大都督，太尉，太傅。少有奇节，聪明多大略，博学洽闻，伏膺儒教，世之鬼才也。"
 		},
 		"wenWu-li-02": {
 			"index": 1,
@@ -102,7 +103,8 @@
 				"name": "阵亡",
 				"descriptions": ["冷眸残情，孤苦为一人。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-02_dead.mp3"]
-			}]
+			}],
+			"history": "西晋宣穆皇后张春华(189-247)，河内平皋人。晋宣帝司马懿之妻，晋景帝司马师、晋文帝司马昭的母亲。后被追尊为皇后。"
 		},
 		"wenWu-li-03": {
 			"index": 2,
@@ -138,7 +140,8 @@
 				"name": "阵亡",
 				"descriptions": ["忘恩负义之徒！"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-03_dead.mp3"]
-			}]
+			}],
+			"history": "原董卓帐下武将，任虎贲中郎将，吕布的同乡，主动请命为董卓说服吕布来降。诸侯联军伐董卓之际，李肃协同华雄镇守汜水关，为华雄出谋划策，击败缺粮的孙坚军。后王允、吕布策划诛杀董卓，拉拢李肃同谋，李肃因久不升迁，心怀不满，与吕布一拍即合，共同谋杀了董卓，后成为吕布的部将。"
 		},
 		"wenWu-li-04": {
 			"index": 3,
@@ -174,7 +177,8 @@
 				"name": "阵亡",
 				"descriptions": ["恩赐重物，病身难消受……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-04_dead.mp3"]
-			}]
+			}],
+			"history": "司马伷[zhòu]，司马懿第三子，司马师、司马昭的同父异母弟，晋武帝司马炎的叔父。少有才气，在曹魏历任宁朔将军、散骑常侍、征虏将军等职，先后受封南安亭侯、东武乡侯，五等爵制建立后，改封南皮伯。西晋建立后，获封东莞郡王，入朝任尚书右仆射、抚军将军，出外拜镇东大将军。后改封琅邪王，加开府仪同三司。西晋伐吴时，率军出涂中，孙皓向他投降并奉上玉玺。战后因功拜大将军，增邑三千户。"
 		},
 		"wenWu-li-05": {
 			"index": 4,
@@ -203,7 +207,8 @@
 				"name": "阵亡",
 				"descriptions": ["元气已伤，不如归去。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-05_dead.mp3"]
-			}]
+			}],
+			"history": "西羌国王。诸葛亮伐魏，魏都督曹真驰书赴羌，国王彻里吉即命雅丹丞相与越吉元帅起羌兵一十五万、并战车直扣西平关。后军大败，越吉亡，雅丹被俘，亮将所获羌兵及车马器械，尽给还雅丹，俱放回国。彻里吉感蜀恩义，与之结盟。"
 		},
 		"wenWu-li-06": {
 			"index": 5,
@@ -239,7 +244,8 @@
 				"name": "阵亡",
 				"descriptions": ["死国甚无谓也。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-li-06_dead.mp3"]
-			}]
+			}],
+			"history": "华歆[xīn]，早年拜太尉陈球为师，与卢植、郑玄、管宁等为同门，又与管宁、邴原共称一龙，华歆为龙头。汉灵帝时期，举孝廉出身，任郎中，因病去官。得到大将军何进征召出任尚书郎，出任豫章太守，甚得民心。归顺小霸王孙策，成为上宾。官渡之战时，出任议郎、司空参军，累迁尚书、侍中、尚书令。曹操讨伐孙权时，担任军师。曹操封王后担任魏国御史大夫，支持曹丕即位，出任魏国相国，册封安乐乡侯。曹魏建立后，担任司徒。魏明帝即位，升任太尉，晋封博平县侯。"
 		},
 		"wenWu-bei-01": {
 			"index": 6,
@@ -295,7 +301,8 @@
 				"name": "阵亡",
 				"descriptions": ["子上，这是为兄给你打下的江山……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-01_dead.mp3"]
-			}]
+			}],
+			"history": "字子元，河内温县人。西晋王朝的奠基人之一，晋宣帝司马懿与宣穆皇后张春华的长子，晋文帝司马昭的同母兄，晋武帝司马炎的伯父。"
 		},
 		"wenWu-bei-02": {
 			"index": 7,
@@ -341,7 +348,8 @@
 				"name": "阵亡",
 				"descriptions": ["夫君，你怎么对我如此狠心……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-02_dead.mp3"]
-			}]
+			}],
+			"history": "字媛容，司马师第一任妻子。征南大将军夏侯尚之女，母德阳乡主为大司马曹真之妹。夏侯徽与司马师之间，生有五个女儿。"
 		},
 		"wenWu-bei-03": {
 			"index": 8,
@@ -387,7 +395,8 @@
 				"name": "阵亡",
 				"descriptions": ["儿有辱，父亲威名……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-03_dead.mp3"]
-			}]
+			}],
+			"history": "张虎，名将张辽之子。承袭父爵，官至偏将军。乐綝[chēn]，右将军乐进的儿子。果毅坚毅，袭封广昌亭侯，累迁扬州刺史。甘露二年，为叛乱的征东大将军诸葛诞所杀。"
 		},
 		"wenWu-bei-04": {
 			"index": 9,
@@ -433,7 +442,8 @@
 				"name": "阵亡",
 				"descriptions": ["韶华易老，佳容不再。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-04_dead.mp3"]
-			}]
+			}],
+			"history": "司马师第三任妻子。羊徽瑜出身官宦世家泰山羊氏，她是南阳太守羊续的孙女，上党太守羊徹[dào]之女，其母为东汉名士左中郎将蔡邕之女、蔡文姬的姐妹。羊徽瑜聪慧贤德，嫁给司马师后未有子女。以司马师之弟司马昭的次子司马攸为继子。司马师死后，司马攸侍奉羊徽瑜非常孝顺。"
 		},
 		"wenWu-bei-05": {
 			"index": 10,
@@ -459,7 +469,8 @@
 				"name": "阵亡",
 				"descriptions": ["寒门出身，难以擢升。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-05_dead.mp3"]
-			}]
+			}],
+			"history": "字仲容，渤海南皮人。汉末晋初官员，三国时曹魏和西晋重要将领，为晋开国八公之一，官至西晋司徒。"
 		},
 		"wenWu-bei-06": {
 			"index": 11,
@@ -495,7 +506,8 @@
 				"name": "阵亡",
 				"descriptions": ["今为贼子贾充所害！"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-bei-06_dead.mp3"]
-			}]
+			}],
+			"history": "依附于司马氏家族，拜太子舍人，得到司马昭的心腹贾充指使，刺死魏帝曹髦。司马昭为平息众怒，将成倅[cuì]、成济兄弟二人杀死。"
 		},
 		"wenWu-guo-01": {
 			"index": 12,
@@ -551,7 +563,8 @@
 				"name": "阵亡",
 				"descriptions": ["司马三代，一梦成空。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-01_dead.mp3"]
-			}]
+			}],
+			"history": "西晋王朝的奠基人之一。为晋宣帝司马懿与宣穆皇后张春华次子、晋景帝司马师之弟、晋武帝司马炎之父。"
 		},
 		"wenWu-guo-02": {
 			"index": 13,
@@ -587,7 +600,8 @@
 				"name": "阵亡",
 				"descriptions": ["祖父已逝，哀凄悲戚。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-02_dead.mp3"]
-			}]
+			}],
+			"history": "东海郡郯县人。西晋时期皇后，曹魏司徒王朗的孙女、中领军王肃的女儿，晋文帝司马昭妻子。"
 		},
 		"wenWu-guo-03": {
 			"index": 14,
@@ -633,7 +647,8 @@
 				"name": "阵亡",
 				"descriptions": ["金瓯尚缺，死难瞑目……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-03_dead.mp3"]
-			}]
+			}],
+			"history": "字元凯，魏晋时期军事家、经学家、律学家，曹魏散骑常侍杜恕之子，曾经三次力陈司马炎伐吴，最终出任镇南大将军，成为晋灭吴之战的统帅之一。杜预为明朝之前唯一一个同时进入文庙和武庙之人。"
 		},
 		"wenWu-guo-04": {
 			"index": 15,
@@ -669,7 +684,8 @@
 				"name": "阵亡",
 				"descriptions": ["辞荣善终，不可求……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-04_dead.mp3"]
-			}]
+			}],
+			"history": "卫瓘[guàn]，字伯玉。河东郡安邑县人。三国曹魏后期至西晋初年重臣、书法家，曹魏尚书卫觊之子。卫瓘善隶书及章草。不仅兼工各体，还能学古人之长，是颇有创意的书法家。"
 		},
 		"wenWu-guo-05": {
 			"index": 16,
@@ -715,7 +731,8 @@
 				"name": "阵亡",
 				"descriptions": ["元凯，我去也……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-guo-05_dead.mp3"]
-			}]
+			}],
+			"history": "晋宣帝司马懿第二女，下嫁杜预。泰始年间追赠高陵公主。"
 		},
 		"wenWu-jie-01": {
 			"index": 17,
@@ -751,7 +768,8 @@
 				"name": "阵亡",
 				"descriptions": ["嗟尔姜任，邈不我留。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-01_dead.mp3"]
-			}]
+			}],
+			"history": "王浑之妻，钟繇的曾孙女。平时广泛阅读各种书籍，因此几岁的时候就能撰写文章。聪慧弘雅，善于啸咏，她的礼仪法度，为中表所推崇，写有文集五卷。"
 		},
 		"wenWu-jie-02": {
 			"index": 18,
@@ -787,7 +805,8 @@
 				"name": "阵亡",
 				"descriptions": ["宪英，救我！"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-02_dead.mp3"]
-			}]
+			}],
+			"history": "字泰雍，陇西人氏。卫尉辛毗之子，辛宪英之弟。司马诛曹爽时因听从姐姐之言免除了灾祸。"
 		},
 		"wenWu-jie-03": {
 			"index": 19,
@@ -823,7 +842,8 @@
 				"name": "阵亡",
 				"descriptions": ["任元褒，吾与汝势不两立！"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-03_dead.mp3"]
-			}]
+			}],
+			"history": "字公闾，贾逵之子，贾南风之父。曹魏大臣，西晋开国元勋。参与镇压淮南二叛和弑杀魏帝曹髦。"
 		},
 		"wenWu-jie-04": {
 			"index": 20,
@@ -849,7 +869,8 @@
 				"name": "阵亡",
 				"descriptions": ["夫生之有死，自然之理也。"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-jie-04_dead.mp3"]
-			}]
+			}],
+			"history": "三国曹魏及西晋时大臣，事母极孝，其卧冰求鲤的故事被收录于二十四孝中。"
 		},
 		"wenWu-yue-01": {
 			"index": 21,
@@ -885,7 +906,8 @@
 				"name": "阵亡",
 				"descriptions": ["一旦殂陨，痛悼伤怀……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-yue-01_dead.mp3"]
-			}]
+			}],
+			"history": "字琼芝，弘农郡华阴县人，晋武帝司马炎第一任皇后，曹魏通事郎杨炳之女。泰始二年，杨艳受册为皇后，深得晋武帝宠幸，生下三子三女，包括晋惠帝司马衷。"
 		},
 		"wenWu-yue-02": {
 			"index": 22,
@@ -921,7 +943,8 @@
 				"name": "阵亡",
 				"descriptions": ["贾氏，构陷……"],
 				"srcs": ["/static/video/online/wenDeWuBei/wenWu-yue-02_dead.mp3"]
-			}]
+			}],
+			"history": "字季兰，小字男胤，弘农郡华阴县人，晋武帝司马炎第二任皇后，西晋太傅杨骏与嫡妻庞氏之女，武元皇后杨艳堂妹。"
 		}
 	}
 }
