@@ -153,12 +153,12 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 	- [ ] 璀璨星河
 	- [ ] 谋扩展包
 	- [ ] 门阀士族
-	- [ ] 祈福
 	- [ ] SP
 - [ ] 更改头像样式（爬取头像+生成文字）
 - [ ] Online 国战图鉴
 - [ ] 新武将
 	- [ ] 神典韦
+	- [ ] 蒋琬
 
 ### Bug
 
