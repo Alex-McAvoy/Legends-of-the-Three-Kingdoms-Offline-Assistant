@@ -54,7 +54,8 @@
 				"name": "阵亡",
 				"descriptions": ["姜维、姜维，又将何为？"],
 				"srcs": ["/static/video/online/mouKuoZhanBao/mou-mou-01_dead.mp3"]
-			}]
+			}],
+			"history": "字伯约，天水冀人。三国时期蜀汉著名将领、军事统帅。原为曹魏天水郡的中郎将，后降蜀汉，官至凉州刺史、大将军。诸葛亮去世后继承诸葛亮的遗志，继续率领蜀汉军队北伐曹魏，与曹魏名将陈泰、郭淮、邓艾等多次交手。"
 		},
 		"mou-wu-01": {
 			"index": 1,
@@ -90,7 +91,8 @@
 				"name": "阵亡",
 				"descriptions": ["玉碎不改白，竹焚不毁节。"],
 				"srcs": ["/static/video/online/mouKuoZhanBao/mou-wu-01_dead.mp3"]
-			}]
+			}],
+			"history": "字云长，本字长生，并州河东解州人。五虎上将之首，爵至汉寿亭侯，谥曰“壮缪侯”。被奉为“关圣帝君”，崇为“武圣”。"
 		},
 		"mou-wei-01": {
 			"index": 2,
@@ -126,7 +128,8 @@
 				"name": "阵亡",
 				"descriptions": ["人生得遇知己，死又何憾。"],
 				"srcs": ["/static/video/online/mouKuoZhanBao/mou-wei-01_dead.mp3"]
-			}]
+			}],
+			"history": "太史慈，字子义，东莱黄县人。东汉末年武将，守言应诺，遵信义，始终如一，弭息诽论。官至建昌都尉。弓马熟练，箭法精良。原为刘繇部下，后被孙策收降，于赤壁之战前病逝，死时四十一岁。"
 		},
 		"mou-wei-02": {
 			"index": 3,
@@ -223,7 +226,8 @@
 					"/static/video/online/mouKuoZhanBao/mou-wei-02_dead_1.mp3",
 					"/static/video/online/mouKuoZhanBao/mou-wei-02_dead_2.mp3"
 				]
-			}]
+			}],
+			"history": "字本初，汉族，汝南汝阳人，出身名门望族，自曾祖父起四代有五人位居三公，自己也居三公之上，其家族也因此有“四世三公”之称。曾于初平元年被推举为反董卓联合军的盟主，联军瓦解后，在汉末群雄割据的过程中，袁绍先占据冀州，又先后夺青、并二州，并于建安四年击败了割据幽州的军阀公孙瓒，势力达到顶点。但在建安五年的官渡之战中败于曹操。在平定冀州叛乱之后，于建安七年病死。"
 		}
 	}
 }
