@@ -151,7 +151,6 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 - [ ] Online 武将列传
 	- [ ] 璀璨星河
-	- [ ] SP
 - [ ] 更改头像样式（爬取头像+生成文字）
 - [ ] Online 国战图鉴
 - [ ] 新武将
@@ -163,6 +162,7 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 	- [ ] 谋孔融
 	- [ ] 谋孙坚
 	- [ ] 谋华雄
+	- [ ] SP孙策
 
 ### Bug
 
@@ -179,6 +179,8 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 - [ ] 工具
 - [ ] 首页
 - [ ] 我的
+- [ ] 武将关系图谱
+- [ ] 彩蛋语音
 
 ## 参与项目
 
