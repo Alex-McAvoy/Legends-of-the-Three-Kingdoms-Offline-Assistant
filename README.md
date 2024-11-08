@@ -151,17 +151,21 @@ python online-video-spider.py 7003simayi wenWu-li-01 4 --save_path C:/Users/Alex
 
 - [ ] Online 武将列传
 	- [ ] 璀璨星河
-	- [ ] 谋扩展包
 	- [ ] SP
 - [ ] 更改头像样式（爬取头像+生成文字）
 - [ ] Online 国战图鉴
 - [ ] 新武将
+	- [ ] 族钟会
+	- [ ] 族钟繇
 	- [ ] 神典韦
 	- [ ] 蒋琬
+	- [ ] 谋庞统
+	- [ ] 谋孔融
+	- [ ] 谋孙坚
+	- [ ] 谋华雄
 
 ### Bug
 
-- [ ] Online 族钟会、族钟繇无数据
 - [ ] Online 界程普无语音
 - [ ] Online 界法正、界程普、界蔡夫人头像无标注
 
