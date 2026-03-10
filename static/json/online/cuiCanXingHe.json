@@ -46,7 +46,8 @@
 				"name": "阵亡",
 				"descriptions": ["命啊！命！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-01_dead.mp3"]
-			}]
+			}],
+			"history": "孙权之孙，孙和之子，东吴的末代君主。在位初期虽施行过明政，但不久即沉溺酒色，专于杀戮，变得昏庸暴虐，嗜用挖眼、剥皮等酷刑。280年，吴国被西晋所灭，孙皓投降西晋，被封为归命侯。"
 		},
 		"can-ji-02": {
 			"index": 1,
@@ -82,7 +83,8 @@
 				"name": "阵亡",
 				"descriptions": ["为什么不把复兴汉室的权力交给我……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-02_dead.mp3"]
-			}]
+			}],
+			"history": "字伯和，又字合。汉族，祖籍沛县，生于洛阳。汉灵帝第三子，被董卓迎立为帝。董卓被王允和吕布诛杀后，董卓部将李催等攻入长安，再次持了他，后来逃出长安。公元196年，曹操控制了刘协，并迁都许昌，“挟天子以令诸侯”。公元220年，曹操病死，刘协被曹丕控制，随后被迫禅让于曹丕。"
 		},
 		"can-ji-03": {
 			"index": 2,
@@ -108,7 +110,8 @@
 				"name": "阵亡",
 				"descriptions": ["典将军，还是你赢了……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-03_dead.mp3"]
-			}]
+			}],
+			"history": "字子修，曹操的长子，由于性情谦和且聪慧所以深得曹操喜爱。曹操征讨张绣时，羞辱张绣之婶邹氏，被张绣突然袭击。曹昂为保护曹操撤退，与典韦一起战死在宛城。"
 		},
 		"can-ji-04": {
 			"index": 3,
@@ -144,7 +147,8 @@
 				"name": "阵亡",
 				"descriptions": ["你们男人造的孽，非要说什么红颜祸水！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-04_dead.mp3"]
-			}]
+			}],
+			"history": "大将军何进的妹妹，汉灵帝刘宏第二任皇后，汉少帝刘辩的生母。何氏出身于屠户家庭，后选入掖庭，得到汉灵帝临幸，生下皇子刘辩，并受封贵人。光和三年，立汉灵帝去世，刘辩继位，尊何氏为皇太后。董卓进京，废为皇后。中平六年，黜刘辩，不久毒杀刘辩及何氏。"
 		},
 		"can-ji-05": {
 			"index": 4,
@@ -183,7 +187,8 @@
 				"name": "阵亡",
 				"descriptions": ["姐姐，你且好自为之。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-05_dead.mp3"]
-			}]
+			}],
+			"history": "又名小虎，孙权与步练师之女。吴后期，孙鲁班诬陷孙鲁育参与谋反，于是孙峻杀害了孙鲁育。"
 		},
 		"can-ji-06": {
 			"index": 5,
@@ -229,7 +234,8 @@
 				"name": "阵亡",
 				"descriptions": ["只求吾儿，一生平安……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-06_dead.mp3"]
-			}]
+			}],
+			"history": "汉灵怀皇后王荣，赵国邯郸人。五官中郎将王苞孙女，汉灵帝刘宏妃子，汉献帝刘协生母。初以良家子选入掖庭，封为美人，服侍汉灵帝。光和四年，生下陈留王刘协，惨遭灵思皇后毒杀。王荣死后，汉灵帝曾作《追德赋》、《令仪颂》。"
 		},
 		"can-ji-07": {
 			"index": 6,
@@ -265,7 +271,8 @@
 				"name": "阵亡",
 				"descriptions": ["父亲……孩儿来见你了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-07_dead.mp3"]
-			}]
+			}],
+			"history": "刘表长子。因刘表宠幸蔡氏，刘琦有杀身之祸，后求助诸葛亮，听从其建议离开荆州，去守江夏，躲过一劫。被后世称为“鲁恭王”。"
 		},
 		"can-ji-08": {
 			"index": 7,
@@ -301,7 +308,8 @@
 				"name": "阵亡",
 				"descriptions": ["孟德，勿忘汝父之仇！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-08_dead.mp3"]
-			}]
+			}],
+			"history": "字巨高，沛郡谯县人。东汉大臣，大长秋曹腾的养子，曹操之父亲。门荫入仕，历任司隶校尉、鸿胪卿、大司农，位列九卿，位高权重。中平四年，靠着贿赂中官，出任太尉，位列三公。中平五年，受累于黄巾之乱，坐罪免官。兴平元年，投奔兖州牧曹操，遇害于徐州。"
 		},
 		"can-ji-09": {
 			"index": 8,
@@ -337,7 +345,8 @@
 				"name": "阵亡",
 				"descriptions": ["惨怆愁悲……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-09_dead.mp3"]
-			}]
+			}],
+			"history": "左棻[fēn]，字兰芝，齐国临淄人，少好学，善属文。为晋武帝司马炎的贵人。今存诗、赋、颂、赞、诔[lěi]等20余篇，大都为应诏而作，《离思赋》最著名。"
 		},
 		"can-ji-10": {
 			"index": 9,
@@ -373,7 +382,8 @@
 				"name": "阵亡",
 				"descriptions": ["心肝涂地，惊愕断绝。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-10_dead.mp3"]
-			}]
+			}],
+			"history": "卞[biàn]夫人，魏武帝曹操的第二任妻子，魏文帝曹丕、任城威王曹彰、陈思王曹植、萧怀王曹熊的母亲。原本是倡家，后来与曹操成婚，原配丁夫人被废后成为曹操的正妻。曹丕继位后尊其为皇太后，曹叡继位后尊其为太皇太后。卞后在太和四年去世，与魏武帝曹操合葬高陵。"
 		},
 		"can-ji-11": {
 			"index": 10,
@@ -412,7 +422,8 @@
 				"name": "阵亡",
 				"descriptions": ["侯非侯，王非王。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-11_dead.mp3"]
-			}]
+			}],
+			"history": "灵帝驾崩后继位为帝，史称少帝。即位后不久即因何进与十常侍相争被迫出宫，回宫后又受制于董卓，后被废为弘农王。"
 		},
 		"can-ji-12": {
 			"index": 11,
@@ -448,7 +459,8 @@
 				"name": "阵亡",
 				"descriptions": ["我言非虚，君上何疑于我？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-12_dead.mp3"]
-			}]
+			}],
+			"history": "曹操长女，夏侯楙[máo]妻。后与小叔子设计谋害丈夫，共同捏造罪名上书侄子曹叡，但未果。"
 		},
 		"can-ji-13": {
 			"index": 12,
@@ -484,7 +496,8 @@
 				"name": "阵亡",
 				"descriptions": ["皇天崩兮后土颓。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-13_dead.mp3"]
-			}]
+			}],
+			"history": "弘农怀王刘辩的妃子。刘辩死后，唐姬回归故里，因节烈不愿改他人。"
 		},
 		"can-ji-14": {
 			"index": 13,
@@ -523,7 +536,8 @@
 				"name": "阵亡",
 				"descriptions": ["权利的滋味，让人沉沦。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-14_dead.mp3"]
-			}]
+			}],
+			"history": "汉灵帝，汉献帝刘协之父，在位施行党锢及宦官政治，又巧立名目搜刮钱财，卖官鬻爵以享乐。在位晚期爆发黄巾起义。"
 		},
 		"can-ji-15": {
 			"index": 14,
@@ -559,7 +573,8 @@
 				"name": "阵亡",
 				"descriptions": ["封侯归命，夫妻同归。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-15_dead.mp3"]
-			}]
+			}],
+			"history": "孙皓皇后，东吴太常滕胤的族女。孙皓登基后沉湎酒色，不得宠幸。孙皓投降后与其一起迁至洛阳。"
 		},
 		"can-ji-16": {
 			"index": 15,
@@ -595,7 +610,8 @@
 				"name": "阵亡",
 				"descriptions": ["这斧头怎么变这么重了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-16_dead.mp3"]
-			}]
+			}],
+			"history": "孙权长子孙登之妾，芮玄之女。芮氏一族在东吴创业期间立下汗马功劳。"
 		},
 		"can-ji-17": {
 			"index": 16,
@@ -631,7 +647,8 @@
 				"name": "阵亡",
 				"descriptions": ["往事云烟，去日苦多。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-ji-17_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年至三国时人。有异色，原为吕布将秦宜禄之妻，生子秦朗。后为曹操纳为妾，又生曹林、曹衮、金乡公主。曹操甚爱继子秦朗，曾言“世有人爱假子如孤者乎”。"
 		},
 		"can-bi-01": {
 			"index": 17,
@@ -667,7 +684,8 @@
 				"name": "阵亡",
 				"descriptions": ["我固自已死之晚也。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-01_dead.mp3"]
-			}]
+			}],
+			"history": "字德祖，今陕西华阴人，东汉末年的文学家。杨修学问渊博，极聪慧，任丞相府主簿。史载“是时，军国多事，修总知外内，事皆称意”。"
 		},
 		"can-bi-02": {
 			"index": 18,
@@ -703,7 +721,8 @@
 				"name": "阵亡",
 				"descriptions": ["来人，我的笔呢……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-02_dead.mp3"]
-			}]
+			}],
+			"history": "陈琳，字孔璋，广陵射阳人。东汉末年著名文学家，“建安七子”之一。"
 		},
 		"can-bi-03": {
 			"index": 19,
@@ -739,7 +758,8 @@
 				"name": "阵亡",
 				"descriptions": ["此诚报效国家之时，吾却休矣。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-03_dead.mp3"]
-			}]
+			}],
+			"history": "字仲德，本名程立，因梦中於泰山捧日，更名程昱[yù]。荀彧投曹操时向其举荐程昱。他参与了攻打吕布、袁绍、刘备、孙权的大部分战事，一直出谋献策，表现出众。"
 		},
 		"can-bi-04": {
 			"index": 20,
@@ -775,7 +795,8 @@
 				"name": "阵亡",
 				"descriptions": ["我这一生，足矣。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-04_dead.mp3"]
-			}]
+			}],
+			"history": "士燮[xiè]，割据交州一带的军阀，年少时师事刘陶，经逐渐升迁任交趾太守，后被朝廷加职绥南中郎将，迁安远将军，封龙度亭侯。在步骘接管交州时积极配合，归附孙权，被孙权加为左将军。此后又因诱降益州豪族雍闿而迁任卫将军，进封龙编侯。任交趾太守四十年。"
 		},
 		"can-bi-05": {
 			"index": 21,
@@ -821,7 +842,8 @@
 				"name": "阵亡",
 				"descriptions": ["努力谢关东诸公，勤以国家为念！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-05_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年的重要大臣，出身官宦世家，在演义中，王允先出借七宝刀予曹操，以期刺杀董卓。失败后又遣养女貂蝉离间董卓吕布，最终成功杀死董卓。董卓死后，王允握持大权矜功自傲，致使董卓余党李傕、郭汜等反叛，吕布出逃，王允被处死。"
 		},
 		"can-bi-06": {
 			"index": 22,
@@ -847,7 +869,8 @@
 				"name": "阵亡",
 				"descriptions": ["后会有期……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-06_dead.mp3"]
-			}]
+			}],
+			"history": "伏完，琅邪东武人，东汉末大臣，汉献帝伏皇后之父。历官辅国将军、中散大夫、屯骑校尉。"
 		},
 		"can-bi-07": {
 			"index": 23,
@@ -893,7 +916,8 @@
 				"name": "阵亡",
 				"descriptions": ["君臣不相负，来世复君臣。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-07_dead.mp3"]
-			}]
+			}],
+			"history": "字子瑜，吴国大臣，诸葛亮之兄，诸葛恪之父。经鲁肃推荐，为东吴效力。胸怀宽厂温厚诚信，得到孙权的深深信赖，努力缓和蜀汉与东吴的关系。建安二十五年吕蒙病逝，诸葛瑾代吕蒙领南郡太守，驻守公安。孙权称帝后，诸葛瑾官至大将军，领豫州牧。"
 		},
 		"can-bi-08": {
 			"index": 24,
@@ -929,7 +953,8 @@
 				"name": "阵亡",
 				"descriptions": ["我的使命，完成了吗……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-08_dead.mp3"]
-			}]
+			}],
+			"history": "字季常，因眉毛中有白毛，人称白眉马良，马谡的兄长。马良在兄弟五人中名声最佳，因此有“马氏五常，白眉最良”的说法。"
 		},
 		"can-bi-09": {
 			"index": 25,
@@ -965,7 +990,8 @@
 				"name": "阵亡",
 				"descriptions": ["微功未效，有辱国恩。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-09_dead.mp3"]
-			}]
+			}],
+			"history": "字伯达，“司马八达”之一。曹操任司空后，司马朗被辟为司空属官，又历任成皋令、堂阳长、元城令、丞相主簿、兖州刺史等职，所在皆有政绩，深受百姓爱戴。后司马朗与夏侯惇、臧霸等征讨吴国，到达居巢。军队中流行瘟疫，司马朗亲自去视察，派送医药，因此染病去世。"
 		},
 		"can-bi-10": {
 			"index": 26,
@@ -1001,7 +1027,8 @@
 				"name": "阵亡",
 				"descriptions": ["交州已定，主公尽可放心。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-10_dead.mp3"]
-			}]
+			}],
+			"history": "步骘[zhì]，吴重臣，最初避难江东，于孙权统事后，被召为主记。后游历吴地，又任海盐县长，还任东曹掾，出领鄱阳太守。建安十五年，转交州刺史、立武中郎将，率军接管往交州，追拜使持节、征南中郎将。次年，以平定交州功，加平戎将军，封广信侯。后迁右将军、左护军，改封临湘侯。孙权称帝后，拜骑将军，领冀州牧，后因冀州分与蜀汉而解牧职。又都督西陵。赤乌九年，代陆逊为丞相。"
 		},
 		"can-bi-11": {
 			"index": 27,
@@ -1037,7 +1064,8 @@
 				"name": "阵亡",
 				"descriptions": ["大汉，要亡于宦官之手了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-11_dead.mp3"]
-			}]
+			}],
+			"history": "大汉重臣，掌军中郎将董和之子。东汉末年，其父董和事刘璋为益州太守，刘备立太子时，允被选为洗[xiǎn]马，后为黄门侍郎，延熙六年加辅国将军，延熙七年以侍中守尚书令，任大将军费祎的副手。"
 		},
 		"can-bi-12": {
 			"index": 28,
@@ -1073,7 +1101,8 @@
 				"name": "阵亡",
 				"descriptions": ["我早已做好了牺牲的准备。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-12_dead.mp3"]
-			}]
+			}],
+			"history": "阚[kàn]泽，孙权谋士，在孙权广纳贤才之时与严畯等来到江东，甚为孙权礼遇。第一个识破周瑜打黄盖是苦肉计，后欣然向曹操献诈降书，被曹操识破后面不改色，哈哈大笑，一番妙言让曹操相信了诈降书，是苦肉计中的关键人物。后劝孙权不要设局请关羽。在刘备御驾亲征东吴时，向孙权举荐陆逊为都督，间接上挽救了东吴的命运。"
 		},
 		"can-bi-13": {
 			"index": 29,
@@ -1119,7 +1148,8 @@
 				"name": "阵亡",
 				"descriptions": ["为何……不再给我……一点点时间……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-13_dead.mp3"]
-			}]
+			}],
+			"history": "曹操手下谋士。为人多谋略，曹操十分器重，但不幸早卒。"
 		},
 		"can-bi-14": {
 			"index": 30,
@@ -1155,7 +1185,8 @@
 				"name": "阵亡",
 				"descriptions": ["恨不能得见皇叔早登大宝，咳咳咳……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-14_dead.mp3"]
-			}]
+			}],
+			"history": "为刘备早期的谋臣，陶谦临死时向刘备推荐孙乾，自此孙乾成为刘备的谋士，并随刘备转战天下。刘备兵败汝南时投了刘表，以孙乾为使者。刘备入蜀后，孙乾位居糜竺之次。"
 		},
 		"can-bi-15": {
 			"index": 31,
@@ -1201,7 +1232,8 @@
 				"name": "阵亡",
 				"descriptions": ["一作驴鸣悲，万古送葬别。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-15_dead.mp3"]
-			}]
+			}],
+			"history": "王粲[càn]，字仲宣，“建安七子”之一。王粲善属文，其诗赋为建安七子之冠，又与曹植并称“曹王”。王粲自少即有才名，为学者蔡邕所赏识。司徒想征辟他为黄门侍郎，王粲因为长安局势混乱，没有赴任，选择前往荆州依附刘表，但未受到刘表重用。建安十三年，丞相曹操南征荆州，刘表之子刘琮举州投降，王粲也归于曹操，深得曹氏父子信赖，被赐爵关内侯。建安十八年，魏王国建立，王粲任侍中。建安二十二年，随曹操南征孙权，于北还途中病逝，终年四十一岁。"
 		},
 		"can-bi-16": {
 			"index": 32,
@@ -1237,7 +1269,8 @@
 				"name": "阵亡",
 				"descriptions": ["我自泰山郡以来，百姓获安，镇军伐贼，此生已无憾！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-16_dead.mp3"]
-			}]
+			}],
+			"history": "吕虔，字子恪。任城国人。汉末至三国曹魏时期将领。吕虔有勇有谋，曹操在兖州时，任命他为从事，率领家丁驻守湖陆。后升任泰山太守，与夏侯渊共同镇压济南等地的黄巾军。被推举为秀才，加任骑都尉，仍管辖泰山郡。曹丕继任魏王后，加吕虔为裨将军，封益寿亭侯。再升任徐州刺史，加任威虏将军。任用王祥为别驾，将民政事务都委托于他，为世人所称赞。曹叡继位后，改封万年亭侯。吕虔死后，其子吕翻世袭万年亭侯。"
 		},
 		"can-bi-17": {
 			"index": 33,
@@ -1273,7 +1306,8 @@
 				"name": "阵亡",
 				"descriptions": ["此去一别，难见文举。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-17_dead.mp3"]
-			}]
+			}],
+			"history": "孙邵，字长绪，青州北海国人。原为北海相孔融的功曹，被孔融称赞为可任朝廷要职的人才，后随刘繇到达江东，继而辅佐孙权。孙权称吴王后，孙邵成为吴国首任丞相，数年后病逝。"
 		},
 		"can-bi-18": {
 			"index": 34,
@@ -1309,7 +1343,8 @@
 				"name": "阵亡",
 				"descriptions": ["吾君在北，但求面北而亡。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-18_dead.mp3"]
-			}]
+			}],
+			"history": "字正南，魏郚阴安人。为人正直，袁绍领冀州，审配被委以腹心之任并总幕府。河北平定，袁绍以审配、逢纪统军事，审配恃其强盛，力主与曹操决战。曾率领弓弩手大破曹军于官渡。官渡战败，审配二子被俘，反因此受谮见疑，幸得逢纪力保。袁绍病死，审配等矫诏立袁尚为嗣，导致兄弟相争，被曹操各个击破。曹操围邺，审配死守数月，终城破被擒，拒不投降，慷慨受死。"
 		},
 		"can-bi-19": {
 			"index": 35,
@@ -1345,7 +1380,8 @@
 				"name": "阵亡",
 				"descriptions": ["吾欲赴死，断不做背主之事。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-19_dead.mp3"]
-			}]
+			}],
+			"history": "荀谌，字友若，颍川人，东汉末期人物，荀彧四兄。《三国志》荀彧传作荀彧弟。荀谌本为韩馥部下，初平二年，辛评、荀谌、郭图共同说服韩馥出让冀州州牧职位予袁绍，荀谌亦受邀为袁绍部下。官渡之战时袁绍以荀谌为谋主，官渡之战后下落不明。子荀闳[hóng]字仲茂，后为曹魏太子文学掾。"
 		},
 		"can-bi-20": {
 			"index": 36,
@@ -1381,7 +1417,8 @@
 				"name": "阵亡",
 				"descriptions": ["守节不易，吾愿舍身为蜀。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-20_dead.mp3"]
-			}]
+			}],
+			"history": "吕凯，字季平，永昌郡不韦县人，三国时期蜀汉官员。初任永昌郡五官掾功曹。章武三年，建宁太守雍闿反叛，投降吴国，吴国任雍闿为永昌太守，吕凯闭境抗拒雍闿。建兴三年，丞相诸葛亮南征，表奏吕凯功劳，任命他为云南太守，封阳迁亭侯。吕凯还未上任，便被叛乱的少数民族杀害。"
 		},
 		"can-bi-21": {
 			"index": 37,
@@ -1417,7 +1454,8 @@
 				"name": "阵亡",
 				"descriptions": ["丞相，再给我一次机会啊。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-21_dead.mp3"]
-			}]
+			}],
+			"history": "蒋干，字子翼，汉末三国时期的人物，九江人。在历史上，蒋干是当时的名士，辩论家。不过在《三国演义》中，蒋干刻画成了被周瑜所愚弄的角色。《三国演义》中，关于蒋干的事情，便是他中计周瑜圈套，盗取假的密信，让曹操损失两位水军大将，也让曹操在赤壁之战中，埋下失败的伏笔。"
 		},
 		"can-bi-22": {
 			"index": 38,
@@ -1453,7 +1491,8 @@
 				"name": "阵亡",
 				"descriptions": ["耻失荆州，耻失荆州啊！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-22_dead.mp3"]
-			}]
+			}],
+			"history": "潘濬[jùn]，又作潘浚，字承明，武陵郡汉寿县人，蜀汉大司马蒋琬的表弟，三国时期吴国重臣。为人聪察，曾拜大儒宋忠为师，得到“建安七子”之一的王粲赏识。不到30岁就被荆州牧刘表任命为江夏从事，因按杀贪污的沙羡长而闻名。后被刘备辟为荆州治中从事，孙权得荆州，拜潘濬辅军中郎将，领兵，又迁奋威将军，封常迁亭侯。229年拜少府，进封刘阳候，又改任太常。231年，授假节，与吕岱率军五万平五溪蛮夷叛乱，经三年而斩获数万，保一方平安。刚正不阿，忠心为国，屡次上书请求孙权诛杀弄权的奸臣吕壹，后又想亲手杀死吕壹，吕壹十分惧怕。后于239年去世。"
 		},
 		"can-bi-23": {
 			"index": 39,
@@ -1489,7 +1528,8 @@
 				"name": "阵亡",
 				"descriptions": ["著作，还，没完成。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-23_dead.mp3"]
-			}]
+			}],
+			"history": "字曼才，彭城人，吴国官员、学者，以性情忠厚，待人真诚著称。少年好学，精通《诗》、《书》、《三礼》，还喜欢《说文解字》。东汉末年，避乱来到江东，与诸葛瑾、步骘成为好友，被张昭推荐给孙权作骑都尉、从事中郎。217年，鲁肃去世，孙权打算让严畯接替鲁肃作横江将军，但他很有自知之明，知道自己没有能力对抗荆州关羽和北方曹魏，坚决不接受此任命。孙权于是让吕蒙接替鲁肃，时人都赞扬他。孙权称帝后，严畯任卫尉。他曾作为东吴使臣出使蜀汉，得到诸葛亮的欣赏。严畯不爱财，得到的俸禄与赏赐都分给亲戚故旧。他精心钻研学问，著有《孝经传》、《潮水论》等，七十八岁时去世。"
 		},
 		"can-bi-24": {
 			"index": 40,
@@ -1525,7 +1565,8 @@
 				"name": "阵亡",
 				"descriptions": ["避凶不及，难……也……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-24_dead.mp3"]
-			}]
+			}],
+			"history": "魏国重臣，东汉末年颍川“四大名士”之一，济阴太守杜根的孙子。"
 		},
 		"can-bi-25": {
 			"index": 41,
@@ -1561,7 +1602,8 @@
 				"name": "阵亡",
 				"descriptions": ["修好未成，蜀汉恐危。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-25_dead.mp3"]
-			}]
+			}],
+			"history": "字伯苗，义阳郡新野县人，东汉名将邓禹之后，三国时期蜀汉重臣。邓芝早年曾被预言能位至大将，后被刘备任为郫令，升迁为广汉太守。因任官公廉且有治绩，被征入朝为尚书。刘备逝世后，奉命出使吴国，成功修复两国关系，并深为吴大帝孙权所赏识。建兴六年，丞相诸葛亮策划北伐，命邓芝与大将赵云攻郿城，以吸引魏国曹真军主力。建兴十二年，迁前军师、前将军，领兖州刺史，封阳武亭侯，不久督领江州。延熙六年，迁车骑将军，后授假节。又率军平定涪陵叛乱。邓芝性格正直、简单，不刻意修饰情绪。他为将二十多年，赏罚明断，体恤士卒。身上的衣食取自官府，从未经营过私产，妻儿甚至还有忍饥挨饿之时，死时家中也没有多余财物。"
 		},
 		"can-bi-26": {
 			"index": 42,
@@ -1597,7 +1639,8 @@
 				"name": "阵亡",
 				"descriptions": ["失民心，且无食。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-26_dead.mp3"]
-			}]
+			}],
+			"history": "辛宪英的父亲。当初，辛毗跟随其兄事袁绍。曹操任司空时，征召辛毗，他不受命。官渡战后，辛毗事袁绍的儿子袁谭。公元204年，曹操攻下邺城，上表推荐辛毗任议郎，后为丞相长史。公元220年，曹丕即皇帝位，以辛毗为侍中，赐爵关内侯，后赐广平亭侯。魏明帝即位，封辛毗颍乡侯，食邑三百户，后为卫尉。公元234年，诸葛亮屯兵渭南，司马懿上表魏明帝。魏明帝任辛毗为大将军军师，加使持节号。诸葛亮病逝后，辛毗返回，仍任卫尉。不久，逝世，谥肃侯。"
 		},
 		"can-bi-27": {
 			"index": 43,
@@ -1633,7 +1676,8 @@
 				"name": "阵亡",
 				"descriptions": ["魏延庸奴，吾，誓杀汝！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-27_dead.mp3"]
-			}]
+			}],
+			"history": "字威公，三国时期蜀汉官员。投奔关羽后任为功曹，之后因刘备赏识，为尚书。但与尚书令刘巴不和，调为弘农太守。后任丞相参军，此后一直跟随诸葛亮战斗。诸葛亮死后他部署安全退军。"
 		},
 		"can-bi-28": {
 			"index": 44,
@@ -1659,7 +1703,8 @@
 				"name": "阵亡",
 				"descriptions": ["可无命，不可无脍……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-28_dead.mp3"]
-			}]
+			}],
+			"history": "字元龙，沛相陈珪之子。陈登为人爽朗，性格沈静，智谋过人，少年时有扶世济民之志，并且博览群书，学识渊博。二十五岁时，举孝廉，任东阳县长。虽然年轻，但他能够体察民情，抚弱育孤，深得百姓敬重。后来，徐州牧陶谦提拔他为典农校尉，主管一州农业生产。他亲自考察徐州的土壤状况，开发水利，发展农田灌溉，使汉末迭遭破坏的徐州农业得到一定程度的恢复，百姓们安居乐业，秔[jīng]稻丰积。建安初，奉使赴许，向曹操献灭吕布之策，被授广陵太守。以灭吕布有功，加伏波将军。在广陵多年，多次击败孙策势力。迁东城太守。"
 		},
 		"can-bi-29": {
 			"index": 45,
@@ -1715,7 +1760,8 @@
 				"name": "阵亡",
 				"descriptions": ["当断不断，反受其乱……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-29_dead.mp3"]
-			}]
+			}],
+			"history": "羊祜[hù]，字叔子，西晋名将，蔡文姬外甥。坐镇荆州与东吴陆抗对阵，临终前荐杜预接替职务，晋武帝依其计划灭吴。唐宋时期配享武庙。"
 		},
 		"can-bi-30": {
 			"index": 46,
@@ -1751,7 +1797,8 @@
 				"name": "阵亡",
 				"descriptions": ["昭，一心向魏，绝无二心！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-30_dead.mp3"]
-			}]
+			}],
+			"history": "曹魏谋士、重臣、开国元勋。董昭年轻时被举为孝廉，后担任袁绍帐下参军。后与曹操在洛阳相见，又建议曹操将汉献帝迎接到许昌。董昭自此成为曹操的谋士。曹操受封魏公、魏王的谋划都是出自董昭之手。曹丕继魏王位后，董昭任将作大匠。曹丕称帝后，升任大鸿胪。此后先后担任侍中、太常、光禄大夫、太仆等重要职位。魏明帝曹叡即位后转任卫尉。太和六年升任司徒。"
 		},
 		"can-bi-31": {
 			"index": 47,
@@ -1787,7 +1834,8 @@
 				"name": "阵亡",
 				"descriptions": ["蜀科律法，难以撰写。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-31_dead.mp3"]
-			}]
+			}],
+			"history": "蜀汉官员，初随刘表，刘表死后跟随刘备转战四方，平定益州，与诸葛亮等共同编制《蜀科》。"
 		},
 		"can-bi-32": {
 			"index": 48,
@@ -1833,7 +1881,8 @@
 				"name": "阵亡",
 				"descriptions": ["玉山倾颓心无尘……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-32_dead.mp3"]
-			}]
+			}],
+			"history": "字泰初，曹魏大臣、思想家、文学家，夏侯尚之子，曹爽表弟。为“四聪”之一，与何晏等人开创了魏晋玄学先河，是早期玄学领袖人物。高平陵被夺去兵权，后中书令李丰与外戚张缉等人密谋杀死大将军司马师，改以夏侯玄执政，事泄被杀，夷灭三族。"
 		},
 		"can-bi-33": {
 			"index": 49,
@@ -1869,7 +1918,8 @@
 				"name": "阵亡",
 				"descriptions": ["失节屈辱忧恚！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-33_dead.mp3"]
-			}]
+			}],
+			"history": "马日磾[mì dī]，东汉中后期大臣，与蔡邕、卢植等人东观典校官藏的《五经》记传，到寿春袁术处后，对其多有所求，遭袁术轻鄙，袁术遂夺其符节，来随意征辟将士，并企图强迫马日磾任其军师，马日求去不能，忧愤发病，卒于寿春。"
 		},
 		"can-bi-34": {
 			"index": 50,
@@ -1905,7 +1955,8 @@
 				"name": "阵亡",
 				"descriptions": ["老夫死不足惜，但求蜀地百姓无虞！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-34_dead.mp3"]
-			}]
+			}],
+			"history": "谯周，蜀汉大臣、学者、儒学家、史学家。少读典籍，精研六经，颇晓天文，为蜀地大儒，门下有陈寿、罗宪等学生。诸葛亮担任益州牧时，授劝学从事。诸葛亮死后，不顾朝令，前往奔丧。后主刘禅册立太子时，授太子仆，迁太子家令、光禄大夫。反对姜维北伐，著《仇国论》，力陈北伐之失。炎兴元年，邓艾攻打成都时期，力劝刘禅投降，有“全国之功”，投降魏国后，受封阳城亭侯，迁骑都尉。"
 		},
 		"can-bi-35": {
 			"index": 51,
@@ -1951,7 +2002,8 @@
 				"name": "阵亡",
 				"descriptions": ["桑化为柏，此非不祥乎？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-35_dead.mp3"]
-			}]
+			}],
+			"history": "西晋贤相，张良的十六世孙，贾南风时辅政。与羊祜善。司马炎与羊祜谋划伐吴时群臣唯张华、杜预赞成其计。羊祜临终将伐吴之遗志托付于张华、杜预。贾充曾在伐吴半进时，进谏退兵并奏斩张华，司马炎护之。斩蛇剑穿屋而飞、干将莫邪双剑化龙、龙光射牛斗之墟皆出自其典。"
 		},
 		"can-bi-36": {
 			"index": 52,
@@ -1987,7 +2039,8 @@
 				"name": "阵亡",
 				"descriptions": ["臣死谏于斯，死得其所……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-36_dead.mp3"]
-			}]
+			}],
+			"history": "初为吴国郡吏，在职清廉，颇有政声，擢为尚书仆射。孙权为政日久，军兴频仍，赋役苛重，刑罚严酷，民离农怨。晃常忠言直谏，劝帝均息力役，爱养士马，抚恤百姓。孙权晚年，太子孙登病死，立登弟孙和为太子，后又幽闭孙和而欲立孙霸为太子，群论哗然。晃与丞相陆逊、大将军诸葛恪、骠骑将军朱据等激切上书。孙权不听。与朱据等率诸将吏泥头自缚，诣阙连日固谏不止，叩头流血，辞气不挠。终为孙权罪杖一百，斥归田里，次年忧愤而死。"
 		},
 		"can-bi-37": {
 			"index": 53,
@@ -2023,7 +2076,8 @@
 				"name": "阵亡",
 				"descriptions": ["公皆听吾计，圃岂敢不专……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-37_dead.mp3"]
-			}]
+			}],
+			"history": "益州巴西安汉人。张鲁割据巴、汉，以阎圃为功曹。后随张鲁一同投降曹操，封平乐乡侯。"
 		},
 		"can-bi-38": {
 			"index": 54,
@@ -2059,7 +2113,8 @@
 				"name": "阵亡",
 				"descriptions": ["曹氏亡矣，大魏亡矣……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-38_dead.mp3"]
-			}]
+			}],
+			"history": "曹真之子，曹爽之弟，为人有学识，明律法。曹爽掌权后，受封中领军，掌握禁兵，封安乡侯。曹爽及诸兄弟轻视司马懿，恣意妄为，经常外出狩猎，曹羲屡次劝谏，不被采纳。249年，司马懿发动高平陵政变，被夷三族。"
 		},
 		"can-bi-39": {
 			"index": 55,
@@ -2095,7 +2150,8 @@
 				"name": "阵亡",
 				"descriptions": ["我本魏将，将军救我！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-39_dead.mp3"]
-			}]
+			}],
+			"history": "《三国演义》中邓艾手下参谋，献反间计与邓艾，被姜维识破，焚粮夺路奔走，被围杀自投江而死。"
 		},
 		"can-bi-40": {
 			"index": 56,
@@ -2131,7 +2187,8 @@
 				"name": "阵亡",
 				"descriptions": ["诸葛公何至于此……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-40_dead.mp3"]
-			}]
+			}],
+			"history": "三国时期吴国中书令、少傅。鲁王孙霸与太子孙和各植党羽，孙弘即依附孙霸。孙权病笃而太子年少，于是以孙弘领少傅。孙权临终，召他与诸葛恪、孙峻等以后事，孙弘与诸葛恪同为顾命大臣。孙权死后，孙弘因素来与诸葛恪不和，怕为所治，故隐瞒孙权死讯，欲矫诏除掉诸葛恪，被孙峻告发。后诸葛恪请孙弘议事，于座中将其诛杀。"
 		},
 		"can-bi-41": {
 			"index": 57,
@@ -2156,7 +2213,8 @@
 				"name": "阵亡",
 				"descriptions": ["吾罪大矣，何堪封侯之荣？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-41_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年隐士。年少喜爱读书，善于击剑，初为幽州刘虞从事。率领全族隐居，不受袁绍征辟。建安十二年，曹操北征乌桓时，进入麾下，担任司空户曹掾。参与平定乌丸、攻打荆州，颇有功勋，授议郎。"
 		},
 		"can-bi-42": {
 			"index": 58,
@@ -2191,7 +2249,8 @@
 				"name": "阵亡",
 				"descriptions": ["工于心计而不成事，匹夫怀其罪。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-bi-42_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年袁绍帐下谋士，官渡之战时力主趁机偷袭曹营，战败后为免于责罚，而归罪于率军偷袭曹营的张郃、高览，致使二人背袁投曹。袁绍死后，为袁谭效力，于205年和袁谭一同被曹操所杀。"
 		},
 		"can-zhu-01": {
 			"index": 59,
@@ -2217,7 +2276,8 @@
 				"name": "阵亡",
 				"descriptions": ["呃啊，不该趟曹袁之争的浑水。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-01_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年辽西乌桓的首领，乌桓大人丘力居的从子，总摄三王部。曾出兵协助袁绍，击破公孙瓒。此后受袁绍假传朝廷诏命，与难楼、苏仆延、乌延等人同受单于称号及印缓。后难楼、苏仆延率其部众奉立楼班为单于，蹋顿于是退位为王。袁绍死后，收到被曹操击败的袁尚的求助，纠集逃亡至乌桓的幽州、冀州官吏百姓，企图夺回河北。东汉建安十二年，曹操亲征乌桓。八月，乌桓、袁氏部队于柳城白狼山为曹军所败，蹋顿在此战中被曹操的先锋张辽所斩杀。"
 		},
 		"can-zhu-02": {
 			"index": 60,
@@ -2253,7 +2313,8 @@
 				"name": "阵亡",
 				"descriptions": ["若无内讧，也不至如此。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-02_dead.mp3"]
-			}]
+			}],
+			"history": "李傕[jué]，字稚然。北地郡泥阳县人，汉末群雄之一。东汉末年汉献帝时的军阀、权臣官至大司马、车骑将军、开府、领司隶校尉、假节。李傕本为董卓部将，后被董卓的女婿牛辅派遣至中牟与朱儁[jùn]交战，大破朱儁，进而至陈留、颍川等地劫掠。"
 		},
 		"can-zhu-03": {
 			"index": 61,
@@ -2279,7 +2340,8 @@
 				"name": "阵亡",
 				"descriptions": ["唉，稚然疑心，甚重。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-03_dead.mp3"]
-			}]
+			}],
+			"history": "樊稠，凉州金城人。是东汉末年的军阀、将领。官至右将军，因为在联合李傕、郭汜等人，围攻长安，迎接汉献帝，被封为万年侯。原为董卓部将，董卓死后，伙同李傕、郭汜、张济等人合众十余万反扑长安，败吕布、杀王允，把持朝政。后马腾因与李傕有隙，于是联合韩遂举兵进攻，李傕派樊稠、郭汜等与其交战，大败马腾、韩遂于长平观下，樊稠追至陈仓，与韩遂友好罢兵，却遭李催猜疑。兴平二年，李让外甥骑都尉胡封在会议上将樊稠刺死。"
 		},
 		"can-zhu-04": {
 			"index": 62,
@@ -2315,7 +2377,8 @@
 				"name": "阵亡",
 				"descriptions": ["伍习，你……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-04_dead.mp3"]
-			}]
+			}],
+			"history": "郭汜，又名郭多，是凉州张掖人，东汉末年将领、军阀，献帝时权臣。本来为董卓部下。董卓被杀以后，凉州众将归无所依，加上王允对于董卓旧部的态度不明，导致郭汜等人内心惶恐，产生自保念头，想趁机逃跑。然此时，贾诩献策，郭汜等人考量良久后，于是便采用贾诩之谋，联兵将攻向长安，击败吕布，杀死王允等人。郭汜等人占领长安，把持朝廷大权。这几年之间，李傕等人相互争权夺利，矛盾越来越激化。后来，郭汜欲劫汉献帝返回长安，计划败露，郭汜弃军逃奔南山。最后，郭汜被部将伍习杀死。"
 		},
 		"can-zhu-05": {
 			"index": 63,
@@ -2351,7 +2414,8 @@
 				"name": "阵亡",
 				"descriptions": ["撤，快撤！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-05_dead.mp3"]
-			}]
+			}],
+			"history": "南蛮乌戈国主，身长丈二，不食五谷，以生蛇恶兽为饭。身有鳞甲，刀箭不能侵。兀突骨乘骑巨象，头戴日月狼须帽，身披金珠缨络，两肋下露出生鳞甲，眼目中微有光芒。"
 		},
 		"can-zhu-06": {
 			"index": 64,
@@ -2377,7 +2441,8 @@
 				"name": "阵亡",
 				"descriptions": ["五溪蛮夷，不可能输！！！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-06_dead.mp3"]
-			}]
+			}],
+			"history": "沙摩柯，东汉未三国时期五溪蛮首领。蜀章武元年初，为报关羽被东吴杀害之仇，刘备亲自领兵攻孙权，以金锦爵赏诱沙摩柯助战。章武二年，吴大都督陆逊以火攻破刘备，率诸军齐击，蜀军四十多个营寨被攻破，沙摩柯在大乱中匹马奔逃，被乱军杀死。"
 		},
 		"can-zhu-07": {
 			"index": 65,
@@ -2403,7 +2468,8 @@
 				"name": "阵亡",
 				"descriptions": ["来者……可是魔将？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-07_dead.mp3"]
-			}]
+			}],
+			"history": "冀州牧韩馥部下的上将。当十八路诸侯讨伐董卓之时，他奉韩馥之命前往汜水关前挑战董卓部下大将华雄，不敌被斩。"
 		},
 		"can-zhu-08": {
 			"index": 66,
@@ -2457,7 +2523,8 @@
 				"name": "阵亡",
 				"descriptions": ["诸葛一氏定会为我复仇！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-08_dead.mp3"]
-			}]
+			}],
+			"history": "字公休，曹魏后期的重要将领，诸葛亮的族弟。曾与司马师一同平定毌[guàn]丘俭、文钦的叛乱。之后因与被诛的夏侯玄、邓飏交厚，且见到王凌、毌丘俭等人的覆灭而心不自安。于甘露二年起兵，并得到东吴的支援，但于次年被镇压，被大将军司马胡奋所斩。"
 		},
 		"can-zhu-09": {
 			"index": 67,
@@ -2493,7 +2560,8 @@
 				"name": "阵亡",
 				"descriptions": ["严舆吾弟，为兄来陪你了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-09_dead.mp3"]
-			}]
+			}],
+			"history": "吴郡乌程县人，原名“严虎”，别号“白虎”，东汉末年盘据吴郡一带山贼出身的地方豪帅。献帝初拥兵万人自固。孙策受袁术使渡江，攻破白虎等。白虎奔余杭，投靠许昭。建安二年，再度被孙策击败，至此不知亡佚何处。"
 		},
 		"can-zhu-10": {
 			"index": 68,
@@ -2529,7 +2597,8 @@
 				"name": "阵亡",
 				"descriptions": ["哪里来的乱箭？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-10_dead.mp3"]
-			}]
+			}],
+			"history": "张济，武威郡祖历县人。东汉末年割据的军阀之一。"
 		},
 		"can-zhu-11": {
 			"index": 69,
@@ -2568,7 +2637,8 @@
 				"name": "阵亡",
 				"descriptions": ["你我父子，此恩今日断。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-11_dead.mp3"]
-			}]
+			}],
+			"history": "字建阳，泰山郡南城县人。东汉末年军阀、权臣。丁原出任并州刺史时，屯兵于河内郡，在策划谋杀十常侍不成导致宦官被谋杀后，与西凉军阀董卓在皇帝废立问题上产生矛盾于是董卓利诱吕布将其杀害，其地盘势力亦被董卓兼并。"
 		},
 		"can-zhu-12": {
 			"index": 70,
@@ -2594,7 +2664,8 @@
 				"name": "阵亡",
 				"descriptions": ["命也……势也……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-12_dead.mp3"]
-			}]
+			}],
+			"history": "刘表任荆州牧时，黄祖出任江夏太守。初平二年，黄祖在与长沙太守孙坚交战时，其部下将孙坚射死，因此与孙家结下仇怨。之后，黄祖多次率部与东吴军队交战，射杀凌操、徐琨等人。"
 		},
 		"can-zhu-13": {
 			"index": 71,
@@ -2620,7 +2691,8 @@
 				"name": "阵亡",
 				"descriptions": ["天不助我！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-13_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年并州割据将领，蜀郡太守高躬之子、大将军袁绍外甥。出身陈留高氏，才志弘邈，文武秀出。"
 		},
 		"can-zhu-14": {
 			"index": 72,
@@ -2646,7 +2718,8 @@
 				"name": "阵亡",
 				"descriptions": ["我居然，被蜀军所击倒。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-14_dead.mp3"]
-			}]
+			}],
+			"history": "又作王生，三国时期曹魏名将。《三国演义》中，字子全，有万夫不当之勇，连斩蜀将谢雄、龚起，又重创了张嶷[yí]。"
 		},
 		"can-zhu-15": {
 			"index": 73,
@@ -2682,7 +2755,8 @@
 				"name": "阵亡",
 				"descriptions": ["吴侯救我！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-15_dead.mp3"]
-			}]
+			}],
+			"history": "范疆、张达两人皆为张飞部将。张飞为关羽报仇，令两人三日之内制造出白盔白甲。二人请求宽限期限，张飞不许，并扬言斩杀二人。二人决定先下手为强，趁张飞熟睡之时刺杀张飞，随后投奔东吴。"
 		},
 		"can-zhu-16": {
 			"index": 74,
@@ -2718,7 +2792,8 @@
 				"name": "阵亡",
 				"descriptions": ["夏侯渊，你竟敢！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-16_dead.mp3"]
-			}]
+			}],
+			"history": "东汉末年凉州军阀。与张横、贾诩、段煨同乡，曾斩杀李傕。同韩遂、马超联合抗曹，劫掠蓝田周围郡县，被徐晃、夏侯渊击退。"
 		},
 		"can-zhu-17": {
 			"index": 75,
@@ -2744,7 +2819,8 @@
 				"name": "阵亡",
 				"descriptions": ["什么？大王要杀我？！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-17_dead.mp3"]
-			}]
+			}],
+			"history": "南蛮第三洞元帅，与董茶那等人为孟获的援军，但被俘虏，又被诸葛亮释放，孟获怀疑其叛变，将其杀死。"
 		},
 		"can-zhu-18": {
 			"index": 76,
@@ -2790,7 +2866,8 @@
 				"name": "阵亡",
 				"descriptions": ["天不佑国魏，天不佑族文！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-18_dead.mp3"]
-			}]
+			}],
+			"history": "文鸯、文虎之父，参与淮南二叛、三叛。作战刚勇果敢，为人刚暴无礼、倨傲陵上，喜欢虚报战功以获赏，但朝廷往往不给，有所积怨。诸葛恪攻新城时与毌丘俭一同抵御，取得号称“斩首万余级”的战果。曹芳被废后，文、毌不安，起兵勤王讨伐司马师，为淮南第二叛，兵败后投奔吴国。后随吴援助第三叛的诸葛诞，却与之不和被杀。"
 		},
 		"can-zhu-19": {
 			"index": 77,
@@ -2826,7 +2903,8 @@
 				"name": "阵亡",
 				"descriptions": ["不能……遗祸世间。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-19_dead.mp3"]
-			}]
+			}],
+			"history": "东汉灵帝时大将军。何进的异母妹有宠于灵帝并被立为皇后，他也随之升迁。黄巾起义时何进为大将军，总镇京师。灵帝驾崩后，蹇[jiǎn]硕谋诛何进而立皇子刘协，未果，反被诛。何进从袁绍之言，博征智谋之士为己所用，独揽大权。然而何进不纳陈琳之谏，多结外镇军阀，翘首京师，与袁绍等谋诛宦竖。终于事泄，被张让等先下手为强，遭杀身之祸。"
 		},
 		"can-zhu-20": {
 			"index": 78,
@@ -2861,7 +2939,8 @@
 				"name": "阵亡",
 				"descriptions": ["这包围圈太厚，老牛尽力了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-20_dead.mp3"]
-			}]
+			}],
+			"history": "初为曹仁部曲将，周瑜军数万人来攻，前锋数千人始至，曹仁登城望，乃募得三百人，遣牛金迎战。但对方兵力较多，牛金遂被围困。曹仁亲自杀入阵中救出牛金。司马懿使牛金轻骑饵诱蜀军，刚交战诸葛亮就退兵，追至祁山。蜀将马岱入寇，司马懿遣牛金击退斩千余级。公孙渊反，司马懿率牛金、胡遵等步骑四万发自洛阳，后平定辽东。"
 		},
 		"can-zhu-21": {
 			"index": 79,
@@ -2897,7 +2976,8 @@
 				"name": "阵亡",
 				"descriptions": ["马侄儿为何，啊……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-21_dead.mp3"]
-			}]
+			}],
+			"history": "韩遂为并州刺史，与马腾结为异姓兄弟，同镇西凉，曾随马腾勤王，进攻李傕等人，因军粮不足被击败。后马腾被曹操诱入京城，遇害。出于兄弟之谊，韩遂与马腾之子马超联合，起兵进攻曹操，欲为马腾报仇。几番交战之后，马超、韩遂中曹操离间之计，马超对韩遂起疑，韩遂手下密谋降曹，被马超发现，砍断左手，成为残疾之人。最终，马超败走韩遂降于曹操，被封为西凉侯。"
 		},
 		"can-zhu-22": {
 			"index": 80,
@@ -2933,7 +3013,8 @@
 				"name": "阵亡",
 				"descriptions": ["草莽之辈……难登大雅之堂……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-22_dead.mp3"]
-			}]
+			}],
+			"history": "张燕，本姓褚，生卒年不详，常山真定人，东汉末年黑山军首领。张燕剽悍，敏捷过人，军中称为“飞燕”。官渡之战时投降曹操，被任命为平北将军，封安国亭侯。死后其子张方袭爵。"
 		},
 		"can-zhu-23": {
 			"index": 81,
@@ -2969,7 +3050,8 @@
 				"name": "阵亡",
 				"descriptions": ["此人竟如此勇猛……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-zhu-23_dead.mp3"]
-			}]
+			}],
+			"history": "三国时期东吴将领。使一把蘸[zhàn]金大斧，曾与张苞大战数合不分胜负。"
 		},
 		"can-nv-01": {
 			"index": 82,
@@ -3005,7 +3087,8 @@
 				"name": "阵亡",
 				"descriptions": ["主上……对不起……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-02": {
 			"index": 83,
@@ -3041,7 +3124,8 @@
 				"name": "阵亡",
 				"descriptions": ["遁入阴影之中。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-02_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-03": {
 			"index": 84,
@@ -3107,7 +3191,8 @@
 				"name": "阵亡",
 				"descriptions": ["南蛮之地的花，还在开吗……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-03_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-04": {
 			"index": 85,
@@ -3153,7 +3238,8 @@
 				"name": "阵亡",
 				"descriptions": ["父亲，你来救我了吗？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-04_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-05": {
 			"index": 86,
@@ -3202,7 +3288,8 @@
 				"name": "阵亡",
 				"descriptions": ["伯符，公瑾，请一定要守住我们的江东哦！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-05_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-06": {
 			"index": 87,
@@ -3238,7 +3325,8 @@
 				"name": "阵亡",
 				"descriptions": ["复兴汉室之路，臣妾再也不能陪伴左右。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-06_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-07": {
 			"index": 88,
@@ -3267,7 +3355,8 @@
 				"name": "阵亡",
 				"descriptions": ["是你们欺负人。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-07_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-08": {
 			"index": 89,
@@ -3296,7 +3385,8 @@
 				"name": "阵亡",
 				"descriptions": ["放肆，我要让爷爷赐你们死罪！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-08_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-09": {
 			"index": 90,
@@ -3332,7 +3422,8 @@
 				"name": "阵亡",
 				"descriptions": ["我还是小看了，孙氏的伎俩。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-09_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-10": {
 			"index": 91,
@@ -3368,7 +3459,8 @@
 				"name": "阵亡",
 				"descriptions": ["遇人……不淑……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-10_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-11": {
 			"index": 92,
@@ -3404,7 +3496,8 @@
 				"name": "阵亡",
 				"descriptions": ["我死后，切勿从粲、午之言……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-11_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-12": {
 			"index": 93,
@@ -3440,7 +3533,8 @@
 				"name": "阵亡",
 				"descriptions": ["今生与曹，不复相见。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-12_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-nv-13": {
 			"index": 94,
@@ -3476,7 +3570,8 @@
 				"name": "阵亡",
 				"descriptions": ["君无愧于天下，可有悔于妻儿？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-nv-13_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-01": {
 			"index": 95,
@@ -3512,7 +3607,8 @@
 				"name": "阵亡",
 				"descriptions": ["黄天，为何？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-02": {
 			"index": 96,
@@ -3559,7 +3655,8 @@
 				"name": "阵亡",
 				"descriptions": ["这似乎……没那么好了……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-02_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-03": {
 			"index": 97,
@@ -3595,7 +3692,8 @@
 				"name": "阵亡",
 				"descriptions": ["飘飘乎如遗世独立，羽化而登仙。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-03_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-04": {
 			"index": 98,
@@ -3641,7 +3739,8 @@
 				"name": "阵亡",
 				"descriptions": ["但，归置于道，无意凡世争斗。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-04_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-05": {
 			"index": 99,
@@ -3697,7 +3796,8 @@
 				"name": "阵亡",
 				"descriptions": ["我还会从黄泉比良坂回来的。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-05_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-06": {
 			"index": 100,
@@ -3733,7 +3833,8 @@
 				"name": "阵亡",
 				"descriptions": ["漂薄风波，绝粮茹草。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-06_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-07": {
 			"index": 101,
@@ -3769,7 +3870,8 @@
 				"name": "阵亡",
 				"descriptions": ["羽化登仙，遗世独立。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-07_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-08": {
 			"index": 102,
@@ -3805,7 +3907,8 @@
 				"name": "阵亡",
 				"descriptions": ["皆为虚妄……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-08_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-09": {
 			"index": 103,
@@ -3852,7 +3955,8 @@
 				"name": "阵亡",
 				"descriptions": ["力透三分，何以言老……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-09_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-wei-10": {
 			"index": 104,
@@ -3888,7 +3992,8 @@
 				"name": "阵亡",
 				"descriptions": ["人世寻大道，何其愚也。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-wei-10_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-01": {
 			"index": 105,
@@ -3924,7 +4029,8 @@
 				"name": "阵亡",
 				"descriptions": ["重权震主，是我疏忽了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-02": {
 			"index": 106,
@@ -3950,7 +4056,8 @@
 				"name": "阵亡",
 				"descriptions": ["恐不能再与兴霸兄，并肩奋战了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-02_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-03": {
 			"index": 107,
@@ -3986,7 +4093,8 @@
 				"name": "阵亡",
 				"descriptions": ["魏王厚待于我，降魏又有何错？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-03_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-04": {
 			"index": 108,
@@ -4022,7 +4130,8 @@
 				"name": "阵亡",
 				"descriptions": ["偷工减料，要不得啊！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-04_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-05": {
 			"index": 109,
@@ -4048,7 +4157,8 @@
 				"name": "阵亡",
 				"descriptions": ["我军将败，我已无颜苟活于世。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-05_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-06": {
 			"index": 110,
@@ -4074,7 +4184,8 @@
 				"name": "阵亡",
 				"descriptions": ["福兮祸所伏……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-06_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-07": {
 			"index": 111,
@@ -4123,7 +4234,8 @@
 				"name": "阵亡",
 				"descriptions": ["弃魏投蜀，死而无憾。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-07_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-08": {
 			"index": 112,
@@ -4149,7 +4261,8 @@
 				"name": "阵亡",
 				"descriptions": ["箭疮发作，吾命休矣。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-08_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-09": {
 			"index": 113,
@@ -4185,7 +4298,8 @@
 				"name": "阵亡",
 				"descriptions": ["孙将军，已经，安全了吧……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-09_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-10": {
 			"index": 114,
@@ -4221,7 +4335,8 @@
 				"name": "阵亡",
 				"descriptions": ["这风太冷了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-10_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-11": {
 			"index": 115,
@@ -4247,7 +4362,8 @@
 				"name": "阵亡",
 				"descriptions": ["终于也守不住了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-11_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-12": {
 			"index": 116,
@@ -4273,7 +4389,8 @@
 				"name": "阵亡",
 				"descriptions": ["战死沙场，快哉！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-12_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-13": {
 			"index": 117,
@@ -4338,7 +4455,8 @@
 				"name": "阵亡",
 				"descriptions": ["别拿走，我的装备！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-13_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-14": {
 			"index": 118,
@@ -4364,7 +4482,8 @@
 				"name": "阵亡",
 				"descriptions": ["丞相不在，你们竟然……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-14_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-15": {
 			"index": 119,
@@ -4400,7 +4519,8 @@
 				"name": "阵亡",
 				"descriptions": ["为主公戎马一生，主公为何如此对我。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-15_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-16": {
 			"index": 120,
@@ -4436,7 +4556,8 @@
 				"name": "阵亡",
 				"descriptions": ["年迈力微，是该告老还乡了。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-16_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-17": {
 			"index": 121,
@@ -4462,7 +4583,8 @@
 				"name": "阵亡",
 				"descriptions": ["郭图小辈之计，误军啊！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-17_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-18": {
 			"index": 122,
@@ -4498,7 +4620,8 @@
 				"name": "阵亡",
 				"descriptions": ["功亏一篑，功亏一篑啊。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-18_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-19": {
 			"index": 123,
@@ -4534,7 +4657,8 @@
 				"name": "阵亡",
 				"descriptions": ["夏侯将军，有话好说。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-19_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-20": {
 			"index": 124,
@@ -4570,7 +4694,8 @@
 				"name": "阵亡",
 				"descriptions": ["此处可是新野……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-20_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-21": {
 			"index": 125,
@@ -4596,7 +4721,8 @@
 				"name": "阵亡",
 				"descriptions": ["世间再无擒虎客……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-21_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-22": {
 			"index": 126,
@@ -4621,7 +4747,8 @@
 				"name": "阵亡",
 				"descriptions": ["母亲，弟弟，我来了……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-22_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-23": {
 			"index": 127,
@@ -4657,7 +4784,8 @@
 				"name": "阵亡",
 				"descriptions": ["命数之沙，已尽矣……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-23_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-24": {
 			"index": 128,
@@ -4683,7 +4811,8 @@
 				"name": "阵亡",
 				"descriptions": ["援军不至，樊城之围难解。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-24_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-25": {
 			"index": 129,
@@ -4719,7 +4848,8 @@
 				"name": "阵亡",
 				"descriptions": ["杀身报国，死得其所……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-25_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-26": {
 			"index": 130,
@@ -4755,7 +4885,8 @@
 				"name": "阵亡",
 				"descriptions": ["主公，峻有负所托……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-26_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-27": {
 			"index": 131,
@@ -4791,7 +4922,8 @@
 				"name": "阵亡",
 				"descriptions": ["寒风折戍矛，铁衣裹枯骨。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-27_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-28": {
 			"index": 132,
@@ -4847,7 +4979,8 @@
 				"name": "阵亡",
 				"descriptions": ["痛贯心膂，天灭大魏啊！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-28_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-29": {
 			"index": 133,
@@ -4873,7 +5006,8 @@
 				"name": "阵亡",
 				"descriptions": ["吴狗！何有汉将军降者？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-29_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-30": {
 			"index": 134,
@@ -4902,7 +5036,8 @@
 				"name": "阵亡",
 				"descriptions": ["儿有辱父祖之威名……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-30_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-31": {
 			"index": 135,
@@ -4938,7 +5073,8 @@
 				"name": "阵亡",
 				"descriptions": ["伯约不见疲惫之国力乎？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-31_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-32": {
 			"index": 136,
@@ -4964,7 +5100,8 @@
 				"name": "阵亡",
 				"descriptions": ["汉亡矣，命休矣……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-32_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-33": {
 			"index": 137,
@@ -4990,7 +5127,8 @@
 				"name": "阵亡",
 				"descriptions": ["李郭匹夫，安敢辱我！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-33_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-34": {
 			"index": 138,
@@ -5016,7 +5154,8 @@
 				"name": "阵亡",
 				"descriptions": ["丞相援军何其远乎？"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-34_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-35": {
 			"index": 139,
@@ -5042,7 +5181,8 @@
 				"name": "阵亡",
 				"descriptions": ["秋霜落，天下寒。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-35_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-36": {
 			"index": 140,
@@ -5068,7 +5208,8 @@
 				"name": "阵亡",
 				"descriptions": ["无耻鼠辈，吾耻与为伍。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-36_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-37": {
 			"index": 141,
@@ -5094,7 +5235,8 @@
 				"name": "阵亡",
 				"descriptions": ["徒做奔臣，死无其所。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-37_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-38": {
 			"index": 142,
@@ -5123,7 +5265,8 @@
 				"name": "阵亡",
 				"descriptions": ["我兄弟，愿随父帅赴死。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-38_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-39": {
 			"index": 143,
@@ -5159,7 +5302,8 @@
 				"name": "阵亡",
 				"descriptions": ["玄德兄，弟来迟矣……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-39_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-hu-40": {
 			"index": 144,
@@ -5185,7 +5329,8 @@
 				"name": "阵亡",
 				"descriptions": ["啊，此箭何来……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-hu-40_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-si-01": {
 			"index": 145,
@@ -5221,7 +5366,8 @@
 				"name": "阵亡",
 				"descriptions": ["劣弟背主，我之罪也。"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-si-01_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-si-02": {
 			"index": 146,
@@ -5257,7 +5403,8 @@
 				"name": "阵亡",
 				"descriptions": ["敌军势众，速退！"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-si-02_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-si-03": {
 			"index": 147,
@@ -5293,7 +5440,8 @@
 				"name": "阵亡",
 				"descriptions": ["恨未见，铸兵为币之日……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-si-03_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-si-04": {
 			"index": 148,
@@ -5329,7 +5477,8 @@
 				"name": "阵亡",
 				"descriptions": ["其货犹在，其人老矣……"],
 				"srcs": ["/static/video/online/cuiCanXingHe/can-si-04_dead.mp3"]
-			}]
+			}],
+			"history": ""
 		},
 		"can-si-05": {
 			"index": 149,
